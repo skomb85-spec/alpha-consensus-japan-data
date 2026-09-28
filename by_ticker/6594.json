@@ -3,174 +3,462 @@
  "company": "ニデック株式会社",
  "company_en": "Nidec Corporation",
  "company_en_source": "machine",
- "mention_count": 1,
- "post_count": 2,
+ "mention_count": 3,
+ "post_count": 7,
  "bullish_count": 0,
- "bearish_count": 0,
+ "bearish_count": 1,
  "neutral_count": 1,
- "unknown_count": 0,
+ "unknown_count": 1,
  "topics": [
   {
    "topic": "材料",
+   "investor_count": 2
+  },
+  {
+   "topic": "業績",
+   "investor_count": 1
+  },
+  {
+   "topic": "売買",
+   "investor_count": 1
+  },
+  {
+   "topic": "その他",
    "investor_count": 1
   }
  ],
  "investors": [
   {
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "stance": "弱気",
+   "post_count": 3,
+   "topics": [
+    "売買",
+    "材料"
+   ],
+   "latest_post": {
+    "handle": "abc87791035",
+    "display_name": "ABCトレーダー",
+    "post_created_at": "2026-09-28T17:05:32+09:00",
+    "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+    "topic": "売買",
+    "stance": "弱気",
+    "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
+    "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
+   }
+  },
+  {
+   "handle": "cadillac600",
+   "display_name": "むらやん/村上直樹",
+   "stance": "判定不能",
+   "post_count": 1,
+   "topics": [
+    "その他"
+   ],
+   "latest_post": {
+    "handle": "cadillac600",
+    "display_name": "むらやん/村上直樹",
+    "post_created_at": "2026-09-28T16:11:00+09:00",
+    "source_url": "https://x.com/cadillac600/status/2104469115343982735",
+    "topic": "その他",
+    "stance": "判定不能",
+    "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
+    "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
+   }
+  },
+  {
    "handle": "noatake1127",
    "display_name": "たけぞう",
    "stance": "中立",
-   "post_count": 2,
+   "post_count": 3,
    "topics": [
-    "材料"
+    "材料",
+    "業績"
    ],
    "latest_post": {
     "handle": "noatake1127",
     "display_name": "たけぞう",
-    "post_created_at": "2026-09-28T11:24:00+09:00",
-    "source_url": "https://x.com/noatake1127/status/2104396698709889328",
-    "topic": "材料",
+    "post_created_at": "2026-09-28T15:36:00+09:00",
+    "source_url": "https://x.com/noatake1127/status/2104460306839912748",
+    "topic": "業績",
     "stance": "中立",
-    "summary": "ダイヤモンド記事を引用し、ニデック取締役会による岸田社長の解任と減損責任・迷走リスクを共有した。本人の先行き判断は述べていない。",
-    "summary_en": "Quoting a Diamond article, the post shared the Nidec board of directors' dismissal of President Kishida, along with impairment responsibility and the risk of losing direction, while not stating the poster's own judgment on the outlook."
+    "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
+    "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
    }
   }
  ],
  "latest_posts": [
   {
-   "handle": "noatake1127",
-   "display_name": "たけぞう",
-   "post_created_at": "2026-09-28T11:24:00+09:00",
-   "source_url": "https://x.com/noatake1127/status/2104396698709889328",
-   "topic": "材料",
-   "stance": "中立",
-   "summary": "ダイヤモンド記事を引用し、ニデック取締役会による岸田社長の解任と減損責任・迷走リスクを共有した。本人の先行き判断は述べていない。",
-   "summary_en": "Quoting a Diamond article, the post shared the Nidec board of directors' dismissal of President Kishida, along with impairment responsibility and the risk of losing direction, while not stating the poster's own judgment on the outlook."
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "post_created_at": "2026-09-28T17:05:32+09:00",
+   "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+   "topic": "売買",
+   "stance": "弱気",
+   "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
+   "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
+  },
+  {
+   "handle": "cadillac600",
+   "display_name": "むらやん/村上直樹",
+   "post_created_at": "2026-09-28T16:11:00+09:00",
+   "source_url": "https://x.com/cadillac600/status/2104469115343982735",
+   "topic": "その他",
+   "stance": "判定不能",
+   "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
+   "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
   },
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_created_at": "2026-09-28T11:22:00+09:00",
-   "source_url": "https://x.com/noatake1127/status/2104396389518295323",
+   "post_created_at": "2026-09-28T15:36:00+09:00",
+   "source_url": "https://x.com/noatake1127/status/2104460306839912748",
+   "topic": "業績",
+   "stance": "中立",
+   "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
+   "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
+  },
+  {
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "post_created_at": "2026-09-28T14:50:12+09:00",
+   "source_url": "https://x.com/ABC87791035/status/2104448569025716731",
    "topic": "材料",
-   "stance": "判定不能",
-   "summary": "ニデックの社名のみを強調して投稿した。本文だけでは今後の見通しや投資判断は読み取れない。",
-   "summary_en": "The post was made emphasizing only the company name of Nidec, and future outlook or investment decisions cannot be discerned from the text alone."
+   "stance": "中立",
+   "summary": "ニデックの巨額減損・役員変更検討の報道を引用し、展開が面白くなってきたと述べた。株価の先行き判断は明示していない。",
+   "summary_en": "Cited reports on Nidec's massive impairment loss and consideration of executive changes, stating that developments have become interesting, without explicitly indicating a judgment on the future share price."
+  },
+  {
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "post_created_at": "2026-09-28T13:42:13+09:00",
+   "source_url": "https://x.com/ABC87791035/status/2104431460153491851",
+   "topic": "材料",
+   "stance": "中立",
+   "summary": "ニデック社長解任報道に対し、適時開示なのに正式発表がない点を疑問視した。株価の先行き判断は示していない。",
+   "summary_en": "Questioned the lack of an official announcement despite it being a timely disclosure regarding the news of the dismissal of Nidec's president, without indicating a judgment on the future share price."
   }
  ],
  "windows": {
   "24h": {
-   "mention_count": 1,
-   "post_count": 2,
+   "mention_count": 3,
+   "post_count": 7,
    "bullish_count": 0,
-   "bearish_count": 0,
+   "bearish_count": 1,
    "neutral_count": 1,
-   "unknown_count": 0,
+   "unknown_count": 1,
    "topics": [
     {
      "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
    "investors": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "弱気",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-09-28T17:05:32+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
+      "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
+     }
+    },
+    {
+     "handle": "cadillac600",
+     "display_name": "むらやん/村上直樹",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "cadillac600",
+      "display_name": "むらやん/村上直樹",
+      "post_created_at": "2026-09-28T16:11:00+09:00",
+      "source_url": "https://x.com/cadillac600/status/2104469115343982735",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
+      "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
+     }
+    },
+    {
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 2,
+     "post_count": 3,
      "topics": [
-      "材料"
+      "材料",
+      "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T11:24:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104396698709889328",
-      "topic": "材料",
+      "post_created_at": "2026-09-28T15:36:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104460306839912748",
+      "topic": "業績",
       "stance": "中立",
-      "summary": "ダイヤモンド記事を引用し、ニデック取締役会による岸田社長の解任と減損責任・迷走リスクを共有した。本人の先行き判断は述べていない。",
-      "summary_en": "Quoting a Diamond article, the post shared the Nidec board of directors' dismissal of President Kishida, along with impairment responsibility and the risk of losing direction, while not stating the poster's own judgment on the outlook."
+      "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
+      "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
      }
     }
    ],
    "prev_mention_count": 0
   },
   "7d": {
-   "mention_count": 1,
-   "post_count": 2,
+   "mention_count": 3,
+   "post_count": 7,
    "bullish_count": 0,
-   "bearish_count": 0,
+   "bearish_count": 1,
    "neutral_count": 1,
-   "unknown_count": 0,
+   "unknown_count": 1,
    "topics": [
     {
      "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
    "investors": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "弱気",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-09-28T17:05:32+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
+      "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
+     }
+    },
+    {
+     "handle": "cadillac600",
+     "display_name": "むらやん/村上直樹",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "cadillac600",
+      "display_name": "むらやん/村上直樹",
+      "post_created_at": "2026-09-28T16:11:00+09:00",
+      "source_url": "https://x.com/cadillac600/status/2104469115343982735",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
+      "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
+     }
+    },
+    {
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 2,
+     "post_count": 3,
      "topics": [
-      "材料"
+      "材料",
+      "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T11:24:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104396698709889328",
-      "topic": "材料",
+      "post_created_at": "2026-09-28T15:36:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104460306839912748",
+      "topic": "業績",
       "stance": "中立",
-      "summary": "ダイヤモンド記事を引用し、ニデック取締役会による岸田社長の解任と減損責任・迷走リスクを共有した。本人の先行き判断は述べていない。",
-      "summary_en": "Quoting a Diamond article, the post shared the Nidec board of directors' dismissal of President Kishida, along with impairment responsibility and the risk of losing direction, while not stating the poster's own judgment on the outlook."
+      "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
+      "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
      }
     }
    ],
    "prev_mention_count": 0
   },
   "30d": {
-   "mention_count": 1,
-   "post_count": 2,
+   "mention_count": 3,
+   "post_count": 7,
    "bullish_count": 0,
-   "bearish_count": 0,
+   "bearish_count": 1,
    "neutral_count": 1,
-   "unknown_count": 0,
+   "unknown_count": 1,
    "topics": [
     {
      "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
    "investors": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "弱気",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-09-28T17:05:32+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
+      "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
+     }
+    },
+    {
+     "handle": "cadillac600",
+     "display_name": "むらやん/村上直樹",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "cadillac600",
+      "display_name": "むらやん/村上直樹",
+      "post_created_at": "2026-09-28T16:11:00+09:00",
+      "source_url": "https://x.com/cadillac600/status/2104469115343982735",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
+      "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
+     }
+    },
+    {
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 2,
+     "post_count": 3,
      "topics": [
-      "材料"
+      "材料",
+      "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T11:24:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104396698709889328",
-      "topic": "材料",
+      "post_created_at": "2026-09-28T15:36:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104460306839912748",
+      "topic": "業績",
       "stance": "中立",
-      "summary": "ダイヤモンド記事を引用し、ニデック取締役会による岸田社長の解任と減損責任・迷走リスクを共有した。本人の先行き判断は述べていない。",
-      "summary_en": "Quoting a Diamond article, the post shared the Nidec board of directors' dismissal of President Kishida, along with impairment responsibility and the risk of losing direction, while not stating the poster's own judgment on the outlook."
+      "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
+      "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
      }
     }
    ],
    "prev_mention_count": 0
   }
  },
- "last_post_at": "2026-09-28T11:24:00+09:00",
- "generated_at": "2026-09-28T14:04:10+09:00",
+ "last_post_at": "2026-09-28T17:05:32+09:00",
+ "generated_at": "2026-09-28T22:37:37+09:00",
  "posts": [
+  {
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "post_created_at": "2026-09-28T17:05:32+09:00",
+   "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+   "topic": "売買",
+   "stance": "弱気",
+   "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
+   "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
+  },
+  {
+   "handle": "cadillac600",
+   "display_name": "むらやん/村上直樹",
+   "post_created_at": "2026-09-28T16:11:00+09:00",
+   "source_url": "https://x.com/cadillac600/status/2104469115343982735",
+   "topic": "その他",
+   "stance": "判定不能",
+   "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
+   "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
+  },
+  {
+   "handle": "noatake1127",
+   "display_name": "たけぞう",
+   "post_created_at": "2026-09-28T15:36:00+09:00",
+   "source_url": "https://x.com/noatake1127/status/2104460306839912748",
+   "topic": "業績",
+   "stance": "中立",
+   "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
+   "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
+  },
+  {
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "post_created_at": "2026-09-28T14:50:12+09:00",
+   "source_url": "https://x.com/ABC87791035/status/2104448569025716731",
+   "topic": "材料",
+   "stance": "中立",
+   "summary": "ニデックの巨額減損・役員変更検討の報道を引用し、展開が面白くなってきたと述べた。株価の先行き判断は明示していない。",
+   "summary_en": "Cited reports on Nidec's massive impairment loss and consideration of executive changes, stating that developments have become interesting, without explicitly indicating a judgment on the future share price."
+  },
+  {
+   "handle": "abc87791035",
+   "display_name": "ABCトレーダー",
+   "post_created_at": "2026-09-28T13:42:13+09:00",
+   "source_url": "https://x.com/ABC87791035/status/2104431460153491851",
+   "topic": "材料",
+   "stance": "中立",
+   "summary": "ニデック社長解任報道に対し、適時開示なのに正式発表がない点を疑問視した。株価の先行き判断は示していない。",
+   "summary_en": "Questioned the lack of an official announcement despite it being a timely disclosure regarding the news of the dismissal of Nidec's president, without indicating a judgment on the future share price."
+  },
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
