@@ -1,9 +1,9 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-29T14:28:40+09:00",
+ "generated_at": "2026-09-29T21:37:35+09:00",
  "translation": {
-  "summary_en_count": 107,
-  "summary_total": 109,
+  "summary_en_count": 111,
+  "summary_total": 115,
   "company_en_count": 83,
   "company_total": 83,
   "engine": "gemini-flash-latest",
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 113,
-  "rows_used": 109,
-  "rows_rejected": 4,
+  "rows_input": 120,
+  "rows_used": 115,
+  "rows_rejected": 5,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 4
+   "tickerが日本株コード形式でない/空": 5
   },
   "missing_company_tickers": []
  },
@@ -175,91 +175,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 3,
-     "post_count": 4,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "業績",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "弱気",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "ニデックを買ったと述べつつ、明日から買い下がりになると予想した。短期の下落を見込む発言。",
-        "summary_en": "Stated having bought Nidec while anticipating buying on further dips starting tomorrow, representing a comment expecting a short-term decline."
-       }
-      },
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-09-28T16:11:00+09:00",
-        "source_url": "https://x.com/cadillac600/status/2104469115343982735",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
-        "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T15:36:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104460306839912748",
-        "topic": "業績",
-        "stance": "中立",
-        "summary": "日経記事を引用し、ニデックがEV関連で想定を上回る数千億円規模の減損損失を計上する見通しを共有した。",
-        "summary_en": "Cited a Nikkei article and shared the prospect that Nidec will record a larger-than-expected impairment loss on the scale of several hundred billion yen in relation to EVs."
-       }
-      }
-     ],
-     "prev_mention_count": 2
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 3
     },
     "7d": {
      "mention_count": 3,
@@ -1609,12 +1533,16 @@
    "company_en": "NJS Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 2,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
    "unknown_count": 0,
    "topics": [
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
     {
      "topic": "材料",
      "investor_count": 1
@@ -1625,23 +1553,34 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 2,
      "topics": [
-      "材料"
+      "材料",
+      "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T13:57:42+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-      "topic": "材料",
+      "post_created_at": "2026-09-29T12:14:50+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+      "topic": "業績",
       "stance": "中立",
-      "summary": "同記事で水害対策関連としてNJSを紹介した。投稿本文だけでは今後の株価見通しは示していない。",
-      "summary_en": "In the same article, introduced NJS as flood control-related, with the post text alone not showing a future share price outlook."
+      "summary": "水害対策関連としてNJSを紹介し、記事内で26年12月期第2四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+      "summary_en": "Introduced NJS as flood control-related, noting profit growth for the cumulative second quarter of the fiscal year ending December 2026 within the article, with no forward-looking judgment in the post itself."
      }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-29T12:14:50+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+     "topic": "業績",
+     "stance": "中立",
+     "summary": "水害対策関連としてNJSを紹介し、記事内で26年12月期第2四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+     "summary_en": "Introduced NJS as flood control-related, noting profit growth for the cumulative second quarter of the fiscal year ending December 2026 within the article, with no forward-looking judgment in the post itself."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -1655,17 +1594,6 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
@@ -1674,7 +1602,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -1685,17 +1613,58 @@
        "stance": "中立",
        "post_count": 1,
        "topics": [
-        "材料"
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
         "stance": "中立",
-        "summary": "同記事で水害対策関連としてNJSを紹介した。投稿本文だけでは今後の株価見通しは示していない。",
-        "summary_en": "In the same article, introduced NJS as flood control-related, with the post text alone not showing a future share price outlook."
+        "summary": "水害対策関連としてNJSを紹介し、記事内で26年12月期第2四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": "Introduced NJS as flood control-related, noting profit growth for the cumulative second quarter of the fiscal year ending December 2026 within the article, with no forward-looking judgment in the post itself."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料",
+        "業績"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
+        "stance": "中立",
+        "summary": "水害対策関連としてNJSを紹介し、記事内で26年12月期第2四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": "Introduced NJS as flood control-related, noting profit growth for the cumulative second quarter of the fiscal year ending December 2026 within the article, with no forward-looking judgment in the post itself."
        }
       }
      ],
@@ -1703,12 +1672,16 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -1719,26 +1692,27 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
-        "材料"
+        "材料",
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
         "stance": "中立",
-        "summary": "同記事で水害対策関連としてNJSを紹介した。投稿本文だけでは今後の株価見通しは示していない。",
-        "summary_en": "In the same article, introduced NJS as flood control-related, with the post text alone not showing a future share price outlook."
+        "summary": "水害対策関連としてNJSを紹介し、記事内で26年12月期第2四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": "Introduced NJS as flood control-related, noting profit growth for the cumulative second quarter of the fiscal year ending December 2026 within the article, with no forward-looking judgment in the post itself."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-28T13:57:42+09:00"
+   "last_post_at": "2026-09-29T12:14:50+09:00"
   },
   {
    "ticker": "247A",
@@ -2304,12 +2278,16 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 3,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
    "unknown_count": 0,
    "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    },
     {
      "topic": "材料",
      "investor_count": 1
@@ -2320,23 +2298,44 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 3,
      "topics": [
-      "材料"
+      "材料",
+      "需給"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-26T06:42:37+09:00",
-      "source_url": "https://x.com/noatake1127/status/2103601088444391900",
-      "topic": "材料",
+      "post_created_at": "2026-09-29T15:30:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104821198152728807",
+      "topic": "需給",
       "stance": "中立",
-      "summary": "日経のキオクシア株に関する記事リンクを共有した。本人の先行き判断は本文に明示されていない。",
-      "summary_en": "The poster shared a link to a Nikkei article regarding Kioxia shares, with no explicit judgment by the poster on future prospects stated in the text."
+      "summary": "キオクシアの売買代金が7314億円だったと報告し、株式分割で株価水準が下がったことに触れた。",
+      "summary_en": "Reported that trading value for Kioxia was ¥731,400,000,000, and mentioned that the stock price level had declined due to a stock split."
      }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-29T15:30:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104821198152728807",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "キオクシアの売買代金が7314億円だったと報告し、株式分割で株価水準が下がったことに触れた。",
+     "summary_en": "Reported that trading value for Kioxia was ¥731,400,000,000, and mentioned that the stock price level had declined due to a stock split."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-29T15:27:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104820455815385522",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "キオクシアの当日売買代金が1兆円に届かない可能性に言及した。",
+     "summary_en": "Mentioned the possibility that the daily trading value for Kioxia might not reach ¥1,000,000,000,000."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -2350,24 +2349,53 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-29T15:30:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104821198152728807",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "キオクシアの売買代金が7314億円だったと報告し、株式分割で株価水準が下がったことに触れた。",
+        "summary_en": "Reported that trading value for Kioxia was ¥731,400,000,000, and mentioned that the stock price level had declined due to a stock split."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -2378,19 +2406,20 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 3,
        "topics": [
-        "材料"
+        "材料",
+        "需給"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-26T06:42:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2103601088444391900",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T15:30:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104821198152728807",
+        "topic": "需給",
         "stance": "中立",
-        "summary": "日経のキオクシア株に関する記事リンクを共有した。本人の先行き判断は本文に明示されていない。",
-        "summary_en": "The poster shared a link to a Nikkei article regarding Kioxia shares, with no explicit judgment by the poster on future prospects stated in the text."
+        "summary": "キオクシアの売買代金が7314億円だったと報告し、株式分割で株価水準が下がったことに触れた。",
+        "summary_en": "Reported that trading value for Kioxia was ¥731,400,000,000, and mentioned that the stock price level had declined due to a stock split."
        }
       }
      ],
@@ -2398,12 +2427,16 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 3,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -2414,26 +2447,27 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 3,
        "topics": [
-        "材料"
+        "材料",
+        "需給"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-26T06:42:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2103601088444391900",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T15:30:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104821198152728807",
+        "topic": "需給",
         "stance": "中立",
-        "summary": "日経のキオクシア株に関する記事リンクを共有した。本人の先行き判断は本文に明示されていない。",
-        "summary_en": "The poster shared a link to a Nikkei article regarding Kioxia shares, with no explicit judgment by the poster on future prospects stated in the text."
+        "summary": "キオクシアの売買代金が7314億円だったと報告し、株式分割で株価水準が下がったことに触れた。",
+        "summary_en": "Reported that trading value for Kioxia was ¥731,400,000,000, and mentioned that the stock price level had declined due to a stock split."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-26T06:42:37+09:00"
+   "last_post_at": "2026-09-29T15:30:00+09:00"
   },
   {
    "ticker": "286A",
@@ -2898,40 +2932,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:18:23+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3661,7 +3670,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -4475,40 +4484,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-09-28T16:37:01+09:00",
-        "source_url": "https://x.com/19830128to/status/2104475452274552996",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
-        "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6169,40 +6153,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T17:54:39+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104494988814159897",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
-        "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6468,40 +6427,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T17:35:38+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104490203566293030",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "パーク24で不正アクセスにより会員個人情報約660万件が漏えいしたと伝えた。",
-        "summary_en": "Reported that approximately 6,600,000 pieces of member personal information were leaked due to unauthorized access at Park24."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6995,7 +6929,7 @@
    "company_en": "WEATHERNEWS INC.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 2,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
@@ -7011,23 +6945,33 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 2,
      "topics": [
       "材料"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T13:57:42+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104435356884193767",
+      "post_created_at": "2026-09-29T12:14:50+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104771860311552165",
       "topic": "材料",
       "stance": "中立",
-      "summary": "アイザワ投資大学の記事を案内し、水害対策銘柄としてウェザーニューズを紹介した。本文単体では先行きの強気・弱気判断は明示していない。",
-      "summary_en": "Shared an article from Aizawa Investment University and introduced Weathernews as a flood control-related stock, without explicitly indicating a bullish or bearish stance on the outlook in the text alone."
+      "summary": "自身のアイザワ投資大学記事を共有し、豪雨が続く中で水害対策関連としてウェザーニューズを紹介した。先行きの明確な見通しは本文にない。",
+      "summary_en": "Shared their own Aizawa Toshi Daigaku article and introduced Weathernews as flood control-related amid continuing heavy rain, with no clear outlook for the future in the text."
      }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-29T12:14:50+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "自身のアイザワ投資大学記事を共有し、豪雨が続く中で水害対策関連としてウェザーニューズを紹介した。先行きの明確な見通しは本文にない。",
+     "summary_en": "Shared their own Aizawa Toshi Daigaku article and introduced Weathernews as flood control-related amid continuing heavy rain, with no clear outlook for the future in the text."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -7041,17 +6985,6 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
@@ -7076,12 +7009,48 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
         "topic": "材料",
         "stance": "中立",
-        "summary": "アイザワ投資大学の記事を案内し、水害対策銘柄としてウェザーニューズを紹介した。本文単体では先行きの強気・弱気判断は明示していない。",
-        "summary_en": "Shared an article from Aizawa Investment University and introduced Weathernews as a flood control-related stock, without explicitly indicating a bullish or bearish stance on the outlook in the text alone."
+        "summary": "自身のアイザワ投資大学記事を共有し、豪雨が続く中で水害対策関連としてウェザーニューズを紹介した。先行きの明確な見通しは本文にない。",
+        "summary_en": "Shared their own Aizawa Toshi Daigaku article and introduced Weathernews as flood control-related amid continuing heavy rain, with no clear outlook for the future in the text."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "自身のアイザワ投資大学記事を共有し、豪雨が続く中で水害対策関連としてウェザーニューズを紹介した。先行きの明確な見通しは本文にない。",
+        "summary_en": "Shared their own Aizawa Toshi Daigaku article and introduced Weathernews as flood control-related amid continuing heavy rain, with no clear outlook for the future in the text."
        }
       }
      ],
@@ -7089,7 +7058,7 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -7105,26 +7074,26 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
         "材料"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
         "topic": "材料",
         "stance": "中立",
-        "summary": "アイザワ投資大学の記事を案内し、水害対策銘柄としてウェザーニューズを紹介した。本文単体では先行きの強気・弱気判断は明示していない。",
-        "summary_en": "Shared an article from Aizawa Investment University and introduced Weathernews as a flood control-related stock, without explicitly indicating a bullish or bearish stance on the outlook in the text alone."
+        "summary": "自身のアイザワ投資大学記事を共有し、豪雨が続く中で水害対策関連としてウェザーニューズを紹介した。先行きの明確な見通しは本文にない。",
+        "summary_en": "Shared their own Aizawa Toshi Daigaku article and introduced Weathernews as flood control-related amid continuing heavy rain, with no clear outlook for the future in the text."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-28T13:57:42+09:00"
+   "last_post_at": "2026-09-29T12:14:50+09:00"
   },
   {
    "ticker": "4967",
@@ -7462,40 +7431,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:17:04+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8653,39 +8597,14 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
-        "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     },
     "7d": {
@@ -8776,15 +8695,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "需給",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -8899,15 +8818,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "需給",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -8945,15 +8864,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "需給",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -8991,12 +8910,16 @@
    "company_en": "GIKEN LTD.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 2,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
    "unknown_count": 0,
    "topics": [
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
     {
      "topic": "材料",
      "investor_count": 1
@@ -9007,23 +8930,34 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 2,
      "topics": [
-      "材料"
+      "材料",
+      "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T13:57:42+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-      "topic": "材料",
+      "post_created_at": "2026-09-29T12:14:50+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+      "topic": "業績",
       "stance": "中立",
-      "summary": "同記事で堤防・護岸向け圧入工法を手がける技研製作所を水害対策銘柄として紹介した。",
-      "summary_en": "In the same article, introduced Giken, which handles the press-in method for dikes and revetments, as a flood control-related stock."
+      "summary": "水害対策関連として技研製作所を紹介し、記事内で26年8月期第3四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+      "summary_en": null
      }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-29T12:14:50+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+     "topic": "業績",
+     "stance": "中立",
+     "summary": "水害対策関連として技研製作所を紹介し、記事内で26年8月期第3四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+     "summary_en": null
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -9037,17 +8971,6 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
@@ -9056,7 +8979,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9067,17 +8990,58 @@
        "stance": "中立",
        "post_count": 1,
        "topics": [
-        "材料"
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
         "stance": "中立",
-        "summary": "同記事で堤防・護岸向け圧入工法を手がける技研製作所を水害対策銘柄として紹介した。",
-        "summary_en": "In the same article, introduced Giken, which handles the press-in method for dikes and revetments, as a flood control-related stock."
+        "summary": "水害対策関連として技研製作所を紹介し、記事内で26年8月期第3四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料",
+        "業績"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
+        "stance": "中立",
+        "summary": "水害対策関連として技研製作所を紹介し、記事内で26年8月期第3四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": null
        }
       }
      ],
@@ -9085,12 +9049,16 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -9101,26 +9069,27 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
-        "材料"
+        "材料",
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
         "stance": "中立",
-        "summary": "同記事で堤防・護岸向け圧入工法を手がける技研製作所を水害対策銘柄として紹介した。",
-        "summary_en": "In the same article, introduced Giken, which handles the press-in method for dikes and revetments, as a flood control-related stock."
+        "summary": "水害対策関連として技研製作所を紹介し、記事内で26年8月期第3四半期累計の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": null
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-28T13:57:42+09:00"
+   "last_post_at": "2026-09-29T12:14:50+09:00"
   },
   {
    "ticker": "6351",
@@ -9128,12 +9097,16 @@
    "company_en": "TSURUMI MANUFACTURING CO., LTD.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 2,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
    "unknown_count": 0,
    "topics": [
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
     {
      "topic": "材料",
      "investor_count": 1
@@ -9144,23 +9117,34 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 2,
      "topics": [
-      "材料"
+      "材料",
+      "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T13:57:42+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-      "topic": "材料",
+      "post_created_at": "2026-09-29T12:14:50+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+      "topic": "業績",
       "stance": "中立",
-      "summary": "同記事で水中ポンプ大手の鶴見製作所を水害対策銘柄として紹介した。先行き判断は明示していない。",
-      "summary_en": "In the same article, introduced Tsurumi Manufacturing, a major submersible pump maker, as a flood control-related stock, without explicitly stating an outlook."
+      "summary": "水害対策関連として鶴見製作所を紹介し、記事内で27年3月期第1四半期の増益に触れている。投稿本文自体に先行き判断はない。",
+      "summary_en": null
      }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-29T12:14:50+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+     "topic": "業績",
+     "stance": "中立",
+     "summary": "水害対策関連として鶴見製作所を紹介し、記事内で27年3月期第1四半期の増益に触れている。投稿本文自体に先行き判断はない。",
+     "summary_en": null
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -9174,17 +9158,6 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
@@ -9193,7 +9166,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9204,17 +9177,58 @@
        "stance": "中立",
        "post_count": 1,
        "topics": [
-        "材料"
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
         "stance": "中立",
-        "summary": "同記事で水中ポンプ大手の鶴見製作所を水害対策銘柄として紹介した。先行き判断は明示していない。",
-        "summary_en": "In the same article, introduced Tsurumi Manufacturing, a major submersible pump maker, as a flood control-related stock, without explicitly stating an outlook."
+        "summary": "水害対策関連として鶴見製作所を紹介し、記事内で27年3月期第1四半期の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料",
+        "業績"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
+        "stance": "中立",
+        "summary": "水害対策関連として鶴見製作所を紹介し、記事内で27年3月期第1四半期の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": null
        }
       }
      ],
@@ -9222,12 +9236,16 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -9238,26 +9256,27 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
-        "材料"
+        "材料",
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T13:57:42+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104435356884193767",
-        "topic": "材料",
+        "post_created_at": "2026-09-29T12:14:50+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104771860311552165",
+        "topic": "業績",
         "stance": "中立",
-        "summary": "同記事で水中ポンプ大手の鶴見製作所を水害対策銘柄として紹介した。先行き判断は明示していない。",
-        "summary_en": "In the same article, introduced Tsurumi Manufacturing, a major submersible pump maker, as a flood control-related stock, without explicitly stating an outlook."
+        "summary": "水害対策関連として鶴見製作所を紹介し、記事内で27年3月期第1四半期の増益に触れている。投稿本文自体に先行き判断はない。",
+        "summary_en": null
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-28T13:57:42+09:00"
+   "last_post_at": "2026-09-29T12:14:50+09:00"
   },
   {
    "ticker": "6533",
@@ -9473,40 +9492,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:16:42+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9635,40 +9629,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T15:38:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104460602655871414",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
-        "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9822,40 +9791,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 2,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
-        "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10816,40 +10760,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:16:20+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -12309,11 +12228,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -12403,11 +12322,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -12443,7 +12362,7 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 32,
+   "post_count": 38,
    "ticker_count": 22
   },
   {
@@ -12546,16 +12465,6 @@
     "bearish_count": 1
    },
    {
-    "ticker": "6594",
-    "company": "ニデック株式会社",
-    "company_en": "Nidec Corporation",
-    "window": "24h",
-    "mention_count": 3,
-    "prev_mention_count": 2,
-    "bullish_count": 0,
-    "bearish_count": 1
-   },
-   {
     "ticker": "4062",
     "company": "イビデン株式会社",
     "company_en": "IBIDEN CO., LTD.",
@@ -12581,46 +12490,37 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "その他",
-    "ticker_count": 9,
-    "tickers": [
-     "3223",
-     "3799",
-     "3817",
-     "5527",
-     "593A",
-     "627A",
-     "6578",
-     "6594",
-     "7361"
-    ]
-   },
-   {
     "topic": "材料",
-    "ticker_count": 6,
+    "ticker_count": 3,
     "tickers": [
      "338A",
-     "4519",
-     "4666",
-     "6594",
-     "6758",
+     "4825",
      "7133"
     ]
    },
    {
-    "topic": "売買",
+    "topic": "業績",
     "ticker_count": 3,
     "tickers": [
-     "625A",
-     "6594",
-     "6904"
+     "2325",
+     "6289",
+     "6351"
     ]
    },
    {
-    "topic": "業績",
+    "topic": "その他",
+    "ticker_count": 3,
+    "tickers": [
+     "3817",
+     "593A",
+     "627A"
+    ]
+   },
+   {
+    "topic": "需給",
     "ticker_count": 1,
     "tickers": [
-     "6594"
+     "285A"
     ]
    },
    {
@@ -12721,6 +12621,21 @@
     ]
    },
    {
+    "topic": "業績",
+    "ticker_count": 9,
+    "tickers": [
+     "2325",
+     "3771",
+     "421A",
+     "475A",
+     "6289",
+     "6351",
+     "6594",
+     "8343",
+     "8388"
+    ]
+   },
+   {
     "topic": "優待",
     "ticker_count": 8,
     "tickers": [
@@ -12735,18 +12650,6 @@
     ]
    },
    {
-    "topic": "業績",
-    "ticker_count": 6,
-    "tickers": [
-     "3771",
-     "421A",
-     "475A",
-     "6594",
-     "8343",
-     "8388"
-    ]
-   },
-   {
     "topic": "バリュエーション",
     "ticker_count": 4,
     "tickers": [
@@ -12758,8 +12661,9 @@
    },
    {
     "topic": "需給",
-    "ticker_count": 2,
+    "ticker_count": 3,
     "tickers": [
+     "285A",
      "4062",
      "627A"
     ]
@@ -12873,11 +12777,14 @@
    },
    {
     "topic": "業績",
-    "ticker_count": 6,
+    "ticker_count": 9,
     "tickers": [
+     "2325",
      "3771",
      "421A",
      "475A",
+     "6289",
+     "6351",
      "6594",
      "8343",
      "8388"
@@ -12895,8 +12802,9 @@
    },
    {
     "topic": "需給",
-    "ticker_count": 2,
+    "ticker_count": 3,
     "tickers": [
+     "285A",
      "4062",
      "627A"
     ]
