@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-29T21:37:35+09:00",
+ "generated_at": "2026-09-30T04:55:35+09:00",
  "translation": {
-  "summary_en_count": 111,
-  "summary_total": 115,
-  "company_en_count": 83,
-  "company_total": 83,
+  "summary_en_count": 114,
+  "summary_total": 118,
+  "company_en_count": 85,
+  "company_total": 85,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 120,
-  "rows_used": 115,
+  "rows_input": 123,
+  "rows_used": 118,
   "rows_rejected": 5,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 5
@@ -1540,11 +1540,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -1638,11 +1638,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -1679,11 +1679,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -2285,11 +2285,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -2393,11 +2393,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -2434,11 +2434,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -6518,7 +6518,7 @@
    "company_en": "NS Group Co.,Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 2,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
@@ -6527,6 +6527,10 @@
     {
      "topic": "売買",
      "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
     }
    ],
    "investors": [
@@ -6534,8 +6538,9 @@
      "handle": "jammy_bot",
      "display_name": "JAMMY",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 2,
      "topics": [
+      "その他",
       "売買"
      ],
      "latest_post": {
@@ -6560,6 +6565,16 @@
      "stance": "中立",
      "summary": "週末PFの続きとして当該銘柄をリスト掲載した保有状況の報告。先行きの見通しは本文にない。",
      "summary_en": "This is a report on holding status listing the relevant stock as a continuation of the weekend portfolio, with no future outlook in the text."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-09-26T12:17:30+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2103685364317909101",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "四季報で見つけたNSグループについて、ぐるり氏の保有銘柄として良い企業だと評価した。将来の株価見通しは述べていない。",
+     "summary_en": "Evaluated NS Group, found in the Shikiho, as a good company among Gururi's holdings; no future stock price outlook was stated."
     }
    ],
    "windows": {
@@ -6576,7 +6591,7 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -6585,6 +6600,10 @@
       {
        "topic": "売買",
        "investor_count": 1
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
       }
      ],
      "investors": [
@@ -6592,8 +6611,9 @@
        "handle": "jammy_bot",
        "display_name": "JAMMY",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
+        "その他",
         "売買"
        ],
        "latest_post": {
@@ -6612,7 +6632,7 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -6621,6 +6641,10 @@
       {
        "topic": "売買",
        "investor_count": 1
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
       }
      ],
      "investors": [
@@ -6628,8 +6652,9 @@
        "handle": "jammy_bot",
        "display_name": "JAMMY",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
+        "その他",
         "売買"
        ],
        "latest_post": {
@@ -8699,11 +8724,11 @@
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -8822,11 +8847,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -8868,11 +8893,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -8917,11 +8942,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -9015,11 +9040,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9056,11 +9081,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9104,11 +9129,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -9202,11 +9227,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9243,11 +9268,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9576,6 +9601,143 @@
     }
    },
    "last_post_at": "2026-09-28T17:16:42+09:00"
+  },
+  {
+   "ticker": "6701",
+   "company": "日本電気株式会社",
+   "company_en": "NEC Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-27T07:59:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2103982700319400433",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "読売新聞の報道として、NECが光通信衛星数百基による独自衛星網整備を計画していると共有した。本人の売買判断や株価見通しは述べていない。",
+      "summary_en": "Shared, citing a Yomiuri Shimbun report, that NEC is planning to build its own satellite network consisting of several hundred optical communication satellites; no personal trading judgment or stock price outlook was stated."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-27T07:59:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2103982700319400433",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "読売新聞の報道として、NECが光通信衛星数百基による独自衛星網整備を計画していると共有した。本人の売買判断や株価見通しは述べていない。",
+     "summary_en": "Shared, citing a Yomiuri Shimbun report, that NEC is planning to build its own satellite network consisting of several hundred optical communication satellites; no personal trading judgment or stock price outlook was stated."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-27T07:59:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2103982700319400433",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "読売新聞の報道として、NECが光通信衛星数百基による独自衛星網整備を計画していると共有した。本人の売買判断や株価見通しは述べていない。",
+        "summary_en": "Shared, citing a Yomiuri Shimbun report, that NEC is planning to build its own satellite network consisting of several hundred optical communication satellites; no personal trading judgment or stock price outlook was stated."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-27T07:59:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2103982700319400433",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "読売新聞の報道として、NECが光通信衛星数百基による独自衛星網整備を計画していると共有した。本人の売買判断や株価見通しは述べていない。",
+        "summary_en": "Shared, citing a Yomiuri Shimbun report, that NEC is planning to build its own satellite network consisting of several hundred optical communication satellites; no personal trading judgment or stock price outlook was stated."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-27T07:59:00+09:00"
   },
   {
    "ticker": "6758",
@@ -11942,6 +12104,143 @@
    "last_post_at": "2026-09-25T08:09:37+09:00"
   },
   {
+   "ticker": "9644",
+   "company": "株式会社タナベコンサルティンググループ",
+   "company_en": "Tanabe Consulting Group Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-09-26T12:22:33+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2103686636001505357",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "タナベコンサルティンググループのIR説明会開催を案内し、自身が出演する対談への視聴を呼びかけた。株価見通しは述べていない。",
+      "summary_en": "Announced that Tanabe Consulting Group is holding an IR briefing session and called on people to watch a discussion in which they will appear; no stock price outlook was stated."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-09-26T12:22:33+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2103686636001505357",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "タナベコンサルティンググループのIR説明会開催を案内し、自身が出演する対談への視聴を呼びかけた。株価見通しは述べていない。",
+     "summary_en": "Announced that Tanabe Consulting Group is holding an IR briefing session and called on people to watch a discussion in which they will appear; no stock price outlook was stated."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-09-26T12:22:33+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2103686636001505357",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "タナベコンサルティンググループのIR説明会開催を案内し、自身が出演する対談への視聴を呼びかけた。株価見通しは述べていない。",
+        "summary_en": "Announced that Tanabe Consulting Group is holding an IR briefing session and called on people to watch a discussion in which they will appear; no stock price outlook was stated."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-09-26T12:22:33+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2103686636001505357",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "タナベコンサルティンググループのIR説明会開催を案内し、自身が出演する対談への視聴を呼びかけた。株価見通しは述べていない。",
+        "summary_en": "Announced that Tanabe Consulting Group is holding an IR briefing session and called on people to watch a discussion in which they will appear; no stock price outlook was stated."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-26T12:22:33+09:00"
+  },
+  {
    "ticker": "9984",
    "company": "ソフトバンクグループ株式会社",
    "company_en": "SoftBank Group Corp.",
@@ -12362,14 +12661,14 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 38,
-   "ticker_count": 22
+   "post_count": 39,
+   "ticker_count": 23
   },
   {
    "handle": "jammy_bot",
    "display_name": "JAMMY",
-   "post_count": 30,
-   "ticker_count": 30
+   "post_count": 32,
+   "ticker_count": 31
   },
   {
    "handle": "abc87791035",
@@ -12574,7 +12873,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 22,
+    "ticker_count": 24,
     "tickers": [
      "2325",
      "285A",
@@ -12592,23 +12891,26 @@
      "6289",
      "6351",
      "6594",
+     "6701",
      "6758",
      "6976",
      "7120",
      "7133",
      "9432",
+     "9644",
      "9984"
     ]
    },
    {
     "topic": "その他",
-    "ticker_count": 14,
+    "ticker_count": 15,
     "tickers": [
      "2737",
      "3223",
      "369A",
      "3799",
      "3817",
+     "471A",
      "5527",
      "593A",
      "6227",
@@ -12713,7 +13015,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 22,
+    "ticker_count": 24,
     "tickers": [
      "2325",
      "285A",
@@ -12731,23 +13033,26 @@
      "6289",
      "6351",
      "6594",
+     "6701",
      "6758",
      "6976",
      "7120",
      "7133",
      "9432",
+     "9644",
      "9984"
     ]
    },
    {
     "topic": "その他",
-    "ticker_count": 14,
+    "ticker_count": 15,
     "tickers": [
      "2737",
      "3223",
      "369A",
      "3799",
      "3817",
+     "471A",
      "5527",
      "593A",
      "6227",
