@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-05T08:54:32+09:00",
+ "generated_at": "2026-10-05T11:32:54+09:00",
  "translation": {
-  "summary_en_count": 198,
-  "summary_total": 205,
-  "company_en_count": 116,
-  "company_total": 116,
+  "summary_en_count": 206,
+  "summary_total": 213,
+  "company_en_count": 118,
+  "company_total": 118,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 229,
-  "rows_used": 205,
-  "rows_rejected": 24,
+  "rows_input": 244,
+  "rows_used": 213,
+  "rows_rejected": 31,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 24
+   "tickerが日本株コード形式でない/空": 31
   },
   "missing_company_tickers": []
  },
@@ -230,7 +230,7 @@
     },
     "7d": {
      "mention_count": 5,
-     "post_count": 14,
+     "post_count": 12,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
@@ -245,15 +245,15 @@
        "investor_count": 2
       },
       {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
        "topic": "業績",
        "investor_count": 1
       },
       {
        "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -320,7 +320,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 5,
+       "post_count": 3,
        "topics": [
         "材料",
         "業績",
@@ -357,7 +357,7 @@
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 5,
@@ -499,7 +499,7 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 3,
-   "post_count": 7,
+   "post_count": 10,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 3,
@@ -514,6 +514,10 @@
      "investor_count": 1
     },
     {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
      "topic": "材料",
      "investor_count": 1
     }
@@ -523,8 +527,9 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 5,
+     "post_count": 8,
      "topics": [
+      "その他",
       "売買",
       "材料",
       "需給"
@@ -532,12 +537,12 @@
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-10-02T15:31:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2105908611071541424",
-      "topic": "売買",
+      "post_created_at": "2026-10-05T09:29:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2106904636124967084",
+      "topic": "その他",
       "stance": "中立",
-      "summary": "高値引けという値動きの事実共有。今後の見通しは不明なため中立。",
-      "summary_en": "Sharing of the price movement fact of closing at the high; neutral because the future outlook is unknown."
+      "summary": "自身の「キオクシア　マイ転！！」投稿を引用した反応。見通しの明示はなく中立。",
+      "summary_en": "A reaction quoting one's own post stating \"Kioxia turned negative!!\", with no explicit outlook and a neutral stance."
      }
     },
     {
@@ -583,6 +588,36 @@
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
+     "post_created_at": "2026-10-05T09:29:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2106904636124967084",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "自身の「キオクシア　マイ転！！」投稿を引用した反応。見通しの明示はなく中立。",
+     "summary_en": "A reaction quoting one's own post stating \"Kioxia turned negative!!\", with no explicit outlook and a neutral stance."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-05T09:23:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2106903068050923635",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "キオクシアがマイ転したとの価格観測。追加の見通しはなく中立。",
+     "summary_en": "A price observation that Kioxia has turned negative; there is no additional outlook, and it is neutral."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-05T09:21:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2106902493221536185",
+     "topic": "需給",
+     "stance": "強気",
+     "summary": "キオクシアについてマイナスからプラスへの転換がありそうだと述べている。短期の値動き見通しとして読める。",
+     "summary_en": "It states that Kioxia is likely to turn from negative to positive, which can be read as a short-term price movement outlook."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
      "post_created_at": "2026-10-02T15:31:00+09:00",
      "source_url": "https://x.com/noatake1127/status/2105908611071541424",
      "topic": "売買",
@@ -599,53 +634,58 @@
      "stance": "中立",
      "summary": "キオクシアは昨日売却してノーポジとの保有状況の共有。今後の見通しは示していない。",
      "summary_en": "Sharing of holding status stating that Kioxia was sold yesterday and the author has no position; future outlook is not indicated."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "post_created_at": "2026-10-02T14:47:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2105897557083979938",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "昨日キオクシアを買ったという事実の共有。今後の見通しは示していない。",
-     "summary_en": "Sharing of the fact that Kioxia was bought yesterday; future outlook is not indicated."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-02T11:39:03+09:00",
-     "source_url": "https://x.com/noatake1127/status/2105850015793213678",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "日次市況メモで、米Micron好決算を背景にキオクシアなど半導体が堅調だったと共有。本人の見通しは不明。",
-     "summary_en": "In a daily market condition memo, shared that semiconductor stocks such as Kioxia were solid against the backdrop of strong financial results from US-based Micron; the author's outlook is unknown."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-29T15:30:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2104821198152728807",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "キオクシアの売買代金が7314億円だったと報告し、株式分割で株価水準が下がったことに触れた。",
-     "summary_en": "Reported that trading value for Kioxia was ¥731,400,000,000, and mentioned that the stock price level had declined due to a stock split."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 3,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他",
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-05T09:29:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2106904636124967084",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "自身の「キオクシア　マイ転！！」投稿を引用した反応。見通しの明示はなく中立。",
+        "summary_en": "A reaction quoting one's own post stating \"Kioxia turned negative!!\", with no explicit outlook and a neutral stance."
+       }
+      }
+     ],
      "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 3,
-     "post_count": 6,
+     "post_count": 9,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
@@ -660,6 +700,10 @@
        "investor_count": 1
       },
       {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
        "topic": "材料",
        "investor_count": 1
       }
@@ -669,8 +713,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 4,
+       "post_count": 7,
        "topics": [
+        "その他",
         "売買",
         "材料",
         "需給"
@@ -678,12 +723,12 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T15:31:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105908611071541424",
-        "topic": "売買",
+        "post_created_at": "2026-10-05T09:29:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2106904636124967084",
+        "topic": "その他",
         "stance": "中立",
-        "summary": "高値引けという値動きの事実共有。今後の見通しは不明なため中立。",
-        "summary_en": "Sharing of the price movement fact of closing at the high; neutral because the future outlook is unknown."
+        "summary": "自身の「キオクシア　マイ転！！」投稿を引用した反応。見通しの明示はなく中立。",
+        "summary_en": "A reaction quoting one's own post stating \"Kioxia turned negative!!\", with no explicit outlook and a neutral stance."
        }
       },
       {
@@ -729,7 +774,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 7,
+     "post_count": 10,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
@@ -744,6 +789,10 @@
        "investor_count": 1
       },
       {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
        "topic": "材料",
        "investor_count": 1
       }
@@ -753,8 +802,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 5,
+       "post_count": 8,
        "topics": [
+        "その他",
         "売買",
         "材料",
         "需給"
@@ -762,12 +812,12 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T15:31:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105908611071541424",
-        "topic": "売買",
+        "post_created_at": "2026-10-05T09:29:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2106904636124967084",
+        "topic": "その他",
         "stance": "中立",
-        "summary": "高値引けという値動きの事実共有。今後の見通しは不明なため中立。",
-        "summary_en": "Sharing of the price movement fact of closing at the high; neutral because the future outlook is unknown."
+        "summary": "自身の「キオクシア　マイ転！！」投稿を引用した反応。見通しの明示はなく中立。",
+        "summary_en": "A reaction quoting one's own post stating \"Kioxia turned negative!!\", with no explicit outlook and a neutral stance."
        }
       },
       {
@@ -812,7 +862,7 @@
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-02T15:31:00+09:00"
+   "last_post_at": "2026-10-05T09:29:00+09:00"
   },
   {
    "ticker": "9984",
@@ -1308,10 +1358,10 @@
    "company_en": "Advantest Corporation",
    "company_en_source": "machine",
    "mention_count": 2,
-   "post_count": 10,
-   "bullish_count": 1,
+   "post_count": 13,
+   "bullish_count": 0,
    "bearish_count": 0,
-   "neutral_count": 1,
+   "neutral_count": 2,
    "unknown_count": 0,
    "topics": [
     {
@@ -1321,9 +1371,34 @@
     {
      "topic": "売買",
      "investor_count": 2
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
     }
    ],
    "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 5,
+     "topics": [
+      "その他",
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-05T09:16:00+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2106901361489232078",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "アドバンテストが上場来高値を付けたと報告している。見通しの明示はなく、保有や売買方針も書いていない。",
+      "summary_en": "It reports that Advantest reached an all-time high, with no explicit outlook provided and no mention of holdings or trading policies."
+     }
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -1343,29 +1418,39 @@
       "summary": "上場来高値到達の事実共有。今後の見通しは明示されていない。",
       "summary_en": "Sharing of the fact that it reached an all-time high; future outlook is not explicitly stated."
      }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-05T09:16:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2106901361489232078",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "アドバンテストが上場来高値を付けたと報告している。見通しの明示はなく、保有や売買方針も書いていない。",
+     "summary_en": "It reports that Advantest reached an all-time high, with no explicit outlook provided and no mention of holdings or trading policies."
     },
     {
      "handle": "kabu_st0ck",
      "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "強気",
-     "post_count": 2,
-     "topics": [
-      "売買",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-01T10:13:00+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2105465982580117934",
-      "topic": "売買",
-      "stance": "強気",
-      "summary": "日経平均の強さの実体はアドバンテストだと指摘。",
-      "summary_en": "The post points out that the true nature of the Nikkei Average's strength is Advantest."
-     }
-    }
-   ],
-   "latest_posts": [
+     "post_created_at": "2026-10-05T08:55:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2106896070508945485",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "アドバンテストにかけた改名ジョーク。売買見通しはなく中立。",
+     "summary_en": "A name-change joke punning on Advantest, with no trading outlook and a neutral stance."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-05T08:18:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2106886805866127768",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "アドバンテストについて4万円超えの気配を報告している。価格観測であり、今後の見通しは明示していない。",
+     "summary_en": "It reports an indication that Advantest might exceed ¥40,000; this is a price observation, and no future outlook is explicitly stated."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -1385,399 +1470,184 @@
      "stance": "中立",
      "summary": "アドバンテストの値動きへの反応。今後の見通しは述べておらず、ニュース共有や保有表明もないため中立。",
      "summary_en": "A reaction to Advantest's price movement; neutral as it does not state a future outlook, nor does it share news or declare a holding."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-02T09:01:53+09:00",
-     "source_url": "https://x.com/noatake1127/status/2105810465339420959",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "アドバンテストが強いという足元の値動きコメント。明確な今後見通しではないため中立。",
-     "summary_en": "A comment on current price movements noting that Advantest is strong; neutral as it is not a clear future outlook."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-01T10:13:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2105465982580117934",
-     "topic": "売買",
-     "stance": "強気",
-     "summary": "日経平均の強さの実体はアドバンテストだと指摘。",
-     "summary_en": "The post points out that the true nature of the Nikkei Average's strength is Advantest."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-01T09:51:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2105460591234277419",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "当日高値到達を事実として共有。先行きの明示なし。",
-     "summary_en": "The post shares the fact of reaching the day's high, with no explicit statement on the future."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 2,
-     "post_count": 10,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 2
-      },
-      {
-       "topic": "売買",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 8,
-       "topics": [
-        "売買",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T09:25:17+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105816353630499089",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "上場来高値到達の事実共有。今後の見通しは明示されていない。",
-        "summary_en": "Sharing of the fact that it reached an all-time high; future outlook is not explicitly stated."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-01T10:13:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2105465982580117934",
-        "topic": "売買",
-        "stance": "強気",
-        "summary": "日経平均の強さの実体はアドバンテストだと指摘。",
-        "summary_en": "The post points out that the true nature of the Nikkei Average's strength is Advantest."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 10,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 2
-      },
-      {
-       "topic": "売買",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 8,
-       "topics": [
-        "売買",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T09:25:17+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105816353630499089",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "上場来高値到達の事実共有。今後の見通しは明示されていない。",
-        "summary_en": "Sharing of the fact that it reached an all-time high; future outlook is not explicitly stated."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-01T10:13:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2105465982580117934",
-        "topic": "売買",
-        "stance": "強気",
-        "summary": "日経平均の強さの実体はアドバンテストだと指摘。",
-        "summary_en": "The post points out that the true nature of the Nikkei Average's strength is Advantest."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-02T09:25:17+09:00"
-  },
-  {
-   "ticker": "4062",
-   "company": "イビデン株式会社",
-   "company_en": "IBIDEN CO., LTD.",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 5,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 2,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 2
-    },
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T11:04:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
-      "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
-     }
-    },
-    {
-     "handle": "kenichishimada2",
-     "display_name": "Ken/1UP投資",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "材料",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "kenichishimada2",
-      "display_name": "Ken/1UP投資",
-      "post_created_at": "2026-09-24T12:23:56+09:00",
-      "source_url": "https://x.com/KenichiShimada2/status/2102962208900776350",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "イビデン急騰の背景として文春砲ではなく、ABF基板の競合が連休中に約120%上昇した影響だと説明した。",
-      "summary_en": "Explained that the background of Ibiden's sharp rise was not a Bunshun scoop, but the impact of an ABF substrate competitor rising by about 120% during the consecutive holidays."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-28T11:04:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
-     "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-25T11:08:35+09:00",
-     "source_url": "https://x.com/noatake1127/status/2103305636465483790",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "昨日の市況要約としてイビデンの大幅高を举げ、NVIDIAのHuang CEO発言を材料として共有している。",
-     "summary_en": "As a market condition summary for yesterday, the poster cited the significant rise in Ibiden and shared remarks by NVIDIA CEO Huang as the catalyst."
-    },
-    {
-     "handle": "kenichishimada2",
-     "display_name": "Ken/1UP投資",
-     "post_created_at": "2026-09-24T12:23:56+09:00",
-     "source_url": "https://x.com/KenichiShimada2/status/2102962208900776350",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "イビデン急騰の背景として文春砲ではなく、ABF基板の競合が連休中に約120%上昇した影響だと説明した。",
-     "summary_en": "Explained that the background of Ibiden's sharp rise was not a Bunshun scoop, but the impact of an ABF substrate competitor rising by about 120% during the consecutive holidays."
-    },
-    {
-     "handle": "kenichishimada2",
-     "display_name": "Ken/1UP投資",
-     "post_created_at": "2026-09-24T10:37:40+09:00",
-     "source_url": "https://x.com/KenichiShimada2/status/2102935466928672896",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "イビデンの急騰は連休中の台湾株の動きから説明できると述べている。",
-     "summary_en": "States that the surge in Ibiden can be explained by the movements of Taiwanese stocks during the consecutive holidays."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-24T09:42:06+09:00",
-     "source_url": "https://x.com/noatake1127/status/2102921481101709377",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "エヌビディアCEOがイビデンに前払金を払ったとする記事を共有している。",
-     "summary_en": "Shares an article stating that Nvidia's CEO made an advance payment to Ibiden."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 3,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "需給",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       }
      ],
      "investors": [
       {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 3,
        "topics": [
-        "材料"
+        "その他",
+        "需給"
        ],
        "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T11:04:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-        "topic": "材料",
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T09:16:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2106901361489232078",
+        "topic": "需給",
         "stance": "中立",
-        "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
-        "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
+        "summary": "アドバンテストが上場来高値を付けたと報告している。見通しの明示はなく、保有や売買方針も書いていない。",
+        "summary_en": "It reports that Advantest reached an all-time high, with no explicit outlook provided and no mention of holdings or trading policies."
        }
       }
      ],
-     "prev_mention_count": 2
+     "prev_mention_count": 0
     },
-    "30d": {
+    "7d": {
      "mention_count": 2,
-     "post_count": 5,
+     "post_count": 13,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       }
      ],
      "investors": [
       {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 5,
+       "topics": [
+        "その他",
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T09:16:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2106901361489232078",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "アドバンテストが上場来高値を付けたと報告している。見通しの明示はなく、保有や売買方針も書いていない。",
+        "summary_en": "It reports that Advantest reached an all-time high, with no explicit outlook provided and no mention of holdings or trading policies."
+       }
+      },
+      {
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 8,
        "topics": [
-        "材料"
+        "売買",
+        "需給"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T11:04:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-        "topic": "材料",
+        "post_created_at": "2026-10-02T09:25:17+09:00",
+        "source_url": "https://x.com/noatake1127/status/2105816353630499089",
+        "topic": "売買",
         "stance": "中立",
-        "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
-        "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
+        "summary": "上場来高値到達の事実共有。今後の見通しは明示されていない。",
+        "summary_en": "Sharing of the fact that it reached an all-time high; future outlook is not explicitly stated."
        }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 13,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 2,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 2
       },
       {
-       "handle": "kenichishimada2",
-       "display_name": "Ken/1UP投資",
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 5,
        "topics": [
-        "材料",
+        "その他",
+        "売買",
         "需給"
        ],
        "latest_post": {
-        "handle": "kenichishimada2",
-        "display_name": "Ken/1UP投資",
-        "post_created_at": "2026-09-24T12:23:56+09:00",
-        "source_url": "https://x.com/KenichiShimada2/status/2102962208900776350",
-        "topic": "材料",
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T09:16:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2106901361489232078",
+        "topic": "需給",
         "stance": "中立",
-        "summary": "イビデン急騰の背景として文春砲ではなく、ABF基板の競合が連休中に約120%上昇した影響だと説明した。",
-        "summary_en": "Explained that the background of Ibiden's sharp rise was not a Bunshun scoop, but the impact of an ABF substrate competitor rising by about 120% during the consecutive holidays."
+        "summary": "アドバンテストが上場来高値を付けたと報告している。見通しの明示はなく、保有や売買方針も書いていない。",
+        "summary_en": "It reports that Advantest reached an all-time high, with no explicit outlook provided and no mention of holdings or trading policies."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 8,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-02T09:25:17+09:00",
+        "source_url": "https://x.com/noatake1127/status/2105816353630499089",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "上場来高値到達の事実共有。今後の見通しは明示されていない。",
+        "summary_en": "Sharing of the fact that it reached an all-time high; future outlook is not explicitly stated."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-28T11:04:00+09:00"
+   "last_post_at": "2026-10-05T09:16:00+09:00"
   },
   {
    "ticker": "6976",
@@ -2591,7 +2461,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -2667,6 +2537,168 @@
     }
    },
    "last_post_at": "2026-10-03T09:39:00+09:00"
+  },
+  {
+   "ticker": "1869",
+   "company": "名工建設",
+   "company_en": "Meiko Construction Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-05T07:28:00+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2106874097607336244",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "名工建設のホルダーであることに言及している。保有事実のみで、強気・弱気の見通しは示していない。",
+      "summary_en": "It mentions being a holder of Meiko Construction; it merely states the fact of holding, without indicating a bullish or bearish outlook."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-05T07:28:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2106874097607336244",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "名工建設のホルダーであることに言及している。保有事実のみで、強気・弱気の見通しは示していない。",
+     "summary_en": "It mentions being a holder of Meiko Construction; it merely states the fact of holding, without indicating a bullish or bearish outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T07:28:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2106874097607336244",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "名工建設のホルダーであることに言及している。保有事実のみで、強気・弱気の見通しは示していない。",
+        "summary_en": "It mentions being a holder of Meiko Construction; it merely states the fact of holding, without indicating a bullish or bearish outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T07:28:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2106874097607336244",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "名工建設のホルダーであることに言及している。保有事実のみで、強気・弱気の見通しは示していない。",
+        "summary_en": "It mentions being a holder of Meiko Construction; it merely states the fact of holding, without indicating a bullish or bearish outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T07:28:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2106874097607336244",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "名工建設のホルダーであることに言及している。保有事実のみで、強気・弱気の見通しは示していない。",
+        "summary_en": "It mentions being a holder of Meiko Construction; it merely states the fact of holding, without indicating a bullish or bearish outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-05T07:28:00+09:00"
   },
   {
    "ticker": "2120",
@@ -3000,11 +3032,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -3073,11 +3105,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -3114,11 +3146,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -6448,40 +6480,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-04T10:32:59+09:00",
-        "source_url": "https://x.com/19830128to/status/2106558165676707878",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "4012アクシスの2025年分としてブログURLを共有した投稿。本文は未確認のため、見通しは判定しない。",
-        "summary_en": "A post sharing a blog URL regarding 4012 Axis for 2025; since the main text has not been reviewed, no outlook is determined."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6557,6 +6564,168 @@
     }
    },
    "last_post_at": "2026-10-04T10:32:59+09:00"
+  },
+  {
+   "ticker": "4076",
+   "company": "シイエヌエス",
+   "company_en": "CNS Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-05T11:08:57+09:00",
+      "source_url": "https://x.com/19830128to/status/2106929604497957154",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "4076シイエヌエスのブログURL共有。本文未確認のため解釈を足さず判定不能。",
+      "summary_en": "A blog URL for 4076 CNS was shared; because the body text was not reviewed, no interpretation is added, making it indeterminable."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-05T11:08:57+09:00",
+     "source_url": "https://x.com/19830128to/status/2106929604497957154",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "4076シイエヌエスのブログURL共有。本文未確認のため解釈を足さず判定不能。",
+     "summary_en": "A blog URL for 4076 CNS was shared; because the body text was not reviewed, no interpretation is added, making it indeterminable."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-05T11:08:57+09:00",
+        "source_url": "https://x.com/19830128to/status/2106929604497957154",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4076シイエヌエスのブログURL共有。本文未確認のため解釈を足さず判定不能。",
+        "summary_en": "A blog URL for 4076 CNS was shared; because the body text was not reviewed, no interpretation is added, making it indeterminable."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-05T11:08:57+09:00",
+        "source_url": "https://x.com/19830128to/status/2106929604497957154",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4076シイエヌエスのブログURL共有。本文未確認のため解釈を足さず判定不能。",
+        "summary_en": "A blog URL for 4076 CNS was shared; because the body text was not reviewed, no interpretation is added, making it indeterminable."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-05T11:08:57+09:00",
+        "source_url": "https://x.com/19830128to/status/2106929604497957154",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4076シイエヌエスのブログURL共有。本文未確認のため解釈を足さず判定不能。",
+        "summary_en": "A blog URL for 4076 CNS was shared; because the body text was not reviewed, no interpretation is added, making it indeterminable."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-05T11:08:57+09:00"
   },
   {
    "ticker": "4169",
@@ -8107,143 +8276,6 @@
    "last_post_at": "2026-09-28T17:54:39+09:00"
   },
   {
-   "ticker": "4568",
-   "company": "第一三共株式会社",
-   "company_en": "Daiichi Sankyo Company, Limited",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T11:11:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104393537156726953",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
-      "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-28T11:11:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2104393537156726953",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
-     "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T11:11:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104393537156726953",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
-        "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T11:11:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104393537156726953",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
-        "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T11:11:00+09:00"
-  },
-  {
    "ticker": "4666",
    "company": "パーク24株式会社",
    "company_en": "PARK24 Co., Ltd.",
@@ -9039,153 +9071,6 @@
    "last_post_at": "2026-09-29T12:14:50+09:00"
   },
   {
-   "ticker": "4967",
-   "company": "小林製薬株式会社",
-   "company_en": "Kobayashi Pharmaceutical Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T11:04:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
-      "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-28T11:04:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
-     "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-25T09:14:40+09:00",
-     "source_url": "https://x.com/noatake1127/status/2103276967282008388",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "小林製薬についてTOBの確率は高いと考えていたが持ち続けられなかったと述べた。今後の株価見通しの明示はない。",
-     "summary_en": "Regarding Kobayashi Pharmaceutical, the poster stated that they thought the probability of a TOB was high but could not hold onto it, with no explicit statement on the future stock price outlook."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T11:04:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
-        "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T11:04:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104391652651708647",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
-        "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T11:04:00+09:00"
-  },
-  {
    "ticker": "5038",
    "company": "株式会社eWeLL",
    "company_en": "eWeLL Co.,Ltd.",
@@ -9881,11 +9766,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -9954,11 +9839,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -9995,11 +9880,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -10043,11 +9928,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -10162,11 +10047,11 @@
      "unknown_count": 1,
      "topics": [
       {
-       "topic": "バリュエーション",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -10778,15 +10663,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
      "topic": "需給",
      "investor_count": 1
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -10869,16 +10754,12 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 3,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
       {
        "topic": "その他",
        "investor_count": 1
@@ -10889,10 +10770,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
-        "その他",
-        "材料"
+        "その他"
        ],
        "latest_post": {
         "handle": "noatake1127",
@@ -10917,15 +10797,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
        "topic": "需給",
        "investor_count": 1
       },
       {
        "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -10970,11 +10850,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -11043,11 +10923,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -11084,11 +10964,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -11406,11 +11286,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -11479,11 +11359,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -11520,11 +11400,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -14242,6 +14122,206 @@
    "last_post_at": "2026-09-30T18:04:00+09:00"
   },
   {
+   "ticker": "4062",
+   "company": "イビデン株式会社",
+   "company_en": "IBIDEN CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 5,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 2,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-28T11:04:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104391652651708647",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
+      "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
+     }
+    },
+    {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kenichishimada2",
+      "display_name": "Ken/1UP投資",
+      "post_created_at": "2026-09-24T12:23:56+09:00",
+      "source_url": "https://x.com/KenichiShimada2/status/2102962208900776350",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "イビデン急騰の背景として文春砲ではなく、ABF基板の競合が連休中に約120%上昇した影響だと説明した。",
+      "summary_en": "Explained that the background of Ibiden's sharp rise was not a Bunshun scoop, but the impact of an ABF substrate competitor rising by about 120% during the consecutive holidays."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-28T11:04:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104391652651708647",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
+     "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-25T11:08:35+09:00",
+     "source_url": "https://x.com/noatake1127/status/2103305636465483790",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "昨日の市況要約としてイビデンの大幅高を举げ、NVIDIAのHuang CEO発言を材料として共有している。",
+     "summary_en": "As a market condition summary for yesterday, the poster cited the significant rise in Ibiden and shared remarks by NVIDIA CEO Huang as the catalyst."
+    },
+    {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "post_created_at": "2026-09-24T12:23:56+09:00",
+     "source_url": "https://x.com/KenichiShimada2/status/2102962208900776350",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "イビデン急騰の背景として文春砲ではなく、ABF基板の競合が連休中に約120%上昇した影響だと説明した。",
+     "summary_en": "Explained that the background of Ibiden's sharp rise was not a Bunshun scoop, but the impact of an ABF substrate competitor rising by about 120% during the consecutive holidays."
+    },
+    {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "post_created_at": "2026-09-24T10:37:40+09:00",
+     "source_url": "https://x.com/KenichiShimada2/status/2102935466928672896",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "イビデンの急騰は連休中の台湾株の動きから説明できると述べている。",
+     "summary_en": "States that the surge in Ibiden can be explained by the movements of Taiwanese stocks during the consecutive holidays."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-24T09:42:06+09:00",
+     "source_url": "https://x.com/noatake1127/status/2102921481101709377",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "エヌビディアCEOがイビデンに前払金を払ったとする記事を共有している。",
+     "summary_en": "Shares an article stating that Nvidia's CEO made an advance payment to Ibiden."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 2
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 5,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 2,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 2
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-28T11:04:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104391652651708647",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "先週の相場概況として、イビデンがHuang氏の発言報道を材料に大幅高となったと記した。",
+        "summary_en": "As a market overview for last week, it noted that Ibiden rose sharply on the back of reports regarding remarks by Mr. Huang."
+       }
+      },
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-09-24T12:23:56+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2102962208900776350",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "イビデン急騰の背景として文春砲ではなく、ABF基板の競合が連休中に約120%上昇した影響だと説明した。",
+        "summary_en": "Explained that the background of Ibiden's sharp rise was not a Bunshun scoop, but the impact of an ABF substrate competitor rising by about 120% during the consecutive holidays."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T11:04:00+09:00"
+  },
+  {
    "ticker": "1475",
    "company": "NEXT FUNDS TOPIX連動型上場投信",
    "company_en": "NEXT FUNDS TOPIX Exchange Traded Fund",
@@ -15840,6 +15920,118 @@
    "last_post_at": "2026-09-25T16:31:39+09:00"
   },
   {
+   "ticker": "4568",
+   "company": "第一三共株式会社",
+   "company_en": "Daiichi Sankyo Company, Limited",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-28T11:11:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104393537156726953",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
+      "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-28T11:11:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104393537156726953",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
+     "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-28T11:11:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104393537156726953",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "第一三共とメルクが共同開発中の肺がん治療薬について、米国での迅速承認申請を取り下げたと事実を報じた。",
+        "summary_en": "It reported the fact that Daiichi Sankyo and Merck withdrew their application for accelerated approval in the United States for a lung cancer therapeutic drug currently under joint development."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T11:11:00+09:00"
+  },
+  {
    "ticker": "475A",
    "company": "株式会社ギミック",
    "company_en": "Gimmick Inc.",
@@ -15950,6 +16142,128 @@
     }
    },
    "last_post_at": "2026-09-25T16:35:22+09:00"
+  },
+  {
+   "ticker": "4967",
+   "company": "小林製薬株式会社",
+   "company_en": "Kobayashi Pharmaceutical Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-28T11:04:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104391652651708647",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
+      "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-28T11:04:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104391652651708647",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
+     "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-25T09:14:40+09:00",
+     "source_url": "https://x.com/noatake1127/status/2103276967282008388",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "小林製薬についてTOBの確率は高いと考えていたが持ち続けられなかったと述べた。今後の株価見通しの明示はない。",
+     "summary_en": "Regarding Kobayashi Pharmaceutical, the poster stated that they thought the probability of a TOB was high but could not hold onto it, with no explicit statement on the future stock price outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-28T11:04:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104391652651708647",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "小林製薬がTOB買収提案を材料に上昇したと先週の値動きを報告した。",
+        "summary_en": "It reported last week's price movement, stating that Kobayashi Pharmaceutical rose on the catalyst of a TOB buyout proposal."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T11:04:00+09:00"
   },
   {
    "ticker": "5802",
@@ -16636,11 +16950,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -16730,11 +17044,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -17778,7 +18092,7 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 68,
+   "post_count": 71,
    "ticker_count": 39
   },
   {
@@ -17800,6 +18114,12 @@
    "ticker_count": 14
   },
   {
+   "handle": "kabu_st0ck",
+   "display_name": "ちょる子🐣LINEやっていません",
+   "post_count": 13,
+   "ticker_count": 7
+  },
+  {
    "handle": "kenmokenmo",
    "display_name": "kenmo@湘南投資勉強会",
    "post_count": 12,
@@ -17808,14 +18128,8 @@
   {
    "handle": "19830128to",
    "display_name": "某哲也",
-   "post_count": 9,
-   "ticker_count": 9
-  },
-  {
-   "handle": "kabu_st0ck",
-   "display_name": "ちょる子",
-   "post_count": 9,
-   "ticker_count": 6
+   "post_count": 10,
+   "ticker_count": 10
   },
   {
    "handle": "cadillac600",
@@ -17856,7 +18170,7 @@
     "company_en": "Nidec Corporation",
     "window": "7d",
     "mention_count": 5,
-    "prev_mention_count": 0,
+    "prev_mention_count": 1,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -17887,7 +18201,7 @@
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 0,
-    "bullish_count": 1,
+    "bullish_count": 0,
     "bearish_count": 0
    },
    {
@@ -17908,7 +18222,7 @@
     "company_en": "Nidec Corporation",
     "window": "7d",
     "mention_count": 5,
-    "prev_mention_count": 0,
+    "prev_mention_count": 1,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -17939,7 +18253,7 @@
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 0,
-    "bullish_count": 1,
+    "bullish_count": 0,
     "bearish_count": 0
    },
    {
@@ -17959,20 +18273,21 @@
   "24h": [
    {
     "topic": "その他",
-    "ticker_count": 28,
+    "ticker_count": 30,
     "tickers": [
      "135A",
      "156A",
      "228A",
      "247A",
      "2579",
+     "285A",
      "286A",
      "341A",
      "3496",
      "3673",
      "3697",
      "3901",
-     "4012",
+     "4076",
      "4169",
      "4258",
      "4374",
@@ -17985,17 +18300,34 @@
      "5038",
      "5532",
      "558A",
+     "6857",
      "7047",
      "7134",
      "7199",
      "9272"
+    ]
+   },
+   {
+    "topic": "需給",
+    "ticker_count": 2,
+    "tickers": [
+     "285A",
+     "6857"
+    ]
+   },
+   {
+    "topic": "売買",
+    "ticker_count": 2,
+    "tickers": [
+     "1869",
+     "285A"
     ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 43,
+    "ticker_count": 46,
     "tickers": [
      "135A",
      "156A",
@@ -18003,6 +18335,7 @@
      "228A",
      "247A",
      "2579",
+     "285A",
      "286A",
      "3223",
      "341A",
@@ -18017,6 +18350,7 @@
      "3921",
      "3964",
      "4012",
+     "4076",
      "4169",
      "4258",
      "4374",
@@ -18034,6 +18368,7 @@
      "627A",
      "6578",
      "6594",
+     "6857",
      "6914",
      "7047",
      "7134",
@@ -18044,23 +18379,19 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 29,
+    "ticker_count": 25,
     "tickers": [
      "2325",
      "2388",
      "285A",
      "338A",
      "3632",
-     "4062",
      "4519",
-     "4568",
      "4666",
      "4755",
      "4825",
-     "4967",
      "5801",
      "6072",
-     "627A",
      "6289",
      "6331",
      "6332",
@@ -18079,8 +18410,9 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 8,
+    "ticker_count": 9,
     "tickers": [
+     "1869",
      "285A",
      "5801",
      "5803",
@@ -18137,7 +18469,7 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 48,
+    "ticker_count": 51,
     "tickers": [
      "135A",
      "156A",
@@ -18146,6 +18478,7 @@
      "247A",
      "2579",
      "2737",
+     "285A",
      "286A",
      "3223",
      "341A",
@@ -18161,6 +18494,7 @@
      "3921",
      "3964",
      "4012",
+     "4076",
      "4169",
      "4258",
      "4374",
@@ -18179,6 +18513,7 @@
      "627A",
      "6578",
      "6594",
+     "6857",
      "6914",
      "7047",
      "7087",
@@ -18191,12 +18526,13 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 40,
+    "ticker_count": 41,
     "tickers": [
      "135A",
      "1475",
      "156A",
      "1615",
+     "1869",
      "228A",
      "247A",
      "2579",
