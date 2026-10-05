@@ -1,9 +1,9 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-05T14:17:40+09:00",
+ "generated_at": "2026-10-05T23:21:12+09:00",
  "translation": {
-  "summary_en_count": 210,
-  "summary_total": 217,
+  "summary_en_count": 213,
+  "summary_total": 220,
   "company_en_count": 119,
   "company_total": 119,
   "engine": "gemini-flash-latest",
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 248,
-  "rows_used": 217,
-  "rows_rejected": 31,
+  "rows_input": 252,
+  "rows_used": 220,
+  "rows_rejected": 32,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 31
+   "tickerが日本株コード形式でない/空": 32
   },
   "missing_company_tickers": []
  },
@@ -254,31 +254,23 @@
      "prev_mention_count": 0
     },
     "7d": {
-     "mention_count": 5,
-     "post_count": 12,
+     "mention_count": 4,
+     "post_count": 8,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
-     "unknown_count": 2,
+     "unknown_count": 1,
      "topics": [
       {
        "topic": "材料",
        "investor_count": 3
       },
       {
-       "topic": "その他",
-       "investor_count": 2
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
        "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -287,10 +279,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 4,
+       "post_count": 3,
        "topics": [
         "材料",
-        "業績",
         "決算"
        ],
        "latest_post": {
@@ -327,9 +318,8 @@
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
        "stance": "中立",
-       "post_count": 5,
+       "post_count": 3,
        "topics": [
-        "売買",
         "材料"
        ],
        "latest_post": {
@@ -361,28 +351,9 @@
         "summary": "さわかみ投信の運用質問としてニデックの今後方針を挙げている。本人の強弱見通しは示していない。",
         "summary_en": "The post cites Nidec's future policy as an investment management question for Sawakami Asset Management, without showing the poster's own bullish or bearish outlook."
        }
-      },
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-09-28T16:11:00+09:00",
-        "source_url": "https://x.com/cadillac600/status/2104469115343982735",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "ニデック（電産）の永守氏をAAに例えた投稿で、投資判断や業績見通しは示されていない。",
-        "summary_en": "A post comparing Mr. Nagamori of Nidec (Densan) to ASCII art, with no investment judgment or earnings outlook provided."
-       }
       }
      ],
-     "prev_mention_count": 2
+     "prev_mention_count": 3
     },
     "30d": {
      "mention_count": 5,
@@ -524,7 +495,7 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 3,
-   "post_count": 10,
+   "post_count": 11,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 3,
@@ -536,18 +507,38 @@
     },
     {
      "topic": "需給",
+     "investor_count": 2
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "材料",
      "investor_count": 1
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
     }
    ],
    "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-05T17:36:10+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+      "topic": "需給",
+      "stance": "判定不能",
+      "summary": "岐阜暴威氏の「金曜に買ったキオクシアがマイ転」投稿を引用し、相場が静まるよう祈る反応。本人の売買や見通しは述べていない。",
+      "summary_en": "Quoting Gifu Boi's post stating that \"Kioxia bought on Friday turned negative,\" reacted by praying for the market to calm down, without stating their own trading or outlook."
+     }
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -588,28 +579,19 @@
       "summary": "キオクシアは昨日売却してノーポジとの保有状況の共有。今後の見通しは示していない。",
       "summary_en": "Sharing of holding status stating that Kioxia was sold yesterday and the author has no position; future outlook is not indicated."
      }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子",
-      "post_created_at": "2026-10-02T14:47:00+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2105897557083979938",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "昨日キオクシアを買ったという事実の共有。今後の見通しは示していない。",
-      "summary_en": "Sharing of the fact that Kioxia was bought yesterday; future outlook is not indicated."
-     }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-05T17:36:10+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+     "topic": "需給",
+     "stance": "判定不能",
+     "summary": "岐阜暴威氏の「金曜に買ったキオクシアがマイ転」投稿を引用し、相場が静まるよう祈る反応。本人の売買や見通しは述べていない。",
+     "summary_en": "Quoting Gifu Boi's post stating that \"Kioxia bought on Friday turned negative,\" reacted by praying for the market to calm down, without stating their own trading or outlook."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -649,41 +631,50 @@
      "stance": "中立",
      "summary": "高値引けという値動きの事実共有。今後の見通しは不明なため中立。",
      "summary_en": "Sharing of the price movement fact of closing at the high; neutral because the future outlook is unknown."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-10-02T15:11:00+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2105903476291387561",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "キオクシアは昨日売却してノーポジとの保有状況の共有。今後の見通しは示していない。",
-     "summary_en": "Sharing of holding status stating that Kioxia was sold yesterday and the author has no position; future outlook is not indicated."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 3,
+     "mention_count": 2,
+     "post_count": 4,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
-     "unknown_count": 0,
+     "unknown_count": 1,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
        "topic": "需給",
-       "investor_count": 1
+       "investor_count": 2
       },
       {
        "topic": "その他",
        "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T17:36:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "岐阜暴威氏の「金曜に買ったキオクシアがマイ転」投稿を引用し、相場が静まるよう祈る反応。本人の売買や見通しは述べていない。",
+        "summary_en": "Quoting Gifu Boi's post stating that \"Kioxia bought on Friday turned negative,\" reacted by praying for the market to calm down, without stating their own trading or outlook."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -710,7 +701,7 @@
     },
     "7d": {
      "mention_count": 3,
-     "post_count": 9,
+     "post_count": 10,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
@@ -722,18 +713,38 @@
       },
       {
        "topic": "需給",
+       "investor_count": 2
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "材料",
        "investor_count": 1
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T17:36:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "岐阜暴威氏の「金曜に買ったキオクシアがマイ転」投稿を引用し、相場が静まるよう祈る反応。本人の売買や見通しは述べていない。",
+        "summary_en": "Quoting Gifu Boi's post stating that \"Kioxia bought on Friday turned negative,\" reacted by praying for the market to calm down, without stating their own trading or outlook."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -774,32 +785,13 @@
         "summary": "キオクシアは昨日売却してノーポジとの保有状況の共有。今後の見通しは示していない。",
         "summary_en": "Sharing of holding status stating that Kioxia was sold yesterday and the author has no position; future outlook is not indicated."
        }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子",
-        "post_created_at": "2026-10-02T14:47:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2105897557083979938",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "昨日キオクシアを買ったという事実の共有。今後の見通しは示していない。",
-        "summary_en": "Sharing of the fact that Kioxia was bought yesterday; future outlook is not indicated."
-       }
       }
      ],
      "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 10,
+     "post_count": 11,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
@@ -811,18 +803,38 @@
       },
       {
        "topic": "需給",
+       "investor_count": 2
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "材料",
        "investor_count": 1
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T17:36:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "岐阜暴威氏の「金曜に買ったキオクシアがマイ転」投稿を引用し、相場が静まるよう祈る反応。本人の売買や見通しは述べていない。",
+        "summary_en": "Quoting Gifu Boi's post stating that \"Kioxia bought on Friday turned negative,\" reacted by praying for the market to calm down, without stating their own trading or outlook."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -863,31 +875,12 @@
         "summary": "キオクシアは昨日売却してノーポジとの保有状況の共有。今後の見通しは示していない。",
         "summary_en": "Sharing of holding status stating that Kioxia was sold yesterday and the author has no position; future outlook is not indicated."
        }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子",
-        "post_created_at": "2026-10-02T14:47:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2105897557083979938",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "昨日キオクシアを買ったという事実の共有。今後の見通しは示していない。",
-        "summary_en": "Sharing of the fact that Kioxia was bought yesterday; future outlook is not indicated."
-       }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-05T09:29:00+09:00"
+   "last_post_at": "2026-10-05T17:36:10+09:00"
   },
   {
    "ticker": "9984",
@@ -1174,6 +1167,272 @@
    "last_post_at": "2026-10-01T10:33:00+09:00"
   },
   {
+   "ticker": "5801",
+   "company": "古河電気工業",
+   "company_en": "Furukawa Electric Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-05T17:36:10+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+      "topic": "需給",
+      "stance": "判定不能",
+      "summary": "同引用で古河電工のマイ転にも言及。本人の強弱見通しはなく、反応のみ。",
+      "summary_en": "In the same quote, also mentioned Furukawa Electric turning negative, offering only a reaction without their own bullish or bearish outlook."
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "売買",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-02T09:23:37+09:00",
+      "source_url": "https://x.com/noatake1127/status/2105815933990441160",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
+      "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-05T17:36:10+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+     "topic": "需給",
+     "stance": "判定不能",
+     "summary": "同引用で古河電工のマイ転にも言及。本人の強弱見通しはなく、反応のみ。",
+     "summary_en": "In the same quote, also mentioned Furukawa Electric turning negative, offering only a reaction without their own bullish or bearish outlook."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-02T09:23:37+09:00",
+     "source_url": "https://x.com/noatake1127/status/2105815933990441160",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
+     "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-30T16:15:13+09:00",
+     "source_url": "https://x.com/noatake1127/status/2105194742552433079",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "日経記事の共有。古河電工米子会社が海底光ファイバー生産能力を2029年までに3倍にする発表。本人の見通しは述べていない。",
+     "summary_en": "Sharing a Nikkei article on an announcement that Furukawa Electric's US subsidiary will triple its undersea optical fiber production capacity by 2029, with no personal outlook stated."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T17:36:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "同引用で古河電工のマイ転にも言及。本人の強弱見通しはなく、反応のみ。",
+        "summary_en": "In the same quote, also mentioned Furukawa Electric turning negative, offering only a reaction without their own bullish or bearish outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 2,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T17:36:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "同引用で古河電工のマイ転にも言及。本人の強弱見通しはなく、反応のみ。",
+        "summary_en": "In the same quote, also mentioned Furukawa Electric turning negative, offering only a reaction without their own bullish or bearish outlook."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-02T09:23:37+09:00",
+        "source_url": "https://x.com/noatake1127/status/2105815933990441160",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
+        "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-05T17:36:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2107027050750177358",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "同引用で古河電工のマイ転にも言及。本人の強弱見通しはなく、反応のみ。",
+        "summary_en": "In the same quote, also mentioned Furukawa Electric turning negative, offering only a reaction without their own bullish or bearish outlook."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-02T09:23:37+09:00",
+        "source_url": "https://x.com/noatake1127/status/2105815933990441160",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
+        "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-05T17:36:10+09:00"
+  },
+  {
    "ticker": "5803",
    "company": "フジクラ",
    "company_en": "Fujikura Ltd.",
@@ -1390,11 +1649,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
@@ -1548,11 +1807,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -1614,11 +1873,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -2315,11 +2574,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -2369,40 +2628,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -2449,11 +2683,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -2497,11 +2731,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -2551,40 +2785,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -2631,11 +2840,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -3125,11 +3334,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -3179,40 +3388,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3259,11 +3443,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -3611,11 +3795,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -3665,40 +3849,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3745,11 +3904,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -3793,11 +3952,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -3847,40 +4006,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3927,11 +4061,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -3975,11 +4109,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -4029,40 +4163,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4109,11 +4218,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -4419,143 +4528,6 @@
    "last_post_at": "2026-10-04T06:29:04+09:00"
   },
   {
-   "ticker": "3223",
-   "company": "株式会社エスエルディー",
-   "company_en": "SLD Entertainment. Inc",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-09-28T17:18:23+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
-      "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-09-28T17:18:23+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
-     "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:18:23+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:18:23+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:18:23+09:00"
-  },
-  {
    "ticker": "336A",
    "company": "ダイナミックマッププラットフォーム",
    "company_en": "Dynamic Map Platform Co., Ltd.",
@@ -4842,11 +4814,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -4896,40 +4868,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4976,11 +4923,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -5161,11 +5108,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -5215,40 +5162,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5295,11 +5217,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -5480,11 +5402,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -5534,40 +5456,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5614,11 +5511,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -5662,11 +5559,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -5716,40 +5613,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5796,11 +5668,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -5830,143 +5702,6 @@
     }
    },
    "last_post_at": "2026-10-04T17:44:23+09:00"
-  },
-  {
-   "ticker": "3799",
-   "company": "キーウェアソリューションズ株式会社",
-   "company_en": "Keyware Solutions Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-09-28T16:37:01+09:00",
-      "source_url": "https://x.com/19830128to/status/2104475452274552996",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
-      "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-09-28T16:37:01+09:00",
-     "source_url": "https://x.com/19830128to/status/2104475452274552996",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
-     "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-09-28T16:37:01+09:00",
-        "source_url": "https://x.com/19830128to/status/2104475452274552996",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
-        "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-09-28T16:37:01+09:00",
-        "source_url": "https://x.com/19830128to/status/2104475452274552996",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
-        "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T16:37:01+09:00"
   },
   {
    "ticker": "3817",
@@ -6255,11 +5990,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -6309,40 +6044,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6389,11 +6099,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -7010,11 +6720,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -7064,40 +6774,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7144,11 +6829,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -7329,11 +7014,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -7383,40 +7068,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7463,11 +7123,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -7511,11 +7171,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -7565,40 +7225,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7645,11 +7280,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -7693,11 +7328,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -7747,40 +7382,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7827,11 +7437,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -7875,11 +7485,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -7929,40 +7539,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8009,11 +7594,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -8057,11 +7642,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -8111,40 +7696,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8191,11 +7751,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -8239,11 +7799,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -8293,40 +7853,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8373,11 +7908,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -8409,149 +7944,12 @@
    "last_post_at": "2026-10-04T17:44:07+09:00"
   },
   {
-   "ticker": "4519",
-   "company": "中外製薬株式会社",
-   "company_en": "Chugai Pharmaceutical Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T17:54:39+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104494988814159897",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
-      "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-28T17:54:39+09:00",
-     "source_url": "https://x.com/noatake1127/status/2104494988814159897",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
-     "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T17:54:39+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104494988814159897",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
-        "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T17:54:39+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104494988814159897",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
-        "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:54:39+09:00"
-  },
-  {
    "ticker": "4666",
    "company": "パーク24株式会社",
    "company_en": "PARK24 Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 1,
+   "post_count": 2,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
@@ -8567,23 +7965,33 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 1,
+     "post_count": 2,
      "topics": [
       "材料"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T17:35:38+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104490203566293030",
+      "post_created_at": "2026-10-05T16:49:35+09:00",
+      "source_url": "https://x.com/noatake1127/status/2107015327657931254",
       "topic": "材料",
       "stance": "中立",
-      "summary": "パーク24で不正アクセスにより会員個人情報約660万件が漏えいしたと伝えた。",
-      "summary_en": "Reported that approximately 6,600,000 pieces of member personal information were leaked due to unauthorized access at Park24."
+      "summary": "パーク24運営のタイムズカーで運転免許証画像約160万件漏えい、保存期間は退会から7年との報道を共有。見通しは述べていない。",
+      "summary_en": "Shared a report that approximately 1,600,000 driver's license images were leaked from Times Car operated by Park24 and that the retention period is 7 years after cancellation; no outlook was stated."
      }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-05T16:49:35+09:00",
+     "source_url": "https://x.com/noatake1127/status/2107015327657931254",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "パーク24運営のタイムズカーで運転免許証画像約160万件漏えい、保存期間は退会から7年との報道を共有。見通しは述べていない。",
+     "summary_en": "Shared a report that approximately 1,600,000 driver's license images were leaked from Times Car operated by Park24 and that the retention period is 7 years after cancellation; no outlook was stated."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -8597,14 +8005,39 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-05T16:49:35+09:00",
+        "source_url": "https://x.com/noatake1127/status/2107015327657931254",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "パーク24運営のタイムズカーで運転免許証画像約160万件漏えい、保存期間は退会から7年との報道を共有。見通しは述べていない。",
+        "summary_en": "Shared a report that approximately 1,600,000 driver's license images were leaked from Times Car operated by Park24 and that the retention period is 7 years after cancellation; no outlook was stated."
+       }
+      }
+     ],
      "prev_mention_count": 0
     },
     "7d": {
@@ -8632,20 +8065,20 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T17:35:38+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104490203566293030",
+        "post_created_at": "2026-10-05T16:49:35+09:00",
+        "source_url": "https://x.com/noatake1127/status/2107015327657931254",
         "topic": "材料",
         "stance": "中立",
-        "summary": "パーク24で不正アクセスにより会員個人情報約660万件が漏えいしたと伝えた。",
-        "summary_en": "Reported that approximately 6,600,000 pieces of member personal information were leaked due to unauthorized access at Park24."
+        "summary": "パーク24運営のタイムズカーで運転免許証画像約160万件漏えい、保存期間は退会から7年との報道を共有。見通しは述べていない。",
+        "summary_en": "Shared a report that approximately 1,600,000 driver's license images were leaked from Times Car operated by Park24 and that the retention period is 7 years after cancellation; no outlook was stated."
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -8661,26 +8094,26 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
         "材料"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T17:35:38+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104490203566293030",
+        "post_created_at": "2026-10-05T16:49:35+09:00",
+        "source_url": "https://x.com/noatake1127/status/2107015327657931254",
         "topic": "材料",
         "stance": "中立",
-        "summary": "パーク24で不正アクセスにより会員個人情報約660万件が漏えいしたと伝えた。",
-        "summary_en": "Reported that approximately 6,600,000 pieces of member personal information were leaked due to unauthorized access at Park24."
+        "summary": "パーク24運営のタイムズカーで運転免許証画像約160万件漏えい、保存期間は退会から7年との報道を共有。見通しは述べていない。",
+        "summary_en": "Shared a report that approximately 1,600,000 driver's license images were leaked from Times Car operated by Park24 and that the retention period is 7 years after cancellation; no outlook was stated."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-09-28T17:35:38+09:00"
+   "last_post_at": "2026-10-05T16:49:35+09:00"
   },
   {
    "ticker": "471A",
@@ -8695,11 +8128,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -8759,40 +8192,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8839,11 +8247,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -9024,11 +8432,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -9078,40 +8486,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9158,11 +8541,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -9353,11 +8736,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -9407,40 +8790,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9487,11 +8845,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -9523,143 +8881,6 @@
    "last_post_at": "2026-10-04T17:44:07+09:00"
   },
   {
-   "ticker": "5527",
-   "company": "株式会社property technologies",
-   "company_en": "property technologies co.,ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-09-28T17:17:04+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
-      "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-09-28T17:17:04+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
-     "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:17:04+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:17:04+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:17:04+09:00"
-  },
-  {
    "ticker": "5532",
    "company": "株式会社リアルゲイト",
    "company_en": "REALGATE INC.",
@@ -9672,11 +8893,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -9726,40 +8947,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9806,11 +9002,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -9854,11 +9050,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -9908,40 +9104,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9988,11 +9159,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -10024,168 +9195,6 @@
    "last_post_at": "2026-10-04T17:44:07+09:00"
   },
   {
-   "ticker": "5801",
-   "company": "古河電気工業",
-   "company_en": "Furukawa Electric Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "売買",
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-02T09:23:37+09:00",
-      "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
-      "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-02T09:23:37+09:00",
-     "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
-     "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-30T16:15:13+09:00",
-     "source_url": "https://x.com/noatake1127/status/2105194742552433079",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "日経記事の共有。古河電工米子会社が海底光ファイバー生産能力を2029年までに3倍にする発表。本人の見通しは述べていない。",
-     "summary_en": "Sharing a Nikkei article on an announcement that Furukawa Electric's US subsidiary will triple its undersea optical fiber production capacity by 2029, with no personal outlook stated."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T09:23:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
-        "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T09:23:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
-        "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-02T09:23:37+09:00"
-  },
-  {
    "ticker": "593A",
    "company": "株式会社ティアフォー",
    "company_en": "TIER IV, INC.",
@@ -10198,11 +9207,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -10317,11 +9326,11 @@
      "unknown_count": 1,
      "topics": [
       {
-       "topic": "バリュエーション",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -10774,153 +9783,6 @@
    "last_post_at": "2026-10-01T06:05:42+09:00"
   },
   {
-   "ticker": "625A",
-   "company": "株式会社Skyfall",
-   "company_en": "Skyfall, Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-09-28T17:05:32+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
-      "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-09-28T17:05:32+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
-     "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-09-28T13:58:52+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2104435653014638809",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "過去投稿で言及したSkyfallについて、時間はかかったが利確したと報告した。今後の見通しは述べていない。",
-     "summary_en": "Reported taking profit on Skyfall, which was mentioned in past posts, noting that it took time, without stating a future outlook."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
-        "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
-        "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:05:32+09:00"
-  },
-  {
    "ticker": "627A",
    "company": "akippa株式会社",
    "company_en": "akippa Inc.",
@@ -10933,15 +9795,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "材料",
      "investor_count": 1
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -11067,15 +9929,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
        "topic": "材料",
        "investor_count": 1
       },
       {
        "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -12005,143 +10867,6 @@
    "last_post_at": "2026-10-05T11:02:00+09:00"
   },
   {
-   "ticker": "6578",
-   "company": "株式会社コレックホールディングス",
-   "company_en": "CORREC HOLDINGS Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-09-28T17:16:42+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
-      "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-09-28T17:16:42+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
-     "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:16:42+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:16:42+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:16:42+09:00"
-  },
-  {
    "ticker": "6702",
    "company": "富士通",
    "company_en": "Fujitsu Limited",
@@ -12302,310 +11027,6 @@
     }
    },
    "last_post_at": "2026-10-05T12:15:00+09:00"
-  },
-  {
-   "ticker": "6758",
-   "company": "ソニーグループ株式会社",
-   "company_en": "Sony Group Corporation",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-09-28T15:38:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2104460602655871414",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
-      "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-28T15:38:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2104460602655871414",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
-     "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T15:38:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104460602655871414",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
-        "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-09-28T15:38:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2104460602655871414",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
-        "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T15:38:00+09:00"
-  },
-  {
-   "ticker": "6904",
-   "company": "原田工業株式会社",
-   "company_en": "HARADA INDUSTRY CO., LTD.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 3,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "バリュエーション",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "バリュエーション",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-09-28T17:05:32+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
-      "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-09-28T17:05:32+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
-     "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-09-28T14:56:33+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2104450169064620150",
-     "topic": "売買",
-     "stance": "判定不能",
-     "summary": "原田工業について「どうするか」とだけ記した。保有・売買の事実も今後の見通しも本文からは判断できない。",
-     "summary_en": "Wrote only \"what to do\" regarding Harada Industry, with neither actual holdings/trading nor future outlook determinable from the text."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-09-25T11:41:55+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2103314025086083349",
-     "topic": "バリュエーション",
-     "stance": "中立",
-     "summary": "原田工業を評価し、少し保有していることと自動運転バリューという着眼を述べている。",
-     "summary_en": "The poster gives a favorable assessment of Harada Industry, stating that they hold a small amount and noting their focus on its autonomous driving value."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
-        "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "バリュエーション",
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-28T17:05:32+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
-        "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:05:32+09:00"
   },
   {
    "ticker": "6914",
@@ -12814,7 +11235,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -13041,11 +11462,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -13095,40 +11516,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -13175,11 +11571,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -13223,11 +11619,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -13277,40 +11673,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:23+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -13357,11 +11728,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -13405,11 +11776,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -13459,40 +11830,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -13539,11 +11885,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -13573,143 +11919,6 @@
     }
    },
    "last_post_at": "2026-10-04T17:44:07+09:00"
-  },
-  {
-   "ticker": "7361",
-   "company": "株式会社ヒューマンクリエイションホールディングス",
-   "company_en": "Human Creation Holdings, Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-09-28T17:16:20+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
-      "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-09-28T17:16:20+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
-     "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:16:20+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-09-28T17:16:20+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
-        "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-28T17:16:20+09:00"
   },
   {
    "ticker": "7552",
@@ -14272,11 +12481,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -14326,40 +12535,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -14406,11 +12590,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -15219,7 +13403,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -15371,6 +13555,118 @@
     }
    },
    "last_post_at": "2026-09-25T08:09:37+09:00"
+  },
+  {
+   "ticker": "3223",
+   "company": "株式会社エスエルディー",
+   "company_en": "SLD Entertainment. Inc",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-09-28T17:18:23+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
+      "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-09-28T17:18:23+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
+     "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-09-28T17:18:23+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2104485861039694207",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "10月28日にエスエルディー（3223）のIR説明会開催を告知した。",
+        "summary_en": "Announced that an IR briefing for SLD (3223) will be held on October 28."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:18:23+09:00"
   },
   {
    "ticker": "3418",
@@ -15953,6 +14249,118 @@
    "last_post_at": "2026-09-27T13:58:05+09:00"
   },
   {
+   "ticker": "3799",
+   "company": "キーウェアソリューションズ株式会社",
+   "company_en": "Keyware Solutions Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-09-28T16:37:01+09:00",
+      "source_url": "https://x.com/19830128to/status/2104475452274552996",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
+      "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-09-28T16:37:01+09:00",
+     "source_url": "https://x.com/19830128to/status/2104475452274552996",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
+     "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-09-28T16:37:01+09:00",
+        "source_url": "https://x.com/19830128to/status/2104475452274552996",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "キーウェアソリューションズ（3799）のブログ記事リンクを投稿した。本文だけでは内容・見通しは確認できない。",
+        "summary_en": "Posted a link to a blog post about Keyware Solutions (3799), with the details and outlook not verifiable from the text alone."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T16:37:01+09:00"
+  },
+  {
    "ticker": "4118",
    "company": "株式会社カネカ",
    "company_en": "KANEKA CORPORATION",
@@ -16175,6 +14583,118 @@
     }
    },
    "last_post_at": "2026-09-25T16:31:39+09:00"
+  },
+  {
+   "ticker": "4519",
+   "company": "中外製薬株式会社",
+   "company_en": "Chugai Pharmaceutical Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-28T17:54:39+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104494988814159897",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
+      "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-28T17:54:39+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104494988814159897",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
+     "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-28T17:54:39+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104494988814159897",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "中外製薬が肥満症向け治療薬候補GYM329の開発中止を発表したニュースを共有した。",
+        "summary_en": "Shared news that Chugai Pharmaceutical announced the discontinuation of development for GYM329, a therapeutic drug candidate for obesity."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:54:39+09:00"
   },
   {
    "ticker": "4568",
@@ -16521,6 +15041,118 @@
     }
    },
    "last_post_at": "2026-09-28T11:04:00+09:00"
+  },
+  {
+   "ticker": "5527",
+   "company": "株式会社property technologies",
+   "company_en": "property technologies co.,ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-09-28T17:17:04+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
+      "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-09-28T17:17:04+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
+     "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-09-28T17:17:04+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2104485529354178780",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "10月16日にproperty technologies（5527）のIR説明会開催を告知した。",
+        "summary_en": "Announced that an IR briefing for property technologies (5527) will be held on October 16."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:17:04+09:00"
   },
   {
    "ticker": "5802",
@@ -16971,6 +15603,240 @@
    "last_post_at": "2026-09-24T12:46:12+09:00"
   },
   {
+   "ticker": "625A",
+   "company": "株式会社Skyfall",
+   "company_en": "Skyfall, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-09-28T17:05:32+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
+      "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-09-28T17:05:32+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
+     "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-09-28T13:58:52+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2104435653014638809",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "過去投稿で言及したSkyfallについて、時間はかかったが利確したと報告した。今後の見通しは述べていない。",
+     "summary_en": "Reported taking profit on Skyfall, which was mentioned in past posts, noting that it took time, without stating a future outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-09-28T17:05:32+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "SKYFALLを全部利確し、下値で指値が約定したと報告した。今後見通しの明示はない。",
+        "summary_en": "Reported taking full profit on SKYFALL and that a limit order was executed at a lower price, with no explicit statement on future outlook."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:05:32+09:00"
+  },
+  {
+   "ticker": "6578",
+   "company": "株式会社コレックホールディングス",
+   "company_en": "CORREC HOLDINGS Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-09-28T17:16:42+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
+      "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-09-28T17:16:42+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
+     "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-09-28T17:16:42+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
+        "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:16:42+09:00"
+  },
+  {
    "ticker": "6701",
    "company": "日本電気株式会社",
    "company_en": "NEC Corporation",
@@ -17081,6 +15947,260 @@
     }
    },
    "last_post_at": "2026-09-27T07:59:00+09:00"
+  },
+  {
+   "ticker": "6758",
+   "company": "ソニーグループ株式会社",
+   "company_en": "Sony Group Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-28T15:38:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2104460602655871414",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
+      "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-28T15:38:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2104460602655871414",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
+     "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-09-28T15:38:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2104460602655871414",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "日経記事を引用し、ソニーグループがCES2027への出展を見送る方針を共有した。",
+        "summary_en": "Cited a Nikkei article and shared Sony Group's plan to forgo exhibiting at CES 2027."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T15:38:00+09:00"
+  },
+  {
+   "ticker": "6904",
+   "company": "原田工業株式会社",
+   "company_en": "HARADA INDUSTRY CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "バリュエーション",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "バリュエーション",
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-09-28T17:05:32+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
+      "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-09-28T17:05:32+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
+     "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-09-28T14:56:33+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2104450169064620150",
+     "topic": "売買",
+     "stance": "判定不能",
+     "summary": "原田工業について「どうするか」とだけ記した。保有・売買の事実も今後の見通しも本文からは判断できない。",
+     "summary_en": "Wrote only \"what to do\" regarding Harada Industry, with neither actual holdings/trading nor future outlook determinable from the text."
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-09-25T11:41:55+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2103314025086083349",
+     "topic": "バリュエーション",
+     "stance": "中立",
+     "summary": "原田工業を評価し、少し保有していることと自動運転バリューという着眼を述べている。",
+     "summary_en": "The poster gives a favorable assessment of Harada Industry, stating that they hold a small amount and noting their focus on its autonomous driving value."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "バリュエーション",
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-09-28T17:05:32+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2104482626627313840",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "原田工業を半分利確したと報告した。残ポジションの先行きは本文からは読み取れない。",
+        "summary_en": "Reported taking profit on half of the Harada Industry position, with the future outlook for the remaining position not discernible from the text."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:05:32+09:00"
   },
   {
    "ticker": "7087",
@@ -17290,7 +16410,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -17447,6 +16567,118 @@
     }
    },
    "last_post_at": "2026-09-26T07:55:00+09:00"
+  },
+  {
+   "ticker": "7361",
+   "company": "株式会社ヒューマンクリエイションホールディングス",
+   "company_en": "Human Creation Holdings, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-09-28T17:16:20+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
+      "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-09-28T17:16:20+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
+     "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-09-28T17:16:20+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
+        "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-09-28T17:16:20+09:00"
   },
   {
    "ticker": "8273",
@@ -18349,7 +17581,7 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 73,
+   "post_count": 74,
    "ticker_count": 39
   },
   {
@@ -18373,8 +17605,8 @@
   {
    "handle": "kabu_st0ck",
    "display_name": "ちょる子🐣LINEやっていません",
-   "post_count": 13,
-   "ticker_count": 7
+   "post_count": 15,
+   "ticker_count": 8
   },
   {
    "handle": "kenmokenmo",
@@ -18432,8 +17664,8 @@
     "company": "ニデック",
     "company_en": "Nidec Corporation",
     "window": "7d",
-    "mention_count": 5,
-    "prev_mention_count": 2,
+    "mention_count": 4,
+    "prev_mention_count": 3,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -18444,6 +17676,16 @@
     "window": "7d",
     "mention_count": 3,
     "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
+    "ticker": "5801",
+    "company": "古河電気工業",
+    "company_en": "Furukawa Electric Co., Ltd.",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -18484,8 +17726,8 @@
     "company": "ニデック",
     "company_en": "Nidec Corporation",
     "window": "7d",
-    "mention_count": 5,
-    "prev_mention_count": 2,
+    "mention_count": 4,
+    "prev_mention_count": 3,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -18496,6 +17738,26 @@
     "window": "7d",
     "mention_count": 3,
     "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
+    "ticker": "285A",
+    "company": "キオクシアホールディングス",
+    "company_en": "Kioxia Holdings Corporation",
+    "window": "24h",
+    "mention_count": 2,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
+    "ticker": "5801",
+    "company": "古河電気工業",
+    "company_en": "Furukawa Electric Co., Ltd.",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -18535,56 +17797,31 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "その他",
-    "ticker_count": 30,
-    "tickers": [
-     "135A",
-     "156A",
-     "228A",
-     "247A",
-     "2579",
-     "285A",
-     "286A",
-     "341A",
-     "3496",
-     "3673",
-     "3697",
-     "3901",
-     "4076",
-     "4169",
-     "4258",
-     "4374",
-     "4377",
-     "4412",
-     "4443",
-     "4486",
-     "471A",
-     "477A",
-     "5038",
-     "5532",
-     "558A",
-     "6857",
-     "7047",
-     "7134",
-     "7199",
-     "9272"
-    ]
-   },
-   {
     "topic": "需給",
-    "ticker_count": 3,
+    "ticker_count": 4,
     "tickers": [
      "285A",
      "4062",
+     "5801",
      "6857"
     ]
    },
    {
     "topic": "材料",
-    "ticker_count": 2,
+    "ticker_count": 3,
     "tickers": [
+     "4666",
      "6594",
      "6702"
+    ]
+   },
+   {
+    "topic": "その他",
+    "ticker_count": 3,
+    "tickers": [
+     "285A",
+     "4076",
+     "6857"
     ]
    },
    {
@@ -18606,7 +17843,7 @@
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 46,
+    "ticker_count": 41,
     "tickers": [
      "135A",
      "156A",
@@ -18616,13 +17853,11 @@
      "2579",
      "285A",
      "286A",
-     "3223",
      "341A",
      "3486",
      "3496",
      "3673",
      "3697",
-     "3799",
      "3817",
      "3854",
      "3901",
@@ -18640,31 +17875,27 @@
      "471A",
      "477A",
      "5038",
-     "5527",
      "5532",
      "558A",
      "593A",
      "627A",
-     "6578",
      "6594",
      "6857",
      "6914",
      "7047",
      "7134",
      "7199",
-     "7361",
      "9272"
     ]
    },
    {
     "topic": "材料",
-    "ticker_count": 23,
+    "ticker_count": 21,
     "tickers": [
      "2388",
      "285A",
      "338A",
      "3632",
-     "4519",
      "4666",
      "4755",
      "4825",
@@ -18675,7 +17906,6 @@
      "6523",
      "6594",
      "6702",
-     "6758",
      "7011",
      "7012",
      "7133",
@@ -18686,42 +17916,39 @@
     ]
    },
    {
-    "topic": "売買",
-    "ticker_count": 9,
-    "tickers": [
-     "1869",
-     "285A",
-     "5801",
-     "5803",
-     "625A",
-     "6594",
-     "6857",
-     "6904",
-     "6976"
-    ]
-   },
-   {
     "topic": "需給",
-    "ticker_count": 7,
+    "ticker_count": 8,
     "tickers": [
      "285A",
      "336A",
      "4062",
      "4216",
+     "5801",
      "6857",
      "8035",
      "9984"
     ]
    },
    {
-    "topic": "業績",
+    "topic": "売買",
     "ticker_count": 6,
+    "tickers": [
+     "1869",
+     "285A",
+     "5801",
+     "5803",
+     "6857",
+     "6976"
+    ]
+   },
+   {
+    "topic": "業績",
+    "ticker_count": 5,
     "tickers": [
      "175A",
      "2325",
      "6289",
      "6351",
-     "6594",
      "7552"
     ]
    },
@@ -18932,12 +18159,13 @@
    },
    {
     "topic": "需給",
-    "ticker_count": 8,
+    "ticker_count": 9,
     "tickers": [
      "285A",
      "336A",
      "4062",
      "4216",
+     "5801",
      "627A",
      "6857",
      "8035",
