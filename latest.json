@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-06T15:02:12+09:00",
+ "generated_at": "2026-10-07T00:49:47+09:00",
  "translation": {
-  "summary_en_count": 232,
-  "summary_total": 239,
-  "company_en_count": 124,
-  "company_total": 124,
+  "summary_en_count": 234,
+  "summary_total": 241,
+  "company_en_count": 125,
+  "company_total": 125,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 272,
-  "rows_used": 239,
-  "rows_rejected": 33,
+  "rows_input": 278,
+  "rows_used": 241,
+  "rows_rejected": 37,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 33
+   "tickerが日本株コード形式でない/空": 37
   },
   "missing_company_tickers": []
  },
@@ -630,7 +630,7 @@
    "windows": {
     "24h": {
      "mention_count": 2,
-     "post_count": 4,
+     "post_count": 3,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -669,7 +669,7 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
         "売買",
         "需給"
@@ -686,11 +686,11 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 4,
-     "post_count": 13,
+     "post_count": 11,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 4,
@@ -757,7 +757,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 7,
+       "post_count": 5,
        "topics": [
         "その他",
         "売買",
@@ -1602,16 +1602,12 @@
    "windows": {
     "24h": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      },
       {
        "topic": "売買",
        "investor_count": 1
@@ -1622,10 +1618,9 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "売買",
-        "需給"
+        "売買"
        ],
        "latest_post": {
         "handle": "kabu_st0ck",
@@ -1639,7 +1634,7 @@
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 2,
@@ -1984,7 +1979,7 @@
    "company_en": "Advantest Corporation",
    "company_en_source": "machine",
    "mention_count": 2,
-   "post_count": 16,
+   "post_count": 17,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 2,
@@ -2008,7 +2003,7 @@
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "stance": "中立",
-     "post_count": 10,
+     "post_count": 11,
      "topics": [
       "売買",
       "需給"
@@ -2016,12 +2011,12 @@
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-10-06T09:30:37+09:00",
-      "source_url": "https://x.com/noatake1127/status/2107267245252776347",
+      "post_created_at": "2026-10-06T15:33:46+09:00",
+      "source_url": "https://x.com/noatake1127/status/2107358636519596033",
       "topic": "需給",
       "stance": "中立",
-      "summary": "現時点でアドバンテストが売買代金トップだと事実を共有。見通しは述べていない。",
-      "summary_en": "Shared the fact that Advantest currently ranks first in trading value; no outlook is stated."
+      "summary": "リバランスはなかったが、アドバンテストが売買代金トップになったとの観測共有。本人の見通しは明示されていない。",
+      "summary_en": "Sharing the observation that Advantest took the top spot in trading value although there was no rebalancing; the poster's own outlook is not explicitly stated."
      }
     },
     {
@@ -2047,6 +2042,16 @@
     }
    ],
    "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-06T15:33:46+09:00",
+     "source_url": "https://x.com/noatake1127/status/2107358636519596033",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "リバランスはなかったが、アドバンテストが売買代金トップになったとの観測共有。本人の見通しは明示されていない。",
+     "summary_en": "Sharing the observation that Advantest took the top spot in trading value although there was no rebalancing; the poster's own outlook is not explicitly stated."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -2086,22 +2091,12 @@
      "stance": "中立",
      "summary": "アドバンテストが上場来高値を付けたと報告している。見通しの明示はなく、保有や売買方針も書いていない。",
      "summary_en": "It reports that Advantest reached an all-time high, with no explicit outlook provided and no mention of holdings or trading policies."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-05T08:55:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2106896070508945485",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "アドバンテストにかけた改名ジョーク。売買見通しはなく中立。",
-     "summary_en": "A name-change joke punning on Advantest, with no trading outlook and a neutral stance."
     }
    ],
    "windows": {
     "24h": {
      "mention_count": 2,
-     "post_count": 3,
+     "post_count": 4,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2121,7 +2116,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 3,
        "topics": [
         "売買",
         "需給"
@@ -2129,12 +2124,12 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-10-06T09:30:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2107267245252776347",
+        "post_created_at": "2026-10-06T15:33:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2107358636519596033",
         "topic": "需給",
         "stance": "中立",
-        "summary": "現時点でアドバンテストが売買代金トップだと事実を共有。見通しは述べていない。",
-        "summary_en": "Shared the fact that Advantest currently ranks first in trading value; no outlook is stated."
+        "summary": "リバランスはなかったが、アドバンテストが売買代金トップになったとの観測共有。本人の見通しは明示されていない。",
+        "summary_en": "Sharing the observation that Advantest took the top spot in trading value although there was no rebalancing; the poster's own outlook is not explicitly stated."
        }
       },
       {
@@ -2161,7 +2156,7 @@
     },
     "7d": {
      "mention_count": 2,
-     "post_count": 16,
+     "post_count": 17,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2185,7 +2180,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 10,
+       "post_count": 11,
        "topics": [
         "売買",
         "需給"
@@ -2193,12 +2188,12 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-10-06T09:30:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2107267245252776347",
+        "post_created_at": "2026-10-06T15:33:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2107358636519596033",
         "topic": "需給",
         "stance": "中立",
-        "summary": "現時点でアドバンテストが売買代金トップだと事実を共有。見通しは述べていない。",
-        "summary_en": "Shared the fact that Advantest currently ranks first in trading value; no outlook is stated."
+        "summary": "リバランスはなかったが、アドバンテストが売買代金トップになったとの観測共有。本人の見通しは明示されていない。",
+        "summary_en": "Sharing the observation that Advantest took the top spot in trading value although there was no rebalancing; the poster's own outlook is not explicitly stated."
        }
       },
       {
@@ -2227,7 +2222,7 @@
     },
     "30d": {
      "mention_count": 2,
-     "post_count": 16,
+     "post_count": 17,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2251,7 +2246,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 10,
+       "post_count": 11,
        "topics": [
         "売買",
         "需給"
@@ -2259,12 +2254,12 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-10-06T09:30:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2107267245252776347",
+        "post_created_at": "2026-10-06T15:33:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2107358636519596033",
         "topic": "需給",
         "stance": "中立",
-        "summary": "現時点でアドバンテストが売買代金トップだと事実を共有。見通しは述べていない。",
-        "summary_en": "Shared the fact that Advantest currently ranks first in trading value; no outlook is stated."
+        "summary": "リバランスはなかったが、アドバンテストが売買代金トップになったとの観測共有。本人の見通しは明示されていない。",
+        "summary_en": "Sharing the observation that Advantest took the top spot in trading value although there was no rebalancing; the poster's own outlook is not explicitly stated."
        }
       },
       {
@@ -2292,7 +2287,7 @@
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-06T09:30:37+09:00"
+   "last_post_at": "2026-10-06T15:33:46+09:00"
   },
   {
    "ticker": "4062",
@@ -2594,7 +2589,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -2751,7 +2746,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -3329,7 +3324,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -3633,7 +3628,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -3790,7 +3785,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -3947,7 +3942,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -4677,7 +4672,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -4971,7 +4966,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5265,7 +5260,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5422,7 +5417,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5716,7 +5711,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6421,7 +6416,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6641,6 +6636,168 @@
    "last_post_at": "2026-09-30T10:37:00+09:00"
   },
   {
+   "ticker": "4220",
+   "company": "リケンテクノス",
+   "company_en": "RIKEN TECHNOS CORPORATION",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-06T16:02:32+09:00",
+      "source_url": "https://x.com/19830128to/status/2107365876454580306",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+      "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-06T16:02:32+09:00",
+     "source_url": "https://x.com/19830128to/status/2107365876454580306",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+     "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-06T16:02:32+09:00",
+        "source_url": "https://x.com/19830128to/status/2107365876454580306",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-06T16:02:32+09:00",
+        "source_url": "https://x.com/19830128to/status/2107365876454580306",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-06T16:02:32+09:00",
+        "source_url": "https://x.com/19830128to/status/2107365876454580306",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-06T16:02:32+09:00"
+  },
+  {
    "ticker": "4258",
    "company": "株式会社網屋",
    "company_en": "AMIYA Corporation",
@@ -6715,7 +6872,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6872,7 +7029,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7029,7 +7186,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7186,7 +7343,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7343,7 +7500,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7500,7 +7657,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7644,40 +7801,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-05T16:49:35+09:00",
-        "source_url": "https://x.com/noatake1127/status/2107015327657931254",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "パーク24運営のタイムズカーで運転免許証画像約160万件漏えい、保存期間は退会から7年との報道を共有。見通しは述べていない。",
-        "summary_en": "Shared a report that approximately 1,600,000 driver's license images were leaked from Times Car operated by Park24 and that the retention period is 7 years after cancellation; no outlook was stated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7839,7 +7971,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8133,7 +8265,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8290,7 +8422,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8447,7 +8579,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8604,7 +8736,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8699,15 +8831,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "バリュエーション",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -8858,15 +8990,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -9048,11 +9180,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -9110,11 +9242,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9151,11 +9283,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -9192,11 +9324,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -11019,11 +11151,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -11117,11 +11249,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -11158,11 +11290,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -11268,7 +11400,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -11425,7 +11557,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -11582,7 +11714,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -12287,7 +12419,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -13065,11 +13197,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -13149,11 +13281,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -16285,11 +16417,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -16394,11 +16526,11 @@
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -16443,11 +16575,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -16527,11 +16659,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -16575,11 +16707,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -16659,11 +16791,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -17185,11 +17317,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     },
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -17279,11 +17411,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "優待",
        "investor_count": 1
       },
       {
-       "topic": "優待",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -18439,7 +18571,7 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 84,
+   "post_count": 85,
    "ticker_count": 42
   },
   {
@@ -18475,8 +18607,8 @@
   {
    "handle": "19830128to",
    "display_name": "某哲也",
-   "post_count": 10,
-   "ticker_count": 10
+   "post_count": 11,
+   "ticker_count": 11
   },
   {
    "handle": "nagoya_tyouki",
@@ -18616,16 +18748,6 @@
     "bearish_count": 0
    },
    {
-    "ticker": "285A",
-    "company": "キオクシアホールディングス",
-    "company_en": "Kioxia Holdings Corporation",
-    "window": "24h",
-    "mention_count": 2,
-    "prev_mention_count": 1,
-    "bullish_count": 0,
-    "bearish_count": 0
-   },
-   {
     "ticker": "5801",
     "company": "古河電気工業",
     "company_en": "Furukawa Electric Co., Ltd.",
@@ -18691,17 +18813,6 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "材料",
-    "ticker_count": 5,
-    "tickers": [
-     "4666",
-     "593A",
-     "6502",
-     "6701",
-     "6762"
-    ]
-   },
-   {
     "topic": "売買",
     "ticker_count": 4,
     "tickers": [
@@ -18712,11 +18823,20 @@
     ]
    },
    {
-    "topic": "需給",
+    "topic": "材料",
     "ticker_count": 4,
     "tickers": [
+     "593A",
+     "6502",
+     "6701",
+     "6762"
+    ]
+   },
+   {
+    "topic": "需給",
+    "ticker_count": 3,
+    "tickers": [
      "285A",
-     "5801",
      "6857",
      "6976"
     ]
@@ -18732,8 +18852,9 @@
    },
    {
     "topic": "その他",
-    "ticker_count": 1,
+    "ticker_count": 2,
     "tickers": [
+     "4220",
      "5970"
     ]
    }
@@ -18741,7 +18862,7 @@
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 39,
+    "ticker_count": 40,
     "tickers": [
      "135A",
      "156A",
@@ -18763,6 +18884,7 @@
      "4012",
      "4076",
      "4169",
+     "4220",
      "4258",
      "4374",
      "4377",
@@ -18873,7 +18995,7 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 52,
+    "ticker_count": 53,
     "tickers": [
      "135A",
      "156A",
@@ -18900,6 +19022,7 @@
      "4012",
      "4076",
      "4169",
+     "4220",
      "4258",
      "4374",
      "4377",
