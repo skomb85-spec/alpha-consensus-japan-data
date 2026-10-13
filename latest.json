@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-13T15:34:48+09:00",
+ "generated_at": "2026-10-14T01:52:15+09:00",
  "translation": {
-  "summary_en_count": 362,
-  "summary_total": 370,
-  "company_en_count": 185,
-  "company_total": 185,
+  "summary_en_count": 363,
+  "summary_total": 371,
+  "company_en_count": 186,
+  "company_total": 186,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 430,
-  "rows_used": 370,
+  "rows_input": 431,
+  "rows_used": 371,
   "rows_rejected": 60,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 60
@@ -48,15 +48,15 @@
      "investor_count": 5
     },
     {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
      "topic": "その他",
      "investor_count": 2
     },
     {
      "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "需給",
      "investor_count": 2
     }
    ],
@@ -441,15 +441,15 @@
        "investor_count": 5
       },
       {
-       "topic": "需給",
-       "investor_count": 2
-      },
-      {
        "topic": "その他",
        "investor_count": 2
       },
       {
        "topic": "材料",
+       "investor_count": 2
+      },
+      {
+       "topic": "需給",
        "investor_count": 2
       }
      ],
@@ -1364,11 +1364,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -1576,11 +1576,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
@@ -2169,40 +2169,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-10-12T16:53:50+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2109553113409683467",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "SME（ソニーミュージック）のアニメ・音楽・IP経済圏の相乗効果について言及。",
-        "summary_en": "Mentioned the synergistic effects of SME's (Sony Music) anime, music, and IP economic sphere."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5139,143 +5114,6 @@
    "last_post_at": "2026-10-07T16:17:00+09:00"
   },
   {
-   "ticker": "4220",
-   "company": "リケンテクノス",
-   "company_en": "RIKEN TECHNOS CORPORATION",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-10-06T16:02:32+09:00",
-      "source_url": "https://x.com/19830128to/status/2107365876454580306",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
-      "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-10-06T16:02:32+09:00",
-     "source_url": "https://x.com/19830128to/status/2107365876454580306",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
-     "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-06T16:02:32+09:00",
-        "source_url": "https://x.com/19830128to/status/2107365876454580306",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
-        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-06T16:02:32+09:00",
-        "source_url": "https://x.com/19830128to/status/2107365876454580306",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
-        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-06T16:02:32+09:00"
-  },
-  {
    "ticker": "4258",
    "company": "網屋",
    "company_en": "AMIYA Corporation",
@@ -7605,7 +7443,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -7617,7 +7455,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -7754,7 +7592,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -7766,7 +7604,7 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -7812,11 +7650,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -7931,11 +7769,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -8390,11 +8228,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -8463,11 +8301,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -8504,11 +8342,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -10178,40 +10016,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-12T17:18:56+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
-        "topic": "業績",
-        "stance": "強気",
-        "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
-        "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10434,6 +10247,168 @@
     }
    },
    "last_post_at": "2026-10-07T16:17:00+09:00"
+  },
+  {
+   "ticker": "6981",
+   "company": "村田製作所",
+   "company_en": "Murata Manufacturing Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-13T16:08:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2109904052616364087",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "村田製作所がセラミックコンデンサー生産能力増強の追加投資を検討しているとのニュース共有。",
+      "summary_en": "Sharing news that Murata Manufacturing is considering additional investment to increase ceramic capacitor production capacity."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-13T16:08:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2109904052616364087",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "村田製作所がセラミックコンデンサー生産能力増強の追加投資を検討しているとのニュース共有。",
+     "summary_en": "Sharing news that Murata Manufacturing is considering additional investment to increase ceramic capacitor production capacity."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-13T16:08:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2109904052616364087",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "村田製作所がセラミックコンデンサー生産能力増強の追加投資を検討しているとのニュース共有。",
+        "summary_en": "Sharing news that Murata Manufacturing is considering additional investment to increase ceramic capacitor production capacity."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-13T16:08:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2109904052616364087",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "村田製作所がセラミックコンデンサー生産能力増強の追加投資を検討しているとのニュース共有。",
+        "summary_en": "Sharing news that Murata Manufacturing is considering additional investment to increase ceramic capacitor production capacity."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-13T16:08:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2109904052616364087",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "村田製作所がセラミックコンデンサー生産能力増強の追加投資を検討しているとのニュース共有。",
+        "summary_en": "Sharing news that Murata Manufacturing is considering additional investment to increase ceramic capacitor production capacity."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-13T16:08:00+09:00"
   },
   {
    "ticker": "7203",
@@ -12319,15 +12294,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -12407,11 +12382,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -12448,15 +12423,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
        "topic": "業績",
        "investor_count": 1
       },
       {
        "topic": "決算",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -12509,11 +12484,11 @@
      "investor_count": 2
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
@@ -12713,11 +12688,11 @@
        "investor_count": 2
       },
       {
-       "topic": "決算",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "決算",
        "investor_count": 1
       },
       {
@@ -14553,11 +14528,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -14637,11 +14612,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -18671,6 +18646,118 @@
    "last_post_at": "2026-09-25T16:31:39+09:00"
   },
   {
+   "ticker": "4220",
+   "company": "リケンテクノス",
+   "company_en": "RIKEN TECHNOS CORPORATION",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-06T16:02:32+09:00",
+      "source_url": "https://x.com/19830128to/status/2107365876454580306",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+      "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-06T16:02:32+09:00",
+     "source_url": "https://x.com/19830128to/status/2107365876454580306",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+     "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-06T16:02:32+09:00",
+        "source_url": "https://x.com/19830128to/status/2107365876454580306",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
+        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-06T16:02:32+09:00"
+  },
+  {
    "ticker": "4374",
    "company": "株式会社ロボペイ",
    "company_en": "ROBOT PAYMENT Inc.",
@@ -21743,15 +21830,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -21852,15 +21939,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -21905,11 +21992,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -21989,11 +22076,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -22261,11 +22348,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -22345,11 +22432,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -23471,11 +23558,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -23555,11 +23642,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -25945,8 +26032,8 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 173,
-   "ticker_count": 85
+   "post_count": 174,
+   "ticker_count": 86
   },
   {
    "handle": "jammy_bot",
@@ -26118,11 +26205,10 @@
   "24h": [
    {
     "topic": "その他",
-    "ticker_count": 3,
+    "ticker_count": 2,
     "tickers": [
      "285A",
-     "4430",
-     "6758"
+     "4430"
     ]
    },
    {
@@ -26134,11 +26220,11 @@
     ]
    },
    {
-    "topic": "業績",
+    "topic": "材料",
     "ticker_count": 2,
     "tickers": [
-     "6323",
-     "6920"
+     "285A",
+     "6981"
     ]
    },
    {
@@ -26149,10 +26235,10 @@
     ]
    },
    {
-    "topic": "材料",
+    "topic": "業績",
     "ticker_count": 1,
     "tickers": [
-     "285A"
+     "6323"
     ]
    }
   ],
@@ -26225,11 +26311,10 @@
    },
    {
     "topic": "その他",
-    "ticker_count": 12,
+    "ticker_count": 11,
     "tickers": [
      "285A",
      "319A",
-     "4220",
      "436A",
      "4396",
      "4401",
@@ -26243,7 +26328,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 8,
+    "ticker_count": 9,
     "tickers": [
      "285A",
      "2914",
@@ -26252,6 +26337,7 @@
      "6501",
      "6503",
      "6762",
+     "6981",
      "9984"
     ]
    },
@@ -26423,6 +26509,59 @@
     ]
    },
    {
+    "topic": "材料",
+    "ticker_count": 47,
+    "tickers": [
+     "2325",
+     "2388",
+     "285A",
+     "2914",
+     "338A",
+     "3632",
+     "4062",
+     "4118",
+     "4519",
+     "4568",
+     "4666",
+     "4755",
+     "4825",
+     "4967",
+     "5727",
+     "5801",
+     "5802",
+     "5868",
+     "593A",
+     "6072",
+     "6104",
+     "627A",
+     "6289",
+     "6331",
+     "6332",
+     "6351",
+     "6501",
+     "6502",
+     "6503",
+     "6523",
+     "6594",
+     "6701",
+     "6702",
+     "6758",
+     "6762",
+     "6976",
+     "6981",
+     "7011",
+     "7012",
+     "7120",
+     "7133",
+     "8698",
+     "8798",
+     "9432",
+     "9433",
+     "9644",
+     "9984"
+    ]
+   },
+   {
     "topic": "需給",
     "ticker_count": 47,
     "tickers": [
@@ -26472,58 +26611,6 @@
      "8508",
      "9436",
      "9983",
-     "9984"
-    ]
-   },
-   {
-    "topic": "材料",
-    "ticker_count": 46,
-    "tickers": [
-     "2325",
-     "2388",
-     "285A",
-     "2914",
-     "338A",
-     "3632",
-     "4062",
-     "4118",
-     "4519",
-     "4568",
-     "4666",
-     "4755",
-     "4825",
-     "4967",
-     "5727",
-     "5801",
-     "5802",
-     "5868",
-     "593A",
-     "6072",
-     "6104",
-     "627A",
-     "6289",
-     "6331",
-     "6332",
-     "6351",
-     "6501",
-     "6502",
-     "6503",
-     "6523",
-     "6594",
-     "6701",
-     "6702",
-     "6758",
-     "6762",
-     "6976",
-     "7011",
-     "7012",
-     "7120",
-     "7133",
-     "8698",
-     "8798",
-     "9432",
-     "9433",
-     "9644",
      "9984"
     ]
    },
