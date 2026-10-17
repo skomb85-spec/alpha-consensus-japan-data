@@ -1,9 +1,9 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-17T13:04:27+09:00",
+ "generated_at": "2026-10-17T19:29:55+09:00",
  "translation": {
-  "summary_en_count": 415,
-  "summary_total": 424,
+  "summary_en_count": 417,
+  "summary_total": 426,
   "company_en_count": 207,
   "company_total": 207,
   "engine": "gemini-flash-latest",
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 497,
-  "rows_used": 424,
+  "rows_input": 499,
+  "rows_used": 426,
   "rows_rejected": 73,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 73
@@ -37,7 +37,7 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 6,
-   "post_count": 32,
+   "post_count": 33,
    "bullish_count": 0,
    "bearish_count": 1,
    "neutral_count": 4,
@@ -48,7 +48,7 @@
      "investor_count": 5
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 2
     },
     {
@@ -56,7 +56,7 @@
      "investor_count": 2
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 2
     },
     {
@@ -69,6 +69,26 @@
     }
    ],
    "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "弱気",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-10-17T12:25:22+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2111297491195105546",
+      "topic": "材料",
+      "stance": "判定不能",
+      "summary": "ウェビナー内容のトピックとしてキオクシア（285A）を挙げている。個別銘柄への投資判断はなし。",
+      "summary_en": "Kioxia (285A) is mentioned as a topic of the webinar content, with no investment judgment made on individual stocks."
+     }
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -133,26 +153,6 @@
      }
     },
     {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "弱気",
-     "post_count": 2,
-     "topics": [
-      "売買",
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-10-13T14:30:05+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2109879323989795127",
-      "topic": "材料",
-      "stance": "弱気",
-      "summary": "中国メモリー懸念とブロードコムCEOコメントを受け、下落銘柄は購入したがキオクシアは手を出しにくいとの判断。",
-      "summary_en": "Judgment that while fallen stocks were purchased in response to China memory concerns and comments from Broadcom's CEO, Kioxia remains difficult to touch."
-     }
-    },
-    {
      "handle": "hiro_tyun",
      "display_name": "hiro_tyun",
      "stance": "判定不能",
@@ -193,6 +193,16 @@
    ],
    "latest_posts": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-10-17T12:25:22+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2111297491195105546",
+     "topic": "材料",
+     "stance": "判定不能",
+     "summary": "ウェビナー内容のトピックとしてキオクシア（285A）を挙げている。個別銘柄への投資判断はなし。",
+     "summary_en": "Kioxia (285A) is mentioned as a topic of the webinar content, with no investment judgment made on individual stocks."
+    },
+    {
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "post_created_at": "2026-10-16T10:07:26+09:00",
@@ -231,33 +241,48 @@
      "stance": "中立",
      "summary": "マイ転について言及。",
      "summary_en": "Mentioned turning negative."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-15T08:02:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2110506653506470096",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "アドバンテストは強いがエレクは弱く、キオクシアは-10%で一旦手放したが再エントリー検討。",
-     "summary_en": "Advantest is strong, but Tokyo Electron is weak, and having let go of Kioxia at -10%, re-entry is being considered."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-17T12:25:22+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2111297491195105546",
+        "topic": "材料",
+        "stance": "判定不能",
+        "summary": "ウェビナー内容のトピックとしてキオクシア（285A）を挙げている。個別銘柄への投資判断はなし。",
+        "summary_en": "Kioxia (285A) is mentioned as a topic of the webinar content, with no investment judgment made on individual stocks."
+       }
+      }
+     ],
      "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 5,
-     "post_count": 15,
+     "post_count": 16,
      "bullish_count": 0,
      "bearish_count": 1,
      "neutral_count": 3,
@@ -276,11 +301,11 @@
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "バリュエーション",
        "investor_count": 1
       },
       {
-       "topic": "バリュエーション",
+       "topic": "需給",
        "investor_count": 1
       },
       {
@@ -289,6 +314,25 @@
       }
      ],
      "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-17T12:25:22+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2111297491195105546",
+        "topic": "材料",
+        "stance": "判定不能",
+        "summary": "ウェビナー内容のトピックとしてキオクシア（285A）を挙げている。個別銘柄への投資判断はなし。",
+        "summary_en": "Kioxia (285A) is mentioned as a topic of the webinar content, with no investment judgment made on individual stocks."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -352,25 +396,6 @@
        }
       },
       {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-13T14:30:05+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2109879323989795127",
-        "topic": "材料",
-        "stance": "弱気",
-        "summary": "中国メモリー懸念とブロードコムCEOコメントを受け、下落銘柄は購入したがキオクシアは手を出しにくいとの判断。",
-        "summary_en": "Judgment that while fallen stocks were purchased in response to China memory concerns and comments from Broadcom's CEO, Kioxia remains difficult to touch."
-       }
-      },
-      {
        "handle": "hiro_tyun",
        "display_name": "hiro_tyun",
        "stance": "判定不能",
@@ -394,7 +419,7 @@
     },
     "30d": {
      "mention_count": 6,
-     "post_count": 32,
+     "post_count": 33,
      "bullish_count": 0,
      "bearish_count": 1,
      "neutral_count": 4,
@@ -405,7 +430,7 @@
        "investor_count": 5
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 2
       },
       {
@@ -413,7 +438,7 @@
        "investor_count": 2
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -426,6 +451,26 @@
       }
      ],
      "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "弱気",
+       "post_count": 3,
+       "topics": [
+        "売買",
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-17T12:25:22+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2111297491195105546",
+        "topic": "材料",
+        "stance": "判定不能",
+        "summary": "ウェビナー内容のトピックとしてキオクシア（285A）を挙げている。個別銘柄への投資判断はなし。",
+        "summary_en": "Kioxia (285A) is mentioned as a topic of the webinar content, with no investment judgment made on individual stocks."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -490,26 +535,6 @@
        }
       },
       {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "弱気",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-13T14:30:05+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2109879323989795127",
-        "topic": "材料",
-        "stance": "弱気",
-        "summary": "中国メモリー懸念とブロードコムCEOコメントを受け、下落銘柄は購入したがキオクシアは手を出しにくいとの判断。",
-        "summary_en": "Judgment that while fallen stocks were purchased in response to China memory concerns and comments from Broadcom's CEO, Kioxia remains difficult to touch."
-       }
-      },
-      {
        "handle": "hiro_tyun",
        "display_name": "hiro_tyun",
        "stance": "判定不能",
@@ -551,7 +576,7 @@
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-16T10:07:26+09:00"
+   "last_post_at": "2026-10-17T12:25:22+09:00"
   },
   {
    "ticker": "9984",
@@ -882,11 +907,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -1070,11 +1095,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
@@ -1367,11 +1392,11 @@
      "investor_count": 2
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
@@ -1601,11 +1626,11 @@
        "investor_count": 2
       },
       {
-       "topic": "業績",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "業績",
        "investor_count": 1
       },
       {
@@ -1808,40 +1833,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-10-16T16:26:29+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2110995783625675104",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "居酒屋株としてヨシックスを保有し分析を学ぶ意向",
-        "summary_en": "Intending to hold Yossix as an izakaya stock and learn analysis."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -2022,40 +2022,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-10-16T15:32:09+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2110982107304792246",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "楽天グループの大型起債について暴落時の流動性懸念を指摘",
-        "summary_en": "Pointed out liquidity concerns during a market crash regarding Rakuten Group's large-scale bond issuance."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -2796,40 +2771,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-10-16T16:26:29+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2110995783625675104",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "居酒屋株として光フードを保有し分析を学ぶ意向",
-        "summary_en": "Intending to hold Hikari Food Service as an izakaya stock and learn analysis."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3086,11 +3036,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -3210,11 +3160,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       },
       {
@@ -3302,40 +3252,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "カゴメの優待到着と含み損を報告。優待目的の購入に注意喚起。",
-        "summary_en": "Reported the arrival of Kagome's shareholder benefits and unrealized losses, warning against buying for the purpose of shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3738,40 +3663,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "はてなの記念優待と含み損を報告。",
-        "summary_en": "Reported Hatena's commemorative shareholder benefits and unrealized losses."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4648,7 +4548,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -4914,40 +4814,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-16T14:12:12+09:00",
-        "source_url": "https://x.com/19830128to/status/2110961987018694666",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "4662フォーカスシステムズに関するブログ記事のリンク投稿。",
-        "summary_en": "Link post for a blog article about 4662 Focus Systems."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5415,40 +5290,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "テクノロジーズの高額優待と含み損28万円を報告。優待目的購入のリスクを指摘。",
-        "summary_en": "Reported Technologies' high-value shareholder benefits and unrealized losses of ¥280,000, pointing out the risks of buying for the purpose of shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5739,40 +5589,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-16T17:15:36+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
-        "summary_en": null
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5906,40 +5731,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "島精機の優待到着を報告。",
-        "summary_en": "Reported the arrival of Shima Seiki's shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6233,7 +6033,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6585,6 +6385,198 @@
    "last_post_at": "2026-10-13T16:08:00+09:00"
   },
   {
+   "ticker": "7199",
+   "company": "プレミアグループ",
+   "company_en": "Premium Group Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-10-17T11:10:15+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
+      "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-17T11:10:15+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
+     "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-04T17:44:07+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
+     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-09-27T09:27:46+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
+     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-10-17T11:10:15+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
+        "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-10-17T11:10:15+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
+        "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他",
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-10-17T11:10:15+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
+        "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-17T11:10:15+09:00"
+  },
+  {
    "ticker": "7203",
    "company": "トヨタ自動車",
    "company_en": "Toyota Motor Corporation",
@@ -6831,7 +6823,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -10691,11 +10683,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -10775,11 +10767,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -19823,19 +19815,19 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "バリュエーション",
      "investor_count": 1
     },
     {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
      "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -19947,19 +19939,19 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
        "topic": "バリュエーション",
        "investor_count": 1
       },
       {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
        "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -20955,11 +20947,11 @@
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -21064,11 +21056,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -21113,11 +21105,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -21197,11 +21189,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -21245,11 +21237,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -21329,11 +21321,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -21601,11 +21593,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -21685,11 +21677,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -24079,7 +24071,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -24133,11 +24125,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -24217,11 +24209,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -24881,138 +24873,6 @@
     }
    },
    "last_post_at": "2026-10-04T17:44:23+09:00"
-  },
-  {
-   "ticker": "7199",
-   "company": "プレミアグループ株式会社",
-   "company_en": "Premium Group Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "その他",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "jammy_bot",
-      "display_name": "JAMMY",
-      "post_created_at": "2026-10-04T17:44:07+09:00",
-      "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-      "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-04T17:44:07+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-09-27T09:27:46+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
-     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "その他",
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-04T17:44:07+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-        "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-04T17:44:07+09:00"
   },
   {
    "ticker": "7287",
@@ -27927,15 +27787,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "業績",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -28026,15 +27886,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
        "topic": "決算",
        "investor_count": 1
       },
       {
        "topic": "業績",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -28077,7 +27937,7 @@
   {
    "handle": "jammy_bot",
    "display_name": "JAMMY",
-   "post_count": 65,
+   "post_count": 66,
    "ticker_count": 31
   },
   {
@@ -28095,7 +27955,7 @@
   {
    "handle": "abc87791035",
    "display_name": "ABCトレーダー",
-   "post_count": 21,
+   "post_count": 22,
    "ticker_count": 11
   },
   {
@@ -28234,46 +28094,27 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "その他",
-    "ticker_count": 4,
-    "tickers": [
-     "138A",
-     "3221",
-     "4502",
-     "4662"
-    ]
-   },
-   {
-    "topic": "優待",
-    "ticker_count": 4,
-    "tickers": [
-     "2811",
-     "3930",
-     "5248",
-     "6222"
-    ]
-   },
-   {
     "topic": "材料",
     "ticker_count": 3,
     "tickers": [
-     "4755",
+     "285A",
      "9021",
      "9022"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 1,
+    "ticker_count": 2,
     "tickers": [
-     "471A"
+     "471A",
+     "7199"
     ]
    },
    {
-    "topic": "決算",
+    "topic": "その他",
     "ticker_count": 1,
     "tickers": [
-     "6146"
+     "4502"
     ]
    }
   ],
@@ -28299,7 +28140,7 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 9,
+    "ticker_count": 10,
     "tickers": [
      "156A",
      "285A",
@@ -28307,6 +28148,7 @@
      "471A",
      "6857",
      "6920",
+     "7199",
      "7203",
      "8035",
      "9984"
