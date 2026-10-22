@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-22T13:23:30+09:00",
+ "generated_at": "2026-10-22T20:36:56+09:00",
  "translation": {
-  "summary_en_count": 479,
-  "summary_total": 488,
-  "company_en_count": 244,
-  "company_total": 244,
+  "summary_en_count": 484,
+  "summary_total": 493,
+  "company_en_count": 246,
+  "company_total": 246,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 570,
-  "rows_used": 488,
-  "rows_rejected": 82,
+  "rows_input": 582,
+  "rows_used": 493,
+  "rows_rejected": 89,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 82
+   "tickerが日本株コード形式でない/空": 89
   },
   "missing_company_tickers": []
  },
@@ -686,7 +686,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 2,
@@ -827,7 +827,7 @@
   {
    "ticker": "471A",
    "company": "NSグループ",
-   "company_en": "NS Group Co.,Ltd.",
+   "company_en": "NS GROUP CO., LTD.",
    "company_en_source": "machine",
    "mention_count": 2,
    "post_count": 5,
@@ -948,7 +948,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 2,
@@ -959,11 +959,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -1287,6 +1287,265 @@
    "last_post_at": "2026-10-18T08:45:00+09:00"
   },
   {
+   "ticker": "6146",
+   "company": "ディスコ",
+   "company_en": "DISCO CORPORATION",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 4,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "決算",
+     "investor_count": 2
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "強気",
+     "post_count": 2,
+     "topics": [
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-22T16:09:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2113165949029507184",
+      "topic": "決算",
+      "stance": "強気",
+      "summary": "2Q経常利益前年比44%増の好決算を報告",
+      "summary_en": "Reports strong financial results with a 44% year-on-year increase in 2Q ordinary profit."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "売買",
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-16T17:15:36+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
+      "topic": "決算",
+      "stance": "中立",
+      "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
+      "summary_en": null
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-22T16:09:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2113165949029507184",
+     "topic": "決算",
+     "stance": "強気",
+     "summary": "2Q経常利益前年比44%増の好決算を報告",
+     "summary_en": "Reports strong financial results with a 44% year-on-year increase in 2Q ordinary profit."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-22T16:03:26+09:00",
+     "source_url": "https://x.com/noatake1127/status/2113164307207004546",
+     "topic": "決算",
+     "stance": "中立",
+     "summary": "ディスコ決算関連投稿",
+     "summary_en": "Post related to Disco's financial results."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-16T17:15:36+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
+     "topic": "決算",
+     "stance": "中立",
+     "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
+     "summary_en": null
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-07T08:57:22+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2107621269286031839",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "ディスコの気配値を共有しただけで、今後の見通しは示されていない。",
+     "summary_en": "Only shared indicative quotes for Disco, and no future outlook is provided."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "強気",
+       "post_count": 2,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-22T16:09:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113165949029507184",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "2Q経常利益前年比44%増の好決算を報告",
+        "summary_en": "Reports strong financial results with a 44% year-on-year increase in 2Q ordinary profit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 2,
+     "post_count": 3,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 2
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "強気",
+       "post_count": 2,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-22T16:09:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113165949029507184",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "2Q経常利益前年比44%増の好決算を報告",
+        "summary_en": "Reports strong financial results with a 44% year-on-year increase in 2Q ordinary profit."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-16T17:15:36+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 4,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 2
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "強気",
+       "post_count": 2,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-22T16:09:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113165949029507184",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "2Q経常利益前年比44%増の好決算を報告",
+        "summary_en": "Reports strong financial results with a 44% year-on-year increase in 2Q ordinary profit."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-16T17:15:36+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-22T16:09:00+09:00"
+  },
+  {
    "ticker": "9984",
    "company": "ソフトバンクグループ",
    "company_en": "SoftBank Group Corp.",
@@ -1311,11 +1570,11 @@
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -1558,11 +1817,11 @@
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -1671,7 +1930,7 @@
      "investor_count": 2
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -1679,7 +1938,7 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -1892,7 +2151,7 @@
        "investor_count": 2
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
@@ -1900,7 +2159,7 @@
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -1972,8 +2231,8 @@
   },
   {
    "ticker": "3221",
-   "company": "ヨシックス",
-   "company_en": "Yoshix Holdings Co., Ltd.",
+   "company": "ヨシックスホールディングス",
+   "company_en": "YOSIX HOLDINGS CO.,LTD.",
    "company_en_source": "machine",
    "mention_count": 2,
    "post_count": 2,
@@ -1983,11 +2242,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -2110,11 +2369,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -2267,7 +2526,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -2371,7 +2630,7 @@
   {
    "ticker": "4258",
    "company": "網屋",
-   "company_en": "AMIYA Corporation",
+   "company_en": "Amiya Corporation",
    "company_en_source": "machine",
    "mention_count": 2,
    "post_count": 4,
@@ -2381,15 +2640,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -2547,7 +2806,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 2,
@@ -2558,15 +2817,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -2629,11 +2888,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -2781,11 +3040,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -2847,11 +3106,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
@@ -3011,11 +3270,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -3084,11 +3343,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -3211,11 +3470,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -3453,40 +3712,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-21T14:39:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2112780723153498123",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "ベステラ（1433）の公開Q&Aセミナーを告知。",
-        "summary_en": "Announced an open Q&A seminar for Besterra (1433)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3564,6 +3798,168 @@
    "last_post_at": "2026-10-21T14:39:00+09:00"
   },
   {
+   "ticker": "1540",
+   "company": "純金上場信託",
+   "company_en": "Japan Physical Gold ETF",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "tesuta001",
+      "display_name": "テスタ",
+      "post_created_at": "2026-10-22T15:57:00+09:00",
+      "source_url": "https://x.com/tesuta001/status/2113162883714732239",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "金ETF銘柄を言及",
+      "summary_en": "Mentions gold ETF stocks."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "post_created_at": "2026-10-22T15:57:00+09:00",
+     "source_url": "https://x.com/tesuta001/status/2113162883714732239",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "金ETF銘柄を言及",
+     "summary_en": "Mentions gold ETF stocks."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-10-22T15:57:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2113162883714732239",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "金ETF銘柄を言及",
+        "summary_en": "Mentions gold ETF stocks."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-10-22T15:57:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2113162883714732239",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "金ETF銘柄を言及",
+        "summary_en": "Mentions gold ETF stocks."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-10-22T15:57:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2113162883714732239",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "金ETF銘柄を言及",
+        "summary_en": "Mentions gold ETF stocks."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-22T15:57:00+09:00"
+  },
+  {
    "ticker": "2158",
    "company": "FRONTEO",
    "company_en": "FRONTEO, Inc.",
@@ -3615,40 +4011,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-21T16:54:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2112814808886300958",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "あらたとFRONTEOの会社説明会開催を告知。",
-        "summary_en": "Announced that company briefing sessions will be held for Arata and FRONTEO."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4086,40 +4457,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-10-21T15:40:00+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2112796223581442147",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "IRセミナー登壇告知（引用内に翻訳センター2483等）。",
-        "summary_en": "Notice of an IR seminar speaking appearance (including Honyaku Center 2483, etc., in the quote)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4248,40 +4594,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-21T16:54:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2112814808886300958",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "あらたとFRONTEOの会社説明会開催を告知。",
-        "summary_en": "Announced that company briefing sessions will be held for Arata and FRONTEO."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4807,11 +5128,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -4916,11 +5237,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -5150,40 +5471,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-10-21T17:22:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2112821799591583939",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "海帆をIPOからウォッチしてきたが、最近株価低迷で言及意欲低下。",
-        "summary_en": "I have been watching Kaihan since its IPO, but my motivation to mention it has declined due to the recent sluggish share price."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5312,40 +5608,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-10-21T17:22:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2112821799591583939",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "メタプラネットを以前からウォッチしていたが、最近株価低迷で言及意欲低下。",
-        "summary_en": "I have been watching Metaplanet for some time, but my motivation to mention it has declined due to the recent sluggish share price."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5561,7 +5832,7 @@
   },
   {
    "ticker": "3962",
-   "company": "チェンジHD",
+   "company": "チェンジホールディングス",
    "company_en": "CHANGE Holdings, Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -6340,143 +6611,6 @@
    "last_post_at": "2026-10-18T11:10:07+09:00"
   },
   {
-   "ticker": "4658",
-   "company": "日本空調サービス",
-   "company_en": "NIPPON AIR CONDITIONING SERVICES CO., LTD.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-10-15T16:29:36+09:00",
-      "source_url": "https://x.com/19830128to/status/2110634177033072782",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
-      "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-10-15T16:29:36+09:00",
-     "source_url": "https://x.com/19830128to/status/2110634177033072782",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
-     "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-15T16:29:36+09:00",
-        "source_url": "https://x.com/19830128to/status/2110634177033072782",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
-        "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-15T16:29:36+09:00",
-        "source_url": "https://x.com/19830128to/status/2110634177033072782",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
-        "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-15T16:29:36+09:00"
-  },
-  {
    "ticker": "4662",
    "company": "フォーカスシステムズ",
    "company_en": "Focus Systems Corporation",
@@ -6939,40 +7073,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-21T15:14:00+09:00",
-        "source_url": "https://x.com/19830128to/status/2112789517451329624",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "東計電算(4746)の2025年に関するブログ記事を共有。",
-        "summary_en": "Shared a blog post regarding Toukei Computer (4746) in 2025."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7109,7 +7218,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7804,7 +7913,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7880,163 +7989,6 @@
     }
    },
    "last_post_at": "2026-10-20T13:26:41+09:00"
-  },
-  {
-   "ticker": "6146",
-   "company": "ディスコ",
-   "company_en": "DISCO CORPORATION",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "決算",
-     "investor_count": 1
-    },
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "売買",
-      "決算"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-16T17:15:36+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
-      "topic": "決算",
-      "stance": "中立",
-      "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
-      "summary_en": null
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-16T17:15:36+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
-     "topic": "決算",
-     "stance": "中立",
-     "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
-     "summary_en": null
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-07T08:57:22+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2107621269286031839",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "ディスコの気配値を共有しただけで、今後の見通しは示されていない。",
-     "summary_en": "Only shared indicative quotes for Disco, and no future outlook is provided."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-16T17:15:36+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
-        "summary_en": null
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-16T17:15:36+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2111008141186109800",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "ディスコの4-9月営業最高益・AI向け好調で計画上振れのニュース共有",
-        "summary_en": null
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-16T17:15:36+09:00"
   },
   {
    "ticker": "6222",
@@ -8724,163 +8676,6 @@
    "last_post_at": "2026-10-19T10:16:23+09:00"
   },
   {
-   "ticker": "6578",
-   "company": "株式会社コレックホールディングス",
-   "company_en": "CORREC HOLDINGS Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 3,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-10-15T15:52:45+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
-      "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-15T15:52:45+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
-     "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
-    },
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-15T08:16:00+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2110510156832543141",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "本日のIR説明会として7361ヒューマンクリエイションホールディングスと6578コレックホールディングスを紹介。",
-     "summary_en": "Introducing 7361 Human Creation Holdings and 6578 Kolec Holdings as today's IR briefing sessions."
-    },
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-09-28T17:16:42+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
-     "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-15T15:52:45+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
-        "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-15T15:52:45+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
-        "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-15T15:52:45+09:00"
-  },
-  {
    "ticker": "7011",
    "company": "三菱重工業",
    "company_en": "Mitsubishi Heavy Industries, Ltd.",
@@ -8960,7 +8755,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -9089,40 +8884,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-10-21T15:40:00+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2112796223581442147",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "IRセミナー登壇告知（引用内に一家ホールディングス7127等）。",
-        "summary_en": "Notice of an IR seminar speaking appearance (including Ichika Holdings 7127, etc., in the quote)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9502,183 +9272,6 @@
     }
    },
    "last_post_at": "2026-10-20T12:52:00+09:00"
-  },
-  {
-   "ticker": "7361",
-   "company": "株式会社ヒューマンクリエイションホールディングス",
-   "company_en": "Human Creation Holdings, Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 5,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 5,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-10-15T18:00:35+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "IR説明会開催の告知（証券コード7361）",
-      "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-15T18:00:35+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "IR説明会開催の告知（証券コード7361）",
-     "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
-    },
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-15T17:59:33+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2110656816829104171",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "IR説明会の登壇者告知（7361）",
-     "summary_en": "Announcement of speakers for the IR briefing (7361)."
-    },
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-15T15:52:08+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2110624750951338029",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "湘南投資勉強会によるヒューマンクリエイションホールディングス(7361)のIR説明会告知。",
-     "summary_en": "Announcement of an IR briefing for Human Creation Holdings (7361) by the Shonan Investment Study Group."
-    },
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-15T08:16:00+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2110510156832543141",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "本日のIR説明会として7361ヒューマンクリエイションホールディングスと6578コレックホールディングスを紹介。",
-     "summary_en": "Introducing 7361 Human Creation Holdings and 6578 Kolec Holdings as today's IR briefing sessions."
-    },
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-09-28T17:16:20+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
-     "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-15T18:00:35+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "IR説明会開催の告知（証券コード7361）",
-        "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 5,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 5,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-15T18:00:35+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "IR説明会開催の告知（証券コード7361）",
-        "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-15T18:00:35+09:00"
   },
   {
    "ticker": "7453",
@@ -10115,6 +9708,178 @@
     }
    },
    "last_post_at": "2026-10-18T06:35:51+09:00"
+  },
+  {
+   "ticker": "7974",
+   "company": "任天堂",
+   "company_en": "Nintendo Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "stance": "弱気",
+     "post_count": 2,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "tesuta001",
+      "display_name": "テスタ",
+      "post_created_at": "2026-10-22T15:52:00+09:00",
+      "source_url": "https://x.com/tesuta001/status/2113161588291293284",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "任天堂を含み損ポジションとして言及",
+      "summary_en": "Mentions Nintendo as an unrealized loss position."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "post_created_at": "2026-10-22T15:52:00+09:00",
+     "source_url": "https://x.com/tesuta001/status/2113161588291293284",
+     "topic": "売買",
+     "stance": "弱気",
+     "summary": "任天堂を含み損ポジションとして言及",
+     "summary_en": "Mentions Nintendo as an unrealized loss position."
+    },
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "post_created_at": "2026-10-22T12:04:18+09:00",
+     "source_url": "https://x.com/tesuta001/status/2113104129816187226",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "長期口座の定期観察で任天堂関連保有の評価額増加を報告",
+     "summary_en": "Reports an increase in the valuation of Nintendo-related holdings during a periodic review of a long-term account."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-10-22T15:52:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2113161588291293284",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "任天堂を含み損ポジションとして言及",
+        "summary_en": "Mentions Nintendo as an unrealized loss position."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-10-22T15:52:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2113161588291293284",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "任天堂を含み損ポジションとして言及",
+        "summary_en": "Mentions Nintendo as an unrealized loss position."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-10-22T15:52:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2113161588291293284",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "任天堂を含み損ポジションとして言及",
+        "summary_en": "Mentions Nintendo as an unrealized loss position."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-22T15:52:00+09:00"
   },
   {
    "ticker": "8113",
@@ -11401,40 +11166,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-10-21T15:40:00+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2112796223581442147",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "IRセミナー登壇告知（引用内に旭情報サービス9799等）。",
-        "summary_en": "Notice of an IR seminar speaking appearance (including Asahi Intelligence Service 9799, etc., in the quote)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -11651,7 +11391,7 @@
   {
    "ticker": "6594",
    "company": "ニデック",
-   "company_en": "Nidec Corporation",
+   "company_en": "NIDEC CORPORATION",
    "company_en_source": "machine",
    "mention_count": 5,
    "post_count": 16,
@@ -11669,6 +11409,10 @@
      "investor_count": 2
     },
     {
+     "topic": "優待",
+     "investor_count": 1
+    },
+    {
      "topic": "決算",
      "investor_count": 1
     },
@@ -11678,10 +11422,6 @@
     },
     {
      "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -11878,6 +11618,10 @@
        "investor_count": 2
       },
       {
+       "topic": "優待",
+       "investor_count": 1
+      },
+      {
        "topic": "決算",
        "investor_count": 1
       },
@@ -11887,10 +11631,6 @@
       },
       {
        "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -12002,7 +11742,7 @@
   },
   {
    "ticker": "2702",
-   "company": "日本マクドナルドホールディングス株式会社",
+   "company": "日本マクドナルドホールディングス",
    "company_en": "McDonald's Holdings Company (Japan), Ltd.",
    "company_en_source": "machine",
    "mention_count": 2,
@@ -12013,11 +11753,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -12135,11 +11875,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -12405,11 +12145,11 @@
      "investor_count": 2
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -12543,11 +12283,11 @@
        "investor_count": 2
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -12760,8 +12500,8 @@
   },
   {
    "ticker": "6227",
-   "company": "AIメカテック",
-   "company_en": "AI MECHATECH CORPORATION",
+   "company": "ＡＩメカテック",
+   "company_en": "AI MECHATEC INNOVATIONS INC.",
    "company_en_source": "machine",
    "mention_count": 2,
    "post_count": 5,
@@ -12775,11 +12515,11 @@
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -12913,11 +12653,11 @@
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -13078,7 +12818,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 2,
@@ -13140,7 +12880,7 @@
   },
   {
    "ticker": "6758",
-   "company": "ソニーグループ株式会社",
+   "company": "ソニーグループ",
    "company_en": "Sony Group Corporation",
    "company_en_source": "machine",
    "mention_count": 2,
@@ -13151,11 +12891,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -13253,11 +12993,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -13319,11 +13059,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -13421,11 +13161,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -13476,7 +13216,7 @@
   },
   {
    "ticker": "7133",
-   "company": "HYUGA PRIMARY CARE株式会社",
+   "company": "株式会社HYUGA PRIMARY CARE",
    "company_en": "HYUGA PRIMARY CARE Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 2,
@@ -13816,7 +13556,7 @@
   },
   {
    "ticker": "135A",
-   "company": "株式会社VRAIN",
+   "company": "VRAIN",
    "company_en": "VRAIN Solution Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -14182,7 +13922,7 @@
   },
   {
    "ticker": "156A",
-   "company": "マテリアルグループ株式会社",
+   "company": "マテリアルグループ",
    "company_en": "Material Group Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -14670,7 +14410,7 @@
   },
   {
    "ticker": "175A",
-   "company": "Will Smart",
+   "company": "株式会社Will Smart",
    "company_en": "Will Smart Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -15505,7 +15245,7 @@
   {
    "ticker": "228A",
    "company": "オプロ",
-   "company_en": "OPRO Co., Ltd.",
+   "company_en": "OPRO Co.,Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 3,
@@ -15515,11 +15255,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "決算",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "決算",
      "investor_count": 1
     },
     {
@@ -15614,11 +15354,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "決算",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "決算",
        "investor_count": 1
       },
       {
@@ -15667,11 +15407,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -15751,11 +15491,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -16022,7 +15762,7 @@
   },
   {
    "ticker": "247A",
-   "company": "Aiロボティクス株式会社",
+   "company": "AIロボティクス",
    "company_en": "Ai Robotics Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -16154,7 +15894,7 @@
   },
   {
    "ticker": "2579",
-   "company": "コカ・コーラボトラーズジャパンホールディングス株式会社",
+   "company": "コカコーラ",
    "company_en": "Coca-Cola Bottlers Japan Holdings Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -16398,7 +16138,7 @@
   },
   {
    "ticker": "2737",
-   "company": "株式会社トーメンデバイス",
+   "company": "トーメンデバイス",
    "company_en": "TOMEN DEVICES CORPORATION",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -16774,7 +16514,7 @@
   },
   {
    "ticker": "286A",
-   "company": "株式会社ユカリア",
+   "company": "ユカリア",
    "company_en": "Eucalia Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -18265,7 +18005,7 @@
   },
   {
    "ticker": "341A",
-   "company": "株式会社トヨコー",
+   "company": "トヨコー",
    "company_en": "Toyokoh Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -18510,7 +18250,7 @@
   {
    "ticker": "3496",
    "company": "アズーム",
-   "company_en": "AZOOM Co., Ltd.",
+   "company_en": "AZOOM CO.,LTD.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 3,
@@ -18603,7 +18343,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -18895,8 +18635,8 @@
   },
   {
    "ticker": "3673",
-   "company": "株式会社ブロードリーフ",
-   "company_en": "Broadleaf Co., Ltd.",
+   "company": "ブロードリーフ",
+   "company_en": "Broadleaf Co.,Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 2,
@@ -19699,7 +19439,7 @@
   },
   {
    "ticker": "3901",
-   "company": "株式会社マークラインズ",
+   "company": "マークラインズ",
    "company_en": "MarkLines Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -20513,7 +20253,7 @@
   },
   {
    "ticker": "4169",
-   "company": "ENECHANGE株式会社",
+   "company": "ENECHANGE",
    "company_en": "ENECHANGE Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -21093,8 +20833,8 @@
   },
   {
    "ticker": "4374",
-   "company": "株式会社ロボペイ",
-   "company_en": "ROBOT PAYMENT Inc.",
+   "company": "ロボペイ",
+   "company_en": "ROBOT PAYMENT INC.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 2,
@@ -21225,7 +20965,7 @@
   },
   {
    "ticker": "4377",
-   "company": "株式会社ワンキャリア",
+   "company": "ワンキャリア",
    "company_en": "ONE CAREER Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -21693,7 +21433,7 @@
   },
   {
    "ticker": "4412",
-   "company": "株式会社サイエンスアーツ",
+   "company": "サイエンスアーツ",
    "company_en": "Science Arts, Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -22313,7 +22053,7 @@
   },
   {
    "ticker": "4486",
-   "company": "株式会社ユナイトアンドグロウ",
+   "company": "ユナイトアンドグロウ",
    "company_en": "Unite and Grow Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -22790,8 +22530,120 @@
    "last_post_at": "2026-10-07T16:17:00+09:00"
   },
   {
+   "ticker": "4658",
+   "company": "日本空調サービス",
+   "company_en": "NIPPON AIR CONDITIONING SERVICES CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-15T16:29:36+09:00",
+      "source_url": "https://x.com/19830128to/status/2110634177033072782",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
+      "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-15T16:29:36+09:00",
+     "source_url": "https://x.com/19830128to/status/2110634177033072782",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
+     "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-15T16:29:36+09:00",
+        "source_url": "https://x.com/19830128to/status/2110634177033072782",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "某哲也が日本空調サービス（4658）の2026年に関するブログ記事を共有。",
+        "summary_en": "A certain Tetsuya shared a blog post regarding 2026 for Nippon Air Conditioning Services (4658)."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-15T16:29:36+09:00"
+  },
+  {
    "ticker": "4666",
-   "company": "パーク24株式会社",
+   "company": "パーク24",
    "company_en": "PARK24 Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -23137,8 +22989,8 @@
   },
   {
    "ticker": "477A",
-   "company": "株式会社スタートライン",
-   "company_en": "Start Line Co., Ltd.",
+   "company": "スタートライン",
+   "company_en": "Start Line Co.,Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 2,
@@ -23879,7 +23731,7 @@
   },
   {
    "ticker": "5038",
-   "company": "株式会社eWeLL",
+   "company": "eWeLL",
    "company_en": "eWeLL Co.,Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -24245,7 +24097,7 @@
   },
   {
    "ticker": "5532",
-   "company": "株式会社リアルゲイト",
+   "company": "リアルゲイト",
    "company_en": "REALGATE INC.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -24377,7 +24229,7 @@
   },
   {
    "ticker": "558A",
-   "company": "株式会社SQUEEZE",
+   "company": "SQUEEZE",
    "company_en": "SQUEEZE Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -25079,7 +24931,7 @@
   },
   {
    "ticker": "593A",
-   "company": "株式会社ティアフォー",
+   "company": "ティアフォー",
    "company_en": "TIER IV, INC.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -25094,15 +24946,15 @@
      "investor_count": 1
     },
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "需給",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -25218,15 +25070,15 @@
        "investor_count": 1
       },
       {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "需給",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -26218,15 +26070,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "需給",
      "investor_count": 1
     },
     {
      "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -26327,15 +26179,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
        "topic": "需給",
        "investor_count": 1
       },
       {
        "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -26380,11 +26232,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -26464,11 +26316,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -26868,11 +26720,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -26952,11 +26804,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -27681,7 +27533,7 @@
   },
   {
    "ticker": "6533",
-   "company": "株式会社Orchestra Holdings",
+   "company": "オーケストラホールディングス",
    "company_en": "Orchestra Holdings Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -27800,6 +27652,138 @@
     }
    },
    "last_post_at": "2026-10-05T11:02:00+09:00"
+  },
+  {
+   "ticker": "6578",
+   "company": "株式会社コレックホールディングス",
+   "company_en": "CORREC HOLDINGS Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-10-15T15:52:45+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
+      "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-15T15:52:45+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
+     "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-15T08:16:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2110510156832543141",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "本日のIR説明会として7361ヒューマンクリエイションホールディングスと6578コレックホールディングスを紹介。",
+     "summary_en": "Introducing 7361 Human Creation Holdings and 6578 Kolec Holdings as today's IR briefing sessions."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-09-28T17:16:42+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2104485437138165862",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "10月15日にコレックホールディングス（6578）のIR説明会開催を告知した。",
+     "summary_en": "Announced that an IR briefing for Coreck Holdings (6578) will be held on October 15."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-10-15T15:52:45+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2110624904920076588",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "湘南投資勉強会によるコレックホールディングス(6578)のIR説明会告知。",
+        "summary_en": "Announcement of an IR briefing for Coreck Holdings (6578) by the Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-15T15:52:45+09:00"
   },
   {
    "ticker": "6613",
@@ -28037,7 +28021,7 @@
   },
   {
    "ticker": "6701",
-   "company": "日本電気株式会社",
+   "company": "NEC",
    "company_en": "NEC Corporation",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -29502,11 +29486,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -29586,11 +29570,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -29623,7 +29607,7 @@
   },
   {
    "ticker": "7047",
-   "company": "株式会社ポート",
+   "company": "ポート",
    "company_en": "PORT INC.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -29878,11 +29862,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     },
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -30091,8 +30075,8 @@
   },
   {
    "ticker": "7134",
-   "company": "株式会社アップガレージ",
-   "company_en": "UP GARAGE Co., Ltd.",
+   "company": "アップガレージ",
+   "company_en": "UP GARAGE GROUP Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 2,
@@ -30464,6 +30448,158 @@
     }
    },
    "last_post_at": "2026-10-07T16:17:00+09:00"
+  },
+  {
+   "ticker": "7361",
+   "company": "株式会社ヒューマンクリエイションホールディングス",
+   "company_en": "Human Creation Holdings, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 5,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 5,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-10-15T18:00:35+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "IR説明会開催の告知（証券コード7361）",
+      "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-15T18:00:35+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IR説明会開催の告知（証券コード7361）",
+     "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-15T17:59:33+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2110656816829104171",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IR説明会の登壇者告知（7361）",
+     "summary_en": "Announcement of speakers for the IR briefing (7361)."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-15T15:52:08+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2110624750951338029",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "湘南投資勉強会によるヒューマンクリエイションホールディングス(7361)のIR説明会告知。",
+     "summary_en": "Announcement of an IR briefing for Human Creation Holdings (7361) by the Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-15T08:16:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2110510156832543141",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "本日のIR説明会として7361ヒューマンクリエイションホールディングスと6578コレックホールディングスを紹介。",
+     "summary_en": "Introducing 7361 Human Creation Holdings and 6578 Kolec Holdings as today's IR briefing sessions."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-09-28T17:16:20+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2104485343768772903",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "10月15日にヒューマンクリエイションホールディングス（7361）のIR説明会開催を告知した。",
+     "summary_en": "Announced that an IR briefing for Human Creation Holdings (7361) will be held on October 15."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 5,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 5,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-10-15T18:00:35+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2110657076838187454",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "IR説明会開催の告知（証券コード7361）",
+        "summary_en": "Announcement of holding an IR briefing (securities code 7361)."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-15T18:00:35+09:00"
   },
   {
    "ticker": "7564",
@@ -32543,7 +32679,7 @@
   },
   {
    "ticker": "9272",
-   "company": "株式会社ブティックス",
+   "company": "ブティックス",
    "company_en": "Boutiques, Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
@@ -33512,8 +33648,8 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 220,
-   "ticker_count": 112
+   "post_count": 222,
+   "ticker_count": 113
   },
   {
    "handle": "jammy_bot",
@@ -33564,6 +33700,12 @@
    "ticker_count": 10
   },
   {
+   "handle": "tesuta001",
+   "display_name": "テスタ",
+   "post_count": 4,
+   "ticker_count": 3
+  },
+  {
    "handle": "cadillac600",
    "display_name": "むらやん/村上直樹",
    "post_count": 3,
@@ -33590,12 +33732,6 @@
   {
    "handle": "tarouyuuki0322",
    "display_name": "結喜たろう",
-   "post_count": 1,
-   "ticker_count": 1
-  },
-  {
-   "handle": "tesuta001",
-   "display_name": "テスタ",
    "post_count": 1,
    "ticker_count": 1
   }
@@ -33625,7 +33761,7 @@
    {
     "ticker": "471A",
     "company": "NSグループ",
-    "company_en": "NS Group Co.,Ltd.",
+    "company_en": "NS GROUP CO., LTD.",
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 0,
@@ -33640,6 +33776,16 @@
     "mention_count": 2,
     "prev_mention_count": 0,
     "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
+    "ticker": "6146",
+    "company": "ディスコ",
+    "company_en": "DISCO CORPORATION",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 0,
+    "bullish_count": 1,
     "bearish_count": 0
    }
   ],
@@ -33657,7 +33803,7 @@
    {
     "ticker": "471A",
     "company": "NSグループ",
-    "company_en": "NS Group Co.,Ltd.",
+    "company_en": "NS GROUP CO., LTD.",
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 0,
@@ -33673,6 +33819,16 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
+   },
+   {
+    "ticker": "6146",
+    "company": "ディスコ",
+    "company_en": "DISCO CORPORATION",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 0,
+    "bullish_count": 1,
+    "bearish_count": 0
    }
   ],
   "split": []
@@ -33680,33 +33836,32 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "その他",
-    "ticker_count": 9,
-    "tickers": [
-     "1433",
-     "2483",
-     "3133",
-     "3350",
-     "4746",
-     "6976",
-     "7127",
-     "9799",
-     "9984"
-    ]
-   },
-   {
     "topic": "材料",
-    "ticker_count": 9,
+    "ticker_count": 7,
     "tickers": [
-     "2158",
      "2326",
-     "2733",
      "276A",
      "3962",
      "4258",
      "4398",
      "4475",
      "4493"
+    ]
+   },
+   {
+    "topic": "その他",
+    "ticker_count": 3,
+    "tickers": [
+     "1540",
+     "6976",
+     "9984"
+    ]
+   },
+   {
+    "topic": "決算",
+    "ticker_count": 1,
+    "tickers": [
+     "6146"
     ]
    },
    {
@@ -33722,15 +33877,23 @@
     "tickers": [
      "6976"
     ]
+   },
+   {
+    "topic": "売買",
+    "ticker_count": 1,
+    "tickers": [
+     "7974"
+    ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 26,
+    "ticker_count": 24,
     "tickers": [
      "138A",
      "1433",
+     "1540",
      "2483",
      "285A",
      "2914",
@@ -33739,7 +33902,6 @@
      "3350",
      "3697",
      "4502",
-     "4658",
      "4662",
      "4685",
      "4687",
@@ -33747,10 +33909,8 @@
      "4746",
      "4997",
      "5527",
-     "6578",
      "6976",
      "7127",
-     "7361",
      "7453",
      "7552",
      "9799",
@@ -33786,7 +33946,7 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 13,
+    "ticker_count": 14,
     "tickers": [
      "2440",
      "285A",
@@ -33798,6 +33958,7 @@
      "6857",
      "7199",
      "7356",
+     "7974",
      "8113",
      "9307",
      "9820"
@@ -33836,28 +33997,29 @@
     ]
    },
    {
-    "topic": "バリュエーション",
-    "ticker_count": 1,
-    "tickers": [
-     "9984"
-    ]
-   },
-   {
     "topic": "決算",
     "ticker_count": 1,
     "tickers": [
      "6146"
+    ]
+   },
+   {
+    "topic": "バリュエーション",
+    "ticker_count": 1,
+    "tickers": [
+     "9984"
     ]
    }
   ],
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 83,
+    "ticker_count": 84,
     "tickers": [
      "135A",
      "138A",
      "1433",
+     "1540",
      "156A",
      "2120",
      "228A",
@@ -34016,7 +34178,7 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 61,
+    "ticker_count": 62,
     "tickers": [
      "135A",
      "1475",
@@ -34071,6 +34233,7 @@
      "7199",
      "7203",
      "7356",
+     "7974",
      "8035",
      "8053",
      "8113",
