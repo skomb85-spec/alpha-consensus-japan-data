@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-24T13:18:24+09:00",
+ "generated_at": "2026-10-24T19:44:41+09:00",
  "translation": {
-  "summary_en_count": 506,
-  "summary_total": 515,
-  "company_en_count": 253,
-  "company_total": 253,
+  "summary_en_count": 513,
+  "summary_total": 523,
+  "company_en_count": 256,
+  "company_total": 256,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 605,
-  "rows_used": 515,
+  "rows_input": 613,
+  "rows_used": 523,
   "rows_rejected": 90,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 90
@@ -37,10 +37,10 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 8,
-   "post_count": 41,
-   "bullish_count": 0,
+   "post_count": 45,
+   "bullish_count": 1,
    "bearish_count": 0,
-   "neutral_count": 8,
+   "neutral_count": 7,
    "unknown_count": 0,
    "topics": [
     {
@@ -61,31 +61,53 @@
     },
     {
      "topic": "バリュエーション",
-     "investor_count": 1
+     "investor_count": 2
     },
     {
      "topic": "配当",
-     "investor_count": 1
+     "investor_count": 2
     }
    ],
    "investors": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "中立",
+     "post_count": 5,
+     "topics": [
+      "バリュエーション",
+      "売買",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-10-24T16:07:00+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2113890000823857476",
+      "topic": "バリュエーション",
+      "stance": "判定不能",
+      "summary": "キオクシアの詳細分析noteを共有。予想PER3倍台での株価見通しを分析。",
+      "summary_en": "Shared a detailed analysis note on Kioxia, analyzing the stock price outlook at a forward PER in the 3x range."
+     }
+    },
+    {
      "handle": "yuutaihiroto",
      "display_name": "桐谷広人・桐谷さん【公式】",
-     "stance": "中立",
-     "post_count": 1,
+     "stance": "強気",
+     "post_count": 4,
      "topics": [
-      "売買"
+      "売買",
+      "配当"
      ],
      "latest_post": {
       "handle": "yuutaihiroto",
       "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-10-24T05:28:00+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2113729268828225770",
+      "post_created_at": "2026-10-24T15:37:00+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2113882516885237939",
       "topic": "売買",
-      "stance": "中立",
-      "summary": "高値から大幅下落したキオクシアを反発狙いと買い、約定後さらに下落したがのんびり保有。",
-      "summary_en": "Bought Kioxia, which had fallen sharply from its high, aiming for a rebound, and although it dropped further after execution, holding it leisurely."
+      "stance": "強気",
+      "summary": "株価が3分の1になったキオクシアを弱った猛獣に例え、捕まえやすいとの見解。",
+      "summary_en": null
      }
     },
     {
@@ -105,26 +127,6 @@
       "stance": "中立",
       "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
       "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-     }
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "中立",
-     "post_count": 4,
-     "topics": [
-      "売買",
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-10-23T13:59:26+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2113495490365190491",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "半導体関連株を購入、キオクシアを例示。",
-      "summary_en": "Purchased semiconductor-related stocks, citing Kioxia as an example."
      }
     },
     {
@@ -232,6 +234,46 @@
    ],
    "latest_posts": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-10-24T16:07:00+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2113890000823857476",
+     "topic": "バリュエーション",
+     "stance": "判定不能",
+     "summary": "キオクシアの詳細分析noteを共有。予想PER3倍台での株価見通しを分析。",
+     "summary_en": "Shared a detailed analysis note on Kioxia, analyzing the stock price outlook at a forward PER in the 3x range."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-24T15:37:00+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2113882516885237939",
+     "topic": "売買",
+     "stance": "強気",
+     "summary": "株価が3分の1になったキオクシアを弱った猛獣に例え、捕まえやすいとの見解。",
+     "summary_en": null
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-24T15:26:00+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2113879888218505277",
+     "topic": "配当",
+     "stance": "中立",
+     "summary": "キオクシアの累進配当方針により来年から配当が出る見通しを共有。",
+     "summary_en": "Shared the outlook that dividends will be paid starting next year due to Kioxia's progressive dividend policy."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-24T15:21:00+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2113878463925170385",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "キオクシアについてさらに下落して年初来安値をつけるまで待つことを推奨。",
+     "summary_en": "Recommends waiting for Kioxia to fall further and hit a new year-to-date low."
+    },
+    {
      "handle": "yuutaihiroto",
      "display_name": "桐谷広人・桐谷さん【公式】",
      "post_created_at": "2026-10-24T05:28:00+09:00",
@@ -240,129 +282,79 @@
      "stance": "中立",
      "summary": "高値から大幅下落したキオクシアを反発狙いと買い、約定後さらに下落したがのんびり保有。",
      "summary_en": "Bought Kioxia, which had fallen sharply from its high, aiming for a rebound, and although it dropped further after execution, holding it leisurely."
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "post_created_at": "2026-10-23T17:07:40+09:00",
-     "source_url": "https://x.com/hiro_tyun/status/2113542862646501835",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
-     "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-10-23T13:59:26+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2113495490365190491",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "半導体関連株を購入、キオクシアを例示。",
-     "summary_en": "Purchased semiconductor-related stocks, citing Kioxia as an example."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-20T13:07:45+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2112395319275368730",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "キオクシアにピュアなマネーが集まり過ぎているとの指摘に短い反応。",
-     "summary_en": "Brief reaction to a point that too much pure money is gathering in Kioxia."
-    },
-    {
-     "handle": "daiboucho",
-     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-     "post_created_at": "2026-10-20T11:30:48+09:00",
-     "source_url": "https://x.com/DAIBOUCHO/status/2112370920564347012",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "キオクシアの過去の日中下落・オーバーナイト上昇パターンを指摘し、デイトレが損失に都合良いと分析。",
-     "summary_en": "Points out Kioxia's past pattern of daytime drops and overnight gains, analyzing that day trading is convenient for losses."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 3,
-     "post_count": 3,
-     "bullish_count": 0,
+     "mention_count": 2,
+     "post_count": 5,
+     "bullish_count": 1,
      "bearish_count": 0,
-     "neutral_count": 3,
-     "unknown_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
      "topics": [
       {
+       "topic": "配当",
+       "investor_count": 1
+      },
+      {
        "topic": "売買",
-       "investor_count": 3
+       "investor_count": 1
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
       }
      ],
      "investors": [
       {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T05:28:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113729268828225770",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "高値から大幅下落したキオクシアを反発狙いと買い、約定後さらに下落したがのんびり保有。",
-        "summary_en": "Bought Kioxia, which had fallen sharply from its high, aiming for a rebound, and although it dropped further after execution, holding it leisurely."
-       }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-23T17:07:40+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2113542862646501835",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
-        "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-       }
-      },
-      {
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
-       "stance": "中立",
+       "stance": "判定不能",
        "post_count": 1,
        "topics": [
-        "売買"
+        "バリュエーション"
        ],
        "latest_post": {
         "handle": "abc87791035",
         "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-23T13:59:26+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2113495490365190491",
+        "post_created_at": "2026-10-24T16:07:00+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2113890000823857476",
+        "topic": "バリュエーション",
+        "stance": "判定不能",
+        "summary": "キオクシアの詳細分析noteを共有。予想PER3倍台での株価見通しを分析。",
+        "summary_en": "Shared a detailed analysis note on Kioxia, analyzing the stock price outlook at a forward PER in the 3x range."
+       }
+      },
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "強気",
+       "post_count": 4,
+       "topics": [
+        "売買",
+        "配当"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-24T15:37:00+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113882516885237939",
         "topic": "売買",
-        "stance": "中立",
-        "summary": "半導体関連株を購入、キオクシアを例示。",
-        "summary_en": "Purchased semiconductor-related stocks, citing Kioxia as an example."
+        "stance": "強気",
+        "summary": "株価が3分の1になったキオクシアを弱った猛獣に例え、捕まえやすいとの見解。",
+        "summary_en": null
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 6,
-     "post_count": 8,
-     "bullish_count": 0,
+     "post_count": 12,
+     "bullish_count": 1,
      "bearish_count": 0,
-     "neutral_count": 6,
+     "neutral_count": 5,
      "unknown_count": 0,
      "topics": [
       {
@@ -376,26 +368,55 @@
       {
        "topic": "その他",
        "investor_count": 1
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "配当",
+       "investor_count": 1
       }
      ],
      "investors": [
       {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "バリュエーション",
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-24T16:07:00+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2113890000823857476",
+        "topic": "バリュエーション",
+        "stance": "判定不能",
+        "summary": "キオクシアの詳細分析noteを共有。予想PER3倍台での株価見通しを分析。",
+        "summary_en": "Shared a detailed analysis note on Kioxia, analyzing the stock price outlook at a forward PER in the 3x range."
+       }
+      },
+      {
        "handle": "yuutaihiroto",
        "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
+       "stance": "強気",
+       "post_count": 4,
        "topics": [
-        "売買"
+        "売買",
+        "配当"
        ],
        "latest_post": {
         "handle": "yuutaihiroto",
         "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T05:28:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113729268828225770",
+        "post_created_at": "2026-10-24T15:37:00+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113882516885237939",
         "topic": "売買",
-        "stance": "中立",
-        "summary": "高値から大幅下落したキオクシアを反発狙いと買い、約定後さらに下落したがのんびり保有。",
-        "summary_en": "Bought Kioxia, which had fallen sharply from its high, aiming for a rebound, and although it dropped further after execution, holding it leisurely."
+        "stance": "強気",
+        "summary": "株価が3分の1になったキオクシアを弱った猛獣に例え、捕まえやすいとの見解。",
+        "summary_en": null
        }
       },
       {
@@ -415,25 +436,6 @@
         "stance": "中立",
         "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
         "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-       }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-23T13:59:26+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2113495490365190491",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "半導体関連株を購入、キオクシアを例示。",
-        "summary_en": "Purchased semiconductor-related stocks, citing Kioxia as an example."
        }
       },
       {
@@ -500,10 +502,10 @@
     },
     "30d": {
      "mention_count": 8,
-     "post_count": 41,
-     "bullish_count": 0,
+     "post_count": 45,
+     "bullish_count": 1,
      "bearish_count": 0,
-     "neutral_count": 8,
+     "neutral_count": 7,
      "unknown_count": 0,
      "topics": [
       {
@@ -524,31 +526,53 @@
       },
       {
        "topic": "バリュエーション",
-       "investor_count": 1
+       "investor_count": 2
       },
       {
        "topic": "配当",
-       "investor_count": 1
+       "investor_count": 2
       }
      ],
      "investors": [
       {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 5,
+       "topics": [
+        "バリュエーション",
+        "売買",
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-24T16:07:00+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2113890000823857476",
+        "topic": "バリュエーション",
+        "stance": "判定不能",
+        "summary": "キオクシアの詳細分析noteを共有。予想PER3倍台での株価見通しを分析。",
+        "summary_en": "Shared a detailed analysis note on Kioxia, analyzing the stock price outlook at a forward PER in the 3x range."
+       }
+      },
+      {
        "handle": "yuutaihiroto",
        "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
+       "stance": "強気",
+       "post_count": 4,
        "topics": [
-        "売買"
+        "売買",
+        "配当"
        ],
        "latest_post": {
         "handle": "yuutaihiroto",
         "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T05:28:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113729268828225770",
+        "post_created_at": "2026-10-24T15:37:00+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113882516885237939",
         "topic": "売買",
-        "stance": "中立",
-        "summary": "高値から大幅下落したキオクシアを反発狙いと買い、約定後さらに下落したがのんびり保有。",
-        "summary_en": "Bought Kioxia, which had fallen sharply from its high, aiming for a rebound, and although it dropped further after execution, holding it leisurely."
+        "stance": "強気",
+        "summary": "株価が3分の1になったキオクシアを弱った猛獣に例え、捕まえやすいとの見解。",
+        "summary_en": null
        }
       },
       {
@@ -568,26 +592,6 @@
         "stance": "中立",
         "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
         "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-       }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 4,
-       "topics": [
-        "売買",
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-23T13:59:26+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2113495490365190491",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "半導体関連株を購入、キオクシアを例示。",
-        "summary_en": "Purchased semiconductor-related stocks, citing Kioxia as an example."
        }
       },
       {
@@ -696,7 +700,7 @@
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-24T05:28:00+09:00"
+   "last_post_at": "2026-10-24T16:07:00+09:00"
   },
   {
    "ticker": "4661",
@@ -1515,11 +1519,11 @@
      "investor_count": 2
     },
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 2
     },
     {
@@ -1665,40 +1669,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 2,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu1000",
-       "display_name": "かぶ1000",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu1000",
-        "display_name": "かぶ1000",
-        "post_created_at": "2026-10-23T14:32:55+09:00",
-        "source_url": "https://x.com/kabu1000/status/2113503917669777652",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "過去のソフトバンク買い増し経験を回想。",
-        "summary_en": "Recalled past experience of buying more SoftBank shares."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -1713,11 +1692,11 @@
        "investor_count": 1
       },
       {
-       "topic": "バリュエーション",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -1763,11 +1742,11 @@
        "investor_count": 2
       },
       {
-       "topic": "バリュエーション",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "バリュエーション",
        "investor_count": 2
       },
       {
@@ -2066,17 +2045,13 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 3,
-     "post_count": 6,
+     "mention_count": 2,
+     "post_count": 5,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 3,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 2
-      },
       {
        "topic": "需給",
        "investor_count": 2
@@ -2087,6 +2062,10 @@
       },
       {
        "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -2131,28 +2110,9 @@
         "summary": "日経の太陽誘電に関する大量保有報告の記事を共有し、5%ルールの通知・開示の仕組みへの違和感を述べている。銘柄の見通しは示していない。",
         "summary_en": "Shared a Nikkei article regarding a large shareholding report on Taiyo Yuden, expressing discomfort with the mechanism of notifications and disclosures under the 5% rule; does not indicate an outlook on the stock."
        }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-09-24T15:09:18+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2103003826194448699",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "太陽誘電が格下げされたことを短く共有した。本文だけでは今後の見通しは示されていない。",
-        "summary_en": "The poster briefly shared that Taiyo Yuden was downgraded, with no future outlook indicated in the text alone."
-       }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-23T09:20:17+09:00"
@@ -3334,11 +3294,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "決算",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "決算",
        "investor_count": 1
       }
      ],
@@ -3443,11 +3403,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -3607,11 +3567,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
@@ -3666,6 +3626,224 @@
     }
    },
    "last_post_at": "2026-10-20T10:41:00+09:00"
+  },
+  {
+   "ticker": "9449",
+   "company": "GMOインターネットグループ株式会社",
+   "company_en": "GMO Internet Group, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 2,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-24T14:10:46+09:00",
+      "source_url": "https://x.com/noatake1127/status/2113860731829735521",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "GMOインターネットグループがFXサービスへの不正アクセスに対し利用者へ見舞金を支払うと発表したニュースを共有。",
+      "summary_en": "Shared news that GMO Internet Group announced it will pay sympathy money to users in response to unauthorized access to its FX service."
+     }
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-09-25T08:09:37+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "GMOインターネットの優待内容に触れ、手数料無料化で優待が無くなったのではないかと疑問を呈した。",
+      "summary_en": "Mentioned GMO Internet's shareholder benefits and questioned whether the benefits were eliminated due to the transition to commission-free trading."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-24T14:10:46+09:00",
+     "source_url": "https://x.com/noatake1127/status/2113860731829735521",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "GMOインターネットグループがFXサービスへの不正アクセスに対し利用者へ見舞金を支払うと発表したニュースを共有。",
+     "summary_en": "Shared news that GMO Internet Group announced it will pay sympathy money to users in response to unauthorized access to its FX service."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-09-25T08:09:37+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "GMOインターネットの優待内容に触れ、手数料無料化で優待が無くなったのではないかと疑問を呈した。",
+     "summary_en": "Mentioned GMO Internet's shareholder benefits and questioned whether the benefits were eliminated due to the transition to commission-free trading."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-24T14:10:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113860731829735521",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "GMOインターネットグループがFXサービスへの不正アクセスに対し利用者へ見舞金を支払うと発表したニュースを共有。",
+        "summary_en": "Shared news that GMO Internet Group announced it will pay sympathy money to users in response to unauthorized access to its FX service."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-24T14:10:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113860731829735521",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "GMOインターネットグループがFXサービスへの不正アクセスに対し利用者へ見舞金を支払うと発表したニュースを共有。",
+        "summary_en": "Shared news that GMO Internet Group announced it will pay sympathy money to users in response to unauthorized access to its FX service."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 2,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-24T14:10:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113860731829735521",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "GMOインターネットグループがFXサービスへの不正アクセスに対し利用者へ見舞金を支払うと発表したニュースを共有。",
+        "summary_en": "Shared news that GMO Internet Group announced it will pay sympathy money to users in response to unauthorized access to its FX service."
+       }
+      },
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-09-25T08:09:37+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "GMOインターネットの優待内容に触れ、手数料無料化で優待が無くなったのではないかと疑問を呈した。",
+        "summary_en": "Mentioned GMO Internet's shareholder benefits and questioned whether the benefits were eliminated due to the transition to commission-free trading."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T14:10:46+09:00"
   },
   {
    "ticker": "1433",
@@ -3864,7 +4042,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6776,40 +6954,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-23T17:07:34+09:00",
-        "source_url": "https://x.com/noatake1127/status/2113542834372632920",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "パーク24の個人情報流出に関するお見舞金対応のニュースを共有。",
-        "summary_en": "Shared news about Park24's consolation money response regarding the personal information leak."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7435,6 +7588,168 @@
    "last_post_at": "2026-10-23T11:25:09+09:00"
   },
   {
+   "ticker": "4809",
+   "company": "パラカ",
+   "company_en": "PARAKA Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "バリュエーション",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "バリュエーション"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-24T14:29:26+09:00",
+      "source_url": "https://x.com/19830128to/status/2113865427369816140",
+      "topic": "バリュエーション",
+      "stance": "強気",
+      "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+      "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-24T14:29:26+09:00",
+     "source_url": "https://x.com/19830128to/status/2113865427369816140",
+     "topic": "バリュエーション",
+     "stance": "強気",
+     "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+     "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-24T14:29:26+09:00",
+        "source_url": "https://x.com/19830128to/status/2113865427369816140",
+        "topic": "バリュエーション",
+        "stance": "強気",
+        "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+        "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-24T14:29:26+09:00",
+        "source_url": "https://x.com/19830128to/status/2113865427369816140",
+        "topic": "バリュエーション",
+        "stance": "強気",
+        "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+        "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-24T14:29:26+09:00",
+        "source_url": "https://x.com/19830128to/status/2113865427369816140",
+        "topic": "バリュエーション",
+        "stance": "強気",
+        "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+        "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T14:29:26+09:00"
+  },
+  {
    "ticker": "4901",
    "company": "富士フイルム",
    "company_en": "FUJIFILM Holdings Corporation",
@@ -7981,6 +8296,168 @@
     }
    },
    "last_post_at": "2026-10-20T13:26:41+09:00"
+  },
+  {
+   "ticker": "6195",
+   "company": "ホープ",
+   "company_en": "HOPE, INC.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-10-24T16:15:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+      "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-24T16:15:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+     "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-10-24T16:15:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+        "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-10-24T16:15:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+        "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-10-24T16:15:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+        "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T16:15:00+09:00"
   },
   {
    "ticker": "6384",
@@ -8982,6 +9459,168 @@
    "last_post_at": "2026-10-19T10:16:23+09:00"
   },
   {
+   "ticker": "7522",
+   "company": "ワタミ株式会社",
+   "company_en": "WATAMI CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "弱気",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-24T14:04:59+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+      "topic": "優待",
+      "stance": "弱気",
+      "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+      "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-24T14:04:59+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+     "topic": "優待",
+     "stance": "弱気",
+     "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+     "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-24T14:04:59+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+        "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-24T14:04:59+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+        "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-24T14:04:59+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+        "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T14:04:59+09:00"
+  },
+  {
    "ticker": "7603",
    "company": "ジーイエット（旧マックハウス）",
    "company_en": "G-JET Co., Ltd.",
@@ -9188,7 +9827,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -9591,40 +10230,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-23T17:12:50+09:00",
-        "source_url": "https://x.com/noatake1127/status/2113544160062087326",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDの経営統合のニュースを共有。",
-        "summary_en": "Shared news about the business integration of The Shiga Bank and Ikeda Senshu HD."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10027,40 +10641,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-23T17:12:50+09:00",
-        "source_url": "https://x.com/noatake1127/status/2113544160062087326",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDの経営統合のニュースを共有。",
-        "summary_en": "Shared news about the business integration of The Shiga Bank and Ikeda Senshu HD."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -11009,11 +11598,11 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
@@ -11218,11 +11807,11 @@
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "業績",
        "investor_count": 1
       },
       {
@@ -15277,11 +15866,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -15361,11 +15950,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -18689,40 +19278,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-09-24T17:10:19+09:00",
-        "source_url": "https://x.com/19830128to/status/2103034281958535607",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "エータイ（369A）と2025を記したブログ記事リンクを投稿した。本文だけでは先行き見通しや着眼点は判断できない。",
-        "summary_en": "Posted a link to a blog post noting A-TIE (369A) and 2025; the future outlook and focus points cannot be determined from the text alone."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-09-24T17:10:19+09:00"
@@ -25128,11 +25692,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
@@ -25140,7 +25704,7 @@
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -25252,15 +25816,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
        "topic": "材料",
        "investor_count": 1
       },
       {
        "topic": "需給",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -26520,11 +27084,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -26604,11 +27168,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -26652,11 +27216,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -26736,11 +27300,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -27008,11 +27572,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -27092,11 +27656,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -29398,11 +29962,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -29492,11 +30056,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "バリュエーション",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -29886,11 +30450,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -29970,11 +30534,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -30262,11 +30826,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -34034,118 +34598,6 @@
    "last_post_at": "2026-10-07T16:17:00+09:00"
   },
   {
-   "ticker": "9449",
-   "company": "GMOインターネットグループ株式会社",
-   "company_en": "GMO Internet Group, Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "優待",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "優待"
-     ],
-     "latest_post": {
-      "handle": "yuutaihiroto",
-      "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-09-25T08:09:37+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
-      "topic": "優待",
-      "stance": "中立",
-      "summary": "GMOインターネットの優待内容に触れ、手数料無料化で優待が無くなったのではないかと疑問を呈した。",
-      "summary_en": "Mentioned GMO Internet's shareholder benefits and questioned whether the benefits were eliminated due to the transition to commission-free trading."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-09-25T08:09:37+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
-     "topic": "優待",
-     "stance": "中立",
-     "summary": "GMOインターネットの優待内容に触れ、手数料無料化で優待が無くなったのではないかと疑問を呈した。",
-     "summary_en": "Mentioned GMO Internet's shareholder benefits and questioned whether the benefits were eliminated due to the transition to commission-free trading."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-09-25T08:09:37+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "GMOインターネットの優待内容に触れ、手数料無料化で優待が無くなったのではないかと疑問を呈した。",
-        "summary_en": "Mentioned GMO Internet's shareholder benefits and questioned whether the benefits were eliminated due to the transition to commission-free trading."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-09-25T08:09:37+09:00"
-  },
-  {
    "ticker": "9501",
    "company": "東京電力ホールディングス",
    "company_en": "Tokyo Electric Power Company Holdings, Incorporated",
@@ -34382,7 +34834,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
@@ -34390,7 +34842,7 @@
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -34481,7 +34933,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "決算",
        "investor_count": 1
       },
       {
@@ -34489,7 +34941,7 @@
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -34526,8 +34978,8 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 232,
-   "ticker_count": 116
+   "post_count": 233,
+   "ticker_count": 117
   },
   {
    "handle": "jammy_bot",
@@ -34544,26 +34996,26 @@
   {
    "handle": "yuutaihiroto",
    "display_name": "桐谷広人・桐谷さん【公式】",
-   "post_count": 37,
-   "ticker_count": 30
+   "post_count": 41,
+   "ticker_count": 31
   },
   {
    "handle": "abc87791035",
    "display_name": "ABCトレーダー",
-   "post_count": 32,
+   "post_count": 33,
    "ticker_count": 19
   },
   {
    "handle": "19830128to",
    "display_name": "某哲也",
-   "post_count": 22,
-   "ticker_count": 22
+   "post_count": 23,
+   "ticker_count": 23
   },
   {
    "handle": "kenmokenmo",
    "display_name": "kenmo@湘南投資勉強会",
-   "post_count": 21,
-   "ticker_count": 13
+   "post_count": 22,
+   "ticker_count": 14
   },
   {
    "handle": "nagoya_tyouki",
@@ -34623,7 +35075,7 @@
     "window": "7d",
     "mention_count": 6,
     "prev_mention_count": 5,
-    "bullish_count": 0,
+    "bullish_count": 1,
     "bearish_count": 0
    },
    {
@@ -34665,17 +35117,7 @@
     "window": "7d",
     "mention_count": 6,
     "prev_mention_count": 5,
-    "bullish_count": 0,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "285A",
-    "company": "キオクシアホールディングス",
-    "company_en": "Kioxia Holdings Corporation",
-    "window": "24h",
-    "mention_count": 3,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
+    "bullish_count": 1,
     "bearish_count": 0
    },
    {
@@ -34715,28 +35157,42 @@
   "24h": [
    {
     "topic": "優待",
-    "ticker_count": 3,
+    "ticker_count": 4,
     "tickers": [
      "3053",
      "3557",
+     "7522",
      "7552"
     ]
    },
    {
-    "topic": "材料",
-    "ticker_count": 3,
+    "topic": "バリュエーション",
+    "ticker_count": 2,
     "tickers": [
-     "4666",
-     "8366",
-     "8714"
+     "285A",
+     "4809"
+    ]
+   },
+   {
+    "topic": "その他",
+    "ticker_count": 2,
+    "tickers": [
+     "6195",
+     "8802"
+    ]
+   },
+   {
+    "topic": "配当",
+    "ticker_count": 1,
+    "tickers": [
+     "285A"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 2,
+    "ticker_count": 1,
     "tickers": [
-     "285A",
-     "9984"
+     "285A"
     ]
    },
    {
@@ -34747,17 +35203,17 @@
     ]
    },
    {
-    "topic": "その他",
+    "topic": "材料",
     "ticker_count": 1,
     "tickers": [
-     "8802"
+     "9449"
     ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 22,
+    "ticker_count": 23,
     "tickers": [
      "1433",
      "1540",
@@ -34774,6 +35230,7 @@
      "4746",
      "4763",
      "4997",
+     "6195",
      "6976",
      "7127",
      "7453",
@@ -34785,7 +35242,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 22,
+    "ticker_count": 23,
     "tickers": [
      "2158",
      "2326",
@@ -34807,6 +35264,7 @@
      "8473",
      "8604",
      "8714",
+     "9449",
      "9602",
      "9735"
     ]
@@ -34835,12 +35293,22 @@
    },
    {
     "topic": "優待",
-    "ticker_count": 4,
+    "ticker_count": 5,
     "tickers": [
      "3053",
      "3557",
+     "7522",
      "7552",
      "7603"
+    ]
+   },
+   {
+    "topic": "バリュエーション",
+    "ticker_count": 3,
+    "tickers": [
+     "285A",
+     "4809",
+     "9984"
     ]
    },
    {
@@ -34869,10 +35337,10 @@
     ]
    },
    {
-    "topic": "バリュエーション",
+    "topic": "配当",
     "ticker_count": 1,
     "tickers": [
-     "9984"
+     "285A"
     ]
    }
   ],
@@ -34905,7 +35373,6 @@
      "3496",
      "3673",
      "3697",
-     "369A",
      "3799",
      "3817",
      "3854",
@@ -34945,6 +35412,7 @@
      "593A",
      "5970",
      "6098",
+     "6195",
      "627A",
      "6578",
      "6594",
@@ -34970,7 +35438,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 70,
+    "ticker_count": 71,
     "tickers": [
      "2158",
      "2325",
@@ -35038,6 +35506,7 @@
      "9022",
      "9432",
      "9433",
+     "9449",
      "9602",
      "9644",
      "9735",
@@ -35167,7 +35636,7 @@
    },
    {
     "topic": "優待",
-    "ticker_count": 27,
+    "ticker_count": 28,
     "tickers": [
      "2437",
      "2613",
@@ -35190,6 +35659,7 @@
      "6222",
      "6533",
      "6594",
+     "7522",
      "7552",
      "7603",
      "8273",
@@ -35230,6 +35700,18 @@
     ]
    },
    {
+    "topic": "バリュエーション",
+    "ticker_count": 6,
+    "tickers": [
+     "285A",
+     "372A",
+     "4809",
+     "6871",
+     "6904",
+     "9984"
+    ]
+   },
+   {
     "topic": "決算",
     "ticker_count": 6,
     "tickers": [
@@ -35239,17 +35721,6 @@
      "6594",
      "6954",
      "9983"
-    ]
-   },
-   {
-    "topic": "バリュエーション",
-    "ticker_count": 5,
-    "tickers": [
-     "285A",
-     "372A",
-     "6871",
-     "6904",
-     "9984"
     ]
    },
    {
