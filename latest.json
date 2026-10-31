@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-31T07:11:53+09:00",
+ "generated_at": "2026-10-31T14:14:32+09:00",
  "translation": {
-  "summary_en_count": 608,
-  "summary_total": 623,
-  "company_en_count": 289,
-  "company_total": 289,
+  "summary_en_count": 618,
+  "summary_total": 635,
+  "company_en_count": 295,
+  "company_total": 295,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 721,
-  "rows_used": 623,
-  "rows_rejected": 98,
+  "rows_input": 736,
+  "rows_used": 635,
+  "rows_rejected": 101,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 98
+   "tickerが日本株コード形式でない/空": 101
   },
   "missing_company_tickers": []
  },
@@ -56,11 +56,11 @@
      "investor_count": 3
     },
     {
-     "topic": "バリュエーション",
+     "topic": "材料",
      "investor_count": 3
     },
     {
-     "topic": "材料",
+     "topic": "バリュエーション",
      "investor_count": 3
     },
     {
@@ -349,86 +349,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 3,
-     "post_count": 4,
-     "bullish_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 2,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "配当",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "配当"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-30T13:51:00+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2116030146998387003",
-        "topic": "配当",
-        "stance": "強気",
-        "summary": "SKハイニックスの増配・自社株買いを受けてキオクシアの株主還元期待を言及",
-        "summary_en": "Mentioned expectations for shareholder returns from Kioxia following SK Hynix's dividend increase and share buyback."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-30T11:08:46+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115989255671742574",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "本日決算に注目",
-        "summary_en": "Paying attention to today's earnings release."
-       }
-      },
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-10-30T09:37:54+09:00",
-        "source_url": "https://x.com/cadillac600/status/2115966388166852713",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "イビデン急落を受け、キオクシアの引け後決算への影響を指摘。",
-        "summary_en": "Pointed out the impact on Kioxia's post-close financial results following Ibiden's sharp plunge."
-       }
-      }
-     ],
-     "prev_mention_count": 1
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 3
     },
     "7d": {
      "mention_count": 6,
@@ -607,11 +536,11 @@
        "investor_count": 3
       },
       {
-       "topic": "バリュエーション",
+       "topic": "材料",
        "investor_count": 3
       },
       {
-       "topic": "材料",
+       "topic": "バリュエーション",
        "investor_count": 3
       },
       {
@@ -857,10 +786,10 @@
    "company_en": "GMO Internet Group, Inc.",
    "company_en_source": "machine",
    "mention_count": 7,
-   "post_count": 18,
+   "post_count": 19,
    "bullish_count": 0,
-   "bearish_count": 1,
-   "neutral_count": 6,
+   "bearish_count": 2,
+   "neutral_count": 5,
    "unknown_count": 0,
    "topics": [
     {
@@ -872,6 +801,10 @@
      "investor_count": 1
     },
     {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     }
@@ -880,20 +813,21 @@
     {
      "handle": "kabu_st0ck",
      "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "中立",
-     "post_count": 2,
+     "stance": "弱気",
+     "post_count": 3,
      "topics": [
+      "売買",
       "材料"
      ],
      "latest_post": {
       "handle": "kabu_st0ck",
       "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-28T15:01:38+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2115323083066405269",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "GMO関連の警視庁保護と情報の間違いに関するニュースを共有。",
-      "summary_en": "Shared news regarding police protection by the Metropolitan Police Department and incorrect information related to GMO."
+      "post_created_at": "2026-10-31T11:18:07+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2116353995493294423",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "GMOのショートを希望する発言。",
+      "summary_en": "A statement expressing a desire to short GMO."
      }
     },
     {
@@ -1016,6 +950,16 @@
     {
      "handle": "kabu_st0ck",
      "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-31T11:18:07+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2116353995493294423",
+     "topic": "売買",
+     "stance": "弱気",
+     "summary": "GMOのショートを希望する発言。",
+     "summary_en": "A statement expressing a desire to short GMO."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
      "post_created_at": "2026-10-28T15:01:38+09:00",
      "source_url": "https://x.com/kabu_st0ck/status/2115323083066405269",
      "topic": "材料",
@@ -1052,41 +996,60 @@
      "stance": "中立",
      "summary": "GMOの不正アクセスに関する日経記事を共有。情報公開を確認したと発表。",
      "summary_en": "Shared a Nikkei article regarding unauthorized access at GMO, stating they announced they confirmed information disclosure."
-    },
-    {
-     "handle": "daiboucho",
-     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-     "post_created_at": "2026-10-27T15:52:26+09:00",
-     "source_url": "https://x.com/DAIBOUCHO/status/2114973480185937969",
-     "topic": "その他",
-     "stance": "弱気",
-     "summary": "GMO事例を挙げ自動売買システムの危険性を指摘",
-     "summary_en": "Pointed out the danger of automated trading systems, citing the GMO case."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
-     "bearish_count": 0,
+     "bearish_count": 1,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-31T11:18:07+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2116353995493294423",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "GMOのショートを希望する発言。",
+        "summary_en": "A statement expressing a desire to short GMO."
+       }
+      }
+     ],
      "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 6,
      "post_count": 17,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 5,
+     "bearish_count": 2,
+     "neutral_count": 4,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
        "investor_count": 6
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
       },
       {
        "topic": "その他",
@@ -1097,20 +1060,21 @@
       {
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
+       "stance": "弱気",
+       "post_count": 3,
        "topics": [
+        "売買",
         "材料"
        ],
        "latest_post": {
         "handle": "kabu_st0ck",
         "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-28T15:01:38+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115323083066405269",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "GMO関連の警視庁保護と情報の間違いに関するニュースを共有。",
-        "summary_en": "Shared news regarding police protection by the Metropolitan Police Department and incorrect information related to GMO."
+        "post_created_at": "2026-10-31T11:18:07+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2116353995493294423",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "GMOのショートを希望する発言。",
+        "summary_en": "A statement expressing a desire to short GMO."
        }
       },
       {
@@ -1137,7 +1101,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 5,
+       "post_count": 4,
        "topics": [
         "材料"
        ],
@@ -1210,19 +1174,23 @@
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 6,
-     "post_count": 17,
+     "post_count": 18,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 5,
+     "bearish_count": 2,
+     "neutral_count": 4,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
        "investor_count": 6
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
       },
       {
        "topic": "その他",
@@ -1233,20 +1201,21 @@
       {
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
+       "stance": "弱気",
+       "post_count": 3,
        "topics": [
+        "売買",
         "材料"
        ],
        "latest_post": {
         "handle": "kabu_st0ck",
         "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-28T15:01:38+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115323083066405269",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "GMO関連の警視庁保護と情報の間違いに関するニュースを共有。",
-        "summary_en": "Shared news regarding police protection by the Metropolitan Police Department and incorrect information related to GMO."
+        "post_created_at": "2026-10-31T11:18:07+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2116353995493294423",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "GMOのショートを希望する発言。",
+        "summary_en": "A statement expressing a desire to short GMO."
        }
       },
       {
@@ -1349,7 +1318,7 @@
      "prev_mention_count": 1
     }
    },
-   "last_post_at": "2026-10-28T15:01:38+09:00"
+   "last_post_at": "2026-10-31T11:18:07+09:00"
   },
   {
    "ticker": "4062",
@@ -1510,63 +1479,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 2,
-     "post_count": 2,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
-     "bearish_count": 2,
+     "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-10-30T09:37:54+09:00",
-        "source_url": "https://x.com/cadillac600/status/2115966388166852713",
-        "topic": "材料",
-        "stance": "弱気",
-        "summary": "イビデンの急落に驚き、キオクシア決算への影響を懸念。",
-        "summary_en": "Expressed surprise at Ibiden's sharp drop and expressed concern over the impact on Kioxia's financial results."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-30T09:31:45+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115964840175096135",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "イビデンがストップ安となったことを報告。",
-        "summary_en": "Reported that Ibiden hit the daily stop-low."
-       }
-      }
-     ],
-     "prev_mention_count": 1
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 3,
@@ -1751,6 +1672,376 @@
    "last_post_at": "2026-10-30T09:37:54+09:00"
   },
   {
+   "ticker": "6072",
+   "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
+   "company_en": "Jibannet Holdings Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 3,
+   "post_count": 5,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 1,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-10-31T08:58:18+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2116318809619665343",
+      "topic": "需給",
+      "stance": "判定不能",
+      "summary": "ＥＲＴＨ Ｇｒｏｕｐの新株予約権（MSワラント類似）について引用し、分析を予告。",
+      "summary_en": "Quoting about ERTH Group's share acquisition rights (similar to MS warrants) and teasing an upcoming analysis."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-30T16:31:28+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
+      "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
+     }
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "stance": "弱気",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "hiro_tyun",
+      "display_name": "hiro_tyun",
+      "post_created_at": "2026-10-30T16:19:57+09:00",
+      "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
+      "topic": "材料",
+      "stance": "判定不能",
+      "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
+      "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-10-31T08:58:18+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2116318809619665343",
+     "topic": "需給",
+     "stance": "判定不能",
+     "summary": "ＥＲＴＨ Ｇｒｏｕｐの新株予約権（MSワラント類似）について引用し、分析を予告。",
+     "summary_en": "Quoting about ERTH Group's share acquisition rights (similar to MS warrants) and teasing an upcoming analysis."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-30T16:31:28+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
+     "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-30T16:31:19+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2116070429744140391",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
+     "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-10-30T16:19:57+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
+     "topic": "材料",
+     "stance": "判定不能",
+     "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
+     "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-10-01T13:23:15+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2105513850338787378",
+     "topic": "材料",
+     "stance": "弱気",
+     "summary": "社名変更への失望を表明。期待外れと評価。",
+     "summary_en": "The post expresses disappointment over the company name change, evaluating it as a letdown."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 3,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 2,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 2
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-31T08:58:18+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116318809619665343",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "ＥＲＴＨ Ｇｒｏｕｐの新株予約権（MSワラント類似）について引用し、分析を予告。",
+        "summary_en": "Quoting about ERTH Group's share acquisition rights (similar to MS warrants) and teasing an upcoming analysis."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-30T16:31:28+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
+        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-10-30T16:19:57+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
+        "topic": "材料",
+        "stance": "判定不能",
+        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
+        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 3,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 2,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 2
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-31T08:58:18+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116318809619665343",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "ＥＲＴＨ Ｇｒｏｕｐの新株予約権（MSワラント類似）について引用し、分析を予告。",
+        "summary_en": "Quoting about ERTH Group's share acquisition rights (similar to MS warrants) and teasing an upcoming analysis."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-30T16:31:28+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
+        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-10-30T16:19:57+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
+        "topic": "材料",
+        "stance": "判定不能",
+        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
+        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 3,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 2,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 2
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-31T08:58:18+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116318809619665343",
+        "topic": "需給",
+        "stance": "判定不能",
+        "summary": "ＥＲＴＨ Ｇｒｏｕｐの新株予約権（MSワラント類似）について引用し、分析を予告。",
+        "summary_en": "Quoting about ERTH Group's share acquisition rights (similar to MS warrants) and teasing an upcoming analysis."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-30T16:31:28+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
+        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-10-30T16:19:57+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
+        "topic": "材料",
+        "stance": "判定不能",
+        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
+        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-10-31T08:58:18+09:00"
+  },
+  {
    "ticker": "6857",
    "company": "アドバンテスト",
    "company_en": "Advantest Corporation",
@@ -1767,11 +2058,11 @@
      "investor_count": 3
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 2
     },
     {
@@ -1898,62 +2189,14 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 2,
-     "post_count": 2,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-30T11:08:46+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115989255671742574",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "上期大幅増益が好感され上昇",
-        "summary_en": "Rose favorably received by a significant increase in first-half profits."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-30T09:14:04+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115960391750836367",
-        "topic": "売買",
-        "stance": "判定不能",
-        "summary": "アドバンテスト（6857）の動向に対する驚きの反応。半導体株の値動き文脈か。",
-        "summary_en": "A surprised reaction to the movements of Advantest (6857). Possibly in the context of semiconductor stock price movements."
-       }
-      }
-     ],
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 2
     },
     "7d": {
@@ -2043,7 +2286,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 26,
+     "post_count": 23,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2054,11 +2297,11 @@
        "investor_count": 3
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -2071,7 +2314,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 14,
+       "post_count": 12,
        "topics": [
         "その他",
         "売買",
@@ -2093,7 +2336,7 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
        "stance": "強気",
-       "post_count": 11,
+       "post_count": 10,
        "topics": [
         "その他",
         "売買",
@@ -2135,274 +2378,6 @@
     }
    },
    "last_post_at": "2026-10-30T11:08:46+09:00"
-  },
-  {
-   "ticker": "6072",
-   "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
-   "company_en": "Jibannet Holdings Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 4,
-   "bullish_count": 0,
-   "bearish_count": 1,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 2
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-30T16:31:28+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-      "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-     }
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "stance": "弱気",
-     "post_count": 2,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "hiro_tyun",
-      "display_name": "hiro_tyun",
-      "post_created_at": "2026-10-30T16:19:57+09:00",
-      "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
-      "topic": "材料",
-      "stance": "判定不能",
-      "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
-      "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-30T16:31:28+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-     "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-30T16:31:19+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2116070429744140391",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-     "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "post_created_at": "2026-10-30T16:19:57+09:00",
-     "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
-     "topic": "材料",
-     "stance": "判定不能",
-     "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
-     "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "post_created_at": "2026-10-01T13:23:15+09:00",
-     "source_url": "https://x.com/hiro_tyun/status/2105513850338787378",
-     "topic": "材料",
-     "stance": "弱気",
-     "summary": "社名変更への失望を表明。期待外れと評価。",
-     "summary_en": "The post expresses disappointment over the company name change, evaluating it as a letdown."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 2,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-30T16:31:28+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-       }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-30T16:19:57+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
-        "topic": "材料",
-        "stance": "判定不能",
-        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
-        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 2,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-30T16:31:28+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-       }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-30T16:19:57+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
-        "topic": "材料",
-        "stance": "判定不能",
-        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
-        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 4,
-     "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-30T16:31:28+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-       }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "弱気",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-30T16:19:57+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
-        "topic": "材料",
-        "stance": "判定不能",
-        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
-        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-30T16:31:28+09:00"
   },
   {
    "ticker": "6594",
@@ -2644,12 +2619,12 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 4,
-     "post_count": 8,
+     "mention_count": 3,
+     "post_count": 7,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 2,
-     "unknown_count": 1,
+     "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
@@ -2661,10 +2636,6 @@
       },
       {
        "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -2727,28 +2698,9 @@
         "summary": "日経のニデックと東芝の軌跡比較記事を共有。外資ファンド批判はあるが、ニデックの明確な売買見通しには変換しない。",
         "summary_en": "Shares a Nikkei article comparing the trajectories of Nidec and Toshiba; while there is criticism of foreign funds, it does not translate into a clear trading outlook for Nidec."
        }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-10-01T11:02:00+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2105478322016883179",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "さわかみ投信の運用質問としてニデックの今後方針を挙げている。本人の強弱見通しは示していない。",
-        "summary_en": "The post cites Nidec's future policy as an investment management question for Sawakami Asset Management, without showing the poster's own bullish or bearish outlook."
-       }
       }
      ],
-     "prev_mention_count": 3
+     "prev_mention_count": 4
     }
    },
    "last_post_at": "2026-10-28T14:04:00+09:00"
@@ -2766,11 +2718,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 3
     },
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 3
     },
     {
@@ -2945,11 +2897,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "バリュエーション",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -2979,7 +2931,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 12,
+     "post_count": 11,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 3,
@@ -3050,7 +3002,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
         "売買",
         "材料"
@@ -3067,10 +3019,284 @@
        }
       }
      ],
-     "prev_mention_count": 2
+     "prev_mention_count": 3
     }
    },
    "last_post_at": "2026-10-26T09:20:18+09:00"
+  },
+  {
+   "ticker": "6920",
+   "company": "レーザーテック",
+   "company_en": "Lasertec Corporation",
+   "company_en_source": "machine",
+   "mention_count": 3,
+   "post_count": 3,
+   "bullish_count": 1,
+   "bearish_count": 1,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "業績",
+     "investor_count": 1
+    },
+    {
+     "topic": "決算",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-10-31T08:17:52+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2116308634204504267",
+      "topic": "決算",
+      "stance": "判定不能",
+      "summary": "レーザーテック決算についてウェビナー告知。営業利益減と受注上方修正を指摘。",
+      "summary_en": "Announcing a webinar on Lasertec's financial results, pointing out a decrease in operating profit and an upward revision to orders."
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "弱気",
+     "post_count": 1,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-14T15:02:46+09:00",
+      "source_url": "https://x.com/noatake1127/status/2110249938307387401",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "レーザーテックの株価について「ひどい」と否定的にコメント。",
+      "summary_en": "Commented negatively on Lasertec's stock price, describing it as \"terrible.\""
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "業績"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-12T17:18:56+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
+      "topic": "業績",
+      "stance": "強気",
+      "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
+      "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-10-31T08:17:52+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2116308634204504267",
+     "topic": "決算",
+     "stance": "判定不能",
+     "summary": "レーザーテック決算についてウェビナー告知。営業利益減と受注上方修正を指摘。",
+     "summary_en": "Announcing a webinar on Lasertec's financial results, pointing out a decrease in operating profit and an upward revision to orders."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-14T15:02:46+09:00",
+     "source_url": "https://x.com/noatake1127/status/2110249938307387401",
+     "topic": "売買",
+     "stance": "弱気",
+     "summary": "レーザーテックの株価について「ひどい」と否定的にコメント。",
+     "summary_en": "Commented negatively on Lasertec's stock price, describing it as \"terrible.\""
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-12T17:18:56+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
+     "topic": "業績",
+     "stance": "強気",
+     "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
+     "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-31T08:17:52+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116308634204504267",
+        "topic": "決算",
+        "stance": "判定不能",
+        "summary": "レーザーテック決算についてウェビナー告知。営業利益減と受注上方修正を指摘。",
+        "summary_en": "Announcing a webinar on Lasertec's financial results, pointing out a decrease in operating profit and an upward revision to orders."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-31T08:17:52+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116308634204504267",
+        "topic": "決算",
+        "stance": "判定不能",
+        "summary": "レーザーテック決算についてウェビナー告知。営業利益減と受注上方修正を指摘。",
+        "summary_en": "Announcing a webinar on Lasertec's financial results, pointing out a decrease in operating profit and an upward revision to orders."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 3,
+     "post_count": 3,
+     "bullish_count": 1,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "業績",
+       "investor_count": 1
+      },
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-10-31T08:17:52+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116308634204504267",
+        "topic": "決算",
+        "stance": "判定不能",
+        "summary": "レーザーテック決算についてウェビナー告知。営業利益減と受注上方修正を指摘。",
+        "summary_en": "Announcing a webinar on Lasertec's financial results, pointing out a decrease in operating profit and an upward revision to orders."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-14T15:02:46+09:00",
+        "source_url": "https://x.com/noatake1127/status/2110249938307387401",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "レーザーテックの株価について「ひどい」と否定的にコメント。",
+        "summary_en": "Commented negatively on Lasertec's stock price, describing it as \"terrible.\""
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "業績"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-12T17:18:56+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
+        "topic": "業績",
+        "stance": "強気",
+        "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
+        "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T08:17:52+09:00"
   },
   {
    "ticker": "2737",
@@ -3085,11 +3311,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -4011,16 +4237,12 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      },
       {
        "topic": "売買",
        "investor_count": 1
@@ -4031,10 +4253,9 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "売買",
-        "決算"
+        "売買"
        ],
        "latest_post": {
         "handle": "kabu_st0ck",
@@ -4048,7 +4269,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "30d": {
      "mention_count": 2,
@@ -4525,6 +4746,168 @@
    "last_post_at": "2026-10-30T17:56:47+09:00"
   },
   {
+   "ticker": "2269",
+   "company": "明治ホールディングス",
+   "company_en": "Meiji Holdings Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-31T10:47:28+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "優待品として明治製菓の商品を受領したことを報告。",
+      "summary_en": "Reporting the receipt of Meiji Seika products as a shareholder benefit."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:47:28+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "優待品として明治製菓の商品を受領したことを報告。",
+     "summary_en": "Reporting the receipt of Meiji Seika products as a shareholder benefit."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品として明治製菓の商品を受領したことを報告。",
+        "summary_en": "Reporting the receipt of Meiji Seika products as a shareholder benefit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品として明治製菓の商品を受領したことを報告。",
+        "summary_en": "Reporting the receipt of Meiji Seika products as a shareholder benefit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品として明治製菓の商品を受領したことを報告。",
+        "summary_en": "Reporting the receipt of Meiji Seika products as a shareholder benefit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T10:47:28+09:00"
+  },
+  {
    "ticker": "2371",
    "company": "カカクコム",
    "company_en": "Kakaku.com, Inc.",
@@ -4811,15 +5194,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "決算",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -4935,15 +5318,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "決算",
+       "investor_count": 1
+      },
+      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "決算",
        "investor_count": 1
       }
      ],
@@ -4976,12 +5359,12 @@
    "last_post_at": "2026-10-29T17:01:35+09:00"
   },
   {
-   "ticker": "3053",
-   "company": "ペッパーフードサービス",
-   "company_en": "PEPPER FOOD SERVICE CO., LTD.",
+   "ticker": "3003",
+   "company": "ヒューリック",
+   "company_en": "Hulic Co., Ltd.",
    "company_en_source": "machine",
    "mention_count": 1,
-   "post_count": 3,
+   "post_count": 1,
    "bullish_count": 0,
    "bearish_count": 0,
    "neutral_count": 1,
@@ -4997,19 +5380,19 @@
      "handle": "yuutaihiroto",
      "display_name": "桐谷広人・桐谷さん【公式】",
      "stance": "中立",
-     "post_count": 3,
+     "post_count": 1,
      "topics": [
       "優待"
      ],
      "latest_post": {
       "handle": "yuutaihiroto",
       "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-10-24T07:24:00+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+      "post_created_at": "2026-10-31T10:47:28+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
       "topic": "優待",
       "stance": "中立",
-      "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
-      "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
+      "summary": "優待品準備。ヒューリックと東邦銀行の優待品について。",
+      "summary_en": "Preparing shareholder benefits; regarding shareholder benefits from Hulic and The Toho Bank."
      }
     }
    ],
@@ -5017,44 +5400,49 @@
     {
      "handle": "yuutaihiroto",
      "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-10-24T07:24:00+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+     "post_created_at": "2026-10-31T10:47:28+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
      "topic": "優待",
      "stance": "中立",
-     "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
-     "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
-    },
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-10-21T07:17:00+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2112669528043962634",
-     "topic": "優待",
-     "stance": "強気",
-     "summary": "業績不調だが優待利回り良好のため購入推奨。過去高値購入者を考慮しても買う価値ありとの見解。",
-     "summary_en": "Recommends buying because shareholder benefit yields are favorable despite poor business performance, expressing the view that it is worth buying even considering those who purchased at past highs."
-    },
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-10-20T16:36:23+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2112447824675938522",
-     "topic": "優待",
-     "stance": "中立",
-     "summary": "株主優待券を利用していきなりステーキで食事をした報告。投資見通しの言及なし。",
-     "summary_en": "Report on dining at Ikinari Steak using shareholder benefit vouchers; no mention of investment outlook."
+     "summary": "優待品準備。ヒューリックと東邦銀行の優待品について。",
+     "summary_en": "Preparing shareholder benefits; regarding shareholder benefits from Hulic and The Toho Bank."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品準備。ヒューリックと東邦銀行の優待品について。",
+        "summary_en": "Preparing shareholder benefits; regarding shareholder benefits from Hulic and The Toho Bank."
+       }
+      }
+     ],
      "prev_mention_count": 0
     },
     "7d": {
@@ -5082,20 +5470,20 @@
        "latest_post": {
         "handle": "yuutaihiroto",
         "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T07:24:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
         "topic": "優待",
         "stance": "中立",
-        "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
-        "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
+        "summary": "優待品準備。ヒューリックと東邦銀行の優待品について。",
+        "summary_en": "Preparing shareholder benefits; regarding shareholder benefits from Hulic and The Toho Bank."
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 3,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -5111,26 +5499,198 @@
        "handle": "yuutaihiroto",
        "display_name": "桐谷広人・桐谷さん【公式】",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 1,
        "topics": [
         "優待"
        ],
        "latest_post": {
         "handle": "yuutaihiroto",
         "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T07:24:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
         "topic": "優待",
         "stance": "中立",
-        "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
-        "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
+        "summary": "優待品準備。ヒューリックと東邦銀行の優待品について。",
+        "summary_en": "Preparing shareholder benefits; regarding shareholder benefits from Hulic and The Toho Bank."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-24T07:24:00+09:00"
+   "last_post_at": "2026-10-31T10:47:28+09:00"
+  },
+  {
+   "ticker": "3772",
+   "company": "ウェルス・マネジメント",
+   "company_en": "Wealth Management, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-31T10:47:28+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "株主優待品到着報告。ウェルスマネジメントのシャインマスカット5房。",
+      "summary_en": null
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:47:28+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "株主優待品到着報告。ウェルスマネジメントのシャインマスカット5房。",
+     "summary_en": null
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:20:46+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "ウエルスマネジメントからの優待品配送連絡を受け、冷蔵庫の準備を報告。",
+     "summary_en": "Reporting preparing the refrigerator upon receiving notification of the shareholder benefit delivery from Wealth Management."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。ウェルスマネジメントのシャインマスカット5房。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。ウェルスマネジメントのシャインマスカット5房。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。ウェルスマネジメントのシャインマスカット5房。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T10:47:28+09:00"
   },
   {
    "ticker": "3778",
@@ -5192,7 +5752,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5419,11 +5979,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -5502,11 +6062,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -5543,11 +6103,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -5904,40 +6464,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-30T11:08:46+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115989255671742574",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "上方修正でストップ高",
-        "summary_en": "Hit the daily stop-high on an upward revision."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6301,11 +6836,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -6420,11 +6955,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -7582,6 +8117,168 @@
    "last_post_at": "2026-10-26T15:41:00+09:00"
   },
   {
+   "ticker": "5343",
+   "company": "ニッコー",
+   "company_en": "NIKKO COMPANY",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-31T10:47:28+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "優待品としてニッコーの陶器を受領したことを報告。",
+      "summary_en": "Reporting the receipt of Nikko ceramics as a shareholder benefit."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:47:28+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "優待品としてニッコーの陶器を受領したことを報告。",
+     "summary_en": "Reporting the receipt of Nikko ceramics as a shareholder benefit."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品としてニッコーの陶器を受領したことを報告。",
+        "summary_en": "Reporting the receipt of Nikko ceramics as a shareholder benefit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品としてニッコーの陶器を受領したことを報告。",
+        "summary_en": "Reporting the receipt of Nikko ceramics as a shareholder benefit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "優待品としてニッコーの陶器を受領したことを報告。",
+        "summary_en": "Reporting the receipt of Nikko ceramics as a shareholder benefit."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T10:47:28+09:00"
+  },
+  {
    "ticker": "5344",
    "company": "MARUWA",
    "company_en": "MARUWA CO., LTD.",
@@ -7641,7 +8338,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8824,40 +9521,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-10-30T08:50:50+09:00",
-        "source_url": "https://x.com/cadillac600/status/2115954542135353699",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "トグルホールディングスのIPOとキオクシア決算を注意喚起。",
-        "summary_en": "Urged caution regarding Toggle Holdings' IPO and Kioxia's financial results."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9276,11 +9948,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9394,7 +10066,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -9405,11 +10077,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -9453,11 +10125,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -9522,40 +10194,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-30T14:14:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2116035941257314347",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "良品計画の顧客情報流出の可能性（2726万件）を報道共有",
-        "summary_en": "Shared news reporting the potential leak of customer information (27,260,000 cases) at Ryohin Keikaku."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9602,11 +10249,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
@@ -9641,143 +10288,6 @@
     }
    },
    "last_post_at": "2026-10-30T14:14:00+09:00"
-  },
-  {
-   "ticker": "7522",
-   "company": "ワタミ株式会社",
-   "company_en": "WATAMI CO., LTD.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 1,
-   "neutral_count": 0,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "優待",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "stance": "弱気",
-     "post_count": 1,
-     "topics": [
-      "優待"
-     ],
-     "latest_post": {
-      "handle": "yuutaihiroto",
-      "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-10-24T14:04:59+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
-      "topic": "優待",
-      "stance": "弱気",
-      "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
-      "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-10-24T14:04:59+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
-     "topic": "優待",
-     "stance": "弱気",
-     "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
-     "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T14:04:59+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
-        "topic": "優待",
-        "stance": "弱気",
-        "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
-        "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-24T14:04:59+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
-        "topic": "優待",
-        "stance": "弱気",
-        "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
-        "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-24T14:04:59+09:00"
   },
   {
    "ticker": "7803",
@@ -10052,6 +10562,188 @@
     }
    },
    "last_post_at": "2026-10-28T09:26:41+09:00"
+  },
+  {
+   "ticker": "8346",
+   "company": "東邦銀行",
+   "company_en": "The Toho Bank, Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-31T10:47:28+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "株主優待品到着報告。東邦銀行の優待をナンバーワンと評価。",
+      "summary_en": "Reporting the arrival of shareholder benefits, rating The Toho Bank's benefit as number one."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:47:28+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "株主優待品到着報告。東邦銀行の優待をナンバーワンと評価。",
+     "summary_en": "Reporting the arrival of shareholder benefits, rating The Toho Bank's benefit as number one."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:20:46+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "東邦銀行の優待巨峰がまだ残っていることを報告。",
+     "summary_en": "Reporting that Kyoho grapes from The Toho Bank's shareholder benefits are still left."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-15T07:59:00+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2110505858006438189",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "東邦銀行からの株主優待を受け取ったと報告。",
+     "summary_en": "Reporting receipt of shareholder perks from The Toho Bank."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。東邦銀行の優待をナンバーワンと評価。",
+        "summary_en": "Reporting the arrival of shareholder benefits, rating The Toho Bank's benefit as number one."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。東邦銀行の優待をナンバーワンと評価。",
+        "summary_en": "Reporting the arrival of shareholder benefits, rating The Toho Bank's benefit as number one."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。東邦銀行の優待をナンバーワンと評価。",
+        "summary_en": "Reporting the arrival of shareholder benefits, rating The Toho Bank's benefit as number one."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T10:47:28+09:00"
   },
   {
    "ticker": "8366",
@@ -10485,15 +11177,15 @@
    "last_post_at": "2026-10-29T15:39:13+09:00"
   },
   {
-   "ticker": "8802",
-   "company": "三菱地所",
-   "company_en": "Mitsubishi Estate Co., Ltd.",
+   "ticker": "8987",
+   "company": "ジャパンエクセレント投資法人",
+   "company_en": "Japan Excellent, Inc.",
    "company_en_source": "machine",
    "mention_count": 1,
    "post_count": 1,
-   "bullish_count": 1,
+   "bullish_count": 0,
    "bearish_count": 0,
-   "neutral_count": 0,
+   "neutral_count": 1,
    "unknown_count": 0,
    "topics": [
     {
@@ -10503,55 +11195,44 @@
    ],
    "investors": [
     {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "強気",
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "stance": "中立",
      "post_count": 1,
      "topics": [
       "その他"
      ],
      "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-24T10:15:37+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+      "handle": "kenichishimada2",
+      "display_name": "Ken/1UP投資",
+      "post_created_at": "2026-10-31T10:59:07+09:00",
+      "source_url": "https://x.com/KenichiShimada2/status/2116349216360734944",
       "topic": "その他",
-      "stance": "強気",
-      "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
-      "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+      "stance": "中立",
+      "summary": "ジャパンエクセレント投資法人(8987)のIRセミナー告知を引用。",
+      "summary_en": "Quoting the IR seminar announcement for Japan Excellent, Inc. (8987)."
      }
     }
    ],
    "latest_posts": [
     {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-24T10:15:37+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "post_created_at": "2026-10-31T10:59:07+09:00",
+     "source_url": "https://x.com/KenichiShimada2/status/2116349216360734944",
      "topic": "その他",
-     "stance": "強気",
-     "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
-     "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+     "stance": "中立",
+     "summary": "ジャパンエクセレント投資法人(8987)のIRセミナー告知を引用。",
+     "summary_en": "Quoting the IR seminar announcement for Japan Excellent, Inc. (8987)."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
      "mention_count": 1,
      "post_count": 1,
-     "bullish_count": 1,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
@@ -10561,22 +11242,58 @@
      ],
      "investors": [
       {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
        "post_count": 1,
        "topics": [
         "その他"
        ],
        "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-24T10:15:37+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-10-31T10:59:07+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2116349216360734944",
         "topic": "その他",
-        "stance": "強気",
-        "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
-        "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+        "stance": "中立",
+        "summary": "ジャパンエクセレント投資法人(8987)のIRセミナー告知を引用。",
+        "summary_en": "Quoting the IR seminar announcement for Japan Excellent, Inc. (8987)."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-10-31T10:59:07+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2116349216360734944",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ジャパンエクセレント投資法人(8987)のIRセミナー告知を引用。",
+        "summary_en": "Quoting the IR seminar announcement for Japan Excellent, Inc. (8987)."
        }
       }
      ],
@@ -10585,9 +11302,9 @@
     "30d": {
      "mention_count": 1,
      "post_count": 1,
-     "bullish_count": 1,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
@@ -10597,29 +11314,29 @@
      ],
      "investors": [
       {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
        "post_count": 1,
        "topics": [
         "その他"
        ],
        "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-24T10:15:37+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-10-31T10:59:07+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2116349216360734944",
         "topic": "その他",
-        "stance": "強気",
-        "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
-        "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+        "stance": "中立",
+        "summary": "ジャパンエクセレント投資法人(8987)のIRセミナー告知を引用。",
+        "summary_en": "Quoting the IR seminar announcement for Japan Excellent, Inc. (8987)."
        }
       }
      ],
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-10-24T10:15:37+09:00"
+   "last_post_at": "2026-10-31T10:59:07+09:00"
   },
   {
    "ticker": "9101",
@@ -11332,6 +12049,168 @@
    "last_post_at": "2026-10-26T10:38:23+09:00"
   },
   {
+   "ticker": "9990",
+   "company": "サックスバーホールディングス",
+   "company_en": "SAC'S BAR HOLDINGS INC.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-31T10:47:28+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "株主優待品到着報告。サックスバーのリュック、ウェルスマネジメントのシャインマスカット5房など。",
+      "summary_en": null
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-31T10:47:28+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "株主優待品到着報告。サックスバーのリュック、ウェルスマネジメントのシャインマスカット5房など。",
+     "summary_en": null
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。サックスバーのリュック、ウェルスマネジメントのシャインマスカット5房など。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。サックスバーのリュック、ウェルスマネジメントのシャインマスカット5房など。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-31T10:47:28+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株主優待品到着報告。サックスバーのリュック、ウェルスマネジメントのシャインマスカット5房など。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T10:47:28+09:00"
+  },
+  {
    "ticker": "4661",
    "company": "オリエンタルランド",
    "company_en": "Oriental Land Co., Ltd.",
@@ -11570,19 +12449,19 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 2
-    },
-    {
      "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "その他",
-     "investor_count": 1
+     "topic": "材料",
+     "investor_count": 2
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -11736,15 +12615,15 @@
        "investor_count": 2
       },
       {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -12522,11 +13401,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -12649,11 +13528,11 @@
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -13006,7 +13885,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 2,
@@ -13825,11 +14704,11 @@
      "investor_count": 2
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -14184,174 +15063,6 @@
    "last_post_at": "2026-10-13T11:00:00+09:00"
   },
   {
-   "ticker": "6920",
-   "company": "レーザーテック",
-   "company_en": "Lasertec Corporation",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 2,
-   "bullish_count": 1,
-   "bearish_count": 1,
-   "neutral_count": 0,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "業績",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "弱気",
-     "post_count": 1,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-14T15:02:46+09:00",
-      "source_url": "https://x.com/noatake1127/status/2110249938307387401",
-      "topic": "売買",
-      "stance": "弱気",
-      "summary": "レーザーテックの株価について「ひどい」と否定的にコメント。",
-      "summary_en": "Commented negatively on Lasertec's stock price, describing it as \"terrible.\""
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "強気",
-     "post_count": 1,
-     "topics": [
-      "業績"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-12T17:18:56+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
-      "topic": "業績",
-      "stance": "強気",
-      "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
-      "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-14T15:02:46+09:00",
-     "source_url": "https://x.com/noatake1127/status/2110249938307387401",
-     "topic": "売買",
-     "stance": "弱気",
-     "summary": "レーザーテックの株価について「ひどい」と否定的にコメント。",
-     "summary_en": "Commented negatively on Lasertec's stock price, describing it as \"terrible.\""
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-12T17:18:56+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
-     "topic": "業績",
-     "stance": "強気",
-     "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
-     "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 1,
-     "bearish_count": 1,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-14T15:02:46+09:00",
-        "source_url": "https://x.com/noatake1127/status/2110249938307387401",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "レーザーテックの株価について「ひどい」と否定的にコメント。",
-        "summary_en": "Commented negatively on Lasertec's stock price, describing it as \"terrible.\""
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-12T17:18:56+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2109559428718711140",
-        "topic": "業績",
-        "stance": "強気",
-        "summary": "レーザーテック社長が受注悪化の要素はないと強気発言をしたという日経記事を共有。",
-        "summary_en": "Shared a Nikkei article reporting that the president of Lasertec made bullish remarks stating there are no factors for a deterioration in orders."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-14T15:02:46+09:00"
-  },
-  {
    "ticker": "7133",
    "company": "株式会社HYUGA PRIMARY CARE",
    "company_en": "HYUGA PRIMARY CARE Co., Ltd.",
@@ -14480,11 +15191,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -15152,11 +15863,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -15246,11 +15957,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -16673,15 +17384,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -16772,11 +17483,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -16820,11 +17531,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -17115,39 +17826,14 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-10-01T11:21:00+09:00",
-        "source_url": "https://x.com/cadillac600/status/2105483287208792305",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "ウェッジの上場維持判定日をChatGPTとX・掲示板で確認したと共有。売買判断や強弱の見通しは述べていない。",
-        "summary_en": "The post shares having checked the listing maintenance assessment date for Wedge via ChatGPT, X, and message boards, stating no trading judgment or bullish/bearish outlook."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     }
    },
@@ -17390,11 +18076,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -17629,11 +18315,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -18560,11 +19246,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -18994,6 +19680,138 @@
     }
    },
    "last_post_at": "2026-10-15T07:59:00+09:00"
+  },
+  {
+   "ticker": "3053",
+   "company": "ペッパーフードサービス",
+   "company_en": "PEPPER FOOD SERVICE CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-24T07:24:00+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
+      "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-24T07:24:00+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
+     "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-21T07:17:00+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2112669528043962634",
+     "topic": "優待",
+     "stance": "強気",
+     "summary": "業績不調だが優待利回り良好のため購入推奨。過去高値購入者を考慮しても買う価値ありとの見解。",
+     "summary_en": "Recommends buying because shareholder benefit yields are favorable despite poor business performance, expressing the view that it is worth buying even considering those who purchased at past highs."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-20T16:36:23+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2112447824675938522",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "株主優待券を利用していきなりステーキで食事をした報告。投資見通しの言及なし。",
+     "summary_en": "Report on dining at Ikinari Steak using shareholder benefit vouchers; no mention of investment outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-24T07:24:00+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113758601009607157",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "ペッパーフードサービスの大幅下落・優待廃止と復活について言及。",
+        "summary_en": "Mentioning the sharp decline, abolition, and reinstatement of shareholder benefits for Pepper Food Service."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T07:24:00+09:00"
   },
   {
    "ticker": "3080",
@@ -19493,11 +20311,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -19587,11 +20405,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -19895,40 +20713,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-01T10:33:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105471149698404434",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "前日相場要約でダイナミックマップのストップ高を共有。先行き見通しは示していない。",
-        "summary_en": "In the previous day's market summary, the post shares the limit-up of Dynamic Map, showing no forward-looking outlook."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-01T10:33:00+09:00"
@@ -20120,11 +20913,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -20359,11 +21152,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -20453,11 +21246,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -20807,11 +21600,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21456,11 +22249,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -22474,11 +23267,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -22999,11 +23792,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -23126,11 +23919,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -23701,11 +24494,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -23940,11 +24733,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -24034,11 +24827,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -24550,11 +25343,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -25777,11 +26570,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -26688,11 +27481,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -27273,11 +28066,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -27920,19 +28713,19 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "需給",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -28044,11 +28837,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -28179,11 +28972,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -28273,11 +29066,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -29054,11 +29847,11 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -29177,11 +29970,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -29585,11 +30378,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -32149,11 +32942,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -32714,11 +33507,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -32798,11 +33591,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -32846,11 +33639,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -33371,11 +34164,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -33992,6 +34785,118 @@
     }
    },
    "last_post_at": "2026-10-15T18:00:35+09:00"
+  },
+  {
+   "ticker": "7522",
+   "company": "ワタミ株式会社",
+   "company_en": "WATAMI CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "弱気",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-10-24T14:04:59+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+      "topic": "優待",
+      "stance": "弱気",
+      "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+      "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-10-24T14:04:59+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+     "topic": "優待",
+     "stance": "弱気",
+     "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+     "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-10-24T14:04:59+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2113859277031096436",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "ワタミの優待制度改悪を批判しつつ、品物がもらえる点はありがたいと述べている。",
+        "summary_en": "Criticized the worsening of Watami's shareholder benefit program, while stating appreciation for the fact that goods can still be received."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T14:04:59+09:00"
   },
   {
    "ticker": "7564",
@@ -35659,118 +36564,6 @@
    "last_post_at": "2026-09-25T17:48:20+09:00"
   },
   {
-   "ticker": "8346",
-   "company": "東邦銀行",
-   "company_en": "The Toho Bank, Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "優待",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "優待"
-     ],
-     "latest_post": {
-      "handle": "yuutaihiroto",
-      "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-10-15T07:59:00+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2110505858006438189",
-      "topic": "優待",
-      "stance": "中立",
-      "summary": "東邦銀行からの株主優待を受け取ったと報告。",
-      "summary_en": "Reporting receipt of shareholder perks from The Toho Bank."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-10-15T07:59:00+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2110505858006438189",
-     "topic": "優待",
-     "stance": "中立",
-     "summary": "東邦銀行からの株主優待を受け取ったと報告。",
-     "summary_en": "Reporting receipt of shareholder perks from The Toho Bank."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-15T07:59:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110505858006438189",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "東邦銀行からの株主優待を受け取ったと報告。",
-        "summary_en": "Reporting receipt of shareholder perks from The Toho Bank."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-15T07:59:00+09:00"
-  },
-  {
    "ticker": "8361",
    "company": "株式会社大垣共立銀行",
    "company_en": "The Ogaki Kyoritsu Bank, Ltd.",
@@ -36588,40 +37381,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-01T12:10:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105495537588080751",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "日経記事を共有し、身売り観測報道で松井証券が急騰した事実を伝達。本人の見通しはなし。",
-        "summary_en": "Sharing a Nikkei article, the post conveys the fact that Matsui Securities surged on reports of buyout speculation, with no personal outlook from the poster."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-01T12:10:00+09:00"
@@ -36714,6 +37482,118 @@
    "last_post_at": "2026-09-30T11:52:36+09:00"
   },
   {
+   "ticker": "8802",
+   "company": "三菱地所",
+   "company_en": "Mitsubishi Estate Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-24T10:15:37+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+      "topic": "その他",
+      "stance": "強気",
+      "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
+      "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-24T10:15:37+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+     "topic": "その他",
+     "stance": "強気",
+     "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
+     "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-24T10:15:37+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2113801554843390291",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "丸の内を拠点とする三菱地所を肯定的に言及。",
+        "summary_en": "Mentioning Mitsubishi Estate, which is based in Marunouchi, favorably."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T10:15:37+09:00"
+  },
+  {
    "ticker": "9021",
    "company": "ＪＲ西日本",
    "company_en": "West Japan Railway Company",
@@ -36784,7 +37664,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -36896,7 +37776,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -36950,11 +37830,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -38132,11 +39012,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
@@ -38231,11 +39111,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "業績",
        "investor_count": 1
       },
       {
@@ -38282,7 +39162,7 @@
   {
    "handle": "kabu_st0ck",
    "display_name": "ちょる子🐣LINEやっていません",
-   "post_count": 76,
+   "post_count": 77,
    "ticker_count": 31
   },
   {
@@ -38294,14 +39174,14 @@
   {
    "handle": "yuutaihiroto",
    "display_name": "桐谷広人・桐谷さん【公式】",
-   "post_count": 45,
-   "ticker_count": 32
+   "post_count": 53,
+   "ticker_count": 37
   },
   {
    "handle": "abc87791035",
    "display_name": "ABCトレーダー",
-   "post_count": 38,
-   "ticker_count": 22
+   "post_count": 40,
+   "ticker_count": 24
   },
   {
    "handle": "kenmokenmo",
@@ -38348,8 +39228,8 @@
   {
    "handle": "kenichishimada2",
    "display_name": "Ken/1UP投資",
-   "post_count": 4,
-   "ticker_count": 2
+   "post_count": 5,
+   "ticker_count": 3
   },
   {
    "handle": "tarouyuuki0322",
@@ -38388,9 +39268,9 @@
     "company_en": "GMO Internet Group, Inc.",
     "window": "7d",
     "mention_count": 6,
-    "prev_mention_count": 0,
+    "prev_mention_count": 1,
     "bullish_count": 0,
-    "bearish_count": 1
+    "bearish_count": 2
    },
    {
     "ticker": "4062",
@@ -38403,6 +39283,16 @@
     "bearish_count": 2
    },
    {
+    "ticker": "6072",
+    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
+    "company_en": "Jibannet Holdings Co., Ltd.",
+    "window": "7d",
+    "mention_count": 3,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
     "ticker": "6857",
     "company": "アドバンテスト",
     "company_en": "Advantest Corporation",
@@ -38410,16 +39300,6 @@
     "mention_count": 3,
     "prev_mention_count": 1,
     "bullish_count": 1,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "6072",
-    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
-    "company_en": "Jibannet Holdings Co., Ltd.",
-    "window": "7d",
-    "mention_count": 2,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
     "bearish_count": 0
    }
   ],
@@ -38430,19 +39310,9 @@
     "company_en": "GMO Internet Group, Inc.",
     "window": "7d",
     "mention_count": 6,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
-    "bearish_count": 1
-   },
-   {
-    "ticker": "285A",
-    "company": "キオクシアホールディングス",
-    "company_en": "Kioxia Holdings Corporation",
-    "window": "24h",
-    "mention_count": 3,
     "prev_mention_count": 1,
-    "bullish_count": 1,
-    "bearish_count": 0
+    "bullish_count": 0,
+    "bearish_count": 2
    },
    {
     "ticker": "4062",
@@ -38453,6 +39323,26 @@
     "prev_mention_count": 0,
     "bullish_count": 1,
     "bearish_count": 2
+   },
+   {
+    "ticker": "6072",
+    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
+    "company_en": "Jibannet Holdings Co., Ltd.",
+    "window": "7d",
+    "mention_count": 3,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
+    "ticker": "6072",
+    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
+    "company_en": "Jibannet Holdings Co., Ltd.",
+    "window": "24h",
+    "mention_count": 3,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
    },
    {
     "ticker": "6857",
@@ -38462,36 +39352,6 @@
     "mention_count": 3,
     "prev_mention_count": 1,
     "bullish_count": 1,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "4062",
-    "company": "イビデン",
-    "company_en": "IBIDEN CO., LTD.",
-    "window": "24h",
-    "mention_count": 2,
-    "prev_mention_count": 1,
-    "bullish_count": 0,
-    "bearish_count": 2
-   },
-   {
-    "ticker": "6072",
-    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
-    "company_en": "Jibannet Holdings Co., Ltd.",
-    "window": "7d",
-    "mention_count": 2,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "6072",
-    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
-    "company_en": "Jibannet Holdings Co., Ltd.",
-    "window": "24h",
-    "mention_count": 2,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
     "bearish_count": 0
    }
   ],
@@ -38519,44 +39379,50 @@
      "5527",
      "5889",
      "6078",
-     "652A",
      "6578",
+     "8987",
      "9211"
     ]
    },
    {
-    "topic": "材料",
-    "ticker_count": 4,
+    "topic": "優待",
+    "ticker_count": 6,
     "tickers": [
-     "285A",
-     "4062",
-     "6072",
-     "7453"
+     "2269",
+     "3003",
+     "3772",
+     "5343",
+     "8346",
+     "9990"
     ]
    },
    {
     "topic": "決算",
-    "ticker_count": 4,
+    "ticker_count": 2,
     "tickers": [
-     "285A",
-     "4228",
-     "6857",
+     "6920",
      "8035"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 2,
+    "ticker_count": 1,
     "tickers": [
-     "4062",
-     "6857"
+     "9449"
     ]
    },
    {
-    "topic": "配当",
+    "topic": "材料",
     "ticker_count": 1,
     "tickers": [
-     "285A"
+     "6072"
+    ]
+   },
+   {
+    "topic": "需給",
+    "ticker_count": 1,
+    "tickers": [
+     "6072"
     ]
    }
   ],
@@ -38606,14 +39472,14 @@
      "652A",
      "6578",
      "6857",
-     "8802",
+     "8987",
      "9211",
      "9449"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 11,
+    "ticker_count": 12,
     "tickers": [
      "285A",
      "3905",
@@ -38625,6 +39491,7 @@
      "9101",
      "9104",
      "9107",
+     "9449",
      "9984"
     ]
    },
@@ -38639,19 +39506,23 @@
      "4502",
      "5344",
      "6857",
-     "6954",
+     "6920",
      "8035"
     ]
    },
    {
     "topic": "優待",
-    "ticker_count": 5,
+    "ticker_count": 9,
     "tickers": [
+     "2269",
      "2593",
-     "3053",
+     "3003",
+     "3772",
      "4331",
      "4848",
-     "7522"
+     "5343",
+     "8346",
+     "9990"
     ]
    },
    {
@@ -38664,20 +39535,21 @@
     ]
    },
    {
+    "topic": "需給",
+    "ticker_count": 3,
+    "tickers": [
+     "285A",
+     "6072",
+     "9409"
+    ]
+   },
+   {
     "topic": "業績",
     "ticker_count": 3,
     "tickers": [
      "2737",
      "4611",
      "7970"
-    ]
-   },
-   {
-    "topic": "需給",
-    "ticker_count": 2,
-    "tickers": [
-     "285A",
-     "9409"
     ]
    },
    {
@@ -38760,7 +39632,6 @@
      "6225",
      "652A",
      "6578",
-     "6594",
      "6758",
      "6857",
      "6976",
@@ -38773,6 +39644,7 @@
      "7552",
      "8411",
      "8802",
+     "8987",
      "9211",
      "9272",
      "9449",
@@ -38782,12 +39654,11 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 63,
+    "ticker_count": 61,
     "tickers": [
      "2158",
      "2326",
      "2371",
-     "2388",
      "2733",
      "276A",
      "2780",
@@ -38839,7 +39710,6 @@
      "8473",
      "8604",
      "8628",
-     "8698",
      "8714",
      "9021",
      "9022",
@@ -38864,7 +39734,6 @@
      "2805",
      "285A",
      "290A",
-     "336A",
      "4062",
      "4107",
      "4478",
@@ -38876,6 +39745,7 @@
      "5801",
      "581A",
      "593A",
+     "6072",
      "6227",
      "6324",
      "6366",
@@ -38902,7 +39772,7 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 42,
+    "ticker_count": 43,
     "tickers": [
      "156A",
      "1605",
@@ -38943,6 +39813,7 @@
      "9104",
      "9107",
      "9307",
+     "9449",
      "9501",
      "9820",
      "9984"
@@ -38950,29 +39821,34 @@
    },
    {
     "topic": "優待",
-    "ticker_count": 21,
+    "ticker_count": 26,
     "tickers": [
+     "2269",
      "2437",
      "2593",
      "2613",
      "2811",
      "2928",
+     "3003",
      "3053",
      "3172",
      "3221",
      "3557",
+     "3772",
      "3930",
      "4331",
      "4848",
      "5248",
      "5283",
+     "5343",
      "6222",
      "6533",
      "6594",
      "7522",
      "7552",
      "7603",
-     "8346"
+     "8346",
+     "9990"
     ]
    },
    {
@@ -39001,7 +39877,7 @@
    },
    {
     "topic": "決算",
-    "ticker_count": 13,
+    "ticker_count": 14,
     "tickers": [
      "228A",
      "285A",
@@ -39013,6 +39889,7 @@
      "6146",
      "6506",
      "6857",
+     "6920",
      "6954",
      "8035",
      "9983"
