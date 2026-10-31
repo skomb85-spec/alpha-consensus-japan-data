@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-31T14:14:32+09:00",
+ "generated_at": "2026-10-31T21:06:29+09:00",
  "translation": {
-  "summary_en_count": 618,
-  "summary_total": 635,
-  "company_en_count": 295,
-  "company_total": 295,
+  "summary_en_count": 620,
+  "summary_total": 638,
+  "company_en_count": 296,
+  "company_total": 296,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 736,
-  "rows_used": 635,
+  "rows_input": 739,
+  "rows_used": 638,
   "rows_rejected": 101,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 101
@@ -37,7 +37,7 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 11,
-   "post_count": 58,
+   "post_count": 60,
    "bullish_count": 1,
    "bearish_count": 0,
    "neutral_count": 10,
@@ -48,19 +48,19 @@
      "investor_count": 7
     },
     {
+     "topic": "需給",
+     "investor_count": 4
+    },
+    {
+     "topic": "バリュエーション",
+     "investor_count": 4
+    },
+    {
      "topic": "その他",
      "investor_count": 3
     },
     {
-     "topic": "需給",
-     "investor_count": 3
-    },
-    {
      "topic": "材料",
-     "investor_count": 3
-    },
-    {
-     "topic": "バリュエーション",
      "investor_count": 3
     },
     {
@@ -73,6 +73,27 @@
     }
    ],
    "investors": [
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "stance": "中立",
+     "post_count": 4,
+     "topics": [
+      "バリュエーション",
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "hiro_tyun",
+      "display_name": "hiro_tyun",
+      "post_created_at": "2026-10-31T18:14:00+09:00",
+      "source_url": "https://x.com/hiro_tyun/status/2116458690614001774",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
+      "summary_en": null
+     }
+    },
     {
      "handle": "abc87791035",
      "display_name": "ABCトレーダー",
@@ -197,25 +218,6 @@
      }
     },
     {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "hiro_tyun",
-      "display_name": "hiro_tyun",
-      "post_created_at": "2026-10-23T17:07:40+09:00",
-      "source_url": "https://x.com/hiro_tyun/status/2113542862646501835",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
-      "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-     }
-    },
-    {
      "handle": "kabu_st0ck",
      "display_name": "ちょる子🐣LINEやっていません",
      "stance": "中立",
@@ -297,6 +299,26 @@
    ],
    "latest_posts": [
     {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-10-31T18:14:00+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2116458690614001774",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
+     "summary_en": null
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-10-31T13:48:03+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2116391730241282174",
+     "topic": "バリュエーション",
+     "stance": "弱気",
+     "summary": "キオクシアの高値売り・空売り論を引用し、内容を高く評価。需給とバリュエーションの議論を含む。",
+     "summary_en": "Quoted an argument for selling at highs/short selling Kioxia and highly praised the content, which includes discussions on supply and demand and valuation."
+    },
+    {
      "handle": "abc87791035",
      "display_name": "ABCトレーダー",
      "post_created_at": "2026-10-30T13:51:00+09:00",
@@ -325,46 +347,56 @@
      "stance": "中立",
      "summary": "イビデン急落を受け、キオクシアの引け後決算への影響を指摘。",
      "summary_en": "Pointed out the impact on Kioxia's post-close financial results following Ibiden's sharp plunge."
-    },
-    {
-     "handle": "cadillac600",
-     "display_name": "むらやん/村上直樹",
-     "post_created_at": "2026-10-30T08:50:50+09:00",
-     "source_url": "https://x.com/cadillac600/status/2115954542135353699",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "キオクシアの決算を週末・月末に注意するよう言及。",
-     "summary_en": "Mentioned being cautious about Kioxia's earnings around the weekend and month-end."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-29T15:30:24+09:00",
-     "source_url": "https://x.com/noatake1127/status/2115692709138850128",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "キオクシアの株価が14505円であることを指摘",
-     "summary_en": "Pointed out that Kioxia's stock price is ¥14,505."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "バリュエーション",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-10-31T18:14:00+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2116458690614001774",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
+        "summary_en": null
+       }
+      }
+     ],
      "prev_mention_count": 3
     },
     "7d": {
-     "mention_count": 6,
-     "post_count": 17,
+     "mention_count": 7,
+     "post_count": 15,
      "bullish_count": 1,
      "bearish_count": 0,
-     "neutral_count": 5,
+     "neutral_count": 6,
      "unknown_count": 0,
      "topics": [
       {
@@ -372,19 +404,19 @@
        "investor_count": 3
       },
       {
-       "topic": "配当",
-       "investor_count": 2
+       "topic": "需給",
+       "investor_count": 3
       },
       {
        "topic": "バリュエーション",
        "investor_count": 2
       },
       {
-       "topic": "需給",
-       "investor_count": 2
+       "topic": "決算",
+       "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "配当",
        "investor_count": 1
       },
       {
@@ -394,12 +426,31 @@
      ],
      "investors": [
       {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "バリュエーション",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-10-31T18:14:00+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2116458690614001774",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
+        "summary_en": null
+       }
+      },
+      {
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
        "stance": "強気",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
-        "バリュエーション",
         "売買",
         "配当"
        ],
@@ -496,10 +547,9 @@
        "handle": "yuutaihiroto",
        "display_name": "桐谷広人・桐谷さん【公式】",
        "stance": "中立",
-       "post_count": 4,
+       "post_count": 1,
        "topics": [
-        "売買",
-        "配当"
+        "売買"
        ],
        "latest_post": {
         "handle": "yuutaihiroto",
@@ -517,7 +567,7 @@
     },
     "30d": {
      "mention_count": 11,
-     "post_count": 55,
+     "post_count": 57,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 10,
@@ -528,19 +578,19 @@
        "investor_count": 7
       },
       {
+       "topic": "需給",
+       "investor_count": 4
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 4
+      },
+      {
        "topic": "その他",
        "investor_count": 3
       },
       {
-       "topic": "需給",
-       "investor_count": 3
-      },
-      {
        "topic": "材料",
-       "investor_count": 3
-      },
-      {
-       "topic": "バリュエーション",
        "investor_count": 3
       },
       {
@@ -553,6 +603,27 @@
       }
      ],
      "investors": [
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 4,
+       "topics": [
+        "バリュエーション",
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-10-31T18:14:00+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2116458690614001774",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
+        "summary_en": null
+       }
+      },
       {
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
@@ -677,25 +748,6 @@
        }
       },
       {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-23T17:07:40+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2113542862646501835",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "過去のキオクシアへの投資と興味の喪失について説明・訂正。",
-        "summary_en": "Explained and corrected past investment in Kioxia and loss of interest."
-       }
-      },
-      {
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
        "stance": "中立",
@@ -778,7 +830,7 @@
      "prev_mention_count": 1
     }
    },
-   "last_post_at": "2026-10-30T13:51:00+09:00"
+   "last_post_at": "2026-10-31T18:14:00+09:00"
   },
   {
    "ticker": "9449",
@@ -1805,17 +1857,13 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 3,
-     "post_count": 4,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 2,
+     "neutral_count": 0,
+     "unknown_count": 1,
      "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 2
-      },
       {
        "topic": "需給",
        "investor_count": 1
@@ -1840,47 +1888,9 @@
         "summary": "ＥＲＴＨ Ｇｒｏｕｐの新株予約権（MSワラント類似）について引用し、分析を予告。",
         "summary_en": "Quoting about ERTH Group's share acquisition rights (similar to MS warrants) and teasing an upcoming analysis."
        }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-30T16:31:28+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2116070464976306386",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "第三者割当による新株予約権発行の適時開示を共有。希薄化を伴う資金調達のニュース。",
-        "summary_en": "Shared the timely disclosure of the issuance of stock acquisition rights through third-party allotment, news of fund-raising involving dilution."
-       }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-30T16:19:57+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2116067566422753330",
-        "topic": "材料",
-        "stance": "判定不能",
-        "summary": "ERTH Group(6072)の第三者割当新株予約権発行に関する引用投稿にコメント。",
-        "summary_en": "Commented on a quoted post regarding ERTH Group's (6072) issuance of stock acquisition rights through third-party allotment."
-       }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 3,
@@ -2620,7 +2630,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 7,
+     "post_count": 6,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2684,7 +2694,7 @@
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
         "材料"
        ],
@@ -2942,11 +2952,11 @@
        "investor_count": 3
       },
       {
-       "topic": "その他",
+       "topic": "バリュエーション",
        "investor_count": 2
       },
       {
-       "topic": "バリュエーション",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -3597,40 +3607,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-30T17:56:01+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2116091744047792613",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "クリーク・アンド・リバー社(4763)のIR説明会Q&A書き起こし公開のお知らせ",
-        "summary_en": "Notice of the release of the transcript of the IR briefing Q&A for CREEK & RIVER (4763)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4445,40 +4430,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-30T15:37:37+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2116056913519771653",
-        "topic": "決算",
-        "stance": "判定不能",
-        "summary": "東京エレクトロンの2027年3月期中間決算短信を共有。",
-        "summary_en": "Shared Tokyo Electron's interim financial results summary for the fiscal year ending March 2027."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4635,40 +4595,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-30T17:56:47+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2116091937614946495",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "ソラコム(147A)のIR説明会Q&A書き起こし公開のお知らせ",
-        "summary_en": "Notice of the release of the transcript of the IR briefing Q&A for SORACOM (147A)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5198,11 +5133,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -5271,7 +5206,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5322,11 +5257,11 @@
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -6908,7 +6843,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7557,143 +7492,6 @@
     }
    },
    "last_post_at": "2026-10-27T08:45:41+09:00"
-  },
-  {
-   "ticker": "4809",
-   "company": "パラカ",
-   "company_en": "PARAKA Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 1,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "バリュエーション",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "強気",
-     "post_count": 1,
-     "topics": [
-      "バリュエーション"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-10-24T14:29:26+09:00",
-      "source_url": "https://x.com/19830128to/status/2113865427369816140",
-      "topic": "バリュエーション",
-      "stance": "強気",
-      "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
-      "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-10-24T14:29:26+09:00",
-     "source_url": "https://x.com/19830128to/status/2113865427369816140",
-     "topic": "バリュエーション",
-     "stance": "強気",
-     "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
-     "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-24T14:29:26+09:00",
-        "source_url": "https://x.com/19830128to/status/2113865427369816140",
-        "topic": "バリュエーション",
-        "stance": "強気",
-        "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
-        "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-24T14:29:26+09:00",
-        "source_url": "https://x.com/19830128to/status/2113865427369816140",
-        "topic": "バリュエーション",
-        "stance": "強気",
-        "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
-        "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-24T14:29:26+09:00"
   },
   {
    "ticker": "4848",
@@ -8487,40 +8285,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-30T17:55:17+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2116091558315643172",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "property technologies(5527)のIR説明会Q&A書き起こし公開のお知らせ",
-        "summary_en": "Notice of the release of the transcript of the IR briefing Q&A for property technologies (5527)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8786,40 +8559,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-30T16:48:25+09:00",
-        "source_url": "https://x.com/19830128to/status/2116074730151346289",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "Japan Eyewear Holdingsに関するブログ記事を共有。",
-        "summary_en": "Shared a blog post regarding Japan Eyewear Holdings."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8895,6 +8643,168 @@
     }
    },
    "last_post_at": "2026-10-30T16:48:25+09:00"
+  },
+  {
+   "ticker": "6036",
+   "company": "KeePer技研",
+   "company_en": "KeePer Technical Laboratory Co.,Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-31T15:47:29+09:00",
+      "source_url": "https://x.com/19830128to/status/2116421784816025944",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+      "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-31T15:47:29+09:00",
+     "source_url": "https://x.com/19830128to/status/2116421784816025944",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+     "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-31T15:47:29+09:00",
+        "source_url": "https://x.com/19830128to/status/2116421784816025944",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+        "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-31T15:47:29+09:00",
+        "source_url": "https://x.com/19830128to/status/2116421784816025944",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+        "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-31T15:47:29+09:00",
+        "source_url": "https://x.com/19830128to/status/2116421784816025944",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+        "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T15:47:29+09:00"
   },
   {
    "ticker": "6047",
@@ -9085,40 +8995,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-30T17:58:16+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2116092310375260433",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "バリューHR(6078)のIR説明会Q&A書き起こし公開のお知らせ",
-        "summary_en": "Notice of the release of the transcript of the IR briefing Q&A for VALUE HR (6078)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9194,143 +9079,6 @@
     }
    },
    "last_post_at": "2026-10-30T17:58:16+09:00"
-  },
-  {
-   "ticker": "6195",
-   "company": "ホープ",
-   "company_en": "HOPE, INC.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-10-24T16:15:00+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
-      "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-10-24T16:15:00+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
-     "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-24T16:15:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
-        "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-24T16:15:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
-        "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-24T16:15:00+09:00"
   },
   {
    "ticker": "6225",
@@ -9688,40 +9436,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-30T17:57:34+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2116092133593768319",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "コレックホールディングス(6578)のIR説明会Q&A書き起こし公開のお知らせ",
-        "summary_en": "Notice of the release of the transcript of the IR briefing Q&A for Collec Holdings (6578)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10125,7 +9848,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -10133,7 +9856,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -10249,7 +9972,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -10257,7 +9980,7 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -10815,7 +10538,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -11099,7 +10822,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -11801,40 +11524,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-10-30T17:59:05+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2116092515992600636",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "エフ・コード(9211)のIR説明会Q&A書き起こし公開のお知らせ",
-        "summary_en": "Notice of the release of the transcript of the IR briefing Q&A for f-code (9211)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -12449,19 +12147,19 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
      "topic": "材料",
      "investor_count": 2
     },
     {
-     "topic": "売買",
-     "investor_count": 1
+     "topic": "需給",
+     "investor_count": 2
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -12615,7 +12313,7 @@
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -12623,7 +12321,7 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -17531,11 +17229,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -22437,40 +22135,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-01T15:12:55+09:00",
-        "source_url": "https://x.com/19830128to/status/2105541450549383542",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "監視銘柄としてネオジャパンのブログ記事を共有",
-        "summary_en": "Shares a blog post on Neo Japan as a watchlist stock."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-01T15:12:55+09:00"
@@ -26685,6 +26358,118 @@
    "last_post_at": "2026-10-04T17:44:07+09:00"
   },
   {
+   "ticker": "4809",
+   "company": "パラカ",
+   "company_en": "PARAKA Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "バリュエーション",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "バリュエーション"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-24T14:29:26+09:00",
+      "source_url": "https://x.com/19830128to/status/2113865427369816140",
+      "topic": "バリュエーション",
+      "stance": "強気",
+      "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+      "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-24T14:29:26+09:00",
+     "source_url": "https://x.com/19830128to/status/2113865427369816140",
+     "topic": "バリュエーション",
+     "stance": "強気",
+     "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+     "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-24T14:29:26+09:00",
+        "source_url": "https://x.com/19830128to/status/2113865427369816140",
+        "topic": "バリュエーション",
+        "stance": "強気",
+        "summary": "高配当バリュー分析。株価1991円でPBR0.94 PER8.8。やや割安と判定し2100円突破の予感。",
+        "summary_en": "High-dividend value analysis: Stock price at ¥1,991, PBR 0.94, PER 8.8; judged somewhat undervalued, with a feeling it will break through ¥2,100."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T14:29:26+09:00"
+  },
+  {
    "ticker": "4816",
    "company": "東映アニメーション",
    "company_en": "TOEI ANIMATION CO., LTD.",
@@ -28717,15 +28502,15 @@
      "investor_count": 1
     },
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "需給",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -28837,11 +28622,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -28972,11 +28757,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -29066,11 +28851,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -29622,6 +29407,118 @@
    "last_post_at": "2026-10-09T16:17:48+09:00"
   },
   {
+   "ticker": "6195",
+   "company": "ホープ",
+   "company_en": "HOPE, INC.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-10-24T16:15:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+      "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-10-24T16:15:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+     "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-10-24T16:15:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2113892143379148943",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "株式会社ホープ（6195）のIR説明会開催を告知。",
+        "summary_en": "Announced that HOPE, INC. (6195) will hold an IR briefing."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-24T16:15:00+09:00"
+  },
+  {
    "ticker": "6222",
    "company": "島精機製作所",
    "company_en": "SHIMA SEIKI MFG., LTD.",
@@ -29843,15 +29740,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "需給",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -29970,11 +29867,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -30378,11 +30275,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -33507,11 +33404,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -33591,11 +33488,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       }
      ],
@@ -39192,8 +39089,8 @@
   {
    "handle": "19830128to",
    "display_name": "某哲也",
-   "post_count": 26,
-   "ticker_count": 26
+   "post_count": 27,
+   "ticker_count": 27
   },
   {
    "handle": "daiboucho",
@@ -39208,16 +39105,16 @@
    "ticker_count": 15
   },
   {
+   "handle": "hiro_tyun",
+   "display_name": "hiro_tyun",
+   "post_count": 10,
+   "ticker_count": 3
+  },
+  {
    "handle": "cadillac600",
    "display_name": "むらやん/村上直樹",
    "post_count": 8,
    "ticker_count": 6
-  },
-  {
-   "handle": "hiro_tyun",
-   "display_name": "hiro_tyun",
-   "post_count": 8,
-   "ticker_count": 3
   },
   {
    "handle": "kabu1000",
@@ -39257,7 +39154,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 6,
+    "mention_count": 7,
     "prev_mention_count": 6,
     "bullish_count": 1,
     "bearish_count": 0
@@ -39305,6 +39202,16 @@
   ],
   "rising": [
    {
+    "ticker": "285A",
+    "company": "キオクシアホールディングス",
+    "company_en": "Kioxia Holdings Corporation",
+    "window": "7d",
+    "mention_count": 7,
+    "prev_mention_count": 6,
+    "bullish_count": 1,
+    "bearish_count": 0
+   },
+   {
     "ticker": "9449",
     "company": "GMOインターネットグループ",
     "company_en": "GMO Internet Group, Inc.",
@@ -39329,16 +39236,6 @@
     "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
     "company_en": "Jibannet Holdings Co., Ltd.",
     "window": "7d",
-    "mention_count": 3,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "6072",
-    "company": "ＥＲＴＨ　Ｇｒｏｕｐ",
-    "company_en": "Jibannet Holdings Co., Ltd.",
-    "window": "24h",
     "mention_count": 3,
     "prev_mention_count": 0,
     "bullish_count": 0,
@@ -39371,20 +39268,6 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "その他",
-    "ticker_count": 8,
-    "tickers": [
-     "147A",
-     "4763",
-     "5527",
-     "5889",
-     "6078",
-     "6578",
-     "8987",
-     "9211"
-    ]
-   },
-   {
     "topic": "優待",
     "ticker_count": 6,
     "tickers": [
@@ -39397,11 +39280,26 @@
     ]
    },
    {
-    "topic": "決算",
+    "topic": "需給",
     "ticker_count": 2,
     "tickers": [
-     "6920",
-     "8035"
+     "285A",
+     "6072"
+    ]
+   },
+   {
+    "topic": "その他",
+    "ticker_count": 2,
+    "tickers": [
+     "6036",
+     "8987"
+    ]
+   },
+   {
+    "topic": "バリュエーション",
+    "ticker_count": 1,
+    "tickers": [
+     "285A"
     ]
    },
    {
@@ -39412,17 +39310,10 @@
     ]
    },
    {
-    "topic": "材料",
+    "topic": "決算",
     "ticker_count": 1,
     "tickers": [
-     "6072"
-    ]
-   },
-   {
-    "topic": "需給",
-    "ticker_count": 1,
-    "tickers": [
-     "6072"
+     "6920"
     ]
    }
   ],
@@ -39466,8 +39357,8 @@
      "5576",
      "558A",
      "5889",
+     "6036",
      "6078",
-     "6195",
      "6225",
      "652A",
      "6578",
@@ -39526,15 +39417,6 @@
     ]
    },
    {
-    "topic": "バリュエーション",
-    "ticker_count": 3,
-    "tickers": [
-     "285A",
-     "4809",
-     "9984"
-    ]
-   },
-   {
     "topic": "需給",
     "ticker_count": 3,
     "tickers": [
@@ -39550,6 +39432,14 @@
      "2737",
      "4611",
      "7970"
+    ]
+   },
+   {
+    "topic": "バリュエーション",
+    "ticker_count": 2,
+    "tickers": [
+     "285A",
+     "9984"
     ]
    },
    {
@@ -39589,7 +39479,6 @@
      "3673",
      "3697",
      "3901",
-     "3921",
      "3964",
      "4012",
      "4076",
@@ -39626,6 +39515,7 @@
      "558A",
      "5889",
      "5970",
+     "6036",
      "6078",
      "6098",
      "6195",
