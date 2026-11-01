@@ -1,9 +1,9 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-01T09:00:01+09:00",
+ "generated_at": "2026-11-01T14:52:16+09:00",
  "translation": {
-  "summary_en_count": 623,
-  "summary_total": 638,
+  "summary_en_count": 626,
+  "summary_total": 641,
   "company_en_count": 296,
   "company_total": 296,
   "engine": "gemini-flash-latest",
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 739,
-  "rows_used": 638,
-  "rows_rejected": 101,
+  "rows_input": 743,
+  "rows_used": 641,
+  "rows_rejected": 102,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 101
+   "tickerが日本株コード形式でない/空": 102
   },
   "missing_company_tickers": []
  },
@@ -37,10 +37,10 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 11,
-   "post_count": 60,
-   "bullish_count": 1,
+   "post_count": 61,
+   "bullish_count": 0,
    "bearish_count": 0,
-   "neutral_count": 10,
+   "neutral_count": 11,
    "unknown_count": 0,
    "topics": [
     {
@@ -69,10 +69,33 @@
     },
     {
      "topic": "決算",
-     "investor_count": 1
+     "investor_count": 2
     }
    ],
    "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "中立",
+     "post_count": 8,
+     "topics": [
+      "バリュエーション",
+      "売買",
+      "材料",
+      "決算",
+      "配当"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-11-01T10:01:27+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2116697089057185920",
+      "topic": "決算",
+      "stance": "中立",
+      "summary": "キオクシア決算説明会分析",
+      "summary_en": "Kioxia financial results briefing analysis"
+     }
+    },
     {
      "handle": "hiro_tyun",
      "display_name": "hiro_tyun",
@@ -92,28 +115,6 @@
       "stance": "中立",
       "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
       "summary_en": "There are many holders of Kioxia with unrealized losses and supply and demand indicates selling pressure, but the possibility of a reversal was also pointed out because pessimism is extreme."
-     }
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "強気",
-     "post_count": 7,
-     "topics": [
-      "バリュエーション",
-      "売買",
-      "材料",
-      "配当"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-10-30T13:51:00+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2116030146998387003",
-      "topic": "配当",
-      "stance": "強気",
-      "summary": "SKハイニックスの増配・自社株買いを受けてキオクシアの株主還元期待を言及",
-      "summary_en": "Mentioned expectations for shareholder returns from Kioxia following SK Hynix's dividend increase and share buyback."
      }
     },
     {
@@ -299,6 +300,16 @@
    ],
    "latest_posts": [
     {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-11-01T10:01:27+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2116697089057185920",
+     "topic": "決算",
+     "stance": "中立",
+     "summary": "キオクシア決算説明会分析",
+     "summary_en": "Kioxia financial results briefing analysis"
+    },
+    {
      "handle": "hiro_tyun",
      "display_name": "hiro_tyun",
      "post_created_at": "2026-10-31T18:14:00+09:00",
@@ -337,25 +348,15 @@
      "stance": "中立",
      "summary": "本日決算に注目",
      "summary_en": "Paying attention to today's earnings release."
-    },
-    {
-     "handle": "cadillac600",
-     "display_name": "むらやん/村上直樹",
-     "post_created_at": "2026-10-30T09:37:54+09:00",
-     "source_url": "https://x.com/cadillac600/status/2115966388166852713",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "イビデン急落を受け、キオクシアの引け後決算への影響を指摘。",
-     "summary_en": "Pointed out the impact on Kioxia's post-close financial results following Ibiden's sharp plunge."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
+     "mention_count": 2,
      "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
       {
@@ -363,18 +364,36 @@
        "investor_count": 1
       },
       {
-       "topic": "バリュエーション",
+       "topic": "決算",
        "investor_count": 1
       }
      ],
      "investors": [
       {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-11-01T10:01:27+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116697089057185920",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "キオクシア決算説明会分析",
+        "summary_en": "Kioxia financial results briefing analysis"
+       }
+      },
+      {
        "handle": "hiro_tyun",
        "display_name": "hiro_tyun",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "バリュエーション",
         "需給"
        ],
        "latest_post": {
@@ -389,31 +408,31 @@
        }
       }
      ],
-     "prev_mention_count": 3
+     "prev_mention_count": 1
     },
     "7d": {
-     "mention_count": 7,
+     "mention_count": 6,
      "post_count": 15,
-     "bullish_count": 1,
+     "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 6,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 3
-      },
-      {
        "topic": "需給",
        "investor_count": 3
       },
       {
-       "topic": "バリュエーション",
+       "topic": "決算",
        "investor_count": 2
       },
       {
-       "topic": "決算",
-       "investor_count": 1
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 2
       },
       {
        "topic": "配当",
@@ -426,6 +445,27 @@
      ],
      "investors": [
       {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "売買",
+        "決算",
+        "配当"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-11-01T10:01:27+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116697089057185920",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "キオクシア決算説明会分析",
+        "summary_en": "Kioxia financial results briefing analysis"
+       }
+      },
+      {
        "handle": "hiro_tyun",
        "display_name": "hiro_tyun",
        "stance": "中立",
@@ -443,26 +483,6 @@
         "stance": "中立",
         "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
         "summary_en": "There are many holders of Kioxia with unrealized losses and supply and demand indicates selling pressure, but the possibility of a reversal was also pointed out because pessimism is extreme."
-       }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "強気",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "配当"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-30T13:51:00+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2116030146998387003",
-        "topic": "配当",
-        "stance": "強気",
-        "summary": "SKハイニックスの増配・自社株買いを受けてキオクシアの株主還元期待を言及",
-        "summary_en": "Mentioned expectations for shareholder returns from Kioxia following SK Hynix's dividend increase and share buyback."
        }
       },
       {
@@ -542,35 +562,16 @@
         "summary": "キオクシアの信用評価損益率が-31%と極端に低いことを指摘し、信用データの確認を促している。",
         "summary_en": "Points out that Kioxia's margin profit and loss ratio is extremely low at -31% and encourages checking margin trading data."
        }
-      },
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-25T13:33:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2114213686344814947",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "キオクシアは分散投資の1銘柄に過ぎず勝負する気はない",
-        "summary_en": null
-       }
       }
      ],
      "prev_mention_count": 6
     },
     "30d": {
      "mention_count": 11,
-     "post_count": 57,
-     "bullish_count": 1,
+     "post_count": 56,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 10,
+     "neutral_count": 11,
      "unknown_count": 0,
      "topics": [
       {
@@ -599,10 +600,33 @@
       },
       {
        "topic": "決算",
-       "investor_count": 1
+       "investor_count": 2
       }
      ],
      "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "中立",
+       "post_count": 8,
+       "topics": [
+        "バリュエーション",
+        "売買",
+        "材料",
+        "決算",
+        "配当"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-11-01T10:01:27+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116697089057185920",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "キオクシア決算説明会分析",
+        "summary_en": "Kioxia financial results briefing analysis"
+       }
+      },
       {
        "handle": "hiro_tyun",
        "display_name": "hiro_tyun",
@@ -625,32 +649,10 @@
        }
       },
       {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "強気",
-       "post_count": 7,
-       "topics": [
-        "バリュエーション",
-        "売買",
-        "材料",
-        "配当"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-30T13:51:00+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2116030146998387003",
-        "topic": "配当",
-        "stance": "強気",
-        "summary": "SKハイニックスの増配・自社株買いを受けてキオクシアの株主還元期待を言及",
-        "summary_en": "Mentioned expectations for shareholder returns from Kioxia following SK Hynix's dividend increase and share buyback."
-       }
-      },
-      {
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 24,
+       "post_count": 23,
        "topics": [
         "その他",
         "バリュエーション",
@@ -751,7 +753,7 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
        "stance": "中立",
-       "post_count": 9,
+       "post_count": 8,
        "topics": [
         "その他",
         "売買",
@@ -827,10 +829,10 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     }
    },
-   "last_post_at": "2026-10-31T18:14:00+09:00"
+   "last_post_at": "2026-11-01T10:01:27+09:00"
   },
   {
    "ticker": "9449",
@@ -1052,40 +1054,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
-     "bearish_count": 1,
+     "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-31T11:18:07+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2116353995493294423",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "GMOのショートを希望する発言。",
-        "summary_en": "A statement expressing a desire to short GMO."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 6,
@@ -1539,7 +1516,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 3,
@@ -2043,11 +2020,11 @@
      "investor_count": 3
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -2182,7 +2159,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 3,
@@ -2271,7 +2248,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 23,
+     "post_count": 20,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2282,11 +2259,11 @@
        "investor_count": 3
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
@@ -2299,7 +2276,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 12,
+       "post_count": 9,
        "topics": [
         "その他",
         "売買",
@@ -2393,11 +2370,11 @@
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -2616,11 +2593,11 @@
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "優待",
        "investor_count": 1
       },
       {
-       "topic": "優待",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -2856,7 +2833,7 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 3,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -2876,7 +2853,7 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEやっていません",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
         "バリュエーション",
         "売買"
@@ -2893,7 +2870,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "30d": {
      "mention_count": 3,
@@ -2989,6 +2966,302 @@
     }
    },
    "last_post_at": "2026-10-26T09:20:18+09:00"
+  },
+  {
+   "ticker": "4661",
+   "company": "オリエンタルランド",
+   "company_en": "Oriental Land Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 3,
+   "post_count": 5,
+   "bullish_count": 2,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 2
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "強気",
+     "post_count": 2,
+     "topics": [
+      "その他",
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-11-01T14:13:00+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2116760417519485088",
+      "topic": "その他",
+      "stance": "強気",
+      "summary": "オリエンタルランドを売却しない理由として、ディズニーの40年顧客資産とクルーズ事業による次の成長を挙げている。",
+      "summary_en": "As reasons for not selling Oriental Land, the 40-year Disney customer assets and the next growth from the cruise business are cited."
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-23T09:15:14+09:00",
+      "source_url": "https://x.com/noatake1127/status/2113423967537278997",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "買われているとの観測、アンワインド的",
+      "summary_en": "Observation that it is being bought, like an unwind."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-14T16:46:31+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2110276049175293988",
+      "topic": "材料",
+      "stance": "強気",
+      "summary": "OLCのクルーズ事業開始に関するニュースを共有し、ディズニーファンにとってポジティブな展開とコメントしている。",
+      "summary_en": "Sharing news about OLC starting a cruise business, commenting that it is a positive development for Disney fans."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-11-01T14:13:00+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2116760417519485088",
+     "topic": "その他",
+     "stance": "強気",
+     "summary": "オリエンタルランドを売却しない理由として、ディズニーの40年顧客資産とクルーズ事業による次の成長を挙げている。",
+     "summary_en": "As reasons for not selling Oriental Land, the 40-year Disney customer assets and the next growth from the cruise business are cited."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-23T09:15:14+09:00",
+     "source_url": "https://x.com/noatake1127/status/2113423967537278997",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "買われているとの観測、アンワインド的",
+     "summary_en": "Observation that it is being bought, like an unwind."
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-10-20T14:37:00+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2112417973206138962",
+     "topic": "売買",
+     "stance": "判定不能",
+     "summary": "オリエンタルランドのチャートパターンがカップウィズハンドルかを問う。",
+     "summary_en": "Asks whether Oriental Land's chart pattern is a cup with handle."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-19T09:27:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2111977380416045302",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "オリエンタルランドがまた上がっているとの言及。",
+     "summary_en": "Mentioning that Oriental Land is rising again."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-14T16:46:31+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2110276049175293988",
+     "topic": "材料",
+     "stance": "強気",
+     "summary": "OLCのクルーズ事業開始に関するニュースを共有し、ディズニーファンにとってポジティブな展開とコメントしている。",
+     "summary_en": "Sharing news about OLC starting a cruise business, commenting that it is a positive development for Disney fans."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-11-01T14:13:00+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116760417519485088",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "オリエンタルランドを売却しない理由として、ディズニーの40年顧客資産とクルーズ事業による次の成長を挙げている。",
+        "summary_en": "As reasons for not selling Oriental Land, the 40-year Disney customer assets and the next growth from the cruise business are cited."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-11-01T14:13:00+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116760417519485088",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "オリエンタルランドを売却しない理由として、ディズニーの40年顧客資産とクルーズ事業による次の成長を挙げている。",
+        "summary_en": "As reasons for not selling Oriental Land, the 40-year Disney customer assets and the next growth from the cruise business are cited."
+       }
+      }
+     ],
+     "prev_mention_count": 2
+    },
+    "30d": {
+     "mention_count": 3,
+     "post_count": 5,
+     "bullish_count": 2,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "abc87791035",
+       "display_name": "ABCトレーダー",
+       "stance": "強気",
+       "post_count": 2,
+       "topics": [
+        "その他",
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "abc87791035",
+        "display_name": "ABCトレーダー",
+        "post_created_at": "2026-11-01T14:13:00+09:00",
+        "source_url": "https://x.com/ABC87791035/status/2116760417519485088",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "オリエンタルランドを売却しない理由として、ディズニーの40年顧客資産とクルーズ事業による次の成長を挙げている。",
+        "summary_en": "As reasons for not selling Oriental Land, the 40-year Disney customer assets and the next growth from the cruise business are cited."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-23T09:15:14+09:00",
+        "source_url": "https://x.com/noatake1127/status/2113423967537278997",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "買われているとの観測、アンワインド的",
+        "summary_en": "Observation that it is being bought, like an unwind."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-14T16:46:31+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2110276049175293988",
+        "topic": "材料",
+        "stance": "強気",
+        "summary": "OLCのクルーズ事業開始に関するニュースを共有し、ディズニーファンにとってポジティブな展開とコメントしている。",
+        "summary_en": "Sharing news about OLC starting a cruise business, commenting that it is a positive development for Disney fans."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-01T14:13:00+09:00"
   },
   {
    "ticker": "6920",
@@ -3252,11 +3525,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
@@ -4663,40 +4936,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-31T10:47:28+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "優待品として明治製菓の商品を受領したことを報告。",
-        "summary_en": "Reporting the receipt of Meiji Seika products as a shareholder benefit."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5060,11 +5308,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "決算",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "決算",
      "investor_count": 1
     },
     {
@@ -5173,7 +5421,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -5184,11 +5432,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "決算",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "決算",
        "investor_count": 1
       },
       {
@@ -5276,40 +5524,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-31T10:47:28+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2116339564772233396",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "優待品準備。ヒューリックと東邦銀行の優待品について。",
-        "summary_en": "Preparing shareholder benefits; regarding shareholder benefits from Hulic and The Toho Bank."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5448,40 +5671,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 2,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-31T10:47:28+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "株主優待品到着報告。ウェルスマネジメントのシャインマスカット5房。",
-        "summary_en": "Report of arrival of shareholder benefits: 5 bunches of Shine Muscat from Wealth Management."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5845,11 +6043,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -5928,11 +6126,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -5969,11 +6167,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -6142,143 +6340,6 @@
    "last_post_at": "2026-10-26T10:38:23+09:00"
   },
   {
-   "ticker": "4063",
-   "company": "信越化学工業",
-   "company_en": "Shin-Etsu Chemical Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-25T11:29:44+09:00",
-      "source_url": "https://x.com/noatake1127/status/2114182594816512314",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
-      "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-25T11:29:44+09:00",
-     "source_url": "https://x.com/noatake1127/status/2114182594816512314",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
-     "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-25T11:29:44+09:00",
-        "source_url": "https://x.com/noatake1127/status/2114182594816512314",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
-        "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-25T11:29:44+09:00",
-        "source_url": "https://x.com/noatake1127/status/2114182594816512314",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
-        "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-25T11:29:44+09:00"
-  },
-  {
    "ticker": "4228",
    "company": "積水化成品工業",
    "company_en": "Sekisui Kasei Co., Ltd.",
@@ -6338,7 +6399,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6810,7 +6871,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -7897,40 +7958,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-31T10:47:28+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "優待品としてニッコーの陶器を受領したことを報告。",
-        "summary_en": "Reporting the receipt of Nikko ceramics as a shareholder benefit."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9590,6 +9626,218 @@
    "last_post_at": "2026-10-28T12:36:00+09:00"
   },
   {
+   "ticker": "7199",
+   "company": "プレミアグループ",
+   "company_en": "Premium Group Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 5,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "中立",
+     "post_count": 5,
+     "topics": [
+      "その他",
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-11-01T08:53:04+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2116679880628912476",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "週末ポートフォリオリスト",
+      "summary_en": "Weekend portfolio list"
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-11-01T08:53:04+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2116679880628912476",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "週末ポートフォリオリスト",
+     "summary_en": "Weekend portfolio list"
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-25T08:18:55+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2114134573097615554",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "週末PFの保有銘柄としてリスト掲載。個別の見通しは明示されていない。",
+     "summary_en": "Listed as a holding in the weekend portfolio, with no specific outlook explicitly stated."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-17T11:10:15+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
+     "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-04T17:44:07+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
+     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-09-27T09:27:46+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
+     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-01T08:53:04+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2116679880628912476",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "週末ポートフォリオリスト",
+        "summary_en": "Weekend portfolio list"
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-01T08:53:04+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2116679880628912476",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "週末ポートフォリオリスト",
+        "summary_en": "Weekend portfolio list"
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 4,
+       "topics": [
+        "その他",
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-01T08:53:04+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2116679880628912476",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "週末ポートフォリオリスト",
+        "summary_en": "Weekend portfolio list"
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-01T08:53:04+09:00"
+  },
+  {
    "ticker": "7453",
    "company": "良品計画",
    "company_en": "Ryohin Keikaku Co., Ltd.",
@@ -9679,7 +9927,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -10112,40 +10360,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 2,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-31T10:47:28+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "株主優待品到着報告。東邦銀行の優待をナンバーワンと評価。",
-        "summary_en": "Reporting the arrival of shareholder benefits, rating The Toho Bank's benefit as number one."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10705,40 +10928,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenichishimada2",
-       "display_name": "Ken/1UP投資",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kenichishimada2",
-        "display_name": "Ken/1UP投資",
-        "post_created_at": "2026-10-31T10:59:07+09:00",
-        "source_url": "https://x.com/KenichiShimada2/status/2116349216360734944",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "ジャパンエクセレント投資法人(8987)のIRセミナー告知を引用。",
-        "summary_en": "Quoting the IR seminar announcement for Japan Excellent, Inc. (8987)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -11552,40 +11750,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-31T10:47:28+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2116346284487651367",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "株主優待品到着報告。サックスバーのリュック、ウェルスマネジメントのシャインマスカット5房など。",
-        "summary_en": "Report of arrival of shareholder benefits: a backpack from Sac's Bar, 5 bunches of Shine Muscat from Wealth Management, etc."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -11663,232 +11836,6 @@
    "last_post_at": "2026-10-31T10:47:28+09:00"
   },
   {
-   "ticker": "4661",
-   "company": "オリエンタルランド",
-   "company_en": "Oriental Land Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 3,
-   "post_count": 4,
-   "bullish_count": 1,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 2
-    },
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-23T09:15:14+09:00",
-      "source_url": "https://x.com/noatake1127/status/2113423967537278997",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "買われているとの観測、アンワインド的",
-      "summary_en": "Observation that it is being bought, like an unwind."
-     }
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-10-20T14:37:00+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2112417973206138962",
-      "topic": "売買",
-      "stance": "判定不能",
-      "summary": "オリエンタルランドのチャートパターンがカップウィズハンドルかを問う。",
-      "summary_en": "Asks whether Oriental Land's chart pattern is a cup with handle."
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "強気",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-14T16:46:31+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2110276049175293988",
-      "topic": "材料",
-      "stance": "強気",
-      "summary": "OLCのクルーズ事業開始に関するニュースを共有し、ディズニーファンにとってポジティブな展開とコメントしている。",
-      "summary_en": "Sharing news about OLC starting a cruise business, commenting that it is a positive development for Disney fans."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-23T09:15:14+09:00",
-     "source_url": "https://x.com/noatake1127/status/2113423967537278997",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "買われているとの観測、アンワインド的",
-     "summary_en": "Observation that it is being bought, like an unwind."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-10-20T14:37:00+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2112417973206138962",
-     "topic": "売買",
-     "stance": "判定不能",
-     "summary": "オリエンタルランドのチャートパターンがカップウィズハンドルかを問う。",
-     "summary_en": "Asks whether Oriental Land's chart pattern is a cup with handle."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-19T09:27:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2111977380416045302",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "オリエンタルランドがまた上がっているとの言及。",
-     "summary_en": "Mentioning that Oriental Land is rising again."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-14T16:46:31+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2110276049175293988",
-     "topic": "材料",
-     "stance": "強気",
-     "summary": "OLCのクルーズ事業開始に関するニュースを共有し、ディズニーファンにとってポジティブな展開とコメントしている。",
-     "summary_en": "Sharing news about OLC starting a cruise business, commenting that it is a positive development for Disney fans."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 2
-    },
-    "30d": {
-     "mention_count": 3,
-     "post_count": 4,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 2
-      },
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-23T09:15:14+09:00",
-        "source_url": "https://x.com/noatake1127/status/2113423967537278997",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "買われているとの観測、アンワインド的",
-        "summary_en": "Observation that it is being bought, like an unwind."
-       }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-20T14:37:00+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2112417973206138962",
-        "topic": "売買",
-        "stance": "判定不能",
-        "summary": "オリエンタルランドのチャートパターンがカップウィズハンドルかを問う。",
-        "summary_en": "Asks whether Oriental Land's chart pattern is a cup with handle."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-14T16:46:31+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2110276049175293988",
-        "topic": "材料",
-        "stance": "強気",
-        "summary": "OLCのクルーズ事業開始に関するニュースを共有し、ディズニーファンにとってポジティブな展開とコメントしている。",
-        "summary_en": "Sharing news about OLC starting a cruise business, commenting that it is a positive development for Disney fans."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-23T09:15:14+09:00"
-  },
-  {
    "ticker": "6976",
    "company": "太陽誘電",
    "company_en": "TAIYO YUDEN CO., LTD.",
@@ -11901,19 +11848,19 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
      "topic": "材料",
      "investor_count": 2
     },
     {
-     "topic": "売買",
-     "investor_count": 1
+     "topic": "需給",
+     "investor_count": 2
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -12067,15 +12014,15 @@
        "investor_count": 2
       },
       {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
        "topic": "材料",
        "investor_count": 1
       },
       {
        "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -12853,11 +12800,11 @@
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -12980,11 +12927,11 @@
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -13715,19 +13662,19 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 2,
-     "post_count": 5,
+     "mention_count": 1,
+     "post_count": 4,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 2,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 2
+       "topic": "需給",
+       "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -13750,25 +13697,6 @@
         "stance": "中立",
         "summary": "直前の古河電工チャート投稿を引用した続報。古河は5801と特定できるが、見通しの強弱は明示されていない。",
         "summary_en": "A follow-up quoting the previous Furukawa Electric chart post; Furukawa can be identified as 5801, but whether the outlook is bullish or bearish is not explicitly stated."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T09:23:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "フルデン（古河電気工業）を早売りしたとの売買記録。見通しの表明ではない。",
-        "summary_en": "Trading record stating that Furuden (Furukawa Electric) was sold too early; this is not an expression of an outlook."
        }
       }
      ],
@@ -13880,16 +13808,16 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 2,
-     "post_count": 2,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 2,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "売買",
-       "investor_count": 2
+       "investor_count": 1
       }
      ],
      "investors": [
@@ -13911,28 +13839,9 @@
         "summary": "フジクラはホールド中との保有状況の共有。今後の見通しは示していない。",
         "summary_en": "Sharing of holding status stating that Fujikura is being held; future outlook is not indicated."
        }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T09:23:37+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "フジクラを早売りしたとの売買記録。見通しの表明ではない。",
-        "summary_en": "Trading record stating that Fujikura was sold too early; this is not an expression of an outlook."
-       }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-02T15:11:00+09:00"
@@ -13950,11 +13859,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "決算",
      "investor_count": 2
     },
     {
-     "topic": "決算",
+     "topic": "売買",
      "investor_count": 2
     }
    ],
@@ -14084,11 +13993,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "決算",
        "investor_count": 2
       },
       {
-       "topic": "決算",
+       "topic": "売買",
        "investor_count": 2
       }
      ],
@@ -14156,11 +14065,11 @@
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -14643,11 +14552,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -15315,11 +15224,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -15409,11 +15318,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -17528,11 +17437,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -17767,11 +17676,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -18698,11 +18607,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -19763,11 +19672,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -19857,11 +19766,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -20365,11 +20274,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -20604,11 +20513,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -20698,11 +20607,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -21052,11 +20961,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -21701,11 +21610,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -22361,6 +22270,118 @@
    "last_post_at": "2026-10-04T10:32:59+09:00"
   },
   {
+   "ticker": "4063",
+   "company": "信越化学工業",
+   "company_en": "Shin-Etsu Chemical Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-25T11:29:44+09:00",
+      "source_url": "https://x.com/noatake1127/status/2114182594816512314",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
+      "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-25T11:29:44+09:00",
+     "source_url": "https://x.com/noatake1127/status/2114182594816512314",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
+     "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-25T11:29:44+09:00",
+        "source_url": "https://x.com/noatake1127/status/2114182594816512314",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "日経記事シェア：英運用会社が信越化学を35年保有",
+        "summary_en": "Nikkei article share: A British asset management company has held Shin-Etsu Chemical for 35 years."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-25T11:29:44+09:00"
+  },
+  {
    "ticker": "4076",
    "company": "シイエヌエス",
    "company_en": "CNS Co., Ltd.",
@@ -22694,11 +22715,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -23219,11 +23240,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -23346,11 +23367,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -23921,11 +23942,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -24160,11 +24181,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -24254,11 +24275,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -24770,11 +24791,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -25520,7 +25541,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -25997,11 +26018,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -27020,11 +27041,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -27205,7 +27226,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -27605,11 +27626,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -28252,7 +28273,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -28260,7 +28281,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -28376,11 +28397,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -29494,11 +29515,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -30423,7 +30444,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -31108,40 +31129,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-02T11:39:03+09:00",
-        "source_url": "https://x.com/noatake1127/status/2105850015793213678",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "同市況メモでPHCが大幅高、TOB報道と共有。ニュース共有のみで本人の見通しは不明。",
-        "summary_en": "In the same market condition memo, shared that PHC was significantly higher alongside TOB reports; merely sharing news, and the author's outlook is unknown."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-02T11:39:03+09:00"
@@ -33290,11 +33286,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -33815,11 +33811,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -33928,158 +33924,6 @@
     }
    },
    "last_post_at": "2026-10-04T17:44:23+09:00"
-  },
-  {
-   "ticker": "7199",
-   "company": "プレミアグループ",
-   "company_en": "Premium Group Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 4,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "stance": "中立",
-     "post_count": 4,
-     "topics": [
-      "その他",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "jammy_bot",
-      "display_name": "JAMMY",
-      "post_created_at": "2026-10-25T08:18:55+09:00",
-      "source_url": "https://x.com/jammy_bot/status/2114134573097615554",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "週末PFの保有銘柄としてリスト掲載。個別の見通しは明示されていない。",
-      "summary_en": "Listed as a holding in the weekend portfolio, with no specific outlook explicitly stated."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-25T08:18:55+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2114134573097615554",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "週末PFの保有銘柄としてリスト掲載。個別の見通しは明示されていない。",
-     "summary_en": "Listed as a holding in the weekend portfolio, with no specific outlook explicitly stated."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-17T11:10:15+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2111278588016353601",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "週末ポートフォリオのウェイト順リストとして複数銘柄を言及。",
-     "summary_en": "Multiple stocks are mentioned as a list ordered by weight in the weekend portfolio."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-04T17:44:07+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-09-27T09:27:46+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
-     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "その他",
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-25T08:18:55+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2114134573097615554",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "週末PFの保有銘柄としてリスト掲載。個別の見通しは明示されていない。",
-        "summary_en": "Listed as a holding in the weekend portfolio, with no specific outlook explicitly stated."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-10-25T08:18:55+09:00"
   },
   {
    "ticker": "7203",
@@ -37633,11 +37477,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -37818,7 +37662,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -38761,7 +38605,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -38819,11 +38663,11 @@
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -38918,11 +38762,11 @@
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "決算",
        "investor_count": 1
       }
      ],
@@ -38971,7 +38815,7 @@
   {
    "handle": "jammy_bot",
    "display_name": "JAMMY",
-   "post_count": 67,
+   "post_count": 68,
    "ticker_count": 31
   },
   {
@@ -38983,7 +38827,7 @@
   {
    "handle": "abc87791035",
    "display_name": "ABCトレーダー",
-   "post_count": 40,
+   "post_count": 42,
    "ticker_count": 24
   },
   {
@@ -39060,9 +38904,9 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 7,
+    "mention_count": 6,
     "prev_mention_count": 6,
-    "bullish_count": 1,
+    "bullish_count": 0,
     "bearish_count": 0
    },
    {
@@ -39108,16 +38952,6 @@
   ],
   "rising": [
    {
-    "ticker": "285A",
-    "company": "キオクシアホールディングス",
-    "company_en": "Kioxia Holdings Corporation",
-    "window": "7d",
-    "mention_count": 7,
-    "prev_mention_count": 6,
-    "bullish_count": 1,
-    "bearish_count": 0
-   },
-   {
     "ticker": "9449",
     "company": "GMOインターネットグループ",
     "company_en": "GMO Internet Group, Inc.",
@@ -39156,6 +38990,16 @@
     "prev_mention_count": 1,
     "bullish_count": 1,
     "bearish_count": 0
+   },
+   {
+    "ticker": "285A",
+    "company": "キオクシアホールディングス",
+    "company_en": "Kioxia Holdings Corporation",
+    "window": "24h",
+    "mention_count": 2,
+    "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 0
    }
   ],
   "split": [
@@ -39174,23 +39018,12 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "優待",
-    "ticker_count": 6,
-    "tickers": [
-     "2269",
-     "3003",
-     "3772",
-     "5343",
-     "8346",
-     "9990"
-    ]
-   },
-   {
     "topic": "その他",
-    "ticker_count": 2,
+    "ticker_count": 3,
     "tickers": [
+     "4661",
      "6036",
-     "8987"
+     "7199"
     ]
    },
    {
@@ -39201,24 +39034,17 @@
     ]
    },
    {
-    "topic": "バリュエーション",
+    "topic": "決算",
     "ticker_count": 1,
     "tickers": [
      "285A"
-    ]
-   },
-   {
-    "topic": "売買",
-    "ticker_count": 1,
-    "tickers": [
-     "9449"
     ]
    }
   ],
   "7d": [
    {
     "topic": "材料",
-    "ticker_count": 21,
+    "ticker_count": 20,
     "tickers": [
      "2371",
      "285A",
@@ -39226,7 +39052,6 @@
      "3905",
      "3997",
      "4062",
-     "4063",
      "4568",
      "4689",
      "4784",
@@ -39245,10 +39070,11 @@
    },
    {
     "topic": "その他",
-    "ticker_count": 17,
+    "ticker_count": 19,
     "tickers": [
      "147A",
      "4350",
+     "4661",
      "4763",
      "5076",
      "5527",
@@ -39261,6 +39087,7 @@
      "652A",
      "6578",
      "6857",
+     "7199",
      "8987",
      "9211",
      "9449"
@@ -39350,7 +39177,7 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 85,
+    "ticker_count": 86,
     "tickers": [
      "135A",
      "138A",
@@ -39396,6 +39223,7 @@
      "4493",
      "4502",
      "4658",
+     "4661",
      "4662",
      "4685",
      "4687",
@@ -39441,7 +39269,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 61,
+    "ticker_count": 60,
     "tickers": [
      "2158",
      "2326",
@@ -39479,7 +39307,6 @@
      "6501",
      "6502",
      "6503",
-     "6523",
      "6594",
      "6701",
      "6702",
