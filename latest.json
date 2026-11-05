@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-05T15:20:00+09:00",
+ "generated_at": "2026-11-06T02:17:14+09:00",
  "translation": {
-  "summary_en_count": 675,
-  "summary_total": 690,
-  "company_en_count": 313,
-  "company_total": 313,
+  "summary_en_count": 677,
+  "summary_total": 692,
+  "company_en_count": 314,
+  "company_total": 314,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 800,
-  "rows_used": 690,
-  "rows_rejected": 110,
+  "rows_input": 805,
+  "rows_used": 692,
+  "rows_rejected": 113,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 110
+   "tickerが日本株コード形式でない/空": 113
   },
   "missing_company_tickers": []
  },
@@ -37,7 +37,7 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 13,
-   "post_count": 74,
+   "post_count": 75,
    "bullish_count": 1,
    "bearish_count": 3,
    "neutral_count": 9,
@@ -45,7 +45,7 @@
    "topics": [
     {
      "topic": "売買",
-     "investor_count": 10
+     "investor_count": 11
     },
     {
      "topic": "その他",
@@ -73,6 +73,26 @@
     }
    ],
    "investors": [
+    {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kenichishimada2",
+      "display_name": "Ken/1UP投資",
+      "post_created_at": "2026-11-05T14:02:00+09:00",
+      "source_url": "https://x.com/KenichiShimada2/status/2118207355901157728",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "キオクシアの値動きが凄まじいとコメント、信用評価への影響に言及",
+      "summary_en": "Commented that Kioxia's price movement is tremendous, and mentioned the impact on margin valuation."
+     }
+    },
     {
      "handle": "serotape_take",
      "display_name": "タケ",
@@ -242,25 +262,6 @@
      }
     },
     {
-     "handle": "kenichishimada2",
-     "display_name": "Ken/1UP投資",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "kenichishimada2",
-      "display_name": "Ken/1UP投資",
-      "post_created_at": "2026-10-25T18:12:56+09:00",
-      "source_url": "https://x.com/KenichiShimada2/status/2114284063838416940",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "キオクシアの信用評価損益率が-31%と極端に低いことを指摘し、信用データの確認を促している。",
-      "summary_en": "Points out that Kioxia's margin profit and loss ratio is extremely low at -31% and encourages checking margin trading data."
-     }
-    },
-    {
      "handle": "yuutaihiroto",
      "display_name": "桐谷広人・桐谷さん【公式】",
      "stance": "中立",
@@ -341,6 +342,16 @@
    ],
    "latest_posts": [
     {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "post_created_at": "2026-11-05T14:02:00+09:00",
+     "source_url": "https://x.com/KenichiShimada2/status/2118207355901157728",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "キオクシアの値動きが凄まじいとコメント、信用評価への影響に言及",
+     "summary_en": "Commented that Kioxia's price movement is tremendous, and mentioned the impact on margin valuation."
+    },
+    {
      "handle": "serotape_take",
      "display_name": "タケ",
      "post_created_at": "2026-11-05T11:03:00+09:00",
@@ -379,33 +390,42 @@
      "stance": "弱気",
      "summary": "キオクシアが1万円を割れたことを指摘",
      "summary_en": "Pointed out that Kioxia fell below ¥10,000."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "post_created_at": "2026-11-04T10:43:09+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2117794748610343336",
-     "topic": "売買",
-     "stance": "弱気",
-     "summary": "キオクシアが10000円を割れたと報告",
-     "summary_en": "Reported that Kioxia fell below ¥10,000."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 2,
+     "post_count": 2,
      "bullish_count": 1,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "売買",
-       "investor_count": 1
+       "investor_count": 2
       }
      ],
      "investors": [
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-11-05T14:02:00+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2118207355901157728",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "キオクシアの値動きが凄まじいとコメント、信用評価への影響に言及",
+        "summary_en": "Commented that Kioxia's price movement is tremendous, and mentioned the impact on margin valuation."
+       }
+      },
       {
        "handle": "serotape_take",
        "display_name": "タケ",
@@ -429,16 +449,16 @@
      "prev_mention_count": 4
     },
     "7d": {
-     "mention_count": 8,
-     "post_count": 22,
+     "mention_count": 9,
+     "post_count": 21,
      "bullish_count": 1,
      "bearish_count": 3,
-     "neutral_count": 4,
+     "neutral_count": 5,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "売買",
-       "investor_count": 5
+       "investor_count": 6
       },
       {
        "topic": "決算",
@@ -467,6 +487,25 @@
      ],
      "investors": [
       {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-11-05T14:02:00+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2118207355901157728",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "キオクシアの値動きが凄まじいとコメント、信用評価への影響に言及",
+        "summary_en": "Commented that Kioxia's price movement is tremendous, and mentioned the impact on margin valuation."
+       }
+      },
+      {
        "handle": "serotape_take",
        "display_name": "タケ",
        "stance": "強気",
@@ -489,7 +528,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 6,
+       "post_count": 4,
        "topics": [
         "売買",
         "決算"
@@ -630,7 +669,7 @@
     },
     "30d": {
      "mention_count": 12,
-     "post_count": 60,
+     "post_count": 61,
      "bullish_count": 1,
      "bearish_count": 3,
      "neutral_count": 8,
@@ -638,7 +677,7 @@
      "topics": [
       {
        "topic": "売買",
-       "investor_count": 9
+       "investor_count": 10
       },
       {
        "topic": "その他",
@@ -666,6 +705,26 @@
       }
      ],
      "investors": [
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-11-05T14:02:00+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2118207355901157728",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "キオクシアの値動きが凄まじいとコメント、信用評価への影響に言及",
+        "summary_en": "Commented that Kioxia's price movement is tremendous, and mentioned the impact on margin valuation."
+       }
+      },
       {
        "handle": "serotape_take",
        "display_name": "タケ",
@@ -835,25 +894,6 @@
        }
       },
       {
-       "handle": "kenichishimada2",
-       "display_name": "Ken/1UP投資",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "kenichishimada2",
-        "display_name": "Ken/1UP投資",
-        "post_created_at": "2026-10-25T18:12:56+09:00",
-        "source_url": "https://x.com/KenichiShimada2/status/2114284063838416940",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "キオクシアの信用評価損益率が-31%と極端に低いことを指摘し、信用データの確認を促している。",
-        "summary_en": "Points out that Kioxia's margin profit and loss ratio is extremely low at -31% and encourages checking margin trading data."
-       }
-      },
-      {
        "handle": "yuutaihiroto",
        "display_name": "桐谷広人・桐谷さん【公式】",
        "stance": "中立",
@@ -916,7 +956,7 @@
      "prev_mention_count": 4
     }
    },
-   "last_post_at": "2026-11-05T11:03:00+09:00"
+   "last_post_at": "2026-11-05T14:02:00+09:00"
   },
   {
    "ticker": "6072",
@@ -1991,7 +2031,7 @@
     },
     "7d": {
      "mention_count": 3,
-     "post_count": 5,
+     "post_count": 4,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 0,
@@ -2030,7 +2070,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "弱気",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
         "売買"
        ],
@@ -2065,7 +2105,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "30d": {
      "mention_count": 4,
@@ -2180,11 +2220,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 3
     },
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 3
     },
     {
@@ -2466,11 +2506,11 @@
        "investor_count": 3
       },
       {
-       "topic": "その他",
+       "topic": "バリュエーション",
        "investor_count": 2
       },
       {
-       "topic": "バリュエーション",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -2588,11 +2628,11 @@
      "investor_count": 3
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 2
     },
     {
@@ -2790,7 +2830,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 14,
+     "post_count": 13,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 2,
@@ -2818,7 +2858,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 7,
+       "post_count": 6,
        "topics": [
         "その他",
         "売買",
@@ -2895,11 +2935,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 2
     },
     {
@@ -3107,11 +3147,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 2
       },
       {
@@ -4904,183 +4944,6 @@
    "last_post_at": "2026-11-03T11:37:00+09:00"
   },
   {
-   "ticker": "2914",
-   "company": "日本たばこ産業",
-   "company_en": "Japan Tobacco Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 3,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "決算",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "その他",
-      "材料",
-      "決算"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-29T17:01:35+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
-      "topic": "決算",
-      "stance": "中立",
-      "summary": "JTの第3四半期決算短信を共有",
-      "summary_en": "Shared JT's Q3 financial results summary."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-29T17:01:35+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
-     "topic": "決算",
-     "stance": "中立",
-     "summary": "JTの第3四半期決算短信を共有",
-     "summary_en": "Shared JT's Q3 financial results summary."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-18T11:10:07+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2111640940951879965",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "武田とJTをたのむ内容の投稿。",
-     "summary_en": "A post asking for Takeda and JT."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-08T09:14:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2107988045349982651",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "JT工場への攻撃を心配しつつ、株価は無風だったと述べている。見通しの強弱は示していない。",
-     "summary_en": "While expressing concern about an attack on a JT factory, the post notes that the stock price was unaffected; it does not indicate a bullish or bearish outlook."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-29T17:01:35+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "JTの第3四半期決算短信を共有",
-        "summary_en": "Shared JT's Q3 financial results summary."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "その他",
-        "材料",
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-29T17:01:35+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "JTの第3四半期決算短信を共有",
-        "summary_en": "Shared JT's Q3 financial results summary."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-29T17:01:35+09:00"
-  },
-  {
    "ticker": "3003",
    "company": "ヒューリック",
    "company_en": "Hulic Co., Ltd.",
@@ -5216,6 +5079,168 @@
     }
    },
    "last_post_at": "2026-10-31T10:47:28+09:00"
+  },
+  {
+   "ticker": "3407",
+   "company": "旭化成",
+   "company_en": "Asahi Kasei Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-05T14:02:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2118207178100355346",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "保有株として旭化成100株のみと回答",
+      "summary_en": "Responded that their only stock holding is 100 shares of Asahi Kasei."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-05T14:02:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2118207178100355346",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "保有株として旭化成100株のみと回答",
+     "summary_en": "Responded that their only stock holding is 100 shares of Asahi Kasei."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-05T14:02:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2118207178100355346",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "保有株として旭化成100株のみと回答",
+        "summary_en": "Responded that their only stock holding is 100 shares of Asahi Kasei."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-05T14:02:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2118207178100355346",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "保有株として旭化成100株のみと回答",
+        "summary_en": "Responded that their only stock holding is 100 shares of Asahi Kasei."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-05T14:02:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2118207178100355346",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "保有株として旭化成100株のみと回答",
+        "summary_en": "Responded that their only stock holding is 100 shares of Asahi Kasei."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-05T14:02:00+09:00"
   },
   {
    "ticker": "3449",
@@ -6382,173 +6407,6 @@
     }
    },
    "last_post_at": "2026-11-02T11:41:56+09:00"
-  },
-  {
-   "ticker": "4502",
-   "company": "武田薬品工業",
-   "company_en": "Takeda Pharmaceutical Company Limited",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 3,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "決算",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "その他",
-      "決算"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-10-29T17:02:18+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
-      "topic": "決算",
-      "stance": "中立",
-      "summary": "武田薬品の中間決算短信を共有",
-      "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-29T17:02:18+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
-     "topic": "決算",
-     "stance": "中立",
-     "summary": "武田薬品の中間決算短信を共有",
-     "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-18T11:10:07+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2111640940951879965",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "武田とJTをたのむ内容の投稿。",
-     "summary_en": "A post asking for Takeda and JT."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-17T08:58:54+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2111245530491920860",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "武田薬品の勤務環境について言及。投資見通しの明示なし。",
-     "summary_en": "Mentioned the work environment at Takeda Pharmaceutical. No explicit investment outlook."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-29T17:02:18+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "武田薬品の中間決算短信を共有",
-        "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "その他",
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-29T17:02:18+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "武田薬品の中間決算短信を共有",
-        "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-29T17:02:18+09:00"
   },
   {
    "ticker": "4784",
@@ -9678,153 +9536,6 @@
    "last_post_at": "2026-10-31T10:47:28+09:00"
   },
   {
-   "ticker": "8366",
-   "company": "滋賀銀行",
-   "company_en": "The Shiga Bank, Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-29T15:39:13+09:00",
-      "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-      "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-29T15:39:13+09:00",
-     "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-     "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-23T17:12:50+09:00",
-     "source_url": "https://x.com/noatake1127/status/2113544160062087326",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "滋賀銀行と池田泉州HDの経営統合のニュースを共有。",
-     "summary_en": "Shared news about the business integration of The Shiga Bank and Ikeda Senshu HD."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T15:39:13+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T15:39:13+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-29T15:39:13+09:00"
-  },
-  {
    "ticker": "8628",
    "company": "松井証券",
    "company_en": "Matsui Securities Co., Ltd.",
@@ -9970,153 +9681,6 @@
     }
    },
    "last_post_at": "2026-11-04T05:54:08+09:00"
-  },
-  {
-   "ticker": "8714",
-   "company": "池田泉州ホールディングス",
-   "company_en": "Senshu Ikeda Holdings, Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-29T15:39:13+09:00",
-      "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-      "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-29T15:39:13+09:00",
-     "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-     "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-23T17:12:50+09:00",
-     "source_url": "https://x.com/noatake1127/status/2113544160062087326",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "滋賀銀行と池田泉州HDの経営統合のニュースを共有。",
-     "summary_en": "Shared news about the business integration of The Shiga Bank and Ikeda Senshu HD."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T15:39:13+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T15:39:13+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-29T15:39:13+09:00"
   },
   {
    "ticker": "8987",
@@ -10558,11 +10122,11 @@
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -10800,11 +10364,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 2
     },
     {
@@ -10962,15 +10526,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "需給",
+       "investor_count": 1
+      },
+      {
        "topic": "その他",
        "investor_count": 1
       },
       {
        "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -11381,11 +10945,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -11879,11 +11443,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -12877,11 +12441,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "決算",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "決算",
      "investor_count": 2
     }
    ],
@@ -13011,11 +12575,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "決算",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "決算",
        "investor_count": 2
       }
      ],
@@ -13083,11 +12647,11 @@
      "investor_count": 2
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -14521,7 +14085,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -14575,11 +14139,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -16020,11 +15584,11 @@
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -18346,6 +17910,158 @@
    "last_post_at": "2026-10-07T16:17:00+09:00"
   },
   {
+   "ticker": "2914",
+   "company": "日本たばこ産業",
+   "company_en": "Japan Tobacco Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "決算",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "材料",
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-29T17:01:35+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
+      "topic": "決算",
+      "stance": "中立",
+      "summary": "JTの第3四半期決算短信を共有",
+      "summary_en": "Shared JT's Q3 financial results summary."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-29T17:01:35+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
+     "topic": "決算",
+     "stance": "中立",
+     "summary": "JTの第3四半期決算短信を共有",
+     "summary_en": "Shared JT's Q3 financial results summary."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-18T11:10:07+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2111640940951879965",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "武田とJTをたのむ内容の投稿。",
+     "summary_en": "A post asking for Takeda and JT."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-08T09:14:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2107988045349982651",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "JT工場への攻撃を心配しつつ、株価は無風だったと述べている。見通しの強弱は示していない。",
+     "summary_en": "While expressing concern about an attack on a JT factory, the post notes that the stock price was unaffected; it does not indicate a bullish or bearish outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他",
+        "材料",
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-29T17:01:35+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2115715658818437201",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "JTの第3四半期決算短信を共有",
+        "summary_en": "Shared JT's Q3 financial results summary."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-29T17:01:35+09:00"
+  },
+  {
    "ticker": "2928",
    "company": "RIZAPグループ",
    "company_en": "RIZAP GROUP, Inc.",
@@ -19878,11 +19594,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21271,11 +20987,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -21365,11 +21081,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -22765,40 +22481,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-06T16:02:32+09:00",
-        "source_url": "https://x.com/19830128to/status/2107365876454580306",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "4220リケンテクノスの2026年記事URLのみの共有。本文未確認のため見通しは判定しない。",
-        "summary_en": "Sharing only the URL of a 2026 article on 4220 Riken Technos; the outlook is not determined because the text has not been confirmed."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-06T16:02:32+09:00"
@@ -24018,11 +23709,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -24599,6 +24290,148 @@
     }
    },
    "last_post_at": "2026-10-04T17:44:07+09:00"
+  },
+  {
+   "ticker": "4502",
+   "company": "武田薬品工業",
+   "company_en": "Takeda Pharmaceutical Company Limited",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "決算",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEやっていません",
+      "post_created_at": "2026-10-29T17:02:18+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
+      "topic": "決算",
+      "stance": "中立",
+      "summary": "武田薬品の中間決算短信を共有",
+      "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-29T17:02:18+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
+     "topic": "決算",
+     "stance": "中立",
+     "summary": "武田薬品の中間決算短信を共有",
+     "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-18T11:10:07+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2111640940951879965",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "武田とJTをたのむ内容の投稿。",
+     "summary_en": "A post asking for Takeda and JT."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-17T08:58:54+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2111245530491920860",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "武田薬品の勤務環境について言及。投資見通しの明示なし。",
+     "summary_en": "Mentioned the work environment at Takeda Pharmaceutical. No explicit investment outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEやっていません",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他",
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEやっていません",
+        "post_created_at": "2026-10-29T17:02:18+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2115715838057795846",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "武田薬品の中間決算短信を共有",
+        "summary_en": "Shared Takeda Pharmaceutical's interim financial results summary."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-29T17:02:18+09:00"
   },
   {
    "ticker": "4519",
@@ -28809,11 +28642,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
@@ -28821,7 +28650,11 @@
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -30265,15 +30098,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "需給",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -33239,11 +33072,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -36132,7 +35965,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -37092,6 +36925,128 @@
    "last_post_at": "2026-09-25T07:32:49+09:00"
   },
   {
+   "ticker": "8366",
+   "company": "滋賀銀行",
+   "company_en": "The Shiga Bank, Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-29T15:39:13+09:00",
+      "source_url": "https://x.com/noatake1127/status/2115694928147918951",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
+      "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-29T15:39:13+09:00",
+     "source_url": "https://x.com/noatake1127/status/2115694928147918951",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
+     "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-23T17:12:50+09:00",
+     "source_url": "https://x.com/noatake1127/status/2113544160062087326",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "滋賀銀行と池田泉州HDの経営統合のニュースを共有。",
+     "summary_en": "Shared news about the business integration of The Shiga Bank and Ikeda Senshu HD."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-29T15:39:13+09:00",
+        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
+        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-29T15:39:13+09:00"
+  },
+  {
    "ticker": "8388",
    "company": "株式会社阿波銀行",
    "company_en": "The Awa Bank, Ltd.",
@@ -37834,6 +37789,128 @@
     }
    },
    "last_post_at": "2026-10-01T12:10:00+09:00"
+  },
+  {
+   "ticker": "8714",
+   "company": "池田泉州ホールディングス",
+   "company_en": "Senshu Ikeda Holdings, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-29T15:39:13+09:00",
+      "source_url": "https://x.com/noatake1127/status/2115694928147918951",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
+      "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-29T15:39:13+09:00",
+     "source_url": "https://x.com/noatake1127/status/2115694928147918951",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
+     "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-23T17:12:50+09:00",
+     "source_url": "https://x.com/noatake1127/status/2113544160062087326",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "滋賀銀行と池田泉州HDの経営統合のニュースを共有。",
+     "summary_en": "Shared news about the business integration of The Shiga Bank and Ikeda Senshu HD."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-29T15:39:13+09:00",
+        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
+        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-29T15:39:13+09:00"
   },
   {
    "ticker": "8798",
@@ -40051,8 +40128,8 @@
   {
    "handle": "kenmokenmo",
    "display_name": "kenmo@湘南投資勉強会",
-   "post_count": 28,
-   "ticker_count": 18
+   "post_count": 29,
+   "ticker_count": 19
   },
   {
    "handle": "daiboucho",
@@ -40087,7 +40164,7 @@
   {
    "handle": "kenichishimada2",
    "display_name": "Ken/1UP投資",
-   "post_count": 6,
+   "post_count": 7,
    "ticker_count": 4
   },
   {
@@ -40128,7 +40205,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 8,
+    "mention_count": 9,
     "prev_mention_count": 6,
     "bullish_count": 1,
     "bearish_count": 3
@@ -40149,7 +40226,7 @@
     "company_en": "IBIDEN CO., LTD.",
     "window": "7d",
     "mention_count": 3,
-    "prev_mention_count": 1,
+    "prev_mention_count": 2,
     "bullish_count": 1,
     "bearish_count": 2
    },
@@ -40190,7 +40267,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 8,
+    "mention_count": 9,
     "prev_mention_count": 6,
     "bullish_count": 1,
     "bearish_count": 3
@@ -40211,7 +40288,7 @@
     "company_en": "IBIDEN CO., LTD.",
     "window": "7d",
     "mention_count": 3,
-    "prev_mention_count": 1,
+    "prev_mention_count": 2,
     "bullish_count": 1,
     "bearish_count": 2
    }
@@ -40222,7 +40299,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 8,
+    "mention_count": 9,
     "prev_mention_count": 6,
     "bullish_count": 1,
     "bearish_count": 3
@@ -40233,7 +40310,7 @@
     "company_en": "IBIDEN CO., LTD.",
     "window": "7d",
     "mention_count": 3,
-    "prev_mention_count": 1,
+    "prev_mention_count": 2,
     "bullish_count": 1,
     "bearish_count": 2
    }
@@ -40243,9 +40320,10 @@
   "24h": [
    {
     "topic": "売買",
-    "ticker_count": 4,
+    "ticker_count": 5,
     "tickers": [
      "285A",
+     "3407",
      "4062",
      "4461",
      "5801"
@@ -40302,7 +40380,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 16,
+    "ticker_count": 14,
     "tickers": [
      "285A",
      "4062",
@@ -40316,17 +40394,16 @@
      "6752",
      "7182",
      "7453",
-     "8366",
      "8628",
-     "8714",
      "9449"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 10,
+    "ticker_count": 11,
     "tickers": [
      "285A",
+     "3407",
      "3449",
      "3891",
      "4062",
@@ -40336,20 +40413,6 @@
      "6857",
      "9449",
      "9984"
-    ]
-   },
-   {
-    "topic": "決算",
-    "ticker_count": 8,
-    "tickers": [
-     "285A",
-     "2914",
-     "4228",
-     "4502",
-     "6857",
-     "6920",
-     "8035",
-     "8058"
     ]
    },
    {
@@ -40363,6 +40426,18 @@
      "5343",
      "8346",
      "9990"
+    ]
+   },
+   {
+    "topic": "決算",
+    "ticker_count": 6,
+    "tickers": [
+     "285A",
+     "4228",
+     "6857",
+     "6920",
+     "8035",
+     "8058"
     ]
    },
    {
@@ -40403,7 +40478,7 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 61,
+    "ticker_count": 60,
     "tickers": [
      "138A",
      "1433",
@@ -40417,7 +40492,6 @@
      "3221",
      "3350",
      "3697",
-     "4220",
      "4350",
      "436A",
      "4396",
@@ -40536,7 +40610,7 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 44,
+    "ticker_count": 45,
     "tickers": [
      "156A",
      "1605",
@@ -40545,6 +40619,7 @@
      "2737",
      "285A",
      "319A",
+     "3407",
      "3449",
      "3496",
      "3891",
