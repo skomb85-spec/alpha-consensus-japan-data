@@ -1,9 +1,9 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-07T14:41:26+09:00",
+ "generated_at": "2026-11-07T21:49:48+09:00",
  "translation": {
-  "summary_en_count": 706,
-  "summary_total": 722,
+  "summary_en_count": 707,
+  "summary_total": 723,
   "company_en_count": 327,
   "company_total": 327,
   "engine": "gemini-flash-latest",
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 838,
-  "rows_used": 722,
+  "rows_input": 839,
+  "rows_used": 723,
   "rows_rejected": 116,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 116
@@ -56,11 +56,11 @@
      "investor_count": 4
     },
     {
-     "topic": "バリュエーション",
+     "topic": "材料",
      "investor_count": 4
     },
     {
-     "topic": "材料",
+     "topic": "バリュエーション",
      "investor_count": 4
     },
     {
@@ -431,20 +431,16 @@
      "prev_mention_count": 2
     },
     "7d": {
-     "mention_count": 10,
-     "post_count": 19,
+     "mention_count": 9,
+     "post_count": 18,
      "bullish_count": 1,
      "bearish_count": 1,
-     "neutral_count": 8,
+     "neutral_count": 7,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "売買",
        "investor_count": 7
-      },
-      {
-       "topic": "需給",
-       "investor_count": 2
       },
       {
        "topic": "決算",
@@ -453,6 +449,10 @@
       {
        "topic": "その他",
        "investor_count": 2
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
       },
       {
        "topic": "材料",
@@ -634,25 +634,6 @@
         "summary": "キオクシア決算説明会分析",
         "summary_en": "Kioxia financial results briefing analysis"
        }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-31T18:14:00+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2116458690614001774",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "キオクシアの含み損保有者が多く需給は売り圧力だが、悲観が極端なため反転の可能性も指摘",
-        "summary_en": "There are many holders of Kioxia with unrealized losses and supply and demand indicates selling pressure, but the possibility of a reversal was also pointed out because pessimism is extreme."
-       }
       }
      ],
      "prev_mention_count": 7
@@ -678,11 +659,11 @@
        "investor_count": 4
       },
       {
-       "topic": "バリュエーション",
+       "topic": "材料",
        "investor_count": 4
       },
       {
-       "topic": "材料",
+       "topic": "バリュエーション",
        "investor_count": 4
       },
       {
@@ -1427,10 +1408,10 @@
    "company_en": "IBIDEN CO., LTD.",
    "company_en_source": "machine",
    "mention_count": 5,
-   "post_count": 12,
-   "bullish_count": 2,
+   "post_count": 13,
+   "bullish_count": 1,
    "bearish_count": 2,
-   "neutral_count": 1,
+   "neutral_count": 2,
    "unknown_count": 0,
    "topics": [
     {
@@ -1450,20 +1431,20 @@
     {
      "handle": "serotape_take",
      "display_name": "タケ",
-     "stance": "強気",
-     "post_count": 1,
+     "stance": "中立",
+     "post_count": 2,
      "topics": [
       "売買"
      ],
      "latest_post": {
       "handle": "serotape_take",
       "display_name": "タケ",
-      "post_created_at": "2026-11-05T11:03:00+09:00",
-      "source_url": "https://x.com/serotape_take/status/2118162278709387643",
+      "post_created_at": "2026-11-07T18:06:58+09:00",
+      "source_url": "https://x.com/serotape_take/status/2118993602332561918",
       "topic": "売買",
-      "stance": "強気",
-      "summary": "半導体関連株をまとめて購入したと報告。",
-      "summary_en": "Reported purchasing semiconductor-related stocks all together."
+      "stance": "中立",
+      "summary": "イビデンの安値を買ってしまう傾向を反省し、相場の転換を感じる",
+      "summary_en": "Reflecting on my tendency to buy the lows of Ibiden, I sense a turnaround in the market."
      }
     },
     {
@@ -1549,6 +1530,16 @@
     {
      "handle": "serotape_take",
      "display_name": "タケ",
+     "post_created_at": "2026-11-07T18:06:58+09:00",
+     "source_url": "https://x.com/serotape_take/status/2118993602332561918",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "イビデンの安値を買ってしまう傾向を反省し、相場の転換を感じる",
+     "summary_en": "Reflecting on my tendency to buy the lows of Ibiden, I sense a turnaround in the market."
+    },
+    {
+     "handle": "serotape_take",
+     "display_name": "タケ",
      "post_created_at": "2026-11-05T11:03:00+09:00",
      "source_url": "https://x.com/serotape_take/status/2118162278709387643",
      "topic": "売買",
@@ -1585,36 +1576,51 @@
      "stance": "弱気",
      "summary": "イビデンがストップ安となったことを報告。",
      "summary_en": "Reported that Ibiden hit the daily stop-low."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-29T15:20:43+09:00",
-     "source_url": "https://x.com/noatake1127/status/2115690272113983861",
-     "topic": "売買",
-     "stance": "弱気",
-     "summary": "イビデンの株価動向を「ひど」と表現",
-     "summary_en": "Described Ibiden's stock price movement as \"terrible.\""
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "serotape_take",
+       "display_name": "タケ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "serotape_take",
+        "display_name": "タケ",
+        "post_created_at": "2026-11-07T18:06:58+09:00",
+        "source_url": "https://x.com/serotape_take/status/2118993602332561918",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "イビデンの安値を買ってしまう傾向を反省し、相場の転換を感じる",
+        "summary_en": "Reflecting on my tendency to buy the lows of Ibiden, I sense a turnaround in the market."
+       }
+      }
+     ],
      "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 1,
      "topics": [
       {
@@ -1626,20 +1632,20 @@
       {
        "handle": "serotape_take",
        "display_name": "タケ",
-       "stance": "強気",
-       "post_count": 1,
+       "stance": "中立",
+       "post_count": 2,
        "topics": [
         "売買"
        ],
        "latest_post": {
         "handle": "serotape_take",
         "display_name": "タケ",
-        "post_created_at": "2026-11-05T11:03:00+09:00",
-        "source_url": "https://x.com/serotape_take/status/2118162278709387643",
+        "post_created_at": "2026-11-07T18:06:58+09:00",
+        "source_url": "https://x.com/serotape_take/status/2118993602332561918",
         "topic": "売買",
-        "stance": "強気",
-        "summary": "半導体関連株をまとめて購入したと報告。",
-        "summary_en": "Reported purchasing semiconductor-related stocks all together."
+        "stance": "中立",
+        "summary": "イビデンの安値を買ってしまう傾向を反省し、相場の転換を感じる",
+        "summary_en": "Reflecting on my tendency to buy the lows of Ibiden, I sense a turnaround in the market."
        }
       },
       {
@@ -1666,10 +1672,10 @@
     },
     "30d": {
      "mention_count": 4,
-     "post_count": 6,
-     "bullish_count": 2,
+     "post_count": 7,
+     "bullish_count": 1,
      "bearish_count": 2,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
@@ -1685,20 +1691,20 @@
       {
        "handle": "serotape_take",
        "display_name": "タケ",
-       "stance": "強気",
-       "post_count": 1,
+       "stance": "中立",
+       "post_count": 2,
        "topics": [
         "売買"
        ],
        "latest_post": {
         "handle": "serotape_take",
         "display_name": "タケ",
-        "post_created_at": "2026-11-05T11:03:00+09:00",
-        "source_url": "https://x.com/serotape_take/status/2118162278709387643",
+        "post_created_at": "2026-11-07T18:06:58+09:00",
+        "source_url": "https://x.com/serotape_take/status/2118993602332561918",
         "topic": "売買",
-        "stance": "強気",
-        "summary": "半導体関連株をまとめて購入したと報告。",
-        "summary_en": "Reported purchasing semiconductor-related stocks all together."
+        "stance": "中立",
+        "summary": "イビデンの安値を買ってしまう傾向を反省し、相場の転換を感じる",
+        "summary_en": "Reflecting on my tendency to buy the lows of Ibiden, I sense a turnaround in the market."
        }
       },
       {
@@ -1762,7 +1768,7 @@
      "prev_mention_count": 2
     }
    },
-   "last_post_at": "2026-11-05T11:03:00+09:00"
+   "last_post_at": "2026-11-07T18:06:58+09:00"
   },
   {
    "ticker": "9984",
@@ -1777,11 +1783,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 3
     },
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 3
     },
     {
@@ -2038,11 +2044,11 @@
        "investor_count": 3
       },
       {
-       "topic": "その他",
+       "topic": "バリュエーション",
        "investor_count": 2
       },
       {
-       "topic": "バリュエーション",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -2480,11 +2486,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 2
     },
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 2
     },
     {
@@ -2626,11 +2632,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -2667,11 +2673,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 2
       },
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -3246,15 +3252,15 @@
      "investor_count": 3
     },
     {
+     "topic": "需給",
+     "investor_count": 2
+    },
+    {
      "topic": "売買",
      "investor_count": 2
     },
     {
      "topic": "その他",
-     "investor_count": 2
-    },
-    {
-     "topic": "需給",
      "investor_count": 2
     }
    ],
@@ -3436,11 +3442,11 @@
        "investor_count": 3
       },
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 2
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -3530,16 +3536,12 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
      "topic": "材料",
      "investor_count": 2
     },
     {
-     "topic": "その他",
-     "investor_count": 1
+     "topic": "需給",
+     "investor_count": 2
     },
     {
      "topic": "業績",
@@ -3547,6 +3549,10 @@
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -3722,7 +3728,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -3734,7 +3740,7 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -4153,7 +4159,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -4161,7 +4167,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -4568,11 +4574,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
@@ -5584,11 +5590,11 @@
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "優待",
      "investor_count": 1
     },
     {
-     "topic": "優待",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -5672,11 +5678,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "優待",
        "investor_count": 1
       },
       {
-       "topic": "優待",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -5718,11 +5724,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "優待",
        "investor_count": 1
       },
       {
-       "topic": "優待",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -5767,11 +5773,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "配当",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -5779,7 +5785,7 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "配当",
      "investor_count": 1
     }
    ],
@@ -5941,15 +5947,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "配当",
-       "investor_count": 1
-      },
-      {
        "topic": "決算",
        "investor_count": 1
       },
       {
        "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "配当",
        "investor_count": 1
       }
      ],
@@ -6963,11 +6969,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -7082,11 +7088,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -7255,143 +7261,6 @@
    "last_post_at": "2026-11-05T09:17:00+09:00"
   },
   {
-   "ticker": "6036",
-   "company": "KeePer技研",
-   "company_en": "KeePer Technical Laboratory Co.,Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-10-31T15:47:29+09:00",
-      "source_url": "https://x.com/19830128to/status/2116421784816025944",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
-      "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-10-31T15:47:29+09:00",
-     "source_url": "https://x.com/19830128to/status/2116421784816025944",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
-     "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-31T15:47:29+09:00",
-        "source_url": "https://x.com/19830128to/status/2116421784816025944",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
-        "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-31T15:47:29+09:00",
-        "source_url": "https://x.com/19830128to/status/2116421784816025944",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
-        "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-31T15:47:29+09:00"
-  },
-  {
    "ticker": "6062",
    "company": "チャーム・ケア・コーポレーション",
    "company_en": "Charm Care Corporation",
@@ -7443,40 +7312,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenichishimada2",
-       "display_name": "Ken/1UP投資",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kenichishimada2",
-        "display_name": "Ken/1UP投資",
-        "post_created_at": "2026-11-06T18:17:00+09:00",
-        "source_url": "https://x.com/KenichiShimada2/status/2118633858509988338",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "チャームケア（6062）へのTOB言及。今後もTOBが増えそうとの見解。",
-        "summary_en": "Mentioned a TOB for Charm Care (6062) and expressed the view that TOBs are likely to continue increasing."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9299,40 +9143,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "torideminami",
-       "display_name": "とりでみなみ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "torideminami",
-        "display_name": "とりでみなみ",
-        "post_created_at": "2026-11-06T16:26:54+09:00",
-        "source_url": "https://x.com/torideminami/status/2118606032381587649",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "持ち株で全国保証のみ前日比プラスと報告",
-        "summary_en": "Reported that among their holdings, only Zenkoku Hosho was positive compared to the previous day."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10760,11 +10579,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -10963,11 +10782,11 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -11157,11 +10976,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "優待",
        "investor_count": 1
       },
       {
-       "topic": "優待",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -12383,19 +12202,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 2,
-     "post_count": 2,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
-     "bearish_count": 1,
+     "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -12417,25 +12232,6 @@
         "stance": "中立",
         "summary": "中小企業向けセキュリティでHENNGEと網屋を比較。",
         "summary_en": "Compared HENNGE and Amiya regarding security for small and medium-sized enterprises."
-       }
-      },
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-08T18:12:46+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2108123424715669553",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "網屋は一時10%高のあと天井感があると述べている。個別半導体株は銘柄名がなく行を分けず、見通しは弱め。",
-        "summary_en": "States that Amiya feels like it has hit a ceiling after temporarily rising 10%; individual semiconductor stocks are not named and kept on the same line, with a rather weak outlook."
        }
       }
      ],
@@ -13403,11 +13199,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "決算",
      "investor_count": 2
     },
     {
-     "topic": "決算",
+     "topic": "売買",
      "investor_count": 2
     }
    ],
@@ -13890,16 +13686,16 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 2,
-     "post_count": 3,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 2,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "業績",
-       "investor_count": 2
+       "investor_count": 1
       }
      ],
      "investors": [
@@ -13921,28 +13717,9 @@
         "summary": "ローツェの週間パフォーマンスと利益増を報告",
         "summary_en": "Reported Rorze's weekly performance and profit increase."
        }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-08T16:49:18+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2108102419192394121",
-        "topic": "業績",
-        "stance": "中立",
-        "summary": "ローツェへの短い反応。見通しの明示はなく、ニュース共有や株価反応の範囲として中立。",
-        "summary_en": "A brief reaction to Rorze; neutral as no outlook is explicitly stated, staying within the scope of news sharing and stock price reaction."
-       }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-13T11:00:00+09:00"
@@ -16321,15 +16098,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "決算",
+     "investor_count": 1
+    },
+    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -16463,11 +16240,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -20276,39 +20053,14 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-10-08T18:12:46+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2108123424715669553",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "アズームを買い増ししたと記載。買付行動のみで今後の見通しは明言されていないため中立。",
-        "summary_en": "States that additional shares of Azoom were purchased; neutral because only the buying action is described and no future outlook is explicitly stated."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     }
    },
@@ -21705,11 +21457,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -21799,11 +21551,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -25059,11 +24811,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -25153,11 +24905,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -29578,11 +29330,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -29590,7 +29342,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -29807,11 +29559,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -29930,6 +29682,118 @@
     }
    },
    "last_post_at": "2026-10-09T09:18:26+09:00"
+  },
+  {
+   "ticker": "6036",
+   "company": "KeePer技研",
+   "company_en": "KeePer Technical Laboratory Co.,Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-31T15:47:29+09:00",
+      "source_url": "https://x.com/19830128to/status/2116421784816025944",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+      "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-31T15:47:29+09:00",
+     "source_url": "https://x.com/19830128to/status/2116421784816025944",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+     "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-10-31T15:47:29+09:00",
+        "source_url": "https://x.com/19830128to/status/2116421784816025944",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "6036 KeePer技研に関する2026年ブログ記事のリンクを投稿。",
+        "summary_en": "Posted a link to a 2026 blog post about 6036 KeePer Giken."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-10-31T15:47:29+09:00"
   },
   {
    "ticker": "6047",
@@ -30721,7 +30585,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -31096,11 +30960,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -31504,11 +31368,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -34022,11 +33886,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -34562,11 +34426,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -34853,11 +34717,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     },
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -35749,7 +35613,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -35757,7 +35621,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -35848,7 +35712,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -35856,7 +35720,7 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -40706,11 +40570,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
@@ -40798,16 +40662,12 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      },
       {
        "topic": "需給",
        "investor_count": 1
@@ -40818,9 +40678,8 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "決算",
         "需給"
        ],
        "latest_post": {
@@ -41033,16 +40892,16 @@
    "ticker_count": 6
   },
   {
+   "handle": "serotape_take",
+   "display_name": "タケ",
+   "post_count": 5,
+   "ticker_count": 4
+  },
+  {
    "handle": "tarouyuuki0322",
    "display_name": "結喜たろう",
    "post_count": 5,
    "ticker_count": 5
-  },
-  {
-   "handle": "serotape_take",
-   "display_name": "タケ",
-   "post_count": 4,
-   "ticker_count": 4
   },
   {
    "handle": "tesuta001",
@@ -41070,7 +40929,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 10,
+    "mention_count": 9,
     "prev_mention_count": 7,
     "bullish_count": 1,
     "bearish_count": 1
@@ -41082,7 +40941,7 @@
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 3,
-    "bullish_count": 1,
+    "bullish_count": 0,
     "bearish_count": 0
    },
    {
@@ -41122,7 +40981,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 10,
+    "mention_count": 9,
     "prev_mention_count": 7,
     "bullish_count": 1,
     "bearish_count": 1
@@ -41144,7 +41003,7 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 10,
+    "mention_count": 9,
     "prev_mention_count": 7,
     "bullish_count": 1,
     "bearish_count": 1
@@ -41154,21 +41013,27 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "材料",
-    "ticker_count": 3,
-    "tickers": [
-     "285A",
-     "6062",
-     "9432"
-    ]
-   },
-   {
     "topic": "その他",
     "ticker_count": 3,
     "tickers": [
      "6326",
      "8698",
      "9436"
+    ]
+   },
+   {
+    "topic": "材料",
+    "ticker_count": 2,
+    "tickers": [
+     "285A",
+     "9432"
+    ]
+   },
+   {
+    "topic": "売買",
+    "ticker_count": 1,
+    "tickers": [
+     "4062"
     ]
    },
    {
@@ -41190,13 +41055,6 @@
     "ticker_count": 1,
     "tickers": [
      "6432"
-    ]
-   },
-   {
-    "topic": "売買",
-    "ticker_count": 1,
-    "tickers": [
-     "7164"
     ]
    }
   ],
@@ -41223,26 +41081,6 @@
     ]
    },
    {
-    "topic": "その他",
-    "ticker_count": 14,
-    "tickers": [
-     "215A",
-     "285A",
-     "4661",
-     "4784",
-     "6036",
-     "6076",
-     "6224",
-     "6326",
-     "6364",
-     "7199",
-     "7564",
-     "8698",
-     "9436",
-     "9449"
-    ]
-   },
-   {
     "topic": "売買",
     "ticker_count": 13,
     "tickers": [
@@ -41259,6 +41097,25 @@
      "7164",
      "8035",
      "9984"
+    ]
+   },
+   {
+    "topic": "その他",
+    "ticker_count": 13,
+    "tickers": [
+     "215A",
+     "285A",
+     "4661",
+     "4784",
+     "6076",
+     "6224",
+     "6326",
+     "6364",
+     "7199",
+     "7564",
+     "8698",
+     "9436",
+     "9449"
     ]
    },
    {
@@ -41460,7 +41317,7 @@
    },
    {
     "topic": "売買",
-    "ticker_count": 45,
+    "ticker_count": 43,
     "tickers": [
      "1438",
      "156A",
@@ -41471,11 +41328,9 @@
      "285A",
      "3407",
      "3449",
-     "3496",
      "3891",
      "3905",
      "4062",
-     "4258",
      "4417",
      "4443",
      "4452",
@@ -41590,7 +41445,7 @@
    },
    {
     "topic": "決算",
-    "ticker_count": 16,
+    "ticker_count": 15,
     "tickers": [
      "228A",
      "285A",
@@ -41606,8 +41461,7 @@
      "6920",
      "6954",
      "8035",
-     "8058",
-     "9983"
+     "8058"
     ]
    },
    {
