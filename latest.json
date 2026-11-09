@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-09T14:55:00+09:00",
+ "generated_at": "2026-11-10T00:56:57+09:00",
  "translation": {
-  "summary_en_count": 724,
-  "summary_total": 740,
-  "company_en_count": 331,
-  "company_total": 331,
+  "summary_en_count": 732,
+  "summary_total": 748,
+  "company_en_count": 332,
+  "company_total": 332,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 857,
-  "rows_used": 740,
+  "rows_input": 865,
+  "rows_used": 748,
   "rows_rejected": 117,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 117
@@ -37,10 +37,10 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 13,
-   "post_count": 82,
+   "post_count": 83,
    "bullish_count": 1,
-   "bearish_count": 2,
-   "neutral_count": 10,
+   "bearish_count": 3,
+   "neutral_count": 9,
    "unknown_count": 0,
    "topics": [
     {
@@ -73,6 +73,30 @@
     }
    ],
    "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "弱気",
+     "post_count": 32,
+     "topics": [
+      "その他",
+      "バリュエーション",
+      "売買",
+      "材料",
+      "決算",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-09T15:13:53+09:00",
+      "source_url": "https://x.com/noatake1127/status/2119674819281301883",
+      "topic": "需給",
+      "stance": "弱気",
+      "summary": "キオクシアの弱さを指摘。",
+      "summary_en": "Pointed out the weakness of Kioxia."
+     }
+    },
     {
      "handle": "nagoya_tyouki",
      "display_name": "名古屋の長期投資家（なごちょう）",
@@ -113,30 +137,6 @@
       "stance": "中立",
       "summary": "キオクシアの状況を仕方ないとコメント。",
       "summary_en": "Commented that Kioxia's situation cannot be helped."
-     }
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 31,
-     "topics": [
-      "その他",
-      "バリュエーション",
-      "売買",
-      "材料",
-      "決算",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-09T09:15:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2119584668182036731",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "キオクシアが突然プラ転したと驚き。",
-      "summary_en": "Expressed surprise that Kioxia suddenly turned positive."
      }
     },
     {
@@ -346,6 +346,16 @@
    ],
    "latest_posts": [
     {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-09T15:13:53+09:00",
+     "source_url": "https://x.com/noatake1127/status/2119674819281301883",
+     "topic": "需給",
+     "stance": "弱気",
+     "summary": "キオクシアの弱さを指摘。",
+     "summary_en": "Pointed out the weakness of Kioxia."
+    },
+    {
      "handle": "nagoya_tyouki",
      "display_name": "名古屋の長期投資家（なごちょう）",
      "post_created_at": "2026-11-09T11:59:38+09:00",
@@ -384,27 +394,21 @@
      "stance": "中立",
      "summary": "キオクシアが弱く、SBも同様との観察。",
      "summary_en": "Observation that Kioxia is weak, and SB is the same."
-    },
-    {
-     "handle": "kabu1000",
-     "display_name": "かぶ1000",
-     "post_created_at": "2026-11-07T12:15:00+09:00",
-     "source_url": "https://x.com/kabu1000/status/2118905135778959623",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "地下鉄でキオクシアの話題を聞き、日本で一番話題性のある会社かもしれないと述べた。",
-     "summary_en": "Heard talk about Kioxia on the subway and stated that it might be the most talked-about company in Japan."
     }
    ],
    "windows": {
     "24h": {
      "mention_count": 4,
-     "post_count": 4,
+     "post_count": 5,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 3,
+     "bearish_count": 2,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 2
+      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -416,13 +420,29 @@
       {
        "topic": "その他",
        "investor_count": 1
-      },
-      {
-       "topic": "需給",
-       "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-09T15:13:53+09:00",
+        "source_url": "https://x.com/noatake1127/status/2119674819281301883",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "キオクシアの弱さを指摘。",
+        "summary_en": "Pointed out the weakness of Kioxia."
+       }
+      },
       {
        "handle": "nagoya_tyouki",
        "display_name": "名古屋の長期投資家（なごちょう）",
@@ -462,25 +482,6 @@
        }
       },
       {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-09T09:15:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2119584668182036731",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "キオクシアが突然プラ転したと驚き。",
-        "summary_en": "Expressed surprise that Kioxia suddenly turned positive."
-       }
-      },
-      {
        "handle": "hiro_tyun",
        "display_name": "hiro_tyun",
        "stance": "中立",
@@ -504,10 +505,10 @@
     },
     "7d": {
      "mention_count": 9,
-     "post_count": 17,
+     "post_count": 18,
      "bullish_count": 1,
-     "bearish_count": 2,
-     "neutral_count": 6,
+     "bearish_count": 3,
+     "neutral_count": 5,
      "unknown_count": 0,
      "topics": [
       {
@@ -519,15 +520,35 @@
        "investor_count": 3
       },
       {
-       "topic": "材料",
-       "investor_count": 2
+       "topic": "需給",
+       "investor_count": 3
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 2
       }
      ],
      "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 5,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-09T15:13:53+09:00",
+        "source_url": "https://x.com/noatake1127/status/2119674819281301883",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "キオクシアの弱さを指摘。",
+        "summary_en": "Pointed out the weakness of Kioxia."
+       }
+      },
       {
        "handle": "nagoya_tyouki",
        "display_name": "名古屋の長期投資家（なごちょう）",
@@ -567,25 +588,6 @@
         "stance": "中立",
         "summary": "キオクシアの状況を仕方ないとコメント。",
         "summary_en": "Commented that Kioxia's situation cannot be helped."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 4,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-09T09:15:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2119584668182036731",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "キオクシアが突然プラ転したと驚き。",
-        "summary_en": "Expressed surprise that Kioxia suddenly turned positive."
        }
       },
       {
@@ -709,10 +711,10 @@
     },
     "30d": {
      "mention_count": 12,
-     "post_count": 65,
+     "post_count": 66,
      "bullish_count": 1,
-     "bearish_count": 2,
-     "neutral_count": 9,
+     "bearish_count": 3,
+     "neutral_count": 8,
      "unknown_count": 0,
      "topics": [
       {
@@ -745,6 +747,30 @@
       }
      ],
      "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 22,
+       "topics": [
+        "その他",
+        "バリュエーション",
+        "売買",
+        "材料",
+        "決算",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-09T15:13:53+09:00",
+        "source_url": "https://x.com/noatake1127/status/2119674819281301883",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "キオクシアの弱さを指摘。",
+        "summary_en": "Pointed out the weakness of Kioxia."
+       }
+      },
       {
        "handle": "nagoya_tyouki",
        "display_name": "名古屋の長期投資家（なごちょう）",
@@ -785,30 +811,6 @@
         "stance": "中立",
         "summary": "キオクシアの状況を仕方ないとコメント。",
         "summary_en": "Commented that Kioxia's situation cannot be helped."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 21,
-       "topics": [
-        "その他",
-        "バリュエーション",
-        "売買",
-        "材料",
-        "決算",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-09T09:15:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2119584668182036731",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "キオクシアが突然プラ転したと驚き。",
-        "summary_en": "Expressed surprise that Kioxia suddenly turned positive."
        }
       },
       {
@@ -1000,30 +1002,30 @@
      "prev_mention_count": 4
     }
    },
-   "last_post_at": "2026-11-09T11:59:38+09:00"
+   "last_post_at": "2026-11-09T15:13:53+09:00"
   },
   {
    "ticker": "2914",
    "company": "日本たばこ産業",
    "company_en": "Japan Tobacco Inc.",
    "company_en_source": "machine",
-   "mention_count": 4,
-   "post_count": 8,
+   "mention_count": 5,
+   "post_count": 11,
    "bullish_count": 0,
-   "bearish_count": 1,
-   "neutral_count": 3,
+   "bearish_count": 0,
+   "neutral_count": 5,
    "unknown_count": 0,
    "topics": [
     {
      "topic": "材料",
-     "investor_count": 3
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
+     "investor_count": 4
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -1036,6 +1038,47 @@
     }
    ],
    "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "stance": "中立",
+     "post_count": 6,
+     "topics": [
+      "その他",
+      "材料",
+      "決算",
+      "配当"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子",
+      "post_created_at": "2026-11-09T17:39:10+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2119711383722102812",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "JTのロシア事業とS&P評価のニュースを共有。",
+      "summary_en": "Shared news about JT's Russian business and S&P evaluation."
+     }
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "hiro_tyun",
+      "display_name": "hiro_tyun",
+      "post_created_at": "2026-11-09T15:44:57+09:00",
+      "source_url": "https://x.com/hiro_tyun/status/2119682636822237301",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "JTのロシア事業撤退困難について、高収益と売却先不在、株主圧力を指摘",
+      "summary_en": "Pointed out high profitability, lack of buyers, and shareholder pressure regarding the difficulty of JT withdrawing from its Russian business."
+     }
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -1092,31 +1135,39 @@
       "summary": "JTの出番を期待する内容",
       "summary_en": "Content expressing expectations that it is JT's turn."
      }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "stance": "弱気",
-     "post_count": 5,
-     "topics": [
-      "その他",
-      "材料",
-      "決算",
-      "配当"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEやっていません",
-      "post_created_at": "2026-11-07T10:28:38+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2118878259429683602",
-      "topic": "配当",
-      "stance": "弱気",
-      "summary": "JTの配当継続が論点。ロシア事業の影響を指摘し弱気寄り。",
-      "summary_en": "The continuation of JT's dividend is the point of contention; somewhat bearish, pointing out the impact of the Russian business."
-     }
     }
    ],
    "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "post_created_at": "2026-11-09T17:39:10+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2119711383722102812",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "JTのロシア事業とS&P評価のニュースを共有。",
+     "summary_en": "Shared news about JT's Russian business and S&P evaluation."
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-11-09T15:44:57+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2119682636822237301",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "JTのロシア事業撤退困難について、高収益と売却先不在、株主圧力を指摘",
+     "summary_en": "Pointed out high profitability, lack of buyers, and shareholder pressure regarding the difficulty of JT withdrawing from its Russian business."
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-11-09T15:36:09+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2119680423165120746",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "JTのロシア事業継続を批判。日本の制裁対応と対照",
+     "summary_en": "Criticized JT's continuation of its Russian business, contrasting it with Japan's sanctions response."
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -1136,50 +1187,20 @@
      "stance": "中立",
      "summary": "JTの開示について総資産比率は妥当だが、ロシア現預金3600億円に驚き。",
      "summary_en": "Regarding JT's disclosure, the ratio to total assets seems reasonable, but expressed surprise at the ¥360,000,000,000 in cash and deposits in Russia."
-    },
-    {
-     "handle": "cadillac600",
-     "display_name": "むらやん/村上直樹",
-     "post_created_at": "2026-11-09T10:08:00+09:00",
-     "source_url": "https://x.com/cadillac600/status/2119597860790644961",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "JTの出番を期待する内容",
-     "summary_en": "Content expressing expectations that it is JT's turn."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-11-07T10:28:38+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2118878259429683602",
-     "topic": "配当",
-     "stance": "弱気",
-     "summary": "JTの配当継続が論点。ロシア事業の影響を指摘し弱気寄り。",
-     "summary_en": "The continuation of JT's dividend is the point of contention; somewhat bearish, pointing out the impact of the Russian business."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-11-07T10:23:33+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2118876981588885948",
-     "topic": "配当",
-     "stance": "弱気",
-     "summary": "JTのホルダーとして、高配当口座が倍になっていたのに悲しいと発言。",
-     "summary_en": "Stated that, as a JT shareholder, it is sad even though the high-dividend account had doubled."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 3,
-     "post_count": 3,
+     "mention_count": 5,
+     "post_count": 6,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 3,
+     "neutral_count": 5,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
-       "investor_count": 2
+       "investor_count": 4
       },
       {
        "topic": "需給",
@@ -1187,6 +1208,44 @@
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:39:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119711383722102812",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JTのロシア事業とS&P評価のニュースを共有。",
+        "summary_en": "Shared news about JT's Russian business and S&P evaluation."
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-11-09T15:44:57+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2119682636822237301",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JTのロシア事業撤退困難について、高収益と売却先不在、株主圧力を指摘",
+        "summary_en": "Pointed out high profitability, lack of buyers, and shareholder pressure regarding the difficulty of JT withdrawing from its Russian business."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -1248,16 +1307,16 @@
      "prev_mention_count": 0
     },
     "7d": {
-     "mention_count": 4,
-     "post_count": 5,
+     "mention_count": 5,
+     "post_count": 8,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 3,
+     "bearish_count": 0,
+     "neutral_count": 5,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
-       "investor_count": 2
+       "investor_count": 4
       },
       {
        "topic": "配当",
@@ -1269,6 +1328,45 @@
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "材料",
+        "配当"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:39:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119711383722102812",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JTのロシア事業とS&P評価のニュースを共有。",
+        "summary_en": "Shared news about JT's Russian business and S&P evaluation."
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-11-09T15:44:57+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2119682636822237301",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JTのロシア事業撤退困難について、高収益と売却先不在、株主圧力を指摘",
+        "summary_en": "Pointed out high profitability, lack of buyers, and shareholder pressure regarding the difficulty of JT withdrawing from its Russian business."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -1324,48 +1422,29 @@
         "stance": "中立",
         "summary": "JTの出番を期待する内容",
         "summary_en": "Content expressing expectations that it is JT's turn."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "弱気",
-       "post_count": 2,
-       "topics": [
-        "配当"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-11-07T10:28:38+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2118878259429683602",
-        "topic": "配当",
-        "stance": "弱気",
-        "summary": "JTの配当継続が論点。ロシア事業の影響を指摘し弱気寄り。",
-        "summary_en": "The continuation of JT's dividend is the point of contention; somewhat bearish, pointing out the impact of the Russian business."
        }
       }
      ],
      "prev_mention_count": 1
     },
     "30d": {
-     "mention_count": 4,
-     "post_count": 7,
+     "mention_count": 5,
+     "post_count": 10,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 3,
+     "bearish_count": 0,
+     "neutral_count": 5,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "材料",
-       "investor_count": 2
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
+       "investor_count": 4
       },
       {
        "topic": "決算",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       },
       {
@@ -1378,6 +1457,47 @@
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 5,
+       "topics": [
+        "その他",
+        "材料",
+        "決算",
+        "配当"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:39:10+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119711383722102812",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JTのロシア事業とS&P評価のニュースを共有。",
+        "summary_en": "Shared news about JT's Russian business and S&P evaluation."
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-11-09T15:44:57+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2119682636822237301",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JTのロシア事業撤退困難について、高収益と売却先不在、株主圧力を指摘",
+        "summary_en": "Pointed out high profitability, lack of buyers, and shareholder pressure regarding the difficulty of JT withdrawing from its Russian business."
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -1434,33 +1554,12 @@
         "summary": "JTの出番を期待する内容",
         "summary_en": "Content expressing expectations that it is JT's turn."
        }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "弱気",
-       "post_count": 4,
-       "topics": [
-        "その他",
-        "決算",
-        "配当"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-11-07T10:28:38+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2118878259429683602",
-        "topic": "配当",
-        "stance": "弱気",
-        "summary": "JTの配当継続が論点。ロシア事業の影響を指摘し弱気寄り。",
-        "summary_en": "The continuation of JT's dividend is the point of contention; somewhat bearish, pointing out the impact of the Russian business."
-       }
       }
      ],
      "prev_mention_count": 1
     }
    },
-   "last_post_at": "2026-11-09T12:40:00+09:00"
+   "last_post_at": "2026-11-09T17:39:10+09:00"
   },
   {
    "ticker": "6072",
@@ -2324,15 +2423,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "売買",
+     "investor_count": 3
+    },
+    {
      "topic": "その他",
      "investor_count": 3
     },
     {
      "topic": "バリュエーション",
-     "investor_count": 3
-    },
-    {
-     "topic": "売買",
      "investor_count": 3
     },
     {
@@ -2612,11 +2711,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 3
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 3
       },
       {
@@ -2902,7 +3001,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -3053,11 +3152,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 2
     },
     {
@@ -3235,11 +3334,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 2
       },
       {
@@ -3818,11 +3917,11 @@
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -3994,11 +4093,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -4145,15 +4244,15 @@
      "investor_count": 2
     },
     {
+     "topic": "業績",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -4337,11 +4436,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -5150,11 +5249,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -5537,6 +5636,224 @@
     }
    },
    "last_post_at": "2026-11-07T12:05:00+09:00"
+  },
+  {
+   "ticker": "9104",
+   "company": "商船三井",
+   "company_en": "Mitsui O.S.K. Lines, Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 2,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子",
+      "post_created_at": "2026-11-09T17:42:09+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2119712133688774663",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "商船三井の株式分割と自社株買いのニュースを共有。",
+      "summary_en": "Shared news about Mitsui O.S.K. Lines' stock split and share buyback."
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-27T12:13:01+09:00",
+      "source_url": "https://x.com/noatake1127/status/2114918260449923423",
+      "topic": "売買",
+      "stance": "強気",
+      "summary": "海運大手3社上昇のニュース紹介。",
+      "summary_en": null
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "post_created_at": "2026-11-09T17:42:09+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2119712133688774663",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "商船三井の株式分割と自社株買いのニュースを共有。",
+     "summary_en": "Shared news about Mitsui O.S.K. Lines' stock split and share buyback."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-27T12:13:01+09:00",
+     "source_url": "https://x.com/noatake1127/status/2114918260449923423",
+     "topic": "売買",
+     "stance": "強気",
+     "summary": "海運大手3社上昇のニュース紹介。",
+     "summary_en": null
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:42:09+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119712133688774663",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "商船三井の株式分割と自社株買いのニュースを共有。",
+        "summary_en": "Shared news about Mitsui O.S.K. Lines' stock split and share buyback."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:42:09+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119712133688774663",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "商船三井の株式分割と自社株買いのニュースを共有。",
+        "summary_en": "Shared news about Mitsui O.S.K. Lines' stock split and share buyback."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 2,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:42:09+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119712133688774663",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "商船三井の株式分割と自社株買いのニュースを共有。",
+        "summary_en": "Shared news about Mitsui O.S.K. Lines' stock split and share buyback."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-27T12:13:01+09:00",
+        "source_url": "https://x.com/noatake1127/status/2114918260449923423",
+        "topic": "売買",
+        "stance": "強気",
+        "summary": "海運大手3社上昇のニュース紹介。",
+        "summary_en": null
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-09T17:42:09+09:00"
   },
   {
    "ticker": "9433",
@@ -6132,11 +6449,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "優待",
      "investor_count": 1
     },
     {
@@ -6220,11 +6537,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "バリュエーション",
        "investor_count": 1
       },
       {
-       "topic": "バリュエーション",
+       "topic": "優待",
        "investor_count": 1
       },
       {
@@ -6266,11 +6583,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "バリュエーション",
        "investor_count": 1
       },
       {
-       "topic": "バリュエーション",
+       "topic": "優待",
        "investor_count": 1
       },
       {
@@ -6716,6 +7033,198 @@
     }
    },
    "last_post_at": "2026-11-03T10:55:00+09:00"
+  },
+  {
+   "ticker": "4169",
+   "company": "ENECHANGE",
+   "company_en": "ENECHANGE Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "強気",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "売買",
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-11-09T16:54:00+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+      "topic": "決算",
+      "stance": "強気",
+      "summary": "ENECHANGE決算が評価され、アップガレージも上昇。PFプラス。",
+      "summary_en": "ENECHANGE's financial results were well-received, UP GARAGE also rose, and the portfolio is positive."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-11-09T16:54:00+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+     "topic": "決算",
+     "stance": "強気",
+     "summary": "ENECHANGE決算が評価され、アップガレージも上昇。PFプラス。",
+     "summary_en": "ENECHANGE's financial results were well-received, UP GARAGE also rose, and the portfolio is positive."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-04T17:44:23+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
+     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-09-27T09:27:56+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2104005082555814194",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "週末PFの続きとして当該銘柄をリスト掲載した保有状況の報告。先行きの見通しは本文にない。",
+     "summary_en": "This is a report on holding status listing the relevant stock as a continuation of the weekend portfolio, with no future outlook in the text."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-09T16:54:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "ENECHANGE決算が評価され、アップガレージも上昇。PFプラス。",
+        "summary_en": "ENECHANGE's financial results were well-received, UP GARAGE also rose, and the portfolio is positive."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-09T16:54:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "ENECHANGE決算が評価され、アップガレージも上昇。PFプラス。",
+        "summary_en": "ENECHANGE's financial results were well-received, UP GARAGE also rose, and the portfolio is positive."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-09T16:54:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "ENECHANGE決算が評価され、アップガレージも上昇。PFプラス。",
+        "summary_en": "ENECHANGE's financial results were well-received, UP GARAGE also rose, and the portfolio is positive."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-09T16:54:00+09:00"
   },
   {
    "ticker": "4183",
@@ -7810,143 +8319,6 @@
     }
    },
    "last_post_at": "2026-11-09T10:06:00+09:00"
-  },
-  {
-   "ticker": "6224",
-   "company": "ＪＲＣ",
-   "company_en": "JRC Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-11-02T15:36:14+09:00",
-      "source_url": "https://x.com/19830128to/status/2117143731023512059",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "2026年のJRCに関するブログ記事を共有",
-      "summary_en": "Shared a blog post regarding JRC in 2026."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-11-02T15:36:14+09:00",
-     "source_url": "https://x.com/19830128to/status/2117143731023512059",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "2026年のJRCに関するブログ記事を共有",
-     "summary_en": "Shared a blog post regarding JRC in 2026."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-02T15:36:14+09:00",
-        "source_url": "https://x.com/19830128to/status/2117143731023512059",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "2026年のJRCに関するブログ記事を共有",
-        "summary_en": "Shared a blog post regarding JRC in 2026."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-02T15:36:14+09:00",
-        "source_url": "https://x.com/19830128to/status/2117143731023512059",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "2026年のJRCに関するブログ記事を共有",
-        "summary_en": "Shared a blog post regarding JRC in 2026."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-02T15:36:14+09:00"
   },
   {
    "ticker": "6322",
@@ -9344,6 +9716,198 @@
    "last_post_at": "2026-11-04T12:12:00+09:00"
   },
   {
+   "ticker": "7134",
+   "company": "アップガレージ",
+   "company_en": "UP GARAGE GROUP Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "強気",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "売買",
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-11-09T16:54:00+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+      "topic": "決算",
+      "stance": "強気",
+      "summary": "アップガレージ決算が評価され+7%。ENECHANGEも好評価。",
+      "summary_en": "UP GARAGE's financial results were well-received, rising +7%, and ENECHANGE was also positively evaluated."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-11-09T16:54:00+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+     "topic": "決算",
+     "stance": "強気",
+     "summary": "アップガレージ決算が評価され+7%。ENECHANGEも好評価。",
+     "summary_en": "UP GARAGE's financial results were well-received, rising +7%, and ENECHANGE was also positively evaluated."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-04T17:44:23+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
+     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-09-27T09:27:46+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
+     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-09T16:54:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "アップガレージ決算が評価され+7%。ENECHANGEも好評価。",
+        "summary_en": "UP GARAGE's financial results were well-received, rising +7%, and ENECHANGE was also positively evaluated."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-09T16:54:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "アップガレージ決算が評価され+7%。ENECHANGEも好評価。",
+        "summary_en": "UP GARAGE's financial results were well-received, rising +7%, and ENECHANGE was also positively evaluated."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-09T16:54:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119700228584693938",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "アップガレージ決算が評価され+7%。ENECHANGEも好評価。",
+        "summary_en": "UP GARAGE's financial results were well-received, rising +7%, and ENECHANGE was also positively evaluated."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-09T16:54:00+09:00"
+  },
+  {
    "ticker": "7164",
    "company": "全国保証",
    "company_en": "ZENKOKU HOSHO Co., Ltd.",
@@ -9640,11 +10204,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9779,11 +10343,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -10819,6 +11383,168 @@
    "last_post_at": "2026-11-07T10:30:00+09:00"
   },
   {
+   "ticker": "9843",
+   "company": "ニトリホールディングス",
+   "company_en": "Nitori Holdings Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "stance": "弱気",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子",
+      "post_created_at": "2026-11-09T17:38:11+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2119711133187920072",
+      "topic": "材料",
+      "stance": "弱気",
+      "summary": "ニトリの情報流出ニュースを共有。",
+      "summary_en": "Shared news about Nitori's information leak."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "post_created_at": "2026-11-09T17:38:11+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2119711133187920072",
+     "topic": "材料",
+     "stance": "弱気",
+     "summary": "ニトリの情報流出ニュースを共有。",
+     "summary_en": "Shared news about Nitori's information leak."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:38:11+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119711133187920072",
+        "topic": "材料",
+        "stance": "弱気",
+        "summary": "ニトリの情報流出ニュースを共有。",
+        "summary_en": "Shared news about Nitori's information leak."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:38:11+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119711133187920072",
+        "topic": "材料",
+        "stance": "弱気",
+        "summary": "ニトリの情報流出ニュースを共有。",
+        "summary_en": "Shared news about Nitori's information leak."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-09T17:38:11+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2119711133187920072",
+        "topic": "材料",
+        "stance": "弱気",
+        "summary": "ニトリの情報流出ニュースを共有。",
+        "summary_en": "Shared news about Nitori's information leak."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-09T17:38:11+09:00"
+  },
+  {
    "ticker": "6594",
    "company": "ニデック",
    "company_en": "NIDEC CORPORATION",
@@ -10847,11 +11573,11 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -11041,11 +11767,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -11654,11 +12380,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -12152,11 +12878,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -13469,11 +14195,11 @@
      "investor_count": 2
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -14180,11 +14906,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -14914,11 +15640,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -16220,11 +16946,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -16644,7 +17370,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -16994,11 +17720,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -17208,11 +17934,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -18151,11 +18877,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -19278,11 +20004,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -19850,11 +20576,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -20039,11 +20765,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -20457,11 +21183,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21427,11 +22153,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21529,11 +22255,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -21623,11 +22349,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -22649,108 +23375,6 @@
    "last_post_at": "2026-09-25T06:48:59+09:00"
   },
   {
-   "ticker": "4169",
-   "company": "ENECHANGE",
-   "company_en": "ENECHANGE Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "その他",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "jammy_bot",
-      "display_name": "JAMMY",
-      "post_created_at": "2026-10-04T17:44:23+09:00",
-      "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-      "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-04T17:44:23+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-09-27T09:27:56+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2104005082555814194",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "週末PFの続きとして当該銘柄をリスト掲載した保有状況の報告。先行きの見通しは本文にない。",
-     "summary_en": "This is a report on holding status listing the relevant stock as a continuation of the weekend portfolio, with no future outlook in the text."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-10-04T17:44:23+09:00"
-  },
-  {
    "ticker": "4216",
    "company": "旭有機材",
    "company_en": "Asahi Yukizai Corporation",
@@ -23447,11 +24071,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -23549,11 +24173,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -24161,11 +24785,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -24487,11 +25111,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -24955,11 +25579,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -25057,11 +25681,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -25151,11 +25775,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -26255,7 +26879,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -26620,11 +27244,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -27777,11 +28401,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -27937,7 +28561,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -28755,11 +29379,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -30997,6 +31621,118 @@
    "last_post_at": "2026-10-16T13:39:08+09:00"
   },
   {
+   "ticker": "6224",
+   "company": "ＪＲＣ",
+   "company_en": "JRC Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-11-02T15:36:14+09:00",
+      "source_url": "https://x.com/19830128to/status/2117143731023512059",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "2026年のJRCに関するブログ記事を共有",
+      "summary_en": "Shared a blog post regarding JRC in 2026."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-11-02T15:36:14+09:00",
+     "source_url": "https://x.com/19830128to/status/2117143731023512059",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "2026年のJRCに関するブログ記事を共有",
+     "summary_en": "Shared a blog post regarding JRC in 2026."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-11-02T15:36:14+09:00",
+        "source_url": "https://x.com/19830128to/status/2117143731023512059",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "2026年のJRCに関するブログ記事を共有",
+        "summary_en": "Shared a blog post regarding JRC in 2026."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-02T15:36:14+09:00"
+  },
+  {
    "ticker": "6225",
    "company": "エコム",
    "company_en": "ECOM Co., Ltd.",
@@ -31320,11 +32056,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -34126,11 +34862,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -34768,11 +35504,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -34957,11 +35693,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -35254,108 +35990,6 @@
     }
    },
    "last_post_at": "2026-10-21T15:40:00+09:00"
-  },
-  {
-   "ticker": "7134",
-   "company": "アップガレージ",
-   "company_en": "UP GARAGE GROUP Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "その他",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "jammy_bot",
-      "display_name": "JAMMY",
-      "post_created_at": "2026-10-04T17:44:23+09:00",
-      "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-      "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-04T17:44:23+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2106666731234275539",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-09-27T09:27:46+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
-     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-10-04T17:44:23+09:00"
   },
   {
    "ticker": "7203",
@@ -35857,11 +36491,11 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -35956,11 +36590,11 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -39551,118 +40185,6 @@
    "last_post_at": "2026-10-27T12:13:01+09:00"
   },
   {
-   "ticker": "9104",
-   "company": "商船三井",
-   "company_en": "Mitsui O.S.K. Lines, Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 1,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "強気",
-     "post_count": 1,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-27T12:13:01+09:00",
-      "source_url": "https://x.com/noatake1127/status/2114918260449923423",
-      "topic": "売買",
-      "stance": "強気",
-      "summary": "海運大手3社上昇のニュース紹介。",
-      "summary_en": null
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-27T12:13:01+09:00",
-     "source_url": "https://x.com/noatake1127/status/2114918260449923423",
-     "topic": "売買",
-     "stance": "強気",
-     "summary": "海運大手3社上昇のニュース紹介。",
-     "summary_en": null
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-27T12:13:01+09:00",
-        "source_url": "https://x.com/noatake1127/status/2114918260449923423",
-        "topic": "売買",
-        "stance": "強気",
-        "summary": "海運大手3社上昇のニュース紹介。",
-        "summary_en": null
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-10-27T12:13:01+09:00"
-  },
-  {
    "ticker": "9107",
    "company": "川崎汽船",
    "company_en": "Kawasaki Kisen Kaisha, Ltd.",
@@ -39899,11 +40421,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -41068,19 +41590,19 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 295,
+   "post_count": 296,
    "ticker_count": 143
   },
   {
    "handle": "kabu_st0ck",
-   "display_name": "ちょる子🐣LINEやっていません",
-   "post_count": 93,
-   "ticker_count": 33
+   "display_name": "ちょる子",
+   "post_count": 96,
+   "ticker_count": 35
   },
   {
    "handle": "jammy_bot",
    "display_name": "JAMMY",
-   "post_count": 70,
+   "post_count": 72,
    "ticker_count": 32
   },
   {
@@ -41120,16 +41642,16 @@
    "ticker_count": 13
   },
   {
+   "handle": "hiro_tyun",
+   "display_name": "hiro_tyun",
+   "post_count": 16,
+   "ticker_count": 5
+  },
+  {
    "handle": "cadillac600",
    "display_name": "むらやん/村上直樹",
    "post_count": 14,
    "ticker_count": 10
-  },
-  {
-   "handle": "hiro_tyun",
-   "display_name": "hiro_tyun",
-   "post_count": 14,
-   "ticker_count": 4
   },
   {
    "handle": "kabu1000",
@@ -41184,17 +41706,17 @@
     "mention_count": 9,
     "prev_mention_count": 7,
     "bullish_count": 1,
-    "bearish_count": 2
+    "bearish_count": 3
    },
    {
     "ticker": "2914",
     "company": "日本たばこ産業",
     "company_en": "Japan Tobacco Inc.",
     "window": "7d",
-    "mention_count": 4,
+    "mention_count": 5,
     "prev_mention_count": 1,
     "bullish_count": 0,
-    "bearish_count": 1
+    "bearish_count": 0
    },
    {
     "ticker": "6072",
@@ -41236,7 +41758,27 @@
     "mention_count": 9,
     "prev_mention_count": 7,
     "bullish_count": 1,
-    "bearish_count": 2
+    "bearish_count": 3
+   },
+   {
+    "ticker": "2914",
+    "company": "日本たばこ産業",
+    "company_en": "Japan Tobacco Inc.",
+    "window": "7d",
+    "mention_count": 5,
+    "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
+    "ticker": "2914",
+    "company": "日本たばこ産業",
+    "company_en": "Japan Tobacco Inc.",
+    "window": "24h",
+    "mention_count": 5,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
    },
    {
     "ticker": "285A",
@@ -41246,27 +41788,7 @@
     "mention_count": 4,
     "prev_mention_count": 0,
     "bullish_count": 0,
-    "bearish_count": 1
-   },
-   {
-    "ticker": "2914",
-    "company": "日本たばこ産業",
-    "company_en": "Japan Tobacco Inc.",
-    "window": "7d",
-    "mention_count": 4,
-    "prev_mention_count": 1,
-    "bullish_count": 0,
-    "bearish_count": 1
-   },
-   {
-    "ticker": "2914",
-    "company": "日本たばこ産業",
-    "company_en": "Japan Tobacco Inc.",
-    "window": "24h",
-    "mention_count": 3,
-    "prev_mention_count": 0,
-    "bullish_count": 0,
-    "bearish_count": 0
+    "bearish_count": 2
    },
    {
     "ticker": "9984",
@@ -41288,7 +41810,7 @@
     "mention_count": 9,
     "prev_mention_count": 7,
     "bullish_count": 1,
-    "bearish_count": 2
+    "bearish_count": 3
    }
   ]
  },
@@ -41296,13 +41818,14 @@
   "24h": [
    {
     "topic": "材料",
-    "ticker_count": 5,
+    "ticker_count": 6,
     "tickers": [
      "285A",
      "2914",
      "4183",
      "4185",
-     "6857"
+     "6857",
+     "9843"
     ]
    },
    {
@@ -41317,10 +41840,19 @@
    },
    {
     "topic": "需給",
-    "ticker_count": 2,
+    "ticker_count": 3,
     "tickers": [
      "285A",
-     "2914"
+     "2914",
+     "9104"
+    ]
+   },
+   {
+    "topic": "決算",
+    "ticker_count": 2,
+    "tickers": [
+     "4169",
+     "7134"
     ]
    },
    {
@@ -41341,7 +41873,7 @@
   "7d": [
    {
     "topic": "材料",
-    "ticker_count": 16,
+    "ticker_count": 17,
     "tickers": [
      "285A",
      "2914",
@@ -41358,19 +41890,19 @@
      "6857",
      "7182",
      "8628",
-     "9432"
+     "9432",
+     "9843"
     ]
    },
    {
     "topic": "その他",
-    "ticker_count": 15,
+    "ticker_count": 14,
     "tickers": [
      "215A",
      "285A",
      "4784",
      "4828",
      "6072",
-     "6224",
      "6326",
      "6364",
      "6488",
@@ -41402,7 +41934,7 @@
    },
    {
     "topic": "需給",
-    "ticker_count": 11,
+    "ticker_count": 12,
     "tickers": [
      "1892",
      "285A",
@@ -41412,6 +41944,7 @@
      "6322",
      "6497",
      "7292",
+     "9104",
      "9119",
      "9433",
      "9984"
@@ -41429,9 +41962,11 @@
    },
    {
     "topic": "決算",
-    "ticker_count": 2,
+    "ticker_count": 4,
     "tickers": [
+     "4169",
      "627A",
+     "7134",
      "8058"
     ]
    },
@@ -41529,7 +42064,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 58,
+    "ticker_count": 59,
     "tickers": [
      "2158",
      "2326",
@@ -41588,7 +42123,8 @@
      "9432",
      "9449",
      "9602",
-     "9735"
+     "9735",
+     "9843"
     ]
    },
    {
@@ -41691,8 +42227,30 @@
     ]
    },
    {
+    "topic": "決算",
+    "ticker_count": 16,
+    "tickers": [
+     "228A",
+     "285A",
+     "2914",
+     "3778",
+     "4169",
+     "4228",
+     "4502",
+     "5344",
+     "6146",
+     "627A",
+     "6857",
+     "6920",
+     "6954",
+     "7134",
+     "8035",
+     "8058"
+    ]
+   },
+   {
     "topic": "需給",
-    "ticker_count": 14,
+    "ticker_count": 15,
     "tickers": [
      "1892",
      "285A",
@@ -41704,30 +42262,11 @@
      "6857",
      "6976",
      "7292",
+     "9104",
      "9119",
      "9409",
      "9433",
      "9984"
-    ]
-   },
-   {
-    "topic": "決算",
-    "ticker_count": 14,
-    "tickers": [
-     "228A",
-     "285A",
-     "2914",
-     "3778",
-     "4228",
-     "4502",
-     "5344",
-     "6146",
-     "627A",
-     "6857",
-     "6920",
-     "6954",
-     "8035",
-     "8058"
     ]
    },
    {
