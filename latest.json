@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-15T07:14:18+09:00",
+ "generated_at": "2026-11-15T15:02:18+09:00",
  "translation": {
-  "summary_en_count": 820,
-  "summary_total": 839,
-  "company_en_count": 360,
-  "company_total": 360,
+  "summary_en_count": 836,
+  "summary_total": 855,
+  "company_en_count": 366,
+  "company_total": 366,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,11 +22,11 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 965,
-  "rows_used": 839,
-  "rows_rejected": 126,
+  "rows_input": 983,
+  "rows_used": 855,
+  "rows_rejected": 128,
   "rejected_reasons": {
-   "tickerが日本株コード形式でない/空": 126
+   "tickerが日本株コード形式でない/空": 128
   },
   "missing_company_tickers": []
  },
@@ -52,11 +52,11 @@
      "investor_count": 5
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 5
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 5
     },
     {
@@ -451,7 +451,7 @@
        }
       }
      ],
-     "prev_mention_count": 3
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 8,
@@ -466,7 +466,7 @@
        "investor_count": 4
       },
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 2
       },
       {
@@ -474,7 +474,7 @@
        "investor_count": 2
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -639,11 +639,11 @@
        }
       }
      ],
-     "prev_mention_count": 9
+     "prev_mention_count": 8
     },
     "30d": {
      "mention_count": 13,
-     "post_count": 63,
+     "post_count": 59,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 10,
@@ -662,11 +662,11 @@
        "investor_count": 5
       },
       {
-       "topic": "材料",
-       "investor_count": 5
+       "topic": "決算",
+       "investor_count": 4
       },
       {
-       "topic": "決算",
+       "topic": "材料",
        "investor_count": 4
       },
       {
@@ -683,11 +683,10 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 21,
+       "post_count": 17,
        "topics": [
         "その他",
         "売買",
-        "材料",
         "決算",
         "需給"
        ],
@@ -979,11 +978,11 @@
      "investor_count": 2
     },
     {
-     "topic": "その他",
+     "topic": "配当",
      "investor_count": 1
     },
     {
-     "topic": "配当",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -1189,40 +1188,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-11-14T07:25:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2121368765703311411",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "JTについて過去の買い下がりと売却、残300株保有を説明。テスタの大量買いに言及。",
-        "summary_en": "Explaining past dip buying and sales of JT, retaining 300 shares, and mentioning Testa's large-scale purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 7,
@@ -1414,11 +1388,11 @@
        "investor_count": 2
       },
       {
-       "topic": "その他",
+       "topic": "配当",
        "investor_count": 1
       },
       {
-       "topic": "配当",
+       "topic": "その他",
        "investor_count": 1
       },
       {
@@ -1779,7 +1753,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 4
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 4,
@@ -1790,11 +1764,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -2205,40 +2179,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:39+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390820440039847",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "特定銘柄言及",
-        "summary_en": "Mention of a specific stock."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 2,
@@ -2433,7 +2382,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 3
     },
     {
@@ -2441,7 +2390,7 @@
      "investor_count": 3
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 3
     },
     {
@@ -2696,7 +2645,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -2704,7 +2653,7 @@
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -2802,6 +2751,308 @@
     }
    },
    "last_post_at": "2026-11-10T15:45:00+09:00"
+  },
+  {
+   "ticker": "558A",
+   "company": "SQUEEZE",
+   "company_en": "SQUEEZE Inc.",
+   "company_en_source": "machine",
+   "mention_count": 3,
+   "post_count": 6,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 3,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 3
+    },
+    {
+     "topic": "売買",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-15T12:52:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "第88回湘南投資勉強会で株式会社SQUEEZEのIR説明会を実施中または登壇企業として言及。",
+      "summary_en": "Mentions that SQUEEZE Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+     }
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-11-14T08:52:33+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "週末ポートフォリオリスト",
+      "summary_en": "Weekend portfolio list"
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子",
+      "post_created_at": "2026-10-28T10:15:29+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2115251072919011789",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "SQUEEZE運営のホテルに滞在した感想を投稿。",
+      "summary_en": "Posted impressions from staying at a hotel operated by SQUEEZE."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:52:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で株式会社SQUEEZEのIR説明会を実施中または登壇企業として言及。",
+     "summary_en": "Mentions that SQUEEZE Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T07:55:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121738771662254574",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRイベント登壇企業リスト",
+     "summary_en": "List of companies presenting at the IR event."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-11-14T08:52:33+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "週末ポートフォリオリスト",
+     "summary_en": "Weekend portfolio list"
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "post_created_at": "2026-10-28T10:15:29+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2115251072919011789",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "SQUEEZE運営のホテルに滞在した感想を投稿。",
+     "summary_en": "Posted impressions from staying at a hotel operated by SQUEEZE."
+    },
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-10-04T17:44:07+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
+     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社SQUEEZEのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that SQUEEZE Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "7d": {
+     "mention_count": 2,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 2
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社SQUEEZEのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that SQUEEZE Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      },
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-14T08:52:33+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "週末ポートフォリオリスト",
+        "summary_en": "Weekend portfolio list"
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 3,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 2,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 3
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社SQUEEZEのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that SQUEEZE Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      },
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-14T08:52:33+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "週末ポートフォリオリスト",
+        "summary_en": "Weekend portfolio list"
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-10-28T10:15:29+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2115251072919011789",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "SQUEEZE運営のホテルに滞在した感想を投稿。",
+        "summary_en": "Posted impressions from staying at a hotel operated by SQUEEZE."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-15T12:52:00+09:00"
   },
   {
    "ticker": "3103",
@@ -3678,11 +3929,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -3814,7 +4065,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -4000,40 +4251,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4420,40 +4646,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4550,6 +4751,217 @@
    "last_post_at": "2026-11-14T08:52:33+09:00"
   },
   {
+   "ticker": "4012",
+   "company": "アクシス",
+   "company_en": "AXIS CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 4,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 2
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo",
+      "post_created_at": "2026-11-15T13:52:13+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2121828596474122554",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "アクシスのIR説明会開始を告知。湘南投資勉強会での決算直後IRライブ。",
+      "summary_en": "Announces the start of Axis's IR briefing session; an IR live stream right after financial results at the Shonan Investment Study Group."
+     }
+    },
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-10-04T10:32:59+09:00",
+      "source_url": "https://x.com/19830128to/status/2106558165676707878",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "4012アクシスの2025年分としてブログURLを共有した投稿。本文は未確認のため、見通しは判定しない。",
+      "summary_en": "A post sharing a blog URL regarding 4012 Axis for 2025; since the main text has not been reviewed, no outlook is determined."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo",
+     "post_created_at": "2026-11-15T13:52:13+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121828596474122554",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "アクシスのIR説明会開始を告知。湘南投資勉強会での決算直後IRライブ。",
+     "summary_en": "Announces the start of Axis's IR briefing session; an IR live stream right after financial results at the Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:52:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で株式会社アクシスのIR説明会を実施中または登壇企業として言及。",
+     "summary_en": "Mentions that AXIS CO., LTD.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T07:55:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121738771662254574",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRイベント登壇企業リスト",
+     "summary_en": "List of companies presenting at the IR event."
+    },
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-10-04T10:32:59+09:00",
+     "source_url": "https://x.com/19830128to/status/2106558165676707878",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "4012アクシスの2025年分としてブログURLを共有した投稿。本文は未確認のため、見通しは判定しない。",
+     "summary_en": "A post sharing a blog URL regarding 4012 Axis for 2025; since the main text has not been reviewed, no outlook is determined."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo",
+        "post_created_at": "2026-11-15T13:52:13+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121828596474122554",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "アクシスのIR説明会開始を告知。湘南投資勉強会での決算直後IRライブ。",
+        "summary_en": "Announces the start of Axis's IR briefing session; an IR live stream right after financial results at the Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo",
+        "post_created_at": "2026-11-15T13:52:13+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121828596474122554",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "アクシスのIR説明会開始を告知。湘南投資勉強会での決算直後IRライブ。",
+        "summary_en": "Announces the start of Axis's IR briefing session; an IR live stream right after financial results at the Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo",
+        "post_created_at": "2026-11-15T13:52:13+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121828596474122554",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "アクシスのIR説明会開始を告知。湘南投資勉強会での決算直後IRライブ。",
+        "summary_en": "Announces the start of Axis's IR briefing session; an IR live stream right after financial results at the Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-15T13:52:13+09:00"
+  },
+  {
    "ticker": "4258",
    "company": "網屋",
    "company_en": "Amiya Corporation",
@@ -4566,11 +4978,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -4669,40 +5081,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4918,40 +5305,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5044,241 +5406,6 @@
         "stance": "中立",
         "summary": "471A NSグループに関するブログ記事を共有。",
         "summary_en": "Shared a blog post regarding 471A NS Group."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-11-14T08:52:33+09:00"
-  },
-  {
-   "ticker": "558A",
-   "company": "SQUEEZE",
-   "company_en": "SQUEEZE Inc.",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 4,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 2,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 2
-    },
-    {
-     "topic": "売買",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "その他",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "jammy_bot",
-      "display_name": "JAMMY",
-      "post_created_at": "2026-11-14T08:52:33+09:00",
-      "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "週末ポートフォリオリスト",
-      "summary_en": "Weekend portfolio list"
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子",
-      "post_created_at": "2026-10-28T10:15:29+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2115251072919011789",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "SQUEEZE運営のホテルに滞在した感想を投稿。",
-      "summary_en": "Posted impressions from staying at a hotel operated by SQUEEZE."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-11-14T08:52:33+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "週末ポートフォリオリスト",
-     "summary_en": "Weekend portfolio list"
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "post_created_at": "2026-10-28T10:15:29+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2115251072919011789",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "SQUEEZE運営のホテルに滞在した感想を投稿。",
-     "summary_en": "Posted impressions from staying at a hotel operated by SQUEEZE."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-10-04T17:44:07+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2106666664674639915",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "週末PF（保有・ウエイト順）の記載。個別の見通しや売買判断は示されていない。",
-     "summary_en": "A listing of the weekend portfolio (in order of holdings and weight). Individual outlooks or buy/sell decisions are not indicated."
-    },
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-09-27T09:27:46+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2104005037865521449",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "9/25時点の週末ポートフォリオ（ウエイト順）に当該銘柄を掲載した保有状況の報告。先行きの見通しは本文にない。",
-     "summary_en": "A report on holdings status listing the stock in the weekend portfolio (ordered by weight) as of 9/25, with no forward-looking outlook in the text."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子",
-        "post_created_at": "2026-10-28T10:15:29+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2115251072919011789",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "SQUEEZE運営のホテルに滞在した感想を投稿。",
-        "summary_en": "Posted impressions from staying at a hotel operated by SQUEEZE."
        }
       }
      ],
@@ -5382,40 +5509,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5577,40 +5679,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -5932,40 +6009,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-14T10:42:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2121418510849183973",
-        "topic": "材料",
-        "stance": "判定不能",
-        "summary": "タマホームが社員による火災保険不正請求問題を受け、保険代理業廃業方針を発表したニュース共有。",
-        "summary_en": "Sharing the news that Tama Home announced a policy to discontinue its insurance agency business in response to the issue of fraudulent fire insurance claims by employees."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6347,6 +6399,168 @@
    "last_post_at": "2026-11-12T07:16:00+09:00"
   },
   {
+   "ticker": "1960",
+   "company": "サンテック",
+   "company_en": "SUNTEC CORPORATION",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "tesuta001",
+      "display_name": "テスタ",
+      "post_created_at": "2026-11-15T13:16:00+09:00",
+      "source_url": "https://x.com/tesuta001/status/2121819685117428182",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "サンテックは板が薄いという指摘が当てはまらず、時価総額が低い銘柄の話であると説明。需給論を学ぶべきと述べる。",
+      "summary_en": "Explains that the point about Santec having a thin order book does not apply, and that it is a discussion about low-market-cap stocks, stating that one should learn supply and demand theory."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "tesuta001",
+     "display_name": "テスタ",
+     "post_created_at": "2026-11-15T13:16:00+09:00",
+     "source_url": "https://x.com/tesuta001/status/2121819685117428182",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "サンテックは板が薄いという指摘が当てはまらず、時価総額が低い銘柄の話であると説明。需給論を学ぶべきと述べる。",
+     "summary_en": "Explains that the point about Santec having a thin order book does not apply, and that it is a discussion about low-market-cap stocks, stating that one should learn supply and demand theory."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-11-15T13:16:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2121819685117428182",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "サンテックは板が薄いという指摘が当てはまらず、時価総額が低い銘柄の話であると説明。需給論を学ぶべきと述べる。",
+        "summary_en": "Explains that the point about Santec having a thin order book does not apply, and that it is a discussion about low-market-cap stocks, stating that one should learn supply and demand theory."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-11-15T13:16:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2121819685117428182",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "サンテックは板が薄いという指摘が当てはまらず、時価総額が低い銘柄の話であると説明。需給論を学ぶべきと述べる。",
+        "summary_en": "Explains that the point about Santec having a thin order book does not apply, and that it is a discussion about low-market-cap stocks, stating that one should learn supply and demand theory."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tesuta001",
+       "display_name": "テスタ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "tesuta001",
+        "display_name": "テスタ",
+        "post_created_at": "2026-11-15T13:16:00+09:00",
+        "source_url": "https://x.com/tesuta001/status/2121819685117428182",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "サンテックは板が薄いという指摘が当てはまらず、時価総額が低い銘柄の話であると説明。需給論を学ぶべきと述べる。",
+        "summary_en": "Explains that the point about Santec having a thin order book does not apply, and that it is a discussion about low-market-cap stocks, stating that one should learn supply and demand theory."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-15T13:16:00+09:00"
+  },
+  {
    "ticker": "2334",
    "company": "イオレ",
    "company_en": "eole Inc.",
@@ -6484,143 +6698,6 @@
    "last_post_at": "2026-11-10T15:55:00+09:00"
   },
   {
-   "ticker": "274A",
-   "company": "ガーデン",
-   "company_en": "GARDEN Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "優待",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "優待"
-     ],
-     "latest_post": {
-      "handle": "yuutaihiroto",
-      "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-11-08T09:55:15+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
-      "topic": "優待",
-      "stance": "中立",
-      "summary": "株価下落を認めつつ優待で救われていると述べる。",
-      "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-11-08T09:55:15+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
-     "topic": "優待",
-     "stance": "中立",
-     "summary": "株価下落を認めつつ優待で救われていると述べる。",
-     "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-11-08T09:55:15+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "株価下落を認めつつ優待で救われていると述べる。",
-        "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-11-08T09:55:15+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "株価下落を認めつつ優待で救われていると述べる。",
-        "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-08T09:55:15+09:00"
-  },
-  {
    "ticker": "2982",
    "company": "ADワークスグループ",
    "company_en": "A.D.Works Group Co., Ltd.",
@@ -6672,40 +6749,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-11-14T07:16:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2121366566961131584",
-        "topic": "優待",
-        "stance": "強気",
-        "summary": "ADワークスを高配当として買い下がり、一部売却後残3500株保有。優待復活を喜ぶ。",
-        "summary_en": "Bought AD Works on dips as a high-dividend stock, and holds the remaining 3,500 shares after selling a portion, expressing delight at the reinstatement of the shareholder benefit program."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6783,6 +6835,178 @@
    "last_post_at": "2026-11-14T07:16:00+09:00"
   },
   {
+   "ticker": "3252",
+   "company": "地主",
+   "company_en": "JINUSHI Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-15T12:52:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "第88回湘南投資勉強会で地主株式会社のIR説明会を実施中または登壇企業として言及。",
+      "summary_en": "Mentions that Jinushi Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:52:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で地主株式会社のIR説明会を実施中または登壇企業として言及。",
+     "summary_en": "Mentions that Jinushi Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T07:55:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121738771662254574",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRイベント登壇企業リスト",
+     "summary_en": "List of companies presenting at the IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で地主株式会社のIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that Jinushi Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で地主株式会社のIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that Jinushi Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で地主株式会社のIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that Jinushi Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-15T12:52:00+09:00"
+  },
+  {
    "ticker": "3496",
    "company": "アズーム",
    "company_en": "AZOOM CO.,LTD.",
@@ -6795,15 +7019,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -6884,40 +7108,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6928,11 +7127,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -6969,11 +7168,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -7279,6 +7478,178 @@
    "last_post_at": "2026-11-11T10:23:00+09:00"
   },
   {
+   "ticker": "3683",
+   "company": "サイバーリンクス",
+   "company_en": "CYBERLINKS CO.,LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-15T12:52:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "第88回湘南投資勉強会で株式会社サイバーリンクスのIR説明会を実施中または登壇企業として言及。",
+      "summary_en": "Mentions that Cyberlinks Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:52:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で株式会社サイバーリンクスのIR説明会を実施中または登壇企業として言及。",
+     "summary_en": "Mentions that Cyberlinks Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T07:55:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121738771662254574",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRイベント登壇企業リスト",
+     "summary_en": "List of companies presenting at the IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社サイバーリンクスのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that Cyberlinks Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社サイバーリンクスのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that Cyberlinks Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社サイバーリンクスのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that Cyberlinks Co., Ltd.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-15T12:52:00+09:00"
+  },
+  {
    "ticker": "3901",
    "company": "マークラインズ",
    "company_en": "MarkLines Co., Ltd.",
@@ -7291,11 +7662,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -7355,40 +7726,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:39+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390820440039847",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "特定銘柄言及",
-        "summary_en": "Mention of a specific stock."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7615,15 +7961,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8106,11 +8452,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8170,40 +8516,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:39+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390820440039847",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "特定銘柄言及",
-        "summary_en": "Mention of a specific stock."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8293,11 +8614,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8357,40 +8678,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8480,11 +8776,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8544,40 +8840,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8667,11 +8938,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8741,40 +9012,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8864,11 +9110,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8928,40 +9174,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9037,6 +9258,178 @@
     }
    },
    "last_post_at": "2026-11-14T08:52:33+09:00"
+  },
+  {
+   "ticker": "4495",
+   "company": "アイキューブドシステムズ",
+   "company_en": "i3 Systems, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-15T12:52:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "第88回湘南投資勉強会で株式会社アイキューブドシステムズのIR説明会を実施中または登壇企業として言及。",
+      "summary_en": "Mentions that i3 Systems, Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:52:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で株式会社アイキューブドシステムズのIR説明会を実施中または登壇企業として言及。",
+     "summary_en": "Mentions that i3 Systems, Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T07:55:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121738771662254574",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRイベント登壇企業リスト",
+     "summary_en": "List of companies presenting at the IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社アイキューブドシステムズのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that i3 Systems, Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社アイキューブドシステムズのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that i3 Systems, Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社アイキューブドシステムズのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that i3 Systems, Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-15T12:52:00+09:00"
   },
   {
    "ticker": "477A",
@@ -9206,143 +9599,6 @@
    "last_post_at": "2026-11-10T16:30:00+09:00"
   },
   {
-   "ticker": "4828",
-   "company": "ビーエンジ",
-   "company_en": "Business Engineering Corporation",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "jammy_bot",
-      "display_name": "JAMMY",
-      "post_created_at": "2026-11-08T09:58:00+09:00",
-      "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "銘柄リスト投稿",
-      "summary_en": "A stock list post."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "jammy_bot",
-     "display_name": "JAMMY",
-     "post_created_at": "2026-11-08T09:58:00+09:00",
-     "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "銘柄リスト投稿",
-     "summary_en": "A stock list post."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-08T09:58:00+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "銘柄リスト投稿",
-        "summary_en": "A stock list post."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-08T09:58:00+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "銘柄リスト投稿",
-        "summary_en": "A stock list post."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-08T09:58:00+09:00"
-  },
-  {
    "ticker": "4985",
    "company": "アース（Earth Corporation）",
    "company_en": "Earth Corporation",
@@ -9402,7 +9658,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -9492,11 +9748,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9556,40 +9812,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9726,7 +9957,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -9992,40 +10223,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-14T14:02:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2121468691162574964",
-        "topic": "売買",
-        "stance": "判定不能",
-        "summary": "過去にJFEまたは日鉄を触っていたが、決算前にGDし、トヨタ減産の影響で損失したとの個人的エピソード。",
-        "summary_en": "A personal episode of having traded JFE or Nippon Steel in the past, gapping down before financial results, and incurring losses due to the impact of Toyota's production cuts."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10154,40 +10360,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-14T14:02:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2121468691162574964",
-        "topic": "売買",
-        "stance": "判定不能",
-        "summary": "過去にJFEまたは日鉄を触っていたが、決算前にGDし、トヨタ減産の影響で損失したとの個人的エピソード。",
-        "summary_en": "A personal episode of having traded JFE or Nippon Steel in the past, gapping down before financial results, and incurring losses due to the impact of Toyota's production cuts."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10277,11 +10458,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -10341,40 +10522,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10503,40 +10659,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -11408,7 +11539,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -11498,11 +11629,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -11797,11 +11928,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -11861,40 +11992,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -12131,15 +12237,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -12210,40 +12316,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -12254,11 +12335,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -12295,11 +12376,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -12343,15 +12424,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -12432,55 +12513,30 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-14T08:52:33+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2121390794712244456",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "週末ポートフォリオリスト",
-        "summary_en": "Weekend portfolio list"
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 3,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -12489,7 +12545,7 @@
        "handle": "jammy_bot",
        "display_name": "JAMMY",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
         "その他",
         "決算"
@@ -12517,15 +12573,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
        "topic": "決算",
        "investor_count": 1
       },
       {
        "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -12707,11 +12763,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -12771,40 +12827,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-14T14:02:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2121468691162574964",
-        "topic": "材料",
-        "stance": "判定不能",
-        "summary": "トヨタの減産情報が出て損失したとの過去の体験談。",
-        "summary_en": "A past personal account of incurring losses when news of Toyota's production cuts came out."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -13215,7 +13246,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -13900,7 +13931,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -13976,6 +14007,350 @@
     }
    },
    "last_post_at": "2026-11-13T14:48:00+09:00"
+  },
+  {
+   "ticker": "9560",
+   "company": "株式会社プログリット",
+   "company_en": "PROGRIT Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-15T12:52:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "第88回湘南投資勉強会で株式会社プログリットのIR説明会を実施中または登壇企業として言及。",
+      "summary_en": "Mentions that PROGRIT Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:52:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で株式会社プログリットのIR説明会を実施中または登壇企業として言及。",
+     "summary_en": "Mentions that PROGRIT Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T12:00:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121800496658981156",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "第88回湘南投資勉強会で株式会社プログリットのIR説明会を実施中と告知。",
+     "summary_en": "Announces that PROGRIT Inc.'s IR briefing is currently being held at the 88th Shonan Investment Study Group."
+    },
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-15T07:55:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2121738771662254574",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRイベント登壇企業リスト",
+     "summary_en": "List of companies presenting at the IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社プログリットのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that PROGRIT Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社プログリットのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that PROGRIT Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-15T12:52:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2121813608762053038",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "第88回湘南投資勉強会で株式会社プログリットのIR説明会を実施中または登壇企業として言及。",
+        "summary_en": "Mentions that PROGRIT Inc.'s IR briefing is currently being held or mentions it as a participating company at the 88th Shonan Investment Study Group."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-15T12:52:00+09:00"
+  },
+  {
+   "ticker": "9757",
+   "company": "船井総研ホールディングス",
+   "company_en": "Funai Soken Holdings Incorporated",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人",
+     "stance": "弱気",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人",
+      "post_created_at": "2026-11-15T13:38:45+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2121825208168542220",
+      "topic": "優待",
+      "stance": "弱気",
+      "summary": "船井総研の優待がなくなりがっかりしたとの発言。買い戻し後に失望。",
+      "summary_en": "Expresses disappointment that Funai Soken's shareholder perks were eliminated, noting disappointment after buying back."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人",
+     "post_created_at": "2026-11-15T13:38:45+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2121825208168542220",
+     "topic": "優待",
+     "stance": "弱気",
+     "summary": "船井総研の優待がなくなりがっかりしたとの発言。買い戻し後に失望。",
+     "summary_en": "Expresses disappointment that Funai Soken's shareholder perks were eliminated, noting disappointment after buying back."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人",
+        "post_created_at": "2026-11-15T13:38:45+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2121825208168542220",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "船井総研の優待がなくなりがっかりしたとの発言。買い戻し後に失望。",
+        "summary_en": "Expresses disappointment that Funai Soken's shareholder perks were eliminated, noting disappointment after buying back."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人",
+        "post_created_at": "2026-11-15T13:38:45+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2121825208168542220",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "船井総研の優待がなくなりがっかりしたとの発言。買い戻し後に失望。",
+        "summary_en": "Expresses disappointment that Funai Soken's shareholder perks were eliminated, noting disappointment after buying back."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人",
+        "post_created_at": "2026-11-15T13:38:45+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2121825208168542220",
+        "topic": "優待",
+        "stance": "弱気",
+        "summary": "船井総研の優待がなくなりがっかりしたとの発言。買い戻し後に失望。",
+        "summary_en": "Expresses disappointment that Funai Soken's shareholder perks were eliminated, noting disappointment after buying back."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-15T13:38:45+09:00"
   },
   {
    "ticker": "9843",
@@ -14865,11 +15240,11 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -15102,11 +15477,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 2
     },
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 2
     },
     {
@@ -15263,11 +15638,11 @@
        "investor_count": 2
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -16091,7 +16466,7 @@
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -16099,7 +16474,7 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -16641,11 +17016,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -17659,11 +18034,11 @@
      "investor_count": 2
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -17811,7 +18186,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -17819,7 +18194,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -18975,11 +19350,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -19709,11 +20084,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21102,15 +21477,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "決算",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21851,11 +22226,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -22065,11 +22440,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -22466,6 +22841,118 @@
    "last_post_at": "2026-10-21T16:54:00+09:00"
   },
   {
+   "ticker": "274A",
+   "company": "ガーデン",
+   "company_en": "GARDEN Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-11-08T09:55:15+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "株価下落を認めつつ優待で救われていると述べる。",
+      "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-11-08T09:55:15+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "株価下落を認めつつ優待で救われていると述べる。",
+     "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "優待",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "yuutaihiroto",
+       "display_name": "桐谷広人・桐谷さん【公式】",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "優待"
+       ],
+       "latest_post": {
+        "handle": "yuutaihiroto",
+        "display_name": "桐谷広人・桐谷さん【公式】",
+        "post_created_at": "2026-11-08T09:55:15+09:00",
+        "source_url": "https://x.com/yuutaihiroto/status/2119232247035498811",
+        "topic": "優待",
+        "stance": "中立",
+        "summary": "株価下落を認めつつ優待で救われていると述べる。",
+        "summary_en": "States that while acknowledging the stock price decline, they are saved by the shareholder benefits."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-08T09:55:15+09:00"
+  },
+  {
    "ticker": "2780",
    "company": "コメ兵HD",
    "company_en": "KOMEHYO Holdings Co., Ltd.",
@@ -22845,40 +23332,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "カゴメの優待到着と含み損を報告。優待目的の購入に注意喚起。",
-        "summary_en": "Reported the arrival of Kagome's shareholder benefits and unrealized losses, warning against buying for the purpose of shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T13:39:08+09:00"
@@ -22983,7 +23445,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "優待",
      "investor_count": 1
     },
     {
@@ -22991,7 +23453,7 @@
      "investor_count": 1
     },
     {
-     "topic": "優待",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -23082,7 +23544,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "バリュエーション",
+       "topic": "優待",
        "investor_count": 1
       },
       {
@@ -23090,7 +23552,7 @@
        "investor_count": 1
       },
       {
-       "topic": "優待",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -24023,11 +24485,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -25212,11 +25674,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -26294,11 +26756,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -26388,11 +26850,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -26584,40 +27046,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "はてなの記念優待と含み損を報告。",
-        "summary_en": "Reported Hatena's commemorative shareholder benefits and unrealized losses."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T13:39:08+09:00"
@@ -26942,93 +27379,6 @@
     }
    },
    "last_post_at": "2026-10-26T10:38:23+09:00"
-  },
-  {
-   "ticker": "4012",
-   "company": "アクシス",
-   "company_en": "AXIS CO., LTD.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-10-04T10:32:59+09:00",
-      "source_url": "https://x.com/19830128to/status/2106558165676707878",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "4012アクシスの2025年分としてブログURLを共有した投稿。本文は未確認のため、見通しは判定しない。",
-      "summary_en": "A post sharing a blog URL regarding 4012 Axis for 2025; since the main text has not been reviewed, no outlook is determined."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-10-04T10:32:59+09:00",
-     "source_url": "https://x.com/19830128to/status/2106558165676707878",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "4012アクシスの2025年分としてブログURLを共有した投稿。本文は未確認のため、見通しは判定しない。",
-     "summary_en": "A post sharing a blog URL regarding 4012 Axis for 2025; since the main text has not been reviewed, no outlook is determined."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-10-04T10:32:59+09:00"
   },
   {
    "ticker": "4063",
@@ -29125,11 +29475,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -29219,11 +29569,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -29833,40 +30183,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-10-16T14:12:12+09:00",
-        "source_url": "https://x.com/19830128to/status/2110961987018694666",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "4662フォーカスシステムズに関するブログ記事のリンク投稿。",
-        "summary_en": "Link post for a blog article about 4662 Focus Systems."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T14:12:12+09:00"
@@ -30638,11 +30963,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -30732,11 +31057,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -31072,6 +31397,118 @@
     }
    },
    "last_post_at": "2026-09-29T12:14:50+09:00"
+  },
+  {
+   "ticker": "4828",
+   "company": "ビーエンジ",
+   "company_en": "Business Engineering Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "jammy_bot",
+      "display_name": "JAMMY",
+      "post_created_at": "2026-11-08T09:58:00+09:00",
+      "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "銘柄リスト投稿",
+      "summary_en": "A stock list post."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "jammy_bot",
+     "display_name": "JAMMY",
+     "post_created_at": "2026-11-08T09:58:00+09:00",
+     "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "銘柄リスト投稿",
+     "summary_en": "A stock list post."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "jammy_bot",
+       "display_name": "JAMMY",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "jammy_bot",
+        "display_name": "JAMMY",
+        "post_created_at": "2026-11-08T09:58:00+09:00",
+        "source_url": "https://x.com/jammy_bot/status/2119232987674141113",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "銘柄リスト投稿",
+        "summary_en": "A stock list post."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-08T09:58:00+09:00"
   },
   {
    "ticker": "4848",
@@ -32329,40 +32766,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "テクノロジーズの高額優待と含み損28万円を報告。優待目的購入のリスクを指摘。",
-        "summary_en": "Reported Technologies' high-value shareholder benefits and unrealized losses of ¥280,000, pointing out the risks of buying for the purpose of shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T13:39:08+09:00"
@@ -32773,7 +33185,7 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -32789,7 +33201,7 @@
        "handle": "kenmokenmo",
        "display_name": "kenmo@湘南投資勉強会",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
         "その他"
        ],
@@ -33395,7 +33807,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -33403,11 +33815,11 @@
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -34130,7 +34542,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -34939,40 +35351,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-16T13:39:08+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2110953665788006694",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "島精機の優待到着を報告。",
-        "summary_en": "Reported the arrival of Shima Seiki's shareholder benefits."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T13:39:08+09:00"
@@ -36932,40 +37319,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-16T10:01:45+09:00",
-        "source_url": "https://x.com/noatake1127/status/2110898961309729148",
-        "topic": "業績",
-        "stance": "中立",
-        "summary": "好材料で上昇と報告。",
-        "summary_en": "Reported a rise driven by positive news."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T10:01:45+09:00"
@@ -38921,11 +39283,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     }
    ],
@@ -40622,11 +40984,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -40710,22 +41072,18 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 3,
+     "post_count": 2,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       },
       {
        "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -40734,11 +41092,10 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 3,
+       "post_count": 2,
        "topics": [
         "その他",
-        "材料",
-        "業績"
+        "材料"
        ],
        "latest_post": {
         "handle": "noatake1127",
@@ -40752,7 +41109,7 @@
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-30T14:14:00+09:00"
@@ -41055,40 +41412,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-16T10:01:45+09:00",
-        "source_url": "https://x.com/noatake1127/status/2110898961309729148",
-        "topic": "業績",
-        "stance": "中立",
-        "summary": "好材料で上昇と報告。",
-        "summary_en": "Reported a rise driven by positive news."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-16T10:01:45+09:00"
@@ -44985,11 +45317,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -45433,11 +45765,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -46192,15 +46524,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "決算",
+     "investor_count": 1
+    },
+    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "需給",
-     "investor_count": 1
-    },
-    {
-     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -46430,15 +46762,21 @@
   },
   {
    "handle": "yuutaihiroto",
-   "display_name": "桐谷広人・桐谷さん【公式】",
-   "post_count": 60,
-   "ticker_count": 42
+   "display_name": "桐谷広人",
+   "post_count": 61,
+   "ticker_count": 43
   },
   {
    "handle": "abc87791035",
    "display_name": "ABCトレーダー",
    "post_count": 50,
    "ticker_count": 28
+  },
+  {
+   "handle": "kenmokenmo",
+   "display_name": "kenmo",
+   "post_count": 46,
+   "ticker_count": 27
   },
   {
    "handle": "19830128to",
@@ -46451,12 +46789,6 @@
    "display_name": "名古屋の長期投資家（なごちょう）",
    "post_count": 34,
    "ticker_count": 29
-  },
-  {
-   "handle": "kenmokenmo",
-   "display_name": "kenmo@湘南投資勉強会",
-   "post_count": 32,
-   "ticker_count": 21
   },
   {
    "handle": "daiboucho",
@@ -46491,8 +46823,8 @@
   {
    "handle": "tesuta001",
    "display_name": "テスタ",
-   "post_count": 7,
-   "ticker_count": 6
+   "post_count": 8,
+   "ticker_count": 7
   },
   {
    "handle": "serotape_take",
@@ -46527,7 +46859,7 @@
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
     "mention_count": 8,
-    "prev_mention_count": 9,
+    "prev_mention_count": 8,
     "bullish_count": 0,
     "bearish_count": 1
    },
@@ -46570,6 +46902,16 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 1
+   },
+   {
+    "ticker": "558A",
+    "company": "SQUEEZE",
+    "company_en": "SQUEEZE Inc.",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
    },
    {
     "ticker": "6072",
@@ -46632,6 +46974,16 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 1
+   },
+   {
+    "ticker": "558A",
+    "company": "SQUEEZE",
+    "company_en": "SQUEEZE Inc.",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 0,
+    "bullish_count": 0,
+    "bearish_count": 0
    }
   ],
   "split": []
@@ -46640,38 +46992,14 @@
   "24h": [
    {
     "topic": "その他",
-    "ticker_count": 21,
+    "ticker_count": 6,
     "tickers": [
-     "276A",
-     "3496",
-     "3697",
-     "3901",
-     "4258",
-     "4374",
-     "4377",
-     "4412",
-     "4443",
-     "4486",
-     "471A",
-     "5038",
-     "5532",
-     "5537",
+     "3252",
+     "3683",
+     "4012",
+     "4495",
      "558A",
-     "581A",
-     "6072",
-     "6501",
-     "7047",
-     "7134",
-     "7199"
-    ]
-   },
-   {
-    "topic": "売買",
-    "ticker_count": 3,
-    "tickers": [
-     "2914",
-     "5401",
-     "5411"
+     "9560"
     ]
    },
    {
@@ -46683,25 +47011,24 @@
     ]
    },
    {
-    "topic": "材料",
-    "ticker_count": 2,
+    "topic": "需給",
+    "ticker_count": 1,
     "tickers": [
-     "1419",
-     "7203"
+     "1960"
     ]
    },
    {
     "topic": "優待",
     "ticker_count": 1,
     "tickers": [
-     "2982"
+     "9757"
     ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 35,
+    "ticker_count": 39,
     "tickers": [
      "1433",
      "2334",
@@ -46709,17 +47036,20 @@
      "285A",
      "286A",
      "2914",
+     "3252",
      "3496",
+     "3683",
      "3697",
      "3901",
+     "4012",
      "4258",
      "4374",
      "4377",
      "4412",
      "4443",
      "4486",
+     "4495",
      "471A",
-     "4828",
      "4985",
      "5038",
      "5532",
@@ -46737,6 +47067,7 @@
      "7047",
      "7134",
      "7199",
+     "9560",
      "9984"
     ]
    },
@@ -46780,9 +47111,10 @@
    },
    {
     "topic": "需給",
-    "ticker_count": 9,
+    "ticker_count": 10,
     "tickers": [
      "1878",
+     "1960",
      "285A",
      "2914",
      "3103",
@@ -46822,10 +47154,10 @@
     "topic": "優待",
     "ticker_count": 4,
     "tickers": [
-     "274A",
      "2982",
      "7743",
-     "8912"
+     "8912",
+     "9757"
     ]
    },
    {
@@ -46846,7 +47178,7 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 79,
+    "ticker_count": 83,
     "tickers": [
      "138A",
      "1433",
@@ -46861,10 +47193,13 @@
      "2914",
      "3133",
      "3221",
+     "3252",
      "3350",
      "3496",
+     "3683",
      "3697",
      "3901",
+     "4012",
      "4258",
      "4350",
      "4374",
@@ -46872,9 +47207,9 @@
      "4412",
      "4443",
      "4486",
+     "4495",
      "4502",
      "4661",
-     "4662",
      "4685",
      "4687",
      "471A",
@@ -46925,6 +47260,7 @@
      "9211",
      "9436",
      "9449",
+     "9560",
      "9799",
      "9984"
     ]
@@ -47073,40 +47409,12 @@
     ]
    },
    {
-    "topic": "優待",
-    "ticker_count": 23,
-    "tickers": [
-     "2269",
-     "2593",
-     "274A",
-     "2811",
-     "2903",
-     "2982",
-     "3003",
-     "3053",
-     "3557",
-     "3772",
-     "3930",
-     "4331",
-     "4848",
-     "5248",
-     "5343",
-     "6222",
-     "7522",
-     "7552",
-     "7603",
-     "7743",
-     "8346",
-     "8912",
-     "9990"
-    ]
-   },
-   {
     "topic": "需給",
-    "ticker_count": 20,
+    "ticker_count": 21,
     "tickers": [
      "1878",
      "1892",
+     "1960",
      "285A",
      "2903",
      "2914",
@@ -47128,8 +47436,34 @@
     ]
    },
    {
-    "topic": "業績",
+    "topic": "優待",
     "ticker_count": 20,
+    "tickers": [
+     "2269",
+     "2593",
+     "274A",
+     "2903",
+     "2982",
+     "3003",
+     "3053",
+     "3557",
+     "3772",
+     "4331",
+     "4848",
+     "5343",
+     "7522",
+     "7552",
+     "7603",
+     "7743",
+     "8346",
+     "8912",
+     "9757",
+     "9990"
+    ]
+   },
+   {
+    "topic": "業績",
+    "ticker_count": 17,
     "tickers": [
      "2737",
      "4410",
@@ -47140,14 +47474,11 @@
      "6370",
      "6384",
      "6432",
-     "6505",
      "6532",
      "6758",
      "6857",
      "6976",
      "7267",
-     "7453",
-     "7581",
      "7970",
      "9340",
      "9984"
