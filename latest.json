@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-19T05:20:21+09:00",
+ "generated_at": "2026-11-19T11:27:54+09:00",
  "translation": {
-  "summary_en_count": 887,
-  "summary_total": 907,
-  "company_en_count": 382,
-  "company_total": 382,
+  "summary_en_count": 893,
+  "summary_total": 913,
+  "company_en_count": 383,
+  "company_total": 383,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 1041,
-  "rows_used": 907,
+  "rows_input": 1047,
+  "rows_used": 913,
   "rows_rejected": 134,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 134
@@ -37,10 +37,10 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 14,
-   "post_count": 95,
+   "post_count": 97,
    "bullish_count": 1,
-   "bearish_count": 3,
-   "neutral_count": 10,
+   "bearish_count": 2,
+   "neutral_count": 11,
    "unknown_count": 0,
    "topics": [
     {
@@ -74,6 +74,30 @@
    ],
    "investors": [
     {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 39,
+     "topics": [
+      "その他",
+      "バリュエーション",
+      "売買",
+      "材料",
+      "決算",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-19T09:47:41+09:00",
+      "source_url": "https://x.com/noatake1127/status/2123216609447952729",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "キオクシアがプラス転したとの報告",
+      "summary_en": "Report that Kioxia has turned positive."
+     }
+    },
+    {
      "handle": "tesuta001",
      "display_name": "テスタ",
      "stance": "中立",
@@ -90,30 +114,6 @@
       "stance": "中立",
       "summary": "連日下落ながら話題中心・売買代金1位で注目",
       "summary_en": null
-     }
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "弱気",
-     "post_count": 37,
-     "topics": [
-      "その他",
-      "バリュエーション",
-      "売買",
-      "材料",
-      "決算",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-17T11:31:25+09:00",
-      "source_url": "https://x.com/noatake1127/status/2122517937844330735",
-      "topic": "売買",
-      "stance": "弱気",
-      "summary": "キオクシアが安値で引けたことを指摘",
-      "summary_en": "Pointed out that Kioxia closed at a low price."
      }
     },
     {
@@ -367,6 +367,26 @@
    ],
    "latest_posts": [
     {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-19T09:47:41+09:00",
+     "source_url": "https://x.com/noatake1127/status/2123216609447952729",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "キオクシアがプラス転したとの報告",
+     "summary_en": "Report that Kioxia has turned positive."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-19T09:32:39+09:00",
+     "source_url": "https://x.com/noatake1127/status/2123212823023296706",
+     "topic": "需給",
+     "stance": "弱気",
+     "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
+     "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
+    },
+    {
      "handle": "tesuta001",
      "display_name": "テスタ",
      "post_created_at": "2026-11-18T11:58:00+09:00",
@@ -395,43 +415,47 @@
      "stance": "中立",
      "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
      "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
-    },
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "post_created_at": "2026-11-16T13:50:00+09:00",
-     "source_url": "https://x.com/tarouyuuki0322/status/2122190433640198146",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "ラジオ出演でキオクシア等を分析例として取り上げ",
-     "summary_en": "Kioxia and others were taken up as analysis examples during a radio appearance."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-14T16:32:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2121506480667107361",
-     "topic": "決算",
-     "stance": "中立",
-     "summary": "キオクシア株高騰が東芝の純利益を押し上げた要因との事実共有。見通しの明示なし。",
-     "summary_en": "Sharing the fact that the surge in Kioxia shares was a factor that boosted Toshiba's net profit, with no outlook specified."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 2,
+     "post_count": 3,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:47:41+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123216609447952729",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "キオクシアがプラス転したとの報告",
+        "summary_en": "Report that Kioxia has turned positive."
+       }
+      },
       {
        "handle": "tesuta001",
        "display_name": "テスタ",
@@ -455,20 +479,16 @@
      "prev_mention_count": 1
     },
     "7d": {
-     "mention_count": 7,
+     "mention_count": 6,
      "post_count": 10,
      "bullish_count": 0,
-     "bearish_count": 1,
+     "bearish_count": 0,
      "neutral_count": 6,
      "unknown_count": 0,
      "topics": [
       {
        "topic": "売買",
-       "investor_count": 4
-      },
-      {
-       "topic": "その他",
-       "investor_count": 2
+       "investor_count": 3
       },
       {
        "topic": "決算",
@@ -476,10 +496,35 @@
       },
       {
        "topic": "需給",
+       "investor_count": 2
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 4,
+       "topics": [
+        "売買",
+        "決算",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:47:41+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123216609447952729",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "キオクシアがプラス転したとの報告",
+        "summary_en": "Report that Kioxia has turned positive."
+       }
+      },
       {
        "handle": "tesuta001",
        "display_name": "テスタ",
@@ -497,27 +542,6 @@
         "stance": "中立",
         "summary": "連日下落ながら話題中心・売買代金1位で注目",
         "summary_en": null
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 3,
-       "topics": [
-        "その他",
-        "売買",
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-17T11:31:25+09:00",
-        "source_url": "https://x.com/noatake1127/status/2122517937844330735",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "キオクシアが安値で引けたことを指摘",
-        "summary_en": "Pointed out that Kioxia closed at a low price."
        }
       },
       {
@@ -595,35 +619,16 @@
         "summary": "キオクシア等半導体株の記事を引用共有。",
         "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
        }
-      },
-      {
-       "handle": "kabu1000",
-       "display_name": "かぶ1000",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu1000",
-        "display_name": "かぶ1000",
-        "post_created_at": "2026-11-12T09:49:26+09:00",
-        "source_url": "https://x.com/kabu1000/status/2120680334597792027",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "キオクシアが1万円の大台を回復したとの観測。",
-        "summary_en": "Observation that Kioxia has recovered the ¥10,000 mark."
-       }
       }
      ],
-     "prev_mention_count": 8
+     "prev_mention_count": 7
     },
     "30d": {
      "mention_count": 13,
-     "post_count": 59,
+     "post_count": 61,
      "bullish_count": 1,
-     "bearish_count": 3,
-     "neutral_count": 9,
+     "bearish_count": 2,
+     "neutral_count": 10,
      "unknown_count": 0,
      "topics": [
       {
@@ -657,6 +662,28 @@
      ],
      "investors": [
       {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 18,
+       "topics": [
+        "その他",
+        "売買",
+        "決算",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:47:41+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123216609447952729",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "キオクシアがプラス転したとの報告",
+        "summary_en": "Report that Kioxia has turned positive."
+       }
+      },
+      {
        "handle": "tesuta001",
        "display_name": "テスタ",
        "stance": "中立",
@@ -673,28 +700,6 @@
         "stance": "中立",
         "summary": "連日下落ながら話題中心・売買代金1位で注目",
         "summary_en": null
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 16,
-       "topics": [
-        "その他",
-        "売買",
-        "決算",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-17T11:31:25+09:00",
-        "source_url": "https://x.com/noatake1127/status/2122517937844330735",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "キオクシアが安値で引けたことを指摘",
-        "summary_en": "Pointed out that Kioxia closed at a low price."
        }
       },
       {
@@ -927,7 +932,7 @@
      "prev_mention_count": 7
     }
    },
-   "last_post_at": "2026-11-18T11:58:00+09:00"
+   "last_post_at": "2026-11-19T09:47:41+09:00"
   },
   {
    "ticker": "2914",
@@ -958,11 +963,11 @@
      "investor_count": 2
     },
     {
-     "topic": "決算",
+     "topic": "配当",
      "investor_count": 1
     },
     {
-     "topic": "配当",
+     "topic": "決算",
      "investor_count": 1
     },
     {
@@ -1194,23 +1199,23 @@
      "prev_mention_count": 0
     },
     "7d": {
-     "mention_count": 5,
-     "post_count": 8,
+     "mention_count": 4,
+     "post_count": 4,
      "bullish_count": 0,
      "bearish_count": 1,
-     "neutral_count": 4,
+     "neutral_count": 3,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 2
-      },
-      {
        "topic": "材料",
-       "investor_count": 2
+       "investor_count": 1
       },
       {
        "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "売買",
        "investor_count": 1
       },
       {
@@ -1280,9 +1285,8 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "弱気",
-       "post_count": 4,
+       "post_count": 1,
        "topics": [
-        "売買",
         "材料"
        ],
        "latest_post": {
@@ -1294,25 +1298,6 @@
         "stance": "弱気",
         "summary": "プーチン大統領によるJTロシア事業の暫定管理命令について、外相が異常な事態と述べたことを報告。",
         "summary_en": "Reported that the Foreign Minister stated President Putin's order for temporary management of JT's Russian business is an abnormal situation."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-12T09:27:54+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2120674915527590213",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "JTのロシア関連問題について、米国企業なら影響がなかった可能性を指摘。",
-        "summary_en": "Pointing out that regarding JT's Russia-related issues, there might have been no impact if it were a US company."
        }
       }
      ],
@@ -1343,11 +1328,11 @@
        "investor_count": 2
       },
       {
-       "topic": "決算",
+       "topic": "配当",
        "investor_count": 1
       },
       {
-       "topic": "配当",
+       "topic": "決算",
        "investor_count": 1
       },
       {
@@ -1540,11 +1525,11 @@
      "investor_count": 3
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
@@ -1723,7 +1708,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 4,
@@ -1838,7 +1823,7 @@
     },
     "30d": {
      "mention_count": 5,
-     "post_count": 16,
+     "post_count": 15,
      "bullish_count": 0,
      "bearish_count": 2,
      "neutral_count": 3,
@@ -1849,11 +1834,11 @@
        "investor_count": 4
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -1861,11 +1846,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -1874,7 +1859,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "弱気",
-       "post_count": 6,
+       "post_count": 5,
        "topics": [
         "その他",
         "売買",
@@ -1994,11 +1979,11 @@
      "investor_count": 4
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 3
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 3
     },
     {
@@ -2202,7 +2187,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 2,
@@ -2276,11 +2261,11 @@
        "investor_count": 3
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 2
       },
       {
@@ -2398,6 +2383,347 @@
     }
    },
    "last_post_at": "2026-11-17T09:06:14+09:00"
+  },
+  {
+   "ticker": "5803",
+   "company": "フジクラ",
+   "company_en": "Fujikura Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 4,
+   "post_count": 5,
+   "bullish_count": 0,
+   "bearish_count": 2,
+   "neutral_count": 2,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 2
+    },
+    {
+     "topic": "需給",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "バリュエーション",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "弱気",
+     "post_count": 2,
+     "topics": [
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-19T09:32:39+09:00",
+      "source_url": "https://x.com/noatake1127/status/2123212823023296706",
+      "topic": "需給",
+      "stance": "弱気",
+      "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
+      "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
+     }
+    },
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "バリュエーション"
+     ],
+     "latest_post": {
+      "handle": "tarouyuuki0322",
+      "display_name": "結喜たろう",
+      "post_created_at": "2026-11-17T09:06:14+09:00",
+      "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+      "topic": "バリュエーション",
+      "stance": "中立",
+      "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+      "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "弱気",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-10T15:55:00+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2120047760263323917",
+      "topic": "その他",
+      "stance": "弱気",
+      "summary": "クソカブオブザイヤー候補としてフジクラを選択。",
+      "summary_en": "Selected Fujikura as a candidate for Shitty Stock of the Year."
+     }
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "売買"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-10-02T15:11:00+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2105903476291387561",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "フジクラはホールド中との保有状況の共有。今後の見通しは示していない。",
+      "summary_en": "Sharing of holding status stating that Fujikura is being held; future outlook is not indicated."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-19T09:32:39+09:00",
+     "source_url": "https://x.com/noatake1127/status/2123212823023296706",
+     "topic": "需給",
+     "stance": "弱気",
+     "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
+     "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
+    },
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "post_created_at": "2026-11-17T09:06:14+09:00",
+     "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+     "topic": "バリュエーション",
+     "stance": "中立",
+     "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+     "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-10T15:55:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2120047760263323917",
+     "topic": "その他",
+     "stance": "弱気",
+     "summary": "クソカブオブザイヤー候補としてフジクラを選択。",
+     "summary_en": "Selected Fujikura as a candidate for Shitty Stock of the Year."
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "post_created_at": "2026-10-02T15:11:00+09:00",
+     "source_url": "https://x.com/ABC87791035/status/2105903476291387561",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "フジクラはホールド中との保有状況の共有。今後の見通しは示していない。",
+     "summary_en": "Sharing of holding status stating that Fujikura is being held; future outlook is not indicated."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-02T09:23:37+09:00",
+     "source_url": "https://x.com/noatake1127/status/2105815933990441160",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "フジクラを早売りしたとの売買記録。見通しの表明ではない。",
+     "summary_en": "Trading record stating that Fujikura was sold too early; this is not an expression of an outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:32:39+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123212823023296706",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
+        "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 2,
+     "post_count": 2,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:32:39+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123212823023296706",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
+        "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
+       }
+      },
+      {
+       "handle": "tarouyuuki0322",
+       "display_name": "結喜たろう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "tarouyuuki0322",
+        "display_name": "結喜たろう",
+        "post_created_at": "2026-11-17T09:06:14+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+        "topic": "バリュエーション",
+        "stance": "中立",
+        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 3,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 2,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:32:39+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123212823023296706",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
+        "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
+       }
+      },
+      {
+       "handle": "tarouyuuki0322",
+       "display_name": "結喜たろう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "tarouyuuki0322",
+        "display_name": "結喜たろう",
+        "post_created_at": "2026-11-17T09:06:14+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+        "topic": "バリュエーション",
+        "stance": "中立",
+        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-10T15:55:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2120047760263323917",
+        "topic": "その他",
+        "stance": "弱気",
+        "summary": "クソカブオブザイヤー候補としてフジクラを選択。",
+        "summary_en": "Selected Fujikura as a candidate for Shitty Stock of the Year."
+       }
+      }
+     ],
+     "prev_mention_count": 2
+    }
+   },
+   "last_post_at": "2026-11-19T09:32:39+09:00"
   },
   {
    "ticker": "558A",
@@ -2825,7 +3151,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 2,
@@ -4181,7 +4507,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 3,
@@ -4269,261 +4595,6 @@
     }
    },
    "last_post_at": "2026-11-18T12:29:36+09:00"
-  },
-  {
-   "ticker": "5803",
-   "company": "フジクラ",
-   "company_en": "Fujikura Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 4,
-   "post_count": 4,
-   "bullish_count": 0,
-   "bearish_count": 1,
-   "neutral_count": 3,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 2
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
-     "topic": "バリュエーション",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "バリュエーション"
-     ],
-     "latest_post": {
-      "handle": "tarouyuuki0322",
-      "display_name": "結喜たろう",
-      "post_created_at": "2026-11-17T09:06:14+09:00",
-      "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-      "topic": "バリュエーション",
-      "stance": "中立",
-      "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-      "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "stance": "弱気",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEないよ",
-      "post_created_at": "2026-11-10T15:55:00+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2120047760263323917",
-      "topic": "その他",
-      "stance": "弱気",
-      "summary": "クソカブオブザイヤー候補としてフジクラを選択。",
-      "summary_en": "Selected Fujikura as a candidate for Shitty Stock of the Year."
-     }
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-10-02T15:11:00+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2105903476291387561",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "フジクラはホールド中との保有状況の共有。今後の見通しは示していない。",
-      "summary_en": "Sharing of holding status stating that Fujikura is being held; future outlook is not indicated."
-     }
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-02T09:23:37+09:00",
-      "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "フジクラを早売りしたとの売買記録。見通しの表明ではない。",
-      "summary_en": "Trading record stating that Fujikura was sold too early; this is not an expression of an outlook."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "post_created_at": "2026-11-17T09:06:14+09:00",
-     "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-     "topic": "バリュエーション",
-     "stance": "中立",
-     "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-     "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "post_created_at": "2026-11-10T15:55:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2120047760263323917",
-     "topic": "その他",
-     "stance": "弱気",
-     "summary": "クソカブオブザイヤー候補としてフジクラを選択。",
-     "summary_en": "Selected Fujikura as a candidate for Shitty Stock of the Year."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-10-02T15:11:00+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2105903476291387561",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "フジクラはホールド中との保有状況の共有。今後の見通しは示していない。",
-     "summary_en": "Sharing of holding status stating that Fujikura is being held; future outlook is not indicated."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-02T09:23:37+09:00",
-     "source_url": "https://x.com/noatake1127/status/2105815933990441160",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "フジクラを早売りしたとの売買記録。見通しの表明ではない。",
-     "summary_en": "Trading record stating that Fujikura was sold too early; this is not an expression of an outlook."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "tarouyuuki0322",
-       "display_name": "結喜たろう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "tarouyuuki0322",
-        "display_name": "結喜たろう",
-        "post_created_at": "2026-11-17T09:06:14+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-        "topic": "バリュエーション",
-        "stance": "中立",
-        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "tarouyuuki0322",
-       "display_name": "結喜たろう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "tarouyuuki0322",
-        "display_name": "結喜たろう",
-        "post_created_at": "2026-11-17T09:06:14+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-        "topic": "バリュエーション",
-        "stance": "中立",
-        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-10T15:55:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2120047760263323917",
-        "topic": "その他",
-        "stance": "弱気",
-        "summary": "クソカブオブザイヤー候補としてフジクラを選択。",
-        "summary_en": "Selected Fujikura as a candidate for Shitty Stock of the Year."
-       }
-      }
-     ],
-     "prev_mention_count": 2
-    }
-   },
-   "last_post_at": "2026-11-17T09:06:14+09:00"
   },
   {
    "ticker": "4493",
@@ -4742,6 +4813,236 @@
     }
    },
    "last_post_at": "2026-11-12T13:36:31+09:00"
+  },
+  {
+   "ticker": "2702",
+   "company": "日本マクドナルドホールディングス",
+   "company_en": "McDonald's Holdings Company (Japan), Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 5,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 2,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "優待",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "その他",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-19T09:29:33+09:00",
+      "source_url": "https://x.com/noatake1127/status/2123212045055398095",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "マクドナルドの株価が1万円を超えていると報告。",
+      "summary_en": "Reports that McDonald's stock price has exceeded ¥10,000."
+     }
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "優待"
+     ],
+     "latest_post": {
+      "handle": "yuutaihiroto",
+      "display_name": "桐谷広人・桐谷さん【公式】",
+      "post_created_at": "2026-09-25T08:09:37+09:00",
+      "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
+      "topic": "優待",
+      "stance": "中立",
+      "summary": "マクドナルドを300株保有し優待券18セットが届いたと報告した。今後の株価見通しには言及していない。",
+      "summary_en": "Reported holding 300 shares of McDonald's and receiving 18 sets of shareholder benefit coupons, with no mention of the future stock price outlook."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-19T09:29:33+09:00",
+     "source_url": "https://x.com/noatake1127/status/2123212045055398095",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "マクドナルドの株価が1万円を超えていると報告。",
+     "summary_en": "Reports that McDonald's stock price has exceeded ¥10,000."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-07T16:17:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2107731990481178826",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "次期TOPIX新規採用一覧の画像で日本マクドナルドホールディングス（2702）を共有し「ほぼ予想通り」とコメント。個別の見通しは示していない。",
+     "summary_en": "Shared McDonald's Holdings Company (Japan) (2702) in an image of the list of new additions for the upcoming TOPIX and commented, \"Almost as expected\"; did not provide individual outlooks."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-07T16:14:29+09:00",
+     "source_url": "https://x.com/noatake1127/status/2107731269543248002",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "TOPIX新規採用一覧の画像に記載。個別の見通しは述べていない。",
+     "summary_en": "Listed in an image of newly added TOPIX constituents; does not state individual outlooks."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-09-25T08:09:37+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "マクドナルドを300株保有し優待券18セットが届いたと報告した。今後の株価見通しには言及していない。",
+     "summary_en": "Reported holding 300 shares of McDonald's and receiving 18 sets of shareholder benefit coupons, with no mention of the future stock price outlook."
+    },
+    {
+     "handle": "yuutaihiroto",
+     "display_name": "桐谷広人・桐谷さん【公式】",
+     "post_created_at": "2026-09-21T15:15:33+09:00",
+     "source_url": "https://x.com/yuutaihiroto/status/2101918232374341936",
+     "topic": "優待",
+     "stance": "中立",
+     "summary": "マクドナルド優待券の期限前利用を報告。投資判断や先行き見通しの言及なし。",
+     "summary_en": "Reported using McDonald's shareholder benefit coupons before the expiration date, with no mention of investment decisions or future outlook."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:29:33+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123212045055398095",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "マクドナルドの株価が1万円を超えていると報告。",
+        "summary_en": "Reports that McDonald's stock price has exceeded ¥10,000."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:29:33+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123212045055398095",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "マクドナルドの株価が1万円を超えていると報告。",
+        "summary_en": "Reports that McDonald's stock price has exceeded ¥10,000."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-19T09:29:33+09:00",
+        "source_url": "https://x.com/noatake1127/status/2123212045055398095",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "マクドナルドの株価が1万円を超えていると報告。",
+        "summary_en": "Reports that McDonald's stock price has exceeded ¥10,000."
+       }
+      }
+     ],
+     "prev_mention_count": 2
+    }
+   },
+   "last_post_at": "2026-11-19T09:29:33+09:00"
   },
   {
    "ticker": "276A",
@@ -5069,16 +5370,12 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 1,
      "neutral_count": 0,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
       {
        "topic": "決算",
        "investor_count": 1
@@ -5089,9 +5386,8 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "弱気",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "売買",
         "決算"
        ],
        "latest_post": {
@@ -5106,7 +5402,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "30d": {
      "mention_count": 2,
@@ -5584,11 +5880,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -7241,7 +7537,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7397,16 +7693,12 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      },
       {
        "topic": "材料",
        "investor_count": 1
@@ -7417,10 +7709,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "材料",
-        "需給"
+        "材料"
        ],
        "latest_post": {
         "handle": "noatake1127",
@@ -7434,7 +7725,7 @@
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 1,
@@ -7763,6 +8054,168 @@
     }
    },
    "last_post_at": "2026-11-17T16:48:59+09:00"
+  },
+  {
+   "ticker": "2331",
+   "company": "綜合警備保障",
+   "company_en": "SOHGO SECURITY SERVICES CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-19T09:14:21+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+      "topic": "その他",
+      "stance": "強気",
+      "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+      "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-19T09:14:21+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+     "topic": "その他",
+     "stance": "強気",
+     "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+     "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T09:14:21+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T09:14:21+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T09:14:21+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T09:14:21+09:00"
   },
   {
    "ticker": "2982",
@@ -8218,11 +8671,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8327,11 +8780,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -8375,15 +8828,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8483,11 +8936,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -8524,11 +8977,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -8729,11 +9182,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8891,15 +9344,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -8970,40 +9423,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
-     "bearish_count": 1,
+     "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-18T11:12:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2122875485537579455",
-        "topic": "業績",
-        "stance": "弱気",
-        "summary": "赤字拡大が嫌気されストップ安",
-        "summary_en": "Hit the daily lower limit as widening deficits were disliked."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9050,15 +9478,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
        "topic": "業績",
        "investor_count": 1
       },
       {
        "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -9103,11 +9531,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9265,11 +9693,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9427,11 +9855,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9589,11 +10017,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -9761,11 +10189,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -10109,40 +10537,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-18T11:12:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2122875485537579455",
-        "topic": "材料",
-        "stance": "強気",
-        "summary": "再発髄膜腫の承認取得でストップ高",
-        "summary_en": "Hit the daily upper limit after obtaining approval for recurrent meningioma."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -10531,11 +10934,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -11104,11 +11507,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -11896,7 +12299,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -11986,11 +12389,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "配当",
      "investor_count": 1
     },
     {
-     "topic": "配当",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -12095,11 +12498,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "配当",
        "investor_count": 1
       },
       {
-       "topic": "配当",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -12143,11 +12546,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -12503,7 +12906,7 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 1,
      "bearish_count": 0,
      "neutral_count": 0,
@@ -12519,7 +12922,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "強気",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
         "配当"
        ],
@@ -12535,7 +12938,7 @@
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 1,
@@ -12863,11 +13266,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "配当",
      "investor_count": 1
     },
     {
-     "topic": "配当",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -13025,11 +13428,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -13471,15 +13874,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -13605,11 +14008,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "決算",
        "investor_count": 1
       },
       {
-       "topic": "決算",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -13653,15 +14056,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -13797,15 +14200,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
        "topic": "売買",
        "investor_count": 1
       },
       {
        "topic": "決算",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -13836,143 +14239,6 @@
     }
    },
    "last_post_at": "2026-11-14T08:52:33+09:00"
-  },
-  {
-   "ticker": "7201",
-   "company": "日産自動車",
-   "company_en": "Nissan Motor Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-12T07:16:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-12T07:16:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-12T07:16:00+09:00"
   },
   {
    "ticker": "7203",
@@ -14809,7 +15075,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -14885,417 +15151,6 @@
     }
    },
    "last_post_at": "2026-11-17T09:51:00+09:00"
-  },
-  {
-   "ticker": "8951",
-   "company": "日本ビルファンド投資法人",
-   "company_en": "Nippon Building Fund Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-12T07:16:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-12T07:16:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-12T07:16:00+09:00"
-  },
-  {
-   "ticker": "9042",
-   "company": "阪急阪神ホールディングス",
-   "company_en": "Hankyu Hanshin Holdings, Inc.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-12T07:16:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-12T07:16:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-12T07:16:00+09:00"
-  },
-  {
-   "ticker": "9202",
-   "company": "ANAホールディングス",
-   "company_en": "ANA HOLDINGS INC.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-12T07:16:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-12T07:16:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-12T07:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
-        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-12T07:16:00+09:00"
   },
   {
    "ticker": "9340",
@@ -15600,6 +15455,183 @@
     }
    },
    "last_post_at": "2026-11-15T16:27:00+09:00"
+  },
+  {
+   "ticker": "9735",
+   "company": "セコム",
+   "company_en": "SECOM CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 2,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "強気",
+     "post_count": 2,
+     "topics": [
+      "その他",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-19T09:14:21+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+      "topic": "その他",
+      "stance": "強気",
+      "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+      "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-19T09:14:21+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+     "topic": "その他",
+     "stance": "強気",
+     "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+     "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "post_created_at": "2026-10-19T09:34:46+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2111979331769729037",
+     "topic": "材料",
+     "stance": "強気",
+     "summary": "セコムは良いと思うがフランス暴動の影響か、防犯関連が流行る可能性を指摘。",
+     "summary_en": "Thinks Secom is good, but points out the possibility that crime prevention-related stocks might trend, perhaps influenced by the riots in France."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T09:14:21+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T09:14:21+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T09:14:21+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
+        "topic": "その他",
+        "stance": "強気",
+        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
+        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-19T09:14:21+09:00"
   },
   {
    "ticker": "9757",
@@ -16872,7 +16904,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -17315,16 +17347,12 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 2
-    },
-    {
      "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "業績",
-     "investor_count": 1
+     "topic": "材料",
+     "investor_count": 2
     },
     {
      "topic": "売買",
@@ -17332,6 +17360,10 @@
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -17482,7 +17514,7 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "需給",
        "investor_count": 1
       },
       {
@@ -17490,7 +17522,7 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "その他",
        "investor_count": 1
       },
       {
@@ -17861,146 +17893,6 @@
    "last_post_at": "2026-11-06T10:02:10+09:00"
   },
   {
-   "ticker": "2702",
-   "company": "日本マクドナルドホールディングス",
-   "company_en": "McDonald's Holdings Company (Japan), Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 4,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 2,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
-     "topic": "優待",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-07T16:17:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2107731990481178826",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "次期TOPIX新規採用一覧の画像で日本マクドナルドホールディングス（2702）を共有し「ほぼ予想通り」とコメント。個別の見通しは示していない。",
-      "summary_en": "Shared McDonald's Holdings Company (Japan) (2702) in an image of the list of new additions for the upcoming TOPIX and commented, \"Almost as expected\"; did not provide individual outlooks."
-     }
-    },
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "優待"
-     ],
-     "latest_post": {
-      "handle": "yuutaihiroto",
-      "display_name": "桐谷広人・桐谷さん【公式】",
-      "post_created_at": "2026-09-25T08:09:37+09:00",
-      "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
-      "topic": "優待",
-      "stance": "中立",
-      "summary": "マクドナルドを300株保有し優待券18セットが届いたと報告した。今後の株価見通しには言及していない。",
-      "summary_en": "Reported holding 300 shares of McDonald's and receiving 18 sets of shareholder benefit coupons, with no mention of the future stock price outlook."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-07T16:17:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2107731990481178826",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "次期TOPIX新規採用一覧の画像で日本マクドナルドホールディングス（2702）を共有し「ほぼ予想通り」とコメント。個別の見通しは示していない。",
-     "summary_en": "Shared McDonald's Holdings Company (Japan) (2702) in an image of the list of new additions for the upcoming TOPIX and commented, \"Almost as expected\"; did not provide individual outlooks."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-07T16:14:29+09:00",
-     "source_url": "https://x.com/noatake1127/status/2107731269543248002",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "TOPIX新規採用一覧の画像に記載。個別の見通しは述べていない。",
-     "summary_en": "Listed in an image of newly added TOPIX constituents; does not state individual outlooks."
-    },
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-09-25T08:09:37+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2103260597051936840",
-     "topic": "優待",
-     "stance": "中立",
-     "summary": "マクドナルドを300株保有し優待券18セットが届いたと報告した。今後の株価見通しには言及していない。",
-     "summary_en": "Reported holding 300 shares of McDonald's and receiving 18 sets of shareholder benefit coupons, with no mention of the future stock price outlook."
-    },
-    {
-     "handle": "yuutaihiroto",
-     "display_name": "桐谷広人・桐谷さん【公式】",
-     "post_created_at": "2026-09-21T15:15:33+09:00",
-     "source_url": "https://x.com/yuutaihiroto/status/2101918232374341936",
-     "topic": "優待",
-     "stance": "中立",
-     "summary": "マクドナルド優待券の期限前利用を報告。投資判断や先行き見通しの言及なし。",
-     "summary_en": "Reported using McDonald's shareholder benefit coupons before the expiration date, with no mention of investment decisions or future outlook."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 2
-    }
-   },
-   "last_post_at": "2026-10-07T16:17:00+09:00"
-  },
-  {
    "ticker": "2737",
    "company": "トーメンデバイス",
    "company_en": "TOMEN DEVICES CORPORATION",
@@ -18013,11 +17905,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -18741,7 +18633,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -19419,7 +19311,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -19427,7 +19319,7 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -20751,11 +20643,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -21602,11 +21494,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -22995,15 +22887,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -23856,11 +23748,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -24070,11 +23962,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -26115,11 +26007,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -27416,11 +27308,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -29488,15 +29380,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -31598,11 +31490,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -33031,15 +32923,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
-     "investor_count": 1
-    },
-    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -33173,11 +33065,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -33267,11 +33159,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -34505,7 +34397,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -35965,11 +35857,11 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -36186,11 +36078,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -42859,6 +42751,118 @@
    "last_post_at": "2026-11-04T05:54:08+09:00"
   },
   {
+   "ticker": "7201",
+   "company": "日産自動車",
+   "company_en": "Nissan Motor Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-12T07:16:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-12T07:16:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-12T07:16:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-12T07:16:00+09:00"
+  },
+  {
    "ticker": "7267",
    "company": "ホンダ",
    "company_en": "Honda Motor Co., Ltd.",
@@ -44743,7 +44747,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -45154,40 +45158,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-20T11:04:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2112364316154536322",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "昨日相場概況でさいか屋ストップ安を報告",
-        "summary_en": "Reported Saikaya hit stop-low in yesterday's market overview."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-20T11:04:00+09:00"
@@ -46882,6 +46861,118 @@
    "last_post_at": "2026-11-10T14:57:58+09:00"
   },
   {
+   "ticker": "8951",
+   "company": "日本ビルファンド投資法人",
+   "company_en": "Nippon Building Fund Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-12T07:16:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-12T07:16:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-12T07:16:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-12T07:16:00+09:00"
+  },
+  {
    "ticker": "8987",
    "company": "ジャパンエクセレント投資法人",
    "company_en": "Japan Excellent, Inc.",
@@ -47168,6 +47259,118 @@
    "last_post_at": "2026-10-17T08:36:30+09:00"
   },
   {
+   "ticker": "9042",
+   "company": "阪急阪神ホールディングス",
+   "company_en": "Hankyu Hanshin Holdings, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-12T07:16:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-12T07:16:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-12T07:16:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-12T07:16:00+09:00"
+  },
+  {
    "ticker": "9107",
    "company": "川崎汽船",
    "company_en": "Kawasaki Kisen Kaisha, Ltd.",
@@ -47392,6 +47595,118 @@
    "last_post_at": "2026-11-06T09:31:22+09:00"
   },
   {
+   "ticker": "9202",
+   "company": "ANAホールディングス",
+   "company_en": "ANA HOLDINGS INC.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-12T07:16:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+      "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-12T07:16:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+     "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-12T07:16:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2120641743272149301",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "MSCI11月入替で日本株は採用なし、ANAHD・大東建託・阪急阪神HD・日本ビルファンド・日産が除外。ほぼ予定通りとの報告。",
+        "summary_en": "Report that in the November MSCI rebalance, no Japanese stocks were added, and ANA HD, Daito Trust Construction, Hankyu Hanshin HD, Nippon Building Fund, and Nissan were excluded, which was almost as expected."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-12T07:16:00+09:00"
+  },
+  {
    "ticker": "9211",
    "company": "株式会社エフ・コード",
    "company_en": "f-code Inc.",
@@ -47516,11 +47831,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -47939,11 +48254,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -48224,40 +48539,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-20T11:04:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2112364316154536322",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "昨日相場概況で東宝上昇を報告",
-        "summary_en": "Reported Toho rose in yesterday's market overview."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-20T11:04:00+09:00"
@@ -48348,93 +48638,6 @@
     }
    },
    "last_post_at": "2026-09-26T12:22:33+09:00"
-  },
-  {
-   "ticker": "9735",
-   "company": "セコム",
-   "company_en": "SECOM CO., LTD.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 1,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "stance": "強気",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子",
-      "post_created_at": "2026-10-19T09:34:46+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2111979331769729037",
-      "topic": "材料",
-      "stance": "強気",
-      "summary": "セコムは良いと思うがフランス暴動の影響か、防犯関連が流行る可能性を指摘。",
-      "summary_en": "Thinks Secom is good, but points out the possibility that crime prevention-related stocks might trend, perhaps influenced by the riots in France."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "post_created_at": "2026-10-19T09:34:46+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2111979331769729037",
-     "topic": "材料",
-     "stance": "強気",
-     "summary": "セコムは良いと思うがフランス暴動の影響か、防犯関連が流行る可能性を指摘。",
-     "summary_en": "Thinks Secom is good, but points out the possibility that crime prevention-related stocks might trend, perhaps influenced by the riots in France."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-10-19T09:34:46+09:00"
   },
   {
    "ticker": "9799",
@@ -48864,14 +49067,14 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 342,
+   "post_count": 346,
    "ticker_count": 164
   },
   {
    "handle": "kabu_st0ck",
    "display_name": "ちょる子🐣LINEないよ",
-   "post_count": 111,
-   "ticker_count": 43
+   "post_count": 113,
+   "ticker_count": 44
   },
   {
    "handle": "jammy_bot",
@@ -48977,17 +49180,17 @@
     "company": "キオクシアホールディングス",
     "company_en": "Kioxia Holdings Corporation",
     "window": "7d",
-    "mention_count": 7,
-    "prev_mention_count": 8,
+    "mention_count": 6,
+    "prev_mention_count": 7,
     "bullish_count": 0,
-    "bearish_count": 1
+    "bearish_count": 0
    },
    {
     "ticker": "2914",
     "company": "日本たばこ産業",
     "company_en": "Japan Tobacco Inc.",
     "window": "7d",
-    "mention_count": 5,
+    "mention_count": 4,
     "prev_mention_count": 6,
     "bullish_count": 0,
     "bearish_count": 1
@@ -49021,6 +49224,16 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
+   },
+   {
+    "ticker": "5803",
+    "company": "フジクラ",
+    "company_en": "Fujikura Ltd.",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 1
    },
    {
     "ticker": "7630",
@@ -49085,6 +49298,16 @@
     "bearish_count": 1
    },
    {
+    "ticker": "285A",
+    "company": "キオクシアホールディングス",
+    "company_en": "Kioxia Holdings Corporation",
+    "window": "24h",
+    "mention_count": 2,
+    "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 0
+   },
+   {
     "ticker": "558A",
     "company": "SQUEEZE",
     "company_en": "SQUEEZE Inc.",
@@ -49093,6 +49316,16 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
+   },
+   {
+    "ticker": "5803",
+    "company": "フジクラ",
+    "company_en": "Fujikura Ltd.",
+    "window": "7d",
+    "mention_count": 2,
+    "prev_mention_count": 1,
+    "bullish_count": 0,
+    "bearish_count": 1
    },
    {
     "ticker": "7630",
@@ -49130,6 +49363,17 @@
  "topics_by_window": {
   "24h": [
    {
+    "topic": "その他",
+    "ticker_count": 5,
+    "tickers": [
+     "2331",
+     "2702",
+     "6195",
+     "9735",
+     "9983"
+    ]
+   },
+   {
     "topic": "売買",
     "ticker_count": 3,
     "tickers": [
@@ -49139,36 +49383,30 @@
     ]
    },
    {
-    "topic": "材料",
-    "ticker_count": 3,
-    "tickers": [
-     "4888",
-     "4916",
-     "8306"
-    ]
-   },
-   {
-    "topic": "その他",
+    "topic": "需給",
     "ticker_count": 2,
     "tickers": [
-     "6195",
-     "9983"
+     "285A",
+     "5803"
     ]
    },
    {
-    "topic": "業績",
-    "ticker_count": 1,
+    "topic": "材料",
+    "ticker_count": 2,
     "tickers": [
-     "3905"
+     "4916",
+     "8306"
     ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 37,
+    "ticker_count": 40,
     "tickers": [
      "1429",
+     "2331",
+     "2702",
      "276A",
      "285A",
      "2914",
@@ -49204,27 +49442,8 @@
      "7199",
      "7376",
      "9560",
+     "9735",
      "9983"
-    ]
-   },
-   {
-    "topic": "需給",
-    "ticker_count": 14,
-    "tickers": [
-     "1878",
-     "1960",
-     "285A",
-     "3350",
-     "6145",
-     "6258",
-     "6857",
-     "6863",
-     "6877",
-     "7201",
-     "8951",
-     "9042",
-     "9202",
-     "9984"
     ]
    },
    {
@@ -49245,18 +49464,19 @@
     ]
    },
    {
-    "topic": "売買",
-    "ticker_count": 9,
+    "topic": "需給",
+    "ticker_count": 10,
     "tickers": [
+     "1960",
      "285A",
-     "2914",
-     "341A",
-     "4661",
-     "5401",
-     "5411",
+     "3350",
+     "5803",
+     "6145",
+     "6258",
      "6857",
-     "7974",
-     "8035"
+     "6863",
+     "6877",
+     "9984"
     ]
    },
    {
@@ -49272,6 +49492,20 @@
      "7203",
      "7630",
      "8306"
+    ]
+   },
+   {
+    "topic": "売買",
+    "ticker_count": 8,
+    "tickers": [
+     "285A",
+     "2914",
+     "4661",
+     "5401",
+     "5411",
+     "6857",
+     "7974",
+     "8035"
     ]
    },
    {
@@ -49320,15 +49554,17 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 80,
+    "ticker_count": 83,
     "tickers": [
      "1429",
      "1433",
      "147A",
      "1540",
      "215A",
+     "2331",
      "2334",
      "2483",
+     "2702",
      "276A",
      "285A",
      "286A",
@@ -49399,6 +49635,7 @@
      "9436",
      "9449",
      "9560",
+     "9735",
      "9799",
      "9983",
      "9984"
@@ -49406,7 +49643,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 59,
+    "ticker_count": 57,
     "tickers": [
      "1419",
      "1878",
@@ -49458,14 +49695,12 @@
      "7453",
      "7630",
      "7803",
-     "8254",
      "8306",
      "8366",
      "8628",
      "8714",
      "9432",
      "9449",
-     "9602",
      "9843"
     ]
    },
@@ -49510,6 +49745,40 @@
     ]
    },
    {
+    "topic": "需給",
+    "ticker_count": 28,
+    "tickers": [
+     "1878",
+     "1892",
+     "1960",
+     "285A",
+     "2903",
+     "2914",
+     "3103",
+     "3350",
+     "5803",
+     "6072",
+     "6145",
+     "6258",
+     "6322",
+     "6497",
+     "6857",
+     "6863",
+     "6877",
+     "6976",
+     "7201",
+     "7292",
+     "8951",
+     "9042",
+     "9104",
+     "9119",
+     "9202",
+     "9409",
+     "9433",
+     "9984"
+    ]
+   },
+   {
     "topic": "決算",
     "ticker_count": 28,
     "tickers": [
@@ -49541,39 +49810,6 @@
      "8035",
      "8058",
      "8253"
-    ]
-   },
-   {
-    "topic": "需給",
-    "ticker_count": 27,
-    "tickers": [
-     "1878",
-     "1892",
-     "1960",
-     "285A",
-     "2903",
-     "2914",
-     "3103",
-     "3350",
-     "6072",
-     "6145",
-     "6258",
-     "6322",
-     "6497",
-     "6857",
-     "6863",
-     "6877",
-     "6976",
-     "7201",
-     "7292",
-     "8951",
-     "9042",
-     "9104",
-     "9119",
-     "9202",
-     "9409",
-     "9433",
-     "9984"
     ]
    },
    {
