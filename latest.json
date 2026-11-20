@@ -1,9 +1,9 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-20T05:24:26+09:00",
+ "generated_at": "2026-11-20T11:12:12+09:00",
  "translation": {
-  "summary_en_count": 911,
-  "summary_total": 931,
+  "summary_en_count": 914,
+  "summary_total": 934,
   "company_en_count": 389,
   "company_total": 389,
   "engine": "gemini-flash-latest",
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 1066,
-  "rows_used": 931,
+  "rows_input": 1069,
+  "rows_used": 934,
   "rows_rejected": 135,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 135
@@ -37,7 +37,7 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 14,
-   "post_count": 97,
+   "post_count": 98,
    "bullish_count": 1,
    "bearish_count": 2,
    "neutral_count": 11,
@@ -52,11 +52,11 @@
      "investor_count": 6
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 5
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 5
     },
     {
@@ -73,6 +73,27 @@
     }
    ],
    "investors": [
+    {
+     "handle": "daiboucho",
+     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+     "stance": "中立",
+     "post_count": 4,
+     "topics": [
+      "その他",
+      "売買",
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "daiboucho",
+      "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+      "post_created_at": "2026-11-19T22:28:00+09:00",
+      "source_url": "https://x.com/DAIBOUCHO/status/2123408065336893902",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "キオクシアを例にインフルエンサーの人気と投資実力の乖離を指摘",
+      "summary_en": "Pointing out the divergence between influencer popularity and investment skill, using Kioxia as an example"
+     }
+    },
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
@@ -176,27 +197,6 @@
       "stance": "中立",
       "summary": "キオクシアを買ったと報告",
       "summary_en": "Reported buying Kioxia."
-     }
-    },
-    {
-     "handle": "daiboucho",
-     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "その他",
-      "売買",
-      "決算"
-     ],
-     "latest_post": {
-      "handle": "daiboucho",
-      "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-      "post_created_at": "2026-11-13T07:15:59+09:00",
-      "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-      "topic": "決算",
-      "stance": "中立",
-      "summary": "キオクシア等半導体株の記事を引用共有。",
-      "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
      }
     },
     {
@@ -367,6 +367,16 @@
    ],
    "latest_posts": [
     {
+     "handle": "daiboucho",
+     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+     "post_created_at": "2026-11-19T22:28:00+09:00",
+     "source_url": "https://x.com/DAIBOUCHO/status/2123408065336893902",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "キオクシアを例にインフルエンサーの人気と投資実力の乖離を指摘",
+     "summary_en": "Pointing out the divergence between influencer popularity and investment skill, using Kioxia as an example"
+    },
+    {
      "handle": "noatake1127",
      "display_name": "たけぞう",
      "post_created_at": "2026-11-19T09:47:41+09:00",
@@ -405,59 +415,44 @@
      "stance": "弱気",
      "summary": "キオクシアが安値で引けたことを指摘",
      "summary_en": "Pointed out that Kioxia closed at a low price."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "post_created_at": "2026-11-16T15:24:07+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-     "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
     }
    ],
    "windows": {
     "24h": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "需給",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
      "investors": [
       {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
+       "handle": "daiboucho",
+       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "売買",
-        "需給"
+        "その他"
        ],
        "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-19T09:47:41+09:00",
-        "source_url": "https://x.com/noatake1127/status/2123216609447952729",
-        "topic": "売買",
+        "handle": "daiboucho",
+        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+        "post_created_at": "2026-11-19T22:28:00+09:00",
+        "source_url": "https://x.com/DAIBOUCHO/status/2123408065336893902",
+        "topic": "その他",
         "stance": "中立",
-        "summary": "キオクシアがプラス転したとの報告",
-        "summary_en": "Report that Kioxia has turned positive."
+        "summary": "キオクシアを例にインフルエンサーの人気と投資実力の乖離を指摘",
+        "summary_en": "Pointing out the divergence between influencer popularity and investment skill, using Kioxia as an example"
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 6,
@@ -472,19 +467,38 @@
        "investor_count": 3
       },
       {
-       "topic": "決算",
-       "investor_count": 2
-      },
-      {
        "topic": "需給",
        "investor_count": 2
       },
       {
        "topic": "その他",
+       "investor_count": 2
+      },
+      {
+       "topic": "決算",
        "investor_count": 1
       }
      ],
      "investors": [
+      {
+       "handle": "daiboucho",
+       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "daiboucho",
+        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+        "post_created_at": "2026-11-19T22:28:00+09:00",
+        "source_url": "https://x.com/DAIBOUCHO/status/2123408065336893902",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "キオクシアを例にインフルエンサーの人気と投資実力の乖離を指摘",
+        "summary_en": "Pointing out the divergence between influencer popularity and investment skill, using Kioxia as an example"
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -581,32 +595,13 @@
         "summary": "キオクシアを買ったと報告",
         "summary_en": "Reported buying Kioxia."
        }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-11-13T07:15:59+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "キオクシア等半導体株の記事を引用共有。",
-        "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
-       }
       }
      ],
      "prev_mention_count": 6
     },
     "30d": {
      "mention_count": 13,
-     "post_count": 59,
+     "post_count": 60,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 10,
@@ -618,7 +613,7 @@
       },
       {
        "topic": "その他",
-       "investor_count": 5
+       "investor_count": 6
       },
       {
        "topic": "需給",
@@ -642,6 +637,26 @@
       }
      ],
      "investors": [
+      {
+       "handle": "daiboucho",
+       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他",
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "daiboucho",
+        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+        "post_created_at": "2026-11-19T22:28:00+09:00",
+        "source_url": "https://x.com/DAIBOUCHO/status/2123408065336893902",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "キオクシアを例にインフルエンサーの人気と投資実力の乖離を指摘",
+        "summary_en": "Pointing out the divergence between influencer popularity and investment skill, using Kioxia as an example"
+       }
+      },
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
@@ -743,25 +758,6 @@
         "stance": "中立",
         "summary": "キオクシアを買ったと報告",
         "summary_en": "Reported buying Kioxia."
-       }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-11-13T07:15:59+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "キオクシア等半導体株の記事を引用共有。",
-        "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
        }
       },
       {
@@ -912,7 +908,7 @@
      "prev_mention_count": 7
     }
    },
-   "last_post_at": "2026-11-19T09:47:41+09:00"
+   "last_post_at": "2026-11-19T22:28:00+09:00"
   },
   {
    "ticker": "2914",
@@ -931,15 +927,15 @@
      "investor_count": 5
     },
     {
-     "topic": "業績",
-     "investor_count": 2
-    },
-    {
      "topic": "配当",
      "investor_count": 2
     },
     {
      "topic": "その他",
+     "investor_count": 2
+    },
+    {
+     "topic": "業績",
      "investor_count": 2
     },
     {
@@ -1400,15 +1396,15 @@
        "investor_count": 5
       },
       {
-       "topic": "業績",
-       "investor_count": 2
-      },
-      {
        "topic": "配当",
        "investor_count": 2
       },
       {
        "topic": "その他",
+       "investor_count": 2
+      },
+      {
+       "topic": "業績",
        "investor_count": 2
       },
       {
@@ -1595,6 +1591,474 @@
     }
    },
    "last_post_at": "2026-11-19T17:44:00+09:00"
+  },
+  {
+   "ticker": "9984",
+   "company": "ソフトバンクグループ",
+   "company_en": "SoftBank Group Corp.",
+   "company_en_source": "machine",
+   "mention_count": 6,
+   "post_count": 22,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 5,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "バリュエーション",
+     "investor_count": 4
+    },
+    {
+     "topic": "需給",
+     "investor_count": 3
+    },
+    {
+     "topic": "その他",
+     "investor_count": 3
+    },
+    {
+     "topic": "売買",
+     "investor_count": 3
+    },
+    {
+     "topic": "材料",
+     "investor_count": 3
+    },
+    {
+     "topic": "業績",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu1000",
+     "display_name": "かぶ1000",
+     "stance": "弱気",
+     "post_count": 6,
+     "topics": [
+      "その他",
+      "バリュエーション",
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu1000",
+      "display_name": "かぶ1000",
+      "post_created_at": "2026-11-20T09:41:00+09:00",
+      "source_url": "https://x.com/kabu1000/status/2123577560915443951",
+      "topic": "需給",
+      "stance": "弱気",
+      "summary": "SBG株価が3,000円を割り込んだことへの驚き",
+      "summary_en": "Surprise at SBG's stock price falling below ¥3,000"
+     }
+    },
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "バリュエーション"
+     ],
+     "latest_post": {
+      "handle": "tarouyuuki0322",
+      "display_name": "結喜たろう",
+      "post_created_at": "2026-11-17T09:06:14+09:00",
+      "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+      "topic": "バリュエーション",
+      "stance": "中立",
+      "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+      "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "中立",
+     "post_count": 7,
+     "topics": [
+      "その他",
+      "バリュエーション",
+      "売買",
+      "材料",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-16T15:24:07+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
+      "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 4,
+     "topics": [
+      "売買",
+      "材料",
+      "業績"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-10T15:45:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2120045250853093590",
+      "topic": "業績",
+      "stance": "中立",
+      "summary": "4-9月最終赤字7680億円、米データセンター損失とのニュース共有。",
+      "summary_en": null
+     }
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "その他",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "hiro_tyun",
+      "display_name": "hiro_tyun",
+      "post_created_at": "2026-11-09T09:06:00+09:00",
+      "source_url": "https://x.com/hiro_tyun/status/2119582463001547078",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "キオクシアが弱く、SBも同様との観察。",
+      "summary_en": "Observation that Kioxia is weak, and SB is the same."
+     }
+    },
+    {
+     "handle": "abc87791035",
+     "display_name": "ABCトレーダー",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "バリュエーション",
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "abc87791035",
+      "display_name": "ABCトレーダー",
+      "post_created_at": "2026-09-26T09:49:29+09:00",
+      "source_url": "https://x.com/ABC87791035/status/2103648116058821049",
+      "topic": "バリュエーション",
+      "stance": "中立",
+      "summary": "Meta社債下落を引用し、ソフトバンクグループの7.5年債9.750%は相対的に悪くない条件ではないかと指摘した。",
+      "summary_en": "Cited the decline in Meta corporate bonds and suggested that SoftBank Group's 7.5-year bond at 9.750% might not be a relatively bad condition."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu1000",
+     "display_name": "かぶ1000",
+     "post_created_at": "2026-11-20T09:41:00+09:00",
+     "source_url": "https://x.com/kabu1000/status/2123577560915443951",
+     "topic": "需給",
+     "stance": "弱気",
+     "summary": "SBG株価が3,000円を割り込んだことへの驚き",
+     "summary_en": "Surprise at SBG's stock price falling below ¥3,000"
+    },
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "post_created_at": "2026-11-17T09:06:14+09:00",
+     "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+     "topic": "バリュエーション",
+     "stance": "中立",
+     "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+     "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-16T15:24:07+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
+     "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-10T15:45:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2120045250853093590",
+     "topic": "業績",
+     "stance": "中立",
+     "summary": "4-9月最終赤字7680億円、米データセンター損失とのニュース共有。",
+     "summary_en": null
+    },
+    {
+     "handle": "hiro_tyun",
+     "display_name": "hiro_tyun",
+     "post_created_at": "2026-11-09T09:06:00+09:00",
+     "source_url": "https://x.com/hiro_tyun/status/2119582463001547078",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "キオクシアが弱く、SBも同様との観察。",
+     "summary_en": "Observation that Kioxia is weak, and SB is the same."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu1000",
+       "display_name": "かぶ1000",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu1000",
+        "display_name": "かぶ1000",
+        "post_created_at": "2026-11-20T09:41:00+09:00",
+        "source_url": "https://x.com/kabu1000/status/2123577560915443951",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "SBG株価が3,000円を割り込んだことへの驚き",
+        "summary_en": "Surprise at SBG's stock price falling below ¥3,000"
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 3,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 2,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 2
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu1000",
+       "display_name": "かぶ1000",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu1000",
+        "display_name": "かぶ1000",
+        "post_created_at": "2026-11-20T09:41:00+09:00",
+        "source_url": "https://x.com/kabu1000/status/2123577560915443951",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "SBG株価が3,000円を割り込んだことへの驚き",
+        "summary_en": "Surprise at SBG's stock price falling below ¥3,000"
+       }
+      },
+      {
+       "handle": "tarouyuuki0322",
+       "display_name": "結喜たろう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "tarouyuuki0322",
+        "display_name": "結喜たろう",
+        "post_created_at": "2026-11-17T09:06:14+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+        "topic": "バリュエーション",
+        "stance": "中立",
+        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-16T15:24:07+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
+        "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
+       }
+      }
+     ],
+     "prev_mention_count": 2
+    },
+    "30d": {
+     "mention_count": 5,
+     "post_count": 14,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 4,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "バリュエーション",
+       "investor_count": 3
+      },
+      {
+       "topic": "需給",
+       "investor_count": 3
+      },
+      {
+       "topic": "その他",
+       "investor_count": 2
+      },
+      {
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "業績",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu1000",
+       "display_name": "かぶ1000",
+       "stance": "弱気",
+       "post_count": 6,
+       "topics": [
+        "その他",
+        "バリュエーション",
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu1000",
+        "display_name": "かぶ1000",
+        "post_created_at": "2026-11-20T09:41:00+09:00",
+        "source_url": "https://x.com/kabu1000/status/2123577560915443951",
+        "topic": "需給",
+        "stance": "弱気",
+        "summary": "SBG株価が3,000円を割り込んだことへの驚き",
+        "summary_en": "Surprise at SBG's stock price falling below ¥3,000"
+       }
+      },
+      {
+       "handle": "tarouyuuki0322",
+       "display_name": "結喜たろう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "tarouyuuki0322",
+        "display_name": "結喜たろう",
+        "post_created_at": "2026-11-17T09:06:14+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
+        "topic": "バリュエーション",
+        "stance": "中立",
+        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
+        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 4,
+       "topics": [
+        "バリュエーション",
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-16T15:24:07+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
+        "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "業績"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-10T15:45:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2120045250853093590",
+        "topic": "業績",
+        "stance": "中立",
+        "summary": "4-9月最終赤字7680億円、米データセンター損失とのニュース共有。",
+        "summary_en": null
+       }
+      },
+      {
+       "handle": "hiro_tyun",
+       "display_name": "hiro_tyun",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "その他",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "hiro_tyun",
+        "display_name": "hiro_tyun",
+        "post_created_at": "2026-11-09T09:06:00+09:00",
+        "source_url": "https://x.com/hiro_tyun/status/2119582463001547078",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "キオクシアが弱く、SBも同様との観察。",
+        "summary_en": "Observation that Kioxia is weak, and SB is the same."
+       }
+      }
+     ],
+     "prev_mention_count": 3
+    }
+   },
+   "last_post_at": "2026-11-20T09:41:00+09:00"
   },
   {
    "ticker": "6857",
@@ -1803,31 +2267,23 @@
      "prev_mention_count": 0
     },
     "7d": {
-     "mention_count": 4,
-     "post_count": 6,
+     "mention_count": 3,
+     "post_count": 3,
      "bullish_count": 0,
      "bearish_count": 2,
-     "neutral_count": 2,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 2
+       "topic": "その他",
+       "investor_count": 1
       },
       {
        "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "業績",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -1836,10 +2292,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "弱気",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "売買",
-        "業績"
+        "売買"
        ],
        "latest_post": {
         "handle": "noatake1127",
@@ -1856,9 +2311,8 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEないよ",
        "stance": "弱気",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "売買",
         "需給"
        ],
        "latest_post": {
@@ -1890,28 +2344,9 @@
         "summary": "エレナという言及がアドバンテストであると指摘",
         "summary_en": "Pointed out that the mention of Elena refers to Advantest."
        }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-11-13T07:15:59+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "キオクシア等半導体株の記事を引用共有。",
-        "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
-       }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 3
     },
     "30d": {
      "mention_count": 5,
@@ -1926,11 +2361,11 @@
        "investor_count": 4
       },
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 2
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -1938,11 +2373,11 @@
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -2053,428 +2488,6 @@
     }
    },
    "last_post_at": "2026-11-17T09:05:11+09:00"
-  },
-  {
-   "ticker": "9984",
-   "company": "ソフトバンクグループ",
-   "company_en": "SoftBank Group Corp.",
-   "company_en_source": "machine",
-   "mention_count": 6,
-   "post_count": 21,
-   "bullish_count": 1,
-   "bearish_count": 0,
-   "neutral_count": 5,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "バリュエーション",
-     "investor_count": 4
-    },
-    {
-     "topic": "売買",
-     "investor_count": 3
-    },
-    {
-     "topic": "その他",
-     "investor_count": 3
-    },
-    {
-     "topic": "材料",
-     "investor_count": 3
-    },
-    {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
-     "topic": "業績",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "バリュエーション"
-     ],
-     "latest_post": {
-      "handle": "tarouyuuki0322",
-      "display_name": "結喜たろう",
-      "post_created_at": "2026-11-17T09:06:14+09:00",
-      "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-      "topic": "バリュエーション",
-      "stance": "中立",
-      "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-      "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "stance": "中立",
-     "post_count": 7,
-     "topics": [
-      "その他",
-      "バリュエーション",
-      "売買",
-      "材料",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEないよ",
-      "post_created_at": "2026-11-16T15:24:07+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-      "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
-     }
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 4,
-     "topics": [
-      "売買",
-      "材料",
-      "業績"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-10T15:45:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2120045250853093590",
-      "topic": "業績",
-      "stance": "中立",
-      "summary": "4-9月最終赤字7680億円、米データセンター損失とのニュース共有。",
-      "summary_en": null
-     }
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "その他",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "hiro_tyun",
-      "display_name": "hiro_tyun",
-      "post_created_at": "2026-11-09T09:06:00+09:00",
-      "source_url": "https://x.com/hiro_tyun/status/2119582463001547078",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "キオクシアが弱く、SBも同様との観察。",
-      "summary_en": "Observation that Kioxia is weak, and SB is the same."
-     }
-    },
-    {
-     "handle": "kabu1000",
-     "display_name": "かぶ1000",
-     "stance": "強気",
-     "post_count": 5,
-     "topics": [
-      "その他",
-      "バリュエーション",
-      "売買"
-     ],
-     "latest_post": {
-      "handle": "kabu1000",
-      "display_name": "かぶ1000",
-      "post_created_at": "2026-11-04T13:54:00+09:00",
-      "source_url": "https://x.com/kabu1000/status/2117842914135199921",
-      "topic": "売買",
-      "stance": "強気",
-      "summary": "ソフトバンクGが4000円割れでヒットしたとの報告。",
-      "summary_en": "Reported that SoftBank Group hit below ¥4,000."
-     }
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "バリュエーション",
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "abc87791035",
-      "display_name": "ABCトレーダー",
-      "post_created_at": "2026-09-26T09:49:29+09:00",
-      "source_url": "https://x.com/ABC87791035/status/2103648116058821049",
-      "topic": "バリュエーション",
-      "stance": "中立",
-      "summary": "Meta社債下落を引用し、ソフトバンクグループの7.5年債9.750%は相対的に悪くない条件ではないかと指摘した。",
-      "summary_en": "Cited the decline in Meta corporate bonds and suggested that SoftBank Group's 7.5-year bond at 9.750% might not be a relatively bad condition."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "post_created_at": "2026-11-17T09:06:14+09:00",
-     "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-     "topic": "バリュエーション",
-     "stance": "中立",
-     "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-     "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "post_created_at": "2026-11-16T15:24:07+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-     "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-10T15:45:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2120045250853093590",
-     "topic": "業績",
-     "stance": "中立",
-     "summary": "4-9月最終赤字7680億円、米データセンター損失とのニュース共有。",
-     "summary_en": null
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "post_created_at": "2026-11-09T09:06:00+09:00",
-     "source_url": "https://x.com/hiro_tyun/status/2119582463001547078",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "キオクシアが弱く、SBも同様との観察。",
-     "summary_en": "Observation that Kioxia is weak, and SB is the same."
-    },
-    {
-     "handle": "hiro_tyun",
-     "display_name": "hiro_tyun",
-     "post_created_at": "2026-11-05T09:12:00+09:00",
-     "source_url": "https://x.com/hiro_tyun/status/2118134302613574074",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "半導体とソフトバンクが負担しているとの観測",
-     "summary_en": "Observation that semiconductors and SoftBank are bearing the burden."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 2,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "tarouyuuki0322",
-       "display_name": "結喜たろう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "tarouyuuki0322",
-        "display_name": "結喜たろう",
-        "post_created_at": "2026-11-17T09:06:14+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-        "topic": "バリュエーション",
-        "stance": "中立",
-        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-16T15:24:07+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-        "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
-       }
-      }
-     ],
-     "prev_mention_count": 2
-    },
-    "30d": {
-     "mention_count": 5,
-     "post_count": 13,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 4,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "バリュエーション",
-       "investor_count": 3
-      },
-      {
-       "topic": "売買",
-       "investor_count": 2
-      },
-      {
-       "topic": "その他",
-       "investor_count": 2
-      },
-      {
-       "topic": "需給",
-       "investor_count": 2
-      },
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "tarouyuuki0322",
-       "display_name": "結喜たろう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "tarouyuuki0322",
-        "display_name": "結喜たろう",
-        "post_created_at": "2026-11-17T09:06:14+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2122481401484480754",
-        "topic": "バリュエーション",
-        "stance": "中立",
-        "summary": "ソフトバンクGとフジクラの底打ちについて慎重な見方。",
-        "summary_en": "A cautious view on whether SoftBank G and Fujikura have bottomed out."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 4,
-       "topics": [
-        "バリュエーション",
-        "売買",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-16T15:24:07+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-        "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-10T15:45:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2120045250853093590",
-        "topic": "業績",
-        "stance": "中立",
-        "summary": "4-9月最終赤字7680億円、米データセンター損失とのニュース共有。",
-        "summary_en": null
-       }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "その他",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-11-09T09:06:00+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2119582463001547078",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "キオクシアが弱く、SBも同様との観察。",
-        "summary_en": "Observation that Kioxia is weak, and SB is the same."
-       }
-      },
-      {
-       "handle": "kabu1000",
-       "display_name": "かぶ1000",
-       "stance": "強気",
-       "post_count": 5,
-       "topics": [
-        "その他",
-        "バリュエーション",
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu1000",
-        "display_name": "かぶ1000",
-        "post_created_at": "2026-11-04T13:54:00+09:00",
-        "source_url": "https://x.com/kabu1000/status/2117842914135199921",
-        "topic": "売買",
-        "stance": "強気",
-        "summary": "ソフトバンクGが4000円割れでヒットしたとの報告。",
-        "summary_en": "Reported that SoftBank Group hit below ¥4,000."
-       }
-      }
-     ],
-     "prev_mention_count": 3
-    }
-   },
-   "last_post_at": "2026-11-17T09:06:14+09:00"
   },
   {
    "ticker": "5803",
@@ -2638,40 +2651,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
-     "bearish_count": 1,
+     "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-19T09:32:39+09:00",
-        "source_url": "https://x.com/noatake1127/status/2123212823023296706",
-        "topic": "需給",
-        "stance": "弱気",
-        "summary": "キオクシアとフジクラの株価が本当に弱いと指摘。",
-        "summary_en": "Points out that the stock prices of Kioxia and Fujikura are really weak."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 2,
@@ -3093,298 +3081,6 @@
     }
    },
    "last_post_at": "2026-11-15T16:27:37+09:00"
-  },
-  {
-   "ticker": "8035",
-   "company": "東京エレクトロン",
-   "company_en": "Tokyo Electron Limited",
-   "company_en_source": "machine",
-   "mention_count": 3,
-   "post_count": 7,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 3,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 2
-    },
-    {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
-     "topic": "決算",
-     "investor_count": 2
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "売買",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-17T09:11:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2122482604083683378",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "プラ転",
-      "summary_en": "Turned positive"
-     }
-    },
-    {
-     "handle": "daiboucho",
-     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "決算"
-     ],
-     "latest_post": {
-      "handle": "daiboucho",
-      "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-      "post_created_at": "2026-11-13T07:15:59+09:00",
-      "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-      "topic": "決算",
-      "stance": "中立",
-      "summary": "キオクシア等半導体株の記事を引用共有。",
-      "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "売買",
-      "決算",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子",
-      "post_created_at": "2026-11-06T13:37:32+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2118563411458150839",
-      "topic": "売買",
-      "stance": "中立",
-      "summary": "東京エレクトロンとアドバンテストの損切りルールと買い場について",
-      "summary_en": "Regarding stop-loss rules and buying opportunities for Tokyo Electron and Advantest."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-17T09:11:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2122482604083683378",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "プラ転",
-     "summary_en": "Turned positive"
-    },
-    {
-     "handle": "daiboucho",
-     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-     "post_created_at": "2026-11-13T07:15:59+09:00",
-     "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-     "topic": "決算",
-     "stance": "中立",
-     "summary": "キオクシア等半導体株の記事を引用共有。",
-     "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子",
-     "post_created_at": "2026-11-06T13:37:32+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2118563411458150839",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "東京エレクトロンとアドバンテストの損切りルールと買い場について",
-     "summary_en": "Regarding stop-loss rules and buying opportunities for Tokyo Electron and Advantest."
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEやっていません",
-     "post_created_at": "2026-10-30T15:37:37+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2116056913519771653",
-     "topic": "決算",
-     "stance": "判定不能",
-     "summary": "東京エレクトロンの2027年3月期中間決算短信を共有。",
-     "summary_en": "Shared Tokyo Electron's interim financial results summary for the fiscal year ending March 2027."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-15T11:32:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2110559481163862530",
-     "topic": "売買",
-     "stance": "中立",
-     "summary": "日経平均大幅安と共に東京エレクトロン等が下落したことを報告。",
-     "summary_en": "Reporting that Tokyo Electron and others fell along with the significant drop in the Nikkei Average."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 2,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-17T09:11:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2122482604083683378",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "プラ転",
-        "summary_en": "Turned positive"
-       }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-11-13T07:15:59+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "キオクシア等半導体株の記事を引用共有。",
-        "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 3,
-     "post_count": 4,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 3,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 2
-      },
-      {
-       "topic": "決算",
-       "investor_count": 2
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-17T09:11:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2122482604083683378",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "プラ転",
-        "summary_en": "Turned positive"
-       }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-11-13T07:15:59+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "キオクシア等半導体株の記事を引用共有。",
-        "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "売買",
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子",
-        "post_created_at": "2026-11-06T13:37:32+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2118563411458150839",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "東京エレクトロンとアドバンテストの損切りルールと買い場について",
-        "summary_en": "Regarding stop-loss rules and buying opportunities for Tokyo Electron and Advantest."
-       }
-      }
-     ],
-     "prev_mention_count": 2
-    }
-   },
-   "last_post_at": "2026-11-17T09:11:00+09:00"
   },
   {
    "ticker": "1419",
@@ -4589,11 +4285,11 @@
        "investor_count": 2
       },
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -4663,6 +4359,275 @@
    "last_post_at": "2026-11-18T12:29:36+09:00"
   },
   {
+   "ticker": "8035",
+   "company": "東京エレクトロン",
+   "company_en": "Tokyo Electron Limited",
+   "company_en_source": "machine",
+   "mention_count": 3,
+   "post_count": 7,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 3,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 2
+    },
+    {
+     "topic": "売買",
+     "investor_count": 2
+    },
+    {
+     "topic": "決算",
+     "investor_count": 2
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-17T09:11:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2122482604083683378",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "プラ転",
+      "summary_en": "Turned positive"
+     }
+    },
+    {
+     "handle": "daiboucho",
+     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "daiboucho",
+      "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+      "post_created_at": "2026-11-13T07:15:59+09:00",
+      "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
+      "topic": "決算",
+      "stance": "中立",
+      "summary": "キオクシア等半導体株の記事を引用共有。",
+      "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "決算",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子",
+      "post_created_at": "2026-11-06T13:37:32+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2118563411458150839",
+      "topic": "売買",
+      "stance": "中立",
+      "summary": "東京エレクトロンとアドバンテストの損切りルールと買い場について",
+      "summary_en": "Regarding stop-loss rules and buying opportunities for Tokyo Electron and Advantest."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-17T09:11:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2122482604083683378",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "プラ転",
+     "summary_en": "Turned positive"
+    },
+    {
+     "handle": "daiboucho",
+     "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+     "post_created_at": "2026-11-13T07:15:59+09:00",
+     "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
+     "topic": "決算",
+     "stance": "中立",
+     "summary": "キオクシア等半導体株の記事を引用共有。",
+     "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子",
+     "post_created_at": "2026-11-06T13:37:32+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2118563411458150839",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "東京エレクトロンとアドバンテストの損切りルールと買い場について",
+     "summary_en": "Regarding stop-loss rules and buying opportunities for Tokyo Electron and Advantest."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEやっていません",
+     "post_created_at": "2026-10-30T15:37:37+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2116056913519771653",
+     "topic": "決算",
+     "stance": "判定不能",
+     "summary": "東京エレクトロンの2027年3月期中間決算短信を共有。",
+     "summary_en": "Shared Tokyo Electron's interim financial results summary for the fiscal year ending March 2027."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-15T11:32:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2110559481163862530",
+     "topic": "売買",
+     "stance": "中立",
+     "summary": "日経平均大幅安と共に東京エレクトロン等が下落したことを報告。",
+     "summary_en": "Reporting that Tokyo Electron and others fell along with the significant drop in the Nikkei Average."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-17T09:11:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2122482604083683378",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "プラ転",
+        "summary_en": "Turned positive"
+       }
+      }
+     ],
+     "prev_mention_count": 2
+    },
+    "30d": {
+     "mention_count": 3,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 3,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
+       "topic": "決算",
+       "investor_count": 2
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-17T09:11:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2122482604083683378",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "プラ転",
+        "summary_en": "Turned positive"
+       }
+      },
+      {
+       "handle": "daiboucho",
+       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "daiboucho",
+        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
+        "post_created_at": "2026-11-13T07:15:59+09:00",
+        "source_url": "https://x.com/DAIBOUCHO/status/2121004104680120827",
+        "topic": "決算",
+        "stance": "中立",
+        "summary": "キオクシア等半導体株の記事を引用共有。",
+        "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "売買",
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子",
+        "post_created_at": "2026-11-06T13:37:32+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2118563411458150839",
+        "topic": "売買",
+        "stance": "中立",
+        "summary": "東京エレクトロンとアドバンテストの損切りルールと買い場について",
+        "summary_en": "Regarding stop-loss rules and buying opportunities for Tokyo Electron and Advantest."
+       }
+      }
+     ],
+     "prev_mention_count": 2
+    }
+   },
+   "last_post_at": "2026-11-17T09:11:00+09:00"
+  },
+  {
    "ticker": "2702",
    "company": "日本マクドナルドホールディングス",
    "company_en": "McDonald's Holdings Company (Japan), Ltd.",
@@ -4675,11 +4640,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -4782,40 +4747,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-19T09:29:33+09:00",
-        "source_url": "https://x.com/noatake1127/status/2123212045055398095",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "マクドナルドの株価が1万円を超えていると報告。",
-        "summary_en": "Reports that McDonald's stock price has exceeded ¥10,000."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6127,14 +6067,18 @@
    "company_en": "JX Advanced Metals Corporation",
    "company_en_source": "machine",
    "mention_count": 2,
-   "post_count": 3,
+   "post_count": 4,
    "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 2,
+   "bearish_count": 1,
+   "neutral_count": 1,
    "unknown_count": 0,
    "topics": [
     {
      "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
@@ -6146,20 +6090,21 @@
     {
      "handle": "tarouyuuki0322",
      "display_name": "結喜たろう",
-     "stance": "中立",
-     "post_count": 1,
+     "stance": "弱気",
+     "post_count": 2,
      "topics": [
-      "その他"
+      "その他",
+      "バリュエーション"
      ],
      "latest_post": {
       "handle": "tarouyuuki0322",
       "display_name": "結喜たろう",
-      "post_created_at": "2026-11-16T13:50:00+09:00",
-      "source_url": "https://x.com/tarouyuuki0322/status/2122190433640198146",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "ラジオ出演でJX金属等を分析例として取り上げ",
-      "summary_en": "JX Advanced Metals and others were taken up as analysis examples during a radio appearance."
+      "post_created_at": "2026-11-19T22:20:00+09:00",
+      "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+      "topic": "バリュエーション",
+      "stance": "弱気",
+      "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+      "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
      }
     },
     {
@@ -6183,6 +6128,16 @@
     }
    ],
    "latest_posts": [
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "post_created_at": "2026-11-19T22:20:00+09:00",
+     "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+     "topic": "バリュエーション",
+     "stance": "弱気",
+     "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+     "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
+    },
     {
      "handle": "tarouyuuki0322",
      "display_name": "結喜たろう",
@@ -6216,26 +6171,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
+     "bearish_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -6243,35 +6187,35 @@
       {
        "handle": "tarouyuuki0322",
        "display_name": "結喜たろう",
-       "stance": "中立",
+       "stance": "弱気",
        "post_count": 1,
        "topics": [
-        "その他"
+        "バリュエーション"
        ],
        "latest_post": {
         "handle": "tarouyuuki0322",
         "display_name": "結喜たろう",
-        "post_created_at": "2026-11-16T13:50:00+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2122190433640198146",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "ラジオ出演でJX金属等を分析例として取り上げ",
-        "summary_en": "JX Advanced Metals and others were taken up as analysis examples during a radio appearance."
+        "post_created_at": "2026-11-19T22:20:00+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+        "topic": "バリュエーション",
+        "stance": "弱気",
+        "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+        "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
        }
       }
      ],
      "prev_mention_count": 0
     },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 3,
+    "7d": {
+     "mention_count": 1,
+     "post_count": 2,
      "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 2,
+     "bearish_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "バリュエーション",
        "investor_count": 1
       },
       {
@@ -6283,20 +6227,66 @@
       {
        "handle": "tarouyuuki0322",
        "display_name": "結喜たろう",
-       "stance": "中立",
-       "post_count": 1,
+       "stance": "弱気",
+       "post_count": 2,
        "topics": [
-        "その他"
+        "その他",
+        "バリュエーション"
        ],
        "latest_post": {
         "handle": "tarouyuuki0322",
         "display_name": "結喜たろう",
-        "post_created_at": "2026-11-16T13:50:00+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2122190433640198146",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "ラジオ出演でJX金属等を分析例として取り上げ",
-        "summary_en": "JX Advanced Metals and others were taken up as analysis examples during a radio appearance."
+        "post_created_at": "2026-11-19T22:20:00+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+        "topic": "バリュエーション",
+        "stance": "弱気",
+        "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+        "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 4,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tarouyuuki0322",
+       "display_name": "結喜たろう",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "その他",
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "tarouyuuki0322",
+        "display_name": "結喜たろう",
+        "post_created_at": "2026-11-19T22:20:00+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+        "topic": "バリュエーション",
+        "stance": "弱気",
+        "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+        "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
        }
       },
       {
@@ -6322,7 +6312,7 @@
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-11-16T13:50:00+09:00"
+   "last_post_at": "2026-11-19T22:20:00+09:00"
   },
   {
    "ticker": "581A",
@@ -7245,15 +7235,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "需給",
+     "investor_count": 1
+    },
+    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "決算",
-     "investor_count": 1
-    },
-    {
-     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -7582,11 +7572,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -7691,11 +7681,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -8062,40 +8052,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-19T09:14:21+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
-        "topic": "その他",
-        "stance": "強気",
-        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
-        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -8626,11 +8591,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8735,11 +8700,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "その他",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -8783,15 +8748,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -8916,11 +8881,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -8957,15 +8922,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
        "topic": "売買",
        "investor_count": 1
       },
       {
        "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -9416,7 +9381,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -10692,7 +10657,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -10907,143 +10872,6 @@
    "last_post_at": "2026-11-18T17:43:29+09:00"
   },
   {
-   "ticker": "4985",
-   "company": "アース（Earth Corporation）",
-   "company_en": "Earth Corporation",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEないよ",
-      "post_created_at": "2026-11-13T09:05:29+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
-      "topic": "その他",
-      "stance": "中立",
-      "summary": "アースの株価が上昇している様子を言及。",
-      "summary_en": "Mentioned that Earth's stock price is rising."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "post_created_at": "2026-11-13T09:05:29+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "アースの株価が上昇している様子を言及。",
-     "summary_en": "Mentioned that Earth's stock price is rising."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-13T09:05:29+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "アースの株価が上昇している様子を言及。",
-        "summary_en": "Mentioned that Earth's stock price is rising."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-13T09:05:29+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "アースの株価が上昇している様子を言及。",
-        "summary_en": "Mentioned that Earth's stock price is rising."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-13T09:05:29+09:00"
-  },
-  {
    "ticker": "5038",
    "company": "eWeLL",
    "company_en": "eWeLL Co.,Ltd.",
@@ -11204,143 +11032,6 @@
     }
    },
    "last_post_at": "2026-11-14T08:52:33+09:00"
-  },
-  {
-   "ticker": "5142",
-   "company": "アキレス",
-   "company_en": "Achilles Corporation",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 1,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "決算",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "強気",
-     "post_count": 1,
-     "topics": [
-      "決算"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-11-13T10:41:31+09:00",
-      "source_url": "https://x.com/noatake1127/status/2121055829390745817",
-      "topic": "決算",
-      "stance": "強気",
-      "summary": "好決算・上方修正・増配でストップ高",
-      "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-13T10:41:31+09:00",
-     "source_url": "https://x.com/noatake1127/status/2121055829390745817",
-     "topic": "決算",
-     "stance": "強気",
-     "summary": "好決算・上方修正・増配でストップ高",
-     "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-13T10:41:31+09:00",
-        "source_url": "https://x.com/noatake1127/status/2121055829390745817",
-        "topic": "決算",
-        "stance": "強気",
-        "summary": "好決算・上方修正・増配でストップ高",
-        "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-13T10:41:31+09:00",
-        "source_url": "https://x.com/noatake1127/status/2121055829390745817",
-        "topic": "決算",
-        "stance": "強気",
-        "summary": "好決算・上方修正・増配でストップ高",
-        "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-13T10:41:31+09:00"
   },
   {
    "ticker": "5401",
@@ -12090,11 +11781,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -12162,11 +11853,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -12203,11 +11894,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -12244,11 +11935,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "需給",
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -14679,15 +14370,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -14812,11 +14503,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "売買",
        "investor_count": 1
       }
      ],
@@ -14853,15 +14544,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "その他",
+       "investor_count": 1
+      },
+      {
        "topic": "売買",
        "investor_count": 1
       },
       {
        "topic": "決算",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
        "investor_count": 1
       }
      ],
@@ -14906,11 +14597,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -15994,40 +15685,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-11-19T11:09:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2123237256714756364",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "第一交通産業の株主優待を福岡で利用している",
-        "summary_en": "Using Daiichi Koutsu Sangyo's shareholder benefits in Fukuoka."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -16475,40 +16141,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "強気",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-19T09:14:21+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2123208219371934171",
-        "topic": "その他",
-        "stance": "強気",
-        "summary": "セコムとALSOKを言及。過去のマストバイ投稿を引用。",
-        "summary_en": "Mentions Secom and ALSOK; quotes past \"must-buy\" posts."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -17473,11 +17114,11 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -18492,15 +18133,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 2
-    },
-    {
      "topic": "需給",
      "investor_count": 2
     },
     {
-     "topic": "業績",
+     "topic": "材料",
+     "investor_count": 2
+    },
+    {
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -18508,7 +18149,7 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -18659,19 +18300,19 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
        "topic": "需給",
        "investor_count": 1
       },
       {
+       "topic": "業績",
+       "investor_count": 1
+      },
+      {
        "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -18996,7 +18637,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -19050,11 +18691,11 @@
    "unknown_count": 1,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
@@ -20304,11 +19945,11 @@
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -20456,15 +20097,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "需給",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -21164,7 +20805,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -21622,7 +21263,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -22639,11 +22280,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -23361,7 +23002,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -26087,15 +25728,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "優待",
-     "investor_count": 1
-    },
-    {
      "topic": "バリュエーション",
      "investor_count": 1
     },
     {
      "topic": "需給",
+     "investor_count": 1
+    },
+    {
+     "topic": "優待",
      "investor_count": 1
     }
    ],
@@ -26175,7 +25816,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -26186,15 +25827,15 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "優待",
-       "investor_count": 1
-      },
-      {
        "topic": "バリュエーション",
        "investor_count": 1
       },
       {
        "topic": "需給",
+       "investor_count": 1
+      },
+      {
+       "topic": "優待",
        "investor_count": 1
       }
      ],
@@ -26617,7 +26258,7 @@
     },
     "30d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
@@ -26633,7 +26274,7 @@
        "handle": "yuutaihiroto",
        "display_name": "桐谷広人・桐谷さん【公式】",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
         "優待"
        ],
@@ -30500,15 +30141,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "決算",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -34047,11 +33688,11 @@
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "売買",
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -35223,6 +34864,118 @@
    "last_post_at": "2026-09-28T11:04:00+09:00"
   },
   {
+   "ticker": "4985",
+   "company": "アース（Earth Corporation）",
+   "company_en": "Earth Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-13T09:05:29+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "アースの株価が上昇している様子を言及。",
+      "summary_en": "Mentioned that Earth's stock price is rising."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-13T09:05:29+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "アースの株価が上昇している様子を言及。",
+     "summary_en": "Mentioned that Earth's stock price is rising."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-13T09:05:29+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2121031662763188539",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "アースの株価が上昇している様子を言及。",
+        "summary_en": "Mentioned that Earth's stock price is rising."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-13T09:05:29+09:00"
+  },
+  {
    "ticker": "4997",
    "company": "日本農薬",
    "company_en": "Nihon Nohyaku Co., Ltd.",
@@ -35619,6 +35372,118 @@
     }
    },
    "last_post_at": "2026-10-18T11:39:44+09:00"
+  },
+  {
+   "ticker": "5142",
+   "company": "アキレス",
+   "company_en": "Achilles Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 1,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "決算",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "強気",
+     "post_count": 1,
+     "topics": [
+      "決算"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-13T10:41:31+09:00",
+      "source_url": "https://x.com/noatake1127/status/2121055829390745817",
+      "topic": "決算",
+      "stance": "強気",
+      "summary": "好決算・上方修正・増配でストップ高",
+      "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-13T10:41:31+09:00",
+     "source_url": "https://x.com/noatake1127/status/2121055829390745817",
+     "topic": "決算",
+     "stance": "強気",
+     "summary": "好決算・上方修正・増配でストップ高",
+     "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "決算",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "強気",
+       "post_count": 1,
+       "topics": [
+        "決算"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-13T10:41:31+09:00",
+        "source_url": "https://x.com/noatake1127/status/2121055829390745817",
+        "topic": "決算",
+        "stance": "強気",
+        "summary": "好決算・上方修正・増配でストップ高",
+        "summary_en": "Hit the stop-high limit on good financial results, an upward revision, and a dividend increase."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-13T10:41:31+09:00"
   },
   {
    "ticker": "5161",
@@ -36944,10 +36809,6 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
      "topic": "バリュエーション",
      "investor_count": 1
     },
@@ -36957,6 +36818,10 @@
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -37173,11 +37038,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -38970,7 +38835,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -39024,11 +38889,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -40291,7 +40156,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -42263,11 +42128,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -42584,11 +42449,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "バリュエーション",
      "investor_count": 1
     },
     {
-     "topic": "バリュエーション",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -44100,7 +43965,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -44368,15 +44233,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "その他",
+     "investor_count": 1
+    },
+    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -48486,7 +48351,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -49187,11 +49052,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -50048,7 +49913,7 @@
   {
    "handle": "daiboucho",
    "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-   "post_count": 24,
+   "post_count": 25,
    "ticker_count": 15
   },
   {
@@ -50070,21 +49935,21 @@
    "ticker_count": 8
   },
   {
+   "handle": "kabu1000",
+   "display_name": "かぶ1000",
+   "post_count": 11,
+   "ticker_count": 3
+  },
+  {
    "handle": "kenichishimada2",
    "display_name": "Ken/1UP投資",
    "post_count": 11,
    "ticker_count": 8
   },
   {
-   "handle": "kabu1000",
-   "display_name": "かぶ1000",
-   "post_count": 10,
-   "ticker_count": 3
-  },
-  {
    "handle": "tarouyuuki0322",
    "display_name": "結喜たろう",
-   "post_count": 10,
+   "post_count": 11,
    "ticker_count": 9
   },
   {
@@ -50133,10 +49998,20 @@
     "company": "アドバンテスト",
     "company_en": "Advantest Corporation",
     "window": "7d",
-    "mention_count": 4,
-    "prev_mention_count": 1,
+    "mention_count": 3,
+    "prev_mention_count": 3,
     "bullish_count": 0,
     "bearish_count": 2
+   },
+   {
+    "ticker": "9984",
+    "company": "ソフトバンクグループ",
+    "company_en": "SoftBank Group Corp.",
+    "window": "7d",
+    "mention_count": 3,
+    "prev_mention_count": 2,
+    "bullish_count": 0,
+    "bearish_count": 1
    },
    {
     "ticker": "1419",
@@ -50175,16 +50050,6 @@
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 0,
-    "bullish_count": 0,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "8035",
-    "company": "東京エレクトロン",
-    "company_en": "Tokyo Electron Limited",
-    "window": "7d",
-    "mention_count": 2,
-    "prev_mention_count": 1,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -50197,29 +50062,9 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 1
-   },
-   {
-    "ticker": "9984",
-    "company": "ソフトバンクグループ",
-    "company_en": "SoftBank Group Corp.",
-    "window": "7d",
-    "mention_count": 2,
-    "prev_mention_count": 2,
-    "bullish_count": 0,
-    "bearish_count": 0
    }
   ],
   "rising": [
-   {
-    "ticker": "6857",
-    "company": "アドバンテスト",
-    "company_en": "Advantest Corporation",
-    "window": "7d",
-    "mention_count": 4,
-    "prev_mention_count": 1,
-    "bullish_count": 0,
-    "bearish_count": 2
-   },
    {
     "ticker": "2914",
     "company": "日本たばこ産業",
@@ -50229,6 +50074,16 @@
     "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
+   },
+   {
+    "ticker": "9984",
+    "company": "ソフトバンクグループ",
+    "company_en": "SoftBank Group Corp.",
+    "window": "7d",
+    "mention_count": 3,
+    "prev_mention_count": 2,
+    "bullish_count": 0,
+    "bearish_count": 1
    },
    {
     "ticker": "1419",
@@ -50267,16 +50122,6 @@
     "window": "7d",
     "mention_count": 2,
     "prev_mention_count": 0,
-    "bullish_count": 0,
-    "bearish_count": 0
-   },
-   {
-    "ticker": "8035",
-    "company": "東京エレクトロン",
-    "company_en": "Tokyo Electron Limited",
-    "window": "7d",
-    "mention_count": 2,
-    "prev_mention_count": 1,
     "bullish_count": 0,
     "bearish_count": 0
    },
@@ -50297,31 +50142,27 @@
   "24h": [
    {
     "topic": "需給",
-    "ticker_count": 5,
+    "ticker_count": 4,
     "tickers": [
-     "285A",
      "5711",
      "5713",
-     "5803",
-     "5816"
+     "5816",
+     "9984"
     ]
    },
    {
     "topic": "その他",
-    "ticker_count": 5,
+    "ticker_count": 3,
     "tickers": [
-     "2331",
-     "2702",
+     "285A",
      "7120",
-     "8031",
-     "9735"
+     "8031"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 4,
+    "ticker_count": 3,
     "tickers": [
-     "285A",
      "3496",
      "5713",
      "7199"
@@ -50350,17 +50191,17 @@
     ]
    },
    {
-    "topic": "優待",
+    "topic": "バリュエーション",
     "ticker_count": 1,
     "tickers": [
-     "9035"
+     "5016"
     ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 42,
+    "ticker_count": 41,
     "tickers": [
      "1429",
      "2331",
@@ -50382,7 +50223,6 @@
      "4486",
      "4495",
      "471A",
-     "4985",
      "5016",
      "5038",
      "5532",
@@ -50443,22 +50283,6 @@
     ]
    },
    {
-    "topic": "決算",
-    "ticker_count": 10,
-    "tickers": [
-     "285A",
-     "341A",
-     "5142",
-     "6268",
-     "6502",
-     "6857",
-     "7059",
-     "7936",
-     "8035",
-     "8253"
-    ]
-   },
-   {
     "topic": "材料",
     "ticker_count": 9,
     "tickers": [
@@ -50471,6 +50295,19 @@
      "7203",
      "7630",
      "8306"
+    ]
+   },
+   {
+    "topic": "決算",
+    "ticker_count": 7,
+    "tickers": [
+     "285A",
+     "341A",
+     "6268",
+     "6502",
+     "7059",
+     "7936",
+     "8253"
     ]
    },
    {
@@ -50498,23 +50335,23 @@
     ]
    },
    {
-    "topic": "業績",
-    "ticker_count": 4,
-    "tickers": [
-     "2914",
-     "3905",
-     "6857",
-     "9340"
-    ]
-   },
-   {
     "topic": "バリュエーション",
-    "ticker_count": 4,
+    "ticker_count": 5,
     "tickers": [
+     "5016",
      "5803",
      "9101",
      "9861",
      "9984"
+    ]
+   },
+   {
+    "topic": "業績",
+    "ticker_count": 3,
+    "tickers": [
+     "2914",
+     "3905",
+     "9340"
     ]
    }
   ],
@@ -50837,13 +50674,14 @@
    },
    {
     "topic": "バリュエーション",
-    "ticker_count": 11,
+    "ticker_count": 12,
     "tickers": [
      "1301",
      "285A",
      "2903",
      "2914",
      "4809",
+     "5016",
      "5803",
      "7485",
      "8237",
