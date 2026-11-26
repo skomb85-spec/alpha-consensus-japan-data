@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-26T12:27:53+09:00",
+ "generated_at": "2026-11-27T01:43:50+09:00",
  "translation": {
-  "summary_en_count": 977,
-  "summary_total": 998,
-  "company_en_count": 410,
-  "company_total": 410,
+  "summary_en_count": 984,
+  "summary_total": 1005,
+  "company_en_count": 414,
+  "company_total": 414,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 1140,
-  "rows_used": 998,
+  "rows_input": 1147,
+  "rows_used": 1005,
   "rows_rejected": 142,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 142
@@ -52,11 +52,11 @@
      "investor_count": 3
     },
     {
-     "topic": "業績",
+     "topic": "売買",
      "investor_count": 3
     },
     {
-     "topic": "売買",
+     "topic": "業績",
      "investor_count": 3
     },
     {
@@ -304,34 +304,30 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 4,
-     "post_count": 11,
+     "post_count": 4,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "業績",
-       "investor_count": 3
-      },
-      {
        "topic": "配当",
-       "investor_count": 2
+       "investor_count": 1
       },
       {
        "topic": "売買",
        "investor_count": 1
       },
       {
-       "topic": "バリュエーション",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "バリュエーション",
        "investor_count": 1
       }
      ],
@@ -340,11 +336,9 @@
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
        "stance": "強気",
-       "post_count": 3,
+       "post_count": 1,
        "topics": [
-        "バリュエーション",
-        "材料",
-        "業績"
+        "バリュエーション"
        ],
        "latest_post": {
         "handle": "abc87791035",
@@ -361,10 +355,9 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "弱気",
-       "post_count": 4,
+       "post_count": 1,
        "topics": [
-        "業績",
-        "配当"
+        "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
@@ -400,10 +393,9 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEないよ",
        "stance": "弱気",
-       "post_count": 3,
+       "post_count": 1,
        "topics": [
-        "売買",
-        "業績"
+        "売買"
        ],
        "latest_post": {
         "handle": "kabu_st0ck",
@@ -417,7 +409,7 @@
        }
       }
      ],
-     "prev_mention_count": 3
+     "prev_mention_count": 5
     },
     "30d": {
      "mention_count": 8,
@@ -436,11 +428,11 @@
        "investor_count": 3
       },
       {
-       "topic": "業績",
+       "topic": "売買",
        "investor_count": 3
       },
       {
-       "topic": "売買",
+       "topic": "業績",
        "investor_count": 3
       },
       {
@@ -637,10 +629,10 @@
    "company_en": "Kioxia Holdings Corporation",
    "company_en_source": "machine",
    "mention_count": 14,
-   "post_count": 105,
+   "post_count": 108,
    "bullish_count": 1,
-   "bearish_count": 3,
-   "neutral_count": 10,
+   "bearish_count": 2,
+   "neutral_count": 11,
    "unknown_count": 0,
    "topics": [
     {
@@ -676,8 +668,8 @@
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
-     "stance": "弱気",
-     "post_count": 45,
+     "stance": "中立",
+     "post_count": 46,
      "topics": [
       "その他",
       "バリュエーション",
@@ -690,12 +682,34 @@
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-11-26T11:38:20+09:00",
-      "source_url": "https://x.com/noatake1127/status/2125781169698713980",
+      "post_created_at": "2026-11-26T17:01:29+09:00",
+      "source_url": "https://x.com/noatake1127/status/2125862491511279943",
       "topic": "材料",
-      "stance": "弱気",
-      "summary": "SOX指数大幅安でキオクシアなど半導体関連株が下落",
-      "summary_en": "Semiconductor-related stocks such as Kioxia fell due to a sharp drop in the SOX Index."
+      "stance": "中立",
+      "summary": "キオクシアのNVIDIAとのAI連携検証開始のニュース共有。",
+      "summary_en": "Sharing news that Kioxia has begun verification of AI collaboration with NVIDIA."
+     }
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "中立",
+     "post_count": 19,
+     "topics": [
+      "その他",
+      "売買",
+      "材料",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-26T14:57:00+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2125831283683332354",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "キオクシアがAIメモリーでNVIDIAと実証実験開始のニュースを共有。",
+      "summary_en": "Sharing news that Kioxia has started demonstration testing with NVIDIA for AI memory."
      }
     },
     {
@@ -755,28 +769,6 @@
       "stance": "中立",
       "summary": "連日下落ながら話題中心・売買代金1位で注目",
       "summary_en": null
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "stance": "中立",
-     "post_count": 17,
-     "topics": [
-      "その他",
-      "売買",
-      "材料",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEないよ",
-      "post_created_at": "2026-11-16T15:24:07+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-      "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
      }
     },
     {
@@ -970,6 +962,36 @@
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
+     "post_created_at": "2026-11-26T17:01:29+09:00",
+     "source_url": "https://x.com/noatake1127/status/2125862491511279943",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "キオクシアのNVIDIAとのAI連携検証開始のニュース共有。",
+     "summary_en": "Sharing news that Kioxia has begun verification of AI collaboration with NVIDIA."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-26T14:57:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2125831283683332354",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "キオクシアがAIメモリーでNVIDIAと実証実験開始のニュースを共有。",
+     "summary_en": "Sharing news that Kioxia has started demonstration testing with NVIDIA for AI memory."
+    },
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-26T14:52:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2125830044492984655",
+     "topic": "需給",
+     "stance": "強気",
+     "summary": "キオクシアがストップ高になっている。",
+     "summary_en": "Kioxia has hit the upper circuit breaker limit."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
      "post_created_at": "2026-11-26T11:38:20+09:00",
      "source_url": "https://x.com/noatake1127/status/2125781169698713980",
      "topic": "材料",
@@ -986,61 +1008,27 @@
      "stance": "中立",
      "summary": "キオクシアがストップ高となったことを報告。",
      "summary_en": "Reported that Kioxia hit its daily limit high."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-25T18:16:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2125519088177107166",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "今月の下落率としてキオクシアなど5銘柄を列挙。",
-     "summary_en": "Listed 5 stocks, including Kioxia, for this month's rate of decline."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-25T16:16:15+09:00",
-     "source_url": "https://x.com/noatake1127/status/2125488721885843648",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "キオクシア(285A)の時価総額1兆円割れを指摘",
-     "summary_en": "Points out that Kioxia's (285A) market capitalization fell below ¥1,000,000,000,000."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-11-25T15:42:06+09:00",
-     "source_url": "https://x.com/noatake1127/status/2125480125554999378",
-     "topic": "配当",
-     "stance": "中立",
-     "summary": "キオクシア(285A)の子会社からの配当金受領を指摘",
-     "summary_en": "Points out the receipt of dividends from a subsidiary of Kioxia (285A)."
     }
    ],
    "windows": {
     "24h": {
      "mention_count": 2,
-     "post_count": 6,
+     "post_count": 5,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 1,
+     "bearish_count": 0,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
+       "topic": "材料",
        "investor_count": 2
       },
       {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
        "topic": "需給",
-       "investor_count": 1
-      },
-      {
-       "topic": "配当",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -1048,62 +1036,65 @@
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 5,
+       "stance": "中立",
+       "post_count": 3,
        "topics": [
         "売買",
-        "材料",
-        "配当",
-        "需給"
+        "材料"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-11-26T11:38:20+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125781169698713980",
+        "post_created_at": "2026-11-26T17:01:29+09:00",
+        "source_url": "https://x.com/noatake1127/status/2125862491511279943",
         "topic": "材料",
-        "stance": "弱気",
-        "summary": "SOX指数大幅安でキオクシアなど半導体関連株が下落",
-        "summary_en": "Semiconductor-related stocks such as Kioxia fell due to a sharp drop in the SOX Index."
+        "stance": "中立",
+        "summary": "キオクシアのNVIDIAとのAI連携検証開始のニュース共有。",
+        "summary_en": "Sharing news that Kioxia has begun verification of AI collaboration with NVIDIA."
        }
       },
       {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
        "stance": "中立",
-       "post_count": 1,
+       "post_count": 2,
        "topics": [
-        "売買"
+        "材料",
+        "需給"
        ],
        "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-11-25T12:40:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2125434450075062333",
-        "topic": "売買",
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-26T14:57:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2125831283683332354",
+        "topic": "材料",
         "stance": "中立",
-        "summary": "キオクシアの天井を当てたことへの言及（返信）。",
-        "summary_en": "Mentions having called the top for Kioxia (in a reply)."
+        "summary": "キオクシアがAIメモリーでNVIDIAと実証実験開始のニュースを共有。",
+        "summary_en": "Sharing news that Kioxia has started demonstration testing with NVIDIA for AI memory."
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 2
     },
     "7d": {
      "mention_count": 3,
-     "post_count": 8,
+     "post_count": 10,
      "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 2,
+     "bearish_count": 0,
+     "neutral_count": 3,
      "unknown_count": 0,
      "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 2
+      },
       {
        "topic": "売買",
        "investor_count": 2
       },
       {
-       "topic": "その他",
-       "investor_count": 1
+       "topic": "需給",
+       "investor_count": 2
       },
       {
        "topic": "バリュエーション",
@@ -1112,22 +1103,14 @@
       {
        "topic": "配当",
        "investor_count": 1
-      },
-      {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
-       "investor_count": 1
       }
      ],
      "investors": [
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 6,
+       "stance": "中立",
+       "post_count": 7,
        "topics": [
         "バリュエーション",
         "売買",
@@ -1138,12 +1121,32 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-11-26T11:38:20+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125781169698713980",
+        "post_created_at": "2026-11-26T17:01:29+09:00",
+        "source_url": "https://x.com/noatake1127/status/2125862491511279943",
         "topic": "材料",
-        "stance": "弱気",
-        "summary": "SOX指数大幅安でキオクシアなど半導体関連株が下落",
-        "summary_en": "Semiconductor-related stocks such as Kioxia fell due to a sharp drop in the SOX Index."
+        "stance": "中立",
+        "summary": "キオクシアのNVIDIAとのAI連携検証開始のニュース共有。",
+        "summary_en": "Sharing news that Kioxia has begun verification of AI collaboration with NVIDIA."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 2,
+       "topics": [
+        "材料",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-26T14:57:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2125831283683332354",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "キオクシアがAIメモリーでNVIDIAと実証実験開始のニュースを共有。",
+        "summary_en": "Sharing news that Kioxia has started demonstration testing with NVIDIA for AI memory."
        }
       },
       {
@@ -1164,35 +1167,16 @@
         "summary": "キオクシアの天井を当てたことへの言及（返信）。",
         "summary_en": "Mentions having called the top for Kioxia (in a reply)."
        }
-      },
-      {
-       "handle": "daiboucho",
-       "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "daiboucho",
-        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
-        "post_created_at": "2026-11-19T22:28:00+09:00",
-        "source_url": "https://x.com/DAIBOUCHO/status/2123408065336893902",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "キオクシアを例にインフルエンサーの人気と投資実力の乖離を指摘",
-        "summary_en": "Pointing out the divergence between influencer popularity and investment skill, using Kioxia as an example"
-       }
       }
      ],
      "prev_mention_count": 6
     },
     "30d": {
      "mention_count": 14,
-     "post_count": 55,
+     "post_count": 58,
      "bullish_count": 1,
-     "bearish_count": 3,
-     "neutral_count": 10,
+     "bearish_count": 2,
+     "neutral_count": 11,
      "unknown_count": 0,
      "topics": [
       {
@@ -1208,11 +1192,11 @@
        "investor_count": 4
       },
       {
-       "topic": "需給",
+       "topic": "決算",
        "investor_count": 4
       },
       {
-       "topic": "決算",
+       "topic": "需給",
        "investor_count": 4
       },
       {
@@ -1228,8 +1212,8 @@
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "弱気",
-       "post_count": 22,
+       "stance": "中立",
+       "post_count": 23,
        "topics": [
         "その他",
         "バリュエーション",
@@ -1242,12 +1226,34 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-11-26T11:38:20+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125781169698713980",
+        "post_created_at": "2026-11-26T17:01:29+09:00",
+        "source_url": "https://x.com/noatake1127/status/2125862491511279943",
         "topic": "材料",
-        "stance": "弱気",
-        "summary": "SOX指数大幅安でキオクシアなど半導体関連株が下落",
-        "summary_en": "Semiconductor-related stocks such as Kioxia fell due to a sharp drop in the SOX Index."
+        "stance": "中立",
+        "summary": "キオクシアのNVIDIAとのAI連携検証開始のニュース共有。",
+        "summary_en": "Sharing news that Kioxia has begun verification of AI collaboration with NVIDIA."
+       }
+      },
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 10,
+       "topics": [
+        "その他",
+        "売買",
+        "材料",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-26T14:57:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2125831283683332354",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "キオクシアがAIメモリーでNVIDIAと実証実験開始のニュースを共有。",
+        "summary_en": "Sharing news that Kioxia has started demonstration testing with NVIDIA for AI memory."
        }
       },
       {
@@ -1306,28 +1312,6 @@
         "stance": "中立",
         "summary": "連日下落ながら話題中心・売買代金1位で注目",
         "summary_en": null
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 8,
-       "topics": [
-        "その他",
-        "売買",
-        "材料",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-16T15:24:07+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2122214108913422403",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "Grokによると退場追証が多い銘柄としてキオクシアとSBGを指摘",
-        "summary_en": "According to Grok, Kioxia and SBG were pointed out as stocks with many margin call liquidations."
        }
       },
       {
@@ -1513,7 +1497,7 @@
      "prev_mention_count": 9
     }
    },
-   "last_post_at": "2026-11-26T11:38:20+09:00"
+   "last_post_at": "2026-11-26T17:01:29+09:00"
   },
   {
    "ticker": "6072",
@@ -1731,40 +1715,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-11-25T12:38:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2125433844384035130",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "ERTH Group（6072）のIR説明会開催を告知。",
-        "summary_en": "Announced that an IR briefing for Earth Group (6072) will be held."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 3,
@@ -2028,11 +1987,11 @@
      "investor_count": 3
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 3
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 3
     },
     {
@@ -2937,39 +2896,14 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-25T18:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125519088177107166",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "今月の下落率としてキオクシアなど5銘柄を列挙。",
-        "summary_en": "Listed 5 stocks, including Kioxia, for this month's rate of decline."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     },
     "7d": {
@@ -2985,11 +2919,11 @@
        "investor_count": 1
       },
       {
-       "topic": "需給",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -3027,19 +2961,19 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "売買",
-       "investor_count": 2
-      },
-      {
        "topic": "材料",
        "investor_count": 2
       },
       {
-       "topic": "需給",
-       "investor_count": 1
+       "topic": "売買",
+       "investor_count": 2
       },
       {
        "topic": "その他",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -3123,11 +3057,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "材料",
      "investor_count": 3
     },
     {
-     "topic": "材料",
+     "topic": "売買",
      "investor_count": 3
     },
     {
@@ -3565,39 +3499,14 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-25T18:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125519088177107166",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "今月の下落率としてキオクシアなど5銘柄を列挙。",
-        "summary_en": "Listed 5 stocks, including Kioxia, for this month's rate of decline."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     },
     "7d": {
@@ -3868,40 +3777,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-25T18:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125519088177107166",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "今月の下落率としてキオクシアなど5銘柄を列挙。",
-        "summary_en": "Listed 5 stocks, including Kioxia, for this month's rate of decline."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4000,399 +3884,6 @@
     }
    },
    "last_post_at": "2026-11-25T18:16:00+09:00"
-  },
-  {
-   "ticker": "5016",
-   "company": "JX金属",
-   "company_en": "JX Advanced Metals Corporation",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 4,
-   "bullish_count": 0,
-   "bearish_count": 1,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "バリュエーション",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "stance": "弱気",
-     "post_count": 2,
-     "topics": [
-      "その他",
-      "バリュエーション"
-     ],
-     "latest_post": {
-      "handle": "tarouyuuki0322",
-      "display_name": "結喜たろう",
-      "post_created_at": "2026-11-19T22:20:00+09:00",
-      "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
-      "topic": "バリュエーション",
-      "stance": "弱気",
-      "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
-      "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
-     }
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 2,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-10-28T06:21:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2115192209788350467",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "JX金属がレアメタル再生能力を増強するニュース共有。",
-      "summary_en": "Sharing news that JX Metals will augment its rare metal recycling capacity."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "post_created_at": "2026-11-19T22:20:00+09:00",
-     "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
-     "topic": "バリュエーション",
-     "stance": "弱気",
-     "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
-     "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
-    },
-    {
-     "handle": "tarouyuuki0322",
-     "display_name": "結喜たろう",
-     "post_created_at": "2026-11-16T13:50:00+09:00",
-     "source_url": "https://x.com/tarouyuuki0322/status/2122190433640198146",
-     "topic": "その他",
-     "stance": "中立",
-     "summary": "ラジオ出演でJX金属等を分析例として取り上げ",
-     "summary_en": "JX Advanced Metals and others were taken up as analysis examples during a radio appearance."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-28T06:21:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2115192209788350467",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "JX金属がレアメタル再生能力を増強するニュース共有。",
-     "summary_en": "Sharing news that JX Metals will augment its rare metal recycling capacity."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-10-26T07:14:42+09:00",
-     "source_url": "https://x.com/noatake1127/status/2114480799236215206",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "JX金属のチタン銅増産ニュース共有。",
-     "summary_en": "Sharing news about JX Advanced Metals increasing titanium copper production."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "tarouyuuki0322",
-       "display_name": "結喜たろう",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "tarouyuuki0322",
-        "display_name": "結喜たろう",
-        "post_created_at": "2026-11-19T22:20:00+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
-        "topic": "バリュエーション",
-        "stance": "弱気",
-        "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
-        "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 2,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 1,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      },
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "tarouyuuki0322",
-       "display_name": "結喜たろう",
-       "stance": "弱気",
-       "post_count": 2,
-       "topics": [
-        "その他",
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "tarouyuuki0322",
-        "display_name": "結喜たろう",
-        "post_created_at": "2026-11-19T22:20:00+09:00",
-        "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
-        "topic": "バリュエーション",
-        "stance": "弱気",
-        "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
-        "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-28T06:21:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115192209788350467",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "JX金属がレアメタル再生能力を増強するニュース共有。",
-        "summary_en": "Sharing news that JX Metals will augment its rare metal recycling capacity."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    }
-   },
-   "last_post_at": "2026-11-19T22:20:00+09:00"
-  },
-  {
-   "ticker": "7120",
-   "company": "株式会社ＳＨＩＮＫＯ",
-   "company_en": "SHINKO Co.,Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 2,
-   "post_count": 2,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    },
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-11-19T13:42:00+09:00",
-      "source_url": "https://x.com/19830128to/status/2123275685611622409",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
-      "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
-     }
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "noatake1127",
-      "display_name": "たけぞう",
-      "post_created_at": "2026-09-26T07:55:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2103619306072523263",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "尾道で開催するSHINKOの会社説明会と自身の講演を知告した。投資判断の記載はない。",
-      "summary_en": "The poster gave notice of SHINKO's company briefing to be held in Onomichi and their own lecture, with no investment judgment stated."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-11-19T13:42:00+09:00",
-     "source_url": "https://x.com/19830128to/status/2123275685611622409",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
-     "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
-    },
-    {
-     "handle": "noatake1127",
-     "display_name": "たけぞう",
-     "post_created_at": "2026-09-26T07:55:00+09:00",
-     "source_url": "https://x.com/noatake1127/status/2103619306072523263",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "尾道で開催するSHINKOの会社説明会と自身の講演を知告した。投資判断の記載はない。",
-     "summary_en": "The poster gave notice of SHINKO's company briefing to be held in Onomichi and their own lecture, with no investment judgment stated."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-19T13:42:00+09:00",
-        "source_url": "https://x.com/19830128to/status/2123275685611622409",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
-        "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-19T13:42:00+09:00",
-        "source_url": "https://x.com/19830128to/status/2123275685611622409",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
-        "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-19T13:42:00+09:00"
   },
   {
    "ticker": "7134",
@@ -6012,40 +5503,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-25T14:37:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125463976482119947",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "消費税減税後の価格政策に関する報道",
-        "summary_en": "Report regarding pricing policy following a consumption tax cut."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -6398,16 +5864,12 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
       {
        "topic": "その他",
        "investor_count": 1
@@ -6418,10 +5880,9 @@
        "handle": "jammy_bot",
        "display_name": "JAMMY",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "その他",
-        "売買"
+        "その他"
        ],
        "latest_post": {
         "handle": "jammy_bot",
@@ -6850,7 +6311,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-11-25T10:54:00+09:00"
@@ -6868,15 +6329,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "業績",
-     "investor_count": 1
-    },
-    {
-     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -7012,15 +6473,15 @@
      "unknown_count": 0,
      "topics": [
       {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
        "topic": "売買",
        "investor_count": 1
       },
       {
        "topic": "業績",
-       "investor_count": 1
-      },
-      {
-       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -7051,143 +6512,6 @@
     }
    },
    "last_post_at": "2026-11-20T11:50:00+09:00"
-  },
-  {
-   "ticker": "4260",
-   "company": "ハイブリッドテクノロジーズ",
-   "company_en": "Hybrid Technologies Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "材料",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "材料"
-     ],
-     "latest_post": {
-      "handle": "kenmokenmo",
-      "display_name": "kenmo@湘南投資勉強会",
-      "post_created_at": "2026-11-19T16:13:00+09:00",
-      "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
-      "topic": "材料",
-      "stance": "中立",
-      "summary": "IR説明会開催の告知",
-      "summary_en": "Notice of an IR briefing session being held."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kenmokenmo",
-     "display_name": "kenmo@湘南投資勉強会",
-     "post_created_at": "2026-11-19T16:13:00+09:00",
-     "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "IR説明会開催の告知",
-     "summary_en": "Notice of an IR briefing session being held."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-11-19T16:13:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "IR説明会開催の告知",
-        "summary_en": "Notice of an IR briefing session being held."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-11-19T16:13:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "IR説明会開催の告知",
-        "summary_en": "Notice of an IR briefing session being held."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-19T16:13:00+09:00"
   },
   {
    "ticker": "4528",
@@ -7677,40 +7001,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-25T18:16:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2125519088177107166",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "今月の下落率としてキオクシアなど5銘柄を列挙。",
-        "summary_en": "Listed 5 stocks, including Kioxia, for this month's rate of decline."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -7786,447 +7085,6 @@
     }
    },
    "last_post_at": "2026-11-25T18:16:00+09:00"
-  },
-  {
-   "ticker": "5711",
-   "company": "三菱マテリアル",
-   "company_en": "Mitsubishi Materials Corporation",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "nagoya_tyouki",
-      "display_name": "名古屋の長期投資家（なごちょう）",
-      "post_created_at": "2026-11-19T16:52:00+09:00",
-      "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "非鉄金属保有状況と新規購入",
-      "summary_en": "Non-ferrous metal holding status and new purchases."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "post_created_at": "2026-11-19T16:52:00+09:00",
-     "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "非鉄金属保有状況と新規購入",
-     "summary_en": "Non-ferrous metal holding status and new purchases."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-11-19T16:52:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "非鉄金属保有状況と新規購入",
-        "summary_en": "Non-ferrous metal holding status and new purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-11-19T16:52:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "非鉄金属保有状況と新規購入",
-        "summary_en": "Non-ferrous metal holding status and new purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-19T16:52:00+09:00"
-  },
-  {
-   "ticker": "5713",
-   "company": "住友金属鉱山",
-   "company_en": "Sumitomo Metal Mining Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 3,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "売買",
-     "investor_count": 1
-    },
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "stance": "中立",
-     "post_count": 3,
-     "topics": [
-      "売買",
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "nagoya_tyouki",
-      "display_name": "名古屋の長期投資家（なごちょう）",
-      "post_created_at": "2026-11-19T16:52:00+09:00",
-      "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "非鉄金属保有状況と新規購入",
-      "summary_en": "Non-ferrous metal holding status and new purchases."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "post_created_at": "2026-11-19T16:52:00+09:00",
-     "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "非鉄金属保有状況と新規購入",
-     "summary_en": "Non-ferrous metal holding status and new purchases."
-    },
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "post_created_at": "2026-11-19T12:26:00+09:00",
-     "source_url": "https://x.com/Nagoya_Tyouki/status/2123256616808296671",
-     "topic": "売買",
-     "stance": "弱気",
-     "summary": "住友金属鉱山の保有状況と利確の後悔を述べ、含み益は少ないと説明",
-     "summary_en": "Describing their holdings of Sumitomo Metal Mining and expressing regret over taking profits, explaining that unrealized gains are small."
-    },
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "post_created_at": "2026-11-19T12:08:00+09:00",
-     "source_url": "https://x.com/Nagoya_Tyouki/status/2123252091548504461",
-     "topic": "売買",
-     "stance": "弱気",
-     "summary": "住友金属鉱山で損失を被っているとの投稿。",
-     "summary_en": "A post stating that they are suffering a loss on Sumitomo Metal Mining."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-11-19T16:52:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "非鉄金属保有状況と新規購入",
-        "summary_en": "Non-ferrous metal holding status and new purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 1
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 3,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 3,
-       "topics": [
-        "売買",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-11-19T16:52:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "非鉄金属保有状況と新規購入",
-        "summary_en": "Non-ferrous metal holding status and new purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-19T16:52:00+09:00"
-  },
-  {
-   "ticker": "5816",
-   "company": "オーナンバ",
-   "company_en": "Onamba Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 1,
-   "unknown_count": 0,
-   "topics": [
-    {
-     "topic": "需給",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "stance": "中立",
-     "post_count": 1,
-     "topics": [
-      "需給"
-     ],
-     "latest_post": {
-      "handle": "nagoya_tyouki",
-      "display_name": "名古屋の長期投資家（なごちょう）",
-      "post_created_at": "2026-11-19T16:52:00+09:00",
-      "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-      "topic": "需給",
-      "stance": "中立",
-      "summary": "非鉄金属保有状況と新規購入",
-      "summary_en": "Non-ferrous metal holding status and new purchases."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "nagoya_tyouki",
-     "display_name": "名古屋の長期投資家（なごちょう）",
-     "post_created_at": "2026-11-19T16:52:00+09:00",
-     "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-     "topic": "需給",
-     "stance": "中立",
-     "summary": "非鉄金属保有状況と新規購入",
-     "summary_en": "Non-ferrous metal holding status and new purchases."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-11-19T16:52:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "非鉄金属保有状況と新規購入",
-        "summary_en": "Non-ferrous metal holding status and new purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "需給",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "nagoya_tyouki",
-       "display_name": "名古屋の長期投資家（なごちょう）",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "nagoya_tyouki",
-        "display_name": "名古屋の長期投資家（なごちょう）",
-        "post_created_at": "2026-11-19T16:52:00+09:00",
-        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "非鉄金属保有状況と新規購入",
-        "summary_en": "Non-ferrous metal holding status and new purchases."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-19T16:52:00+09:00"
   },
   {
    "ticker": "6238",
@@ -8378,15 +7236,15 @@
    "unknown_count": 0,
    "topics": [
     {
+     "topic": "需給",
+     "investor_count": 1
+    },
+    {
      "topic": "売買",
      "investor_count": 1
     },
     {
      "topic": "業績",
-     "investor_count": 1
-    },
-    {
-     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -8842,6 +7700,330 @@
    "last_post_at": "2026-11-20T11:12:26+09:00"
   },
   {
+   "ticker": "7057",
+   "company": "エヌ・シー・エヌ",
+   "company_en": "N.C.N. Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenichishimada2",
+      "display_name": "Ken/1UP投資",
+      "post_created_at": "2026-11-26T13:11:46+09:00",
+      "source_url": "https://x.com/KenichiShimada2/status/2125804680479703451",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "IRセミナー登壇企業として言及",
+      "summary_en": "Mentioned as a participating company in an IR seminar."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenichishimada2",
+     "display_name": "Ken/1UP投資",
+     "post_created_at": "2026-11-26T13:11:46+09:00",
+     "source_url": "https://x.com/KenichiShimada2/status/2125804680479703451",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "IRセミナー登壇企業として言及",
+     "summary_en": "Mentioned as a participating company in an IR seminar."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-11-26T13:11:46+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2125804680479703451",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "IRセミナー登壇企業として言及",
+        "summary_en": "Mentioned as a participating company in an IR seminar."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-11-26T13:11:46+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2125804680479703451",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "IRセミナー登壇企業として言及",
+        "summary_en": "Mentioned as a participating company in an IR seminar."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenichishimada2",
+       "display_name": "Ken/1UP投資",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenichishimada2",
+        "display_name": "Ken/1UP投資",
+        "post_created_at": "2026-11-26T13:11:46+09:00",
+        "source_url": "https://x.com/KenichiShimada2/status/2125804680479703451",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "IRセミナー登壇企業として言及",
+        "summary_en": "Mentioned as a participating company in an IR seminar."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-26T13:11:46+09:00"
+  },
+  {
+   "ticker": "7094",
+   "company": "ＮｅｘＴｏｎｅ",
+   "company_en": "NexTone Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-26T12:47:24+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2125798550919651514",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "会社説明会への出演告知RT",
+      "summary_en": "Retweet of an appearance announcement for a company information session."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-26T12:47:24+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2125798550919651514",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "会社説明会への出演告知RT",
+     "summary_en": "Retweet of an appearance announcement for a company information session."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-26T12:47:24+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2125798550919651514",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "会社説明会への出演告知RT",
+        "summary_en": "Retweet of an appearance announcement for a company information session."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-26T12:47:24+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2125798550919651514",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "会社説明会への出演告知RT",
+        "summary_en": "Retweet of an appearance announcement for a company information session."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-26T12:47:24+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2125798550919651514",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "会社説明会への出演告知RT",
+        "summary_en": "Retweet of an appearance announcement for a company information session."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-26T12:47:24+09:00"
+  },
+  {
    "ticker": "7130",
    "company": "ヤマエグループホールディングス",
    "company_en": "YAMAE GROUP HOLDINGS CO., LTD.",
@@ -9175,7 +8357,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -9304,40 +8486,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-25T15:21:45+09:00",
-        "source_url": "https://x.com/19830128to/status/2125475004762734874",
-        "topic": "その他",
-        "stance": "中立",
-        "summary": "ジェイリース(7187)に関するブログ記事を共有",
-        "summary_en": "Shared a blog post regarding J-Lease (7187)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -9413,6 +8570,168 @@
     }
    },
    "last_post_at": "2026-11-25T15:21:45+09:00"
+  },
+  {
+   "ticker": "7191",
+   "company": "株式会社イントラスト",
+   "company_en": "Entrust Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-11-26T15:37:00+09:00",
+      "source_url": "https://x.com/19830128to/status/2125841338625409050",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "7191イントラストに関する2026年ブログ記事の共有。",
+      "summary_en": "Sharing a 2026 blog post about 7191 Entrust."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-11-26T15:37:00+09:00",
+     "source_url": "https://x.com/19830128to/status/2125841338625409050",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "7191イントラストに関する2026年ブログ記事の共有。",
+     "summary_en": "Sharing a 2026 blog post about 7191 Entrust."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-11-26T15:37:00+09:00",
+        "source_url": "https://x.com/19830128to/status/2125841338625409050",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "7191イントラストに関する2026年ブログ記事の共有。",
+        "summary_en": "Sharing a 2026 blog post about 7191 Entrust."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-11-26T15:37:00+09:00",
+        "source_url": "https://x.com/19830128to/status/2125841338625409050",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "7191イントラストに関する2026年ブログ記事の共有。",
+        "summary_en": "Sharing a 2026 blog post about 7191 Entrust."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-11-26T15:37:00+09:00",
+        "source_url": "https://x.com/19830128to/status/2125841338625409050",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "7191イントラストに関する2026年ブログ記事の共有。",
+        "summary_en": "Sharing a 2026 blog post about 7191 Entrust."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-26T15:37:00+09:00"
   },
   {
    "ticker": "7199",
@@ -9528,16 +8847,12 @@
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 2,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "売買",
-       "investor_count": 1
-      },
       {
        "topic": "その他",
        "investor_count": 1
@@ -9548,10 +8863,9 @@
        "handle": "jammy_bot",
        "display_name": "JAMMY",
        "stance": "中立",
-       "post_count": 2,
+       "post_count": 1,
        "topics": [
-        "その他",
-        "売買"
+        "その他"
        ],
        "latest_post": {
         "handle": "jammy_bot",
@@ -9629,15 +8943,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
-     "investor_count": 1
-    },
-    {
      "topic": "材料",
      "investor_count": 1
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -9799,143 +9113,6 @@
    "last_post_at": "2026-11-25T09:23:00+09:00"
   },
   {
-   "ticker": "8031",
-   "company": "三井物産",
-   "company_en": "Mitsui & Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "その他",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "その他"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEないよ",
-      "post_created_at": "2026-11-19T13:58:00+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
-      "topic": "その他",
-      "stance": "判定不能",
-      "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
-      "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "post_created_at": "2026-11-19T13:58:00+09:00",
-     "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
-     "topic": "その他",
-     "stance": "判定不能",
-     "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
-     "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-19T13:58:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
-        "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-19T13:58:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
-        "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-19T13:58:00+09:00"
-  },
-  {
    "ticker": "9211",
    "company": "株式会社エフ・コード",
    "company_en": "f-code Inc.",
@@ -10010,7 +9187,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -10091,6 +9268,168 @@
     }
    },
    "last_post_at": "2026-11-24T18:28:51+09:00"
+  },
+  {
+   "ticker": "9212",
+   "company": "Green Earth Institute",
+   "company_en": "Green Earth Institute Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-26T14:42:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2125827500769218593",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "Green Earth Institute (9212) がイベントに登壇決定の告知。",
+      "summary_en": "Announcement that Green Earth Institute (9212) has been confirmed to speak at an event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-26T14:42:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2125827500769218593",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "Green Earth Institute (9212) がイベントに登壇決定の告知。",
+     "summary_en": "Announcement that Green Earth Institute (9212) has been confirmed to speak at an event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-26T14:42:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2125827500769218593",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "Green Earth Institute (9212) がイベントに登壇決定の告知。",
+        "summary_en": "Announcement that Green Earth Institute (9212) has been confirmed to speak at an event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-26T14:42:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2125827500769218593",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "Green Earth Institute (9212) がイベントに登壇決定の告知。",
+        "summary_en": "Announcement that Green Earth Institute (9212) has been confirmed to speak at an event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-26T14:42:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2125827500769218593",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "Green Earth Institute (9212) がイベントに登壇決定の告知。",
+        "summary_en": "Announcement that Green Earth Institute (9212) has been confirmed to speak at an event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-26T14:42:00+09:00"
   },
   {
    "ticker": "9404",
@@ -11118,16 +10457,16 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 7,
-     "post_count": 14,
+     "mention_count": 4,
+     "post_count": 7,
      "bullish_count": 0,
-     "bearish_count": 3,
-     "neutral_count": 4,
-     "unknown_count": 0,
+     "bearish_count": 2,
+     "neutral_count": 1,
+     "unknown_count": 1,
      "topics": [
       {
        "topic": "材料",
-       "investor_count": 6
+       "investor_count": 3
       },
       {
        "topic": "その他",
@@ -11162,7 +10501,7 @@
        "handle": "daiboucho",
        "display_name": "DAIBOUCHOU（LINE誘導は投資詐欺）",
        "stance": "弱気",
-       "post_count": 4,
+       "post_count": 3,
        "topics": [
         "その他",
         "材料"
@@ -11201,8 +10540,8 @@
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 3,
+       "stance": "判定不能",
+       "post_count": 1,
        "topics": [
         "材料"
        ],
@@ -11216,66 +10555,9 @@
         "summary": "GMOの急成長とセキュリティ問題に関するニュース共有。",
         "summary_en": "Sharing news regarding GMO's rapid growth and security issues."
        }
-      },
-      {
-       "handle": "hiro_tyun",
-       "display_name": "hiro_tyun",
-       "stance": "弱気",
-       "post_count": 2,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "hiro_tyun",
-        "display_name": "hiro_tyun",
-        "post_created_at": "2026-10-27T14:21:53+09:00",
-        "source_url": "https://x.com/hiro_tyun/status/2114950690800066632",
-        "topic": "材料",
-        "stance": "弱気",
-        "summary": "GMO個人情報漏洩サイトを興味本位で見ないよう警告する引用投稿。",
-        "summary_en": "A quote post warning not to look at the GMO personal information leak site out of curiosity."
-       }
-      },
-      {
-       "handle": "cadillac600",
-       "display_name": "むらやん/村上直樹",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "cadillac600",
-        "display_name": "むらやん/村上直樹",
-        "post_created_at": "2026-10-27T12:40:50+09:00",
-        "source_url": "https://x.com/cadillac600/status/2114925261527659003",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "セキュリティ問題と対応についてコメント",
-        "summary_en": "Commented on security issues and the response."
-       }
-      },
-      {
-       "handle": "torideminami",
-       "display_name": "とりでみなみ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "torideminami",
-        "display_name": "とりでみなみ",
-        "post_created_at": "2026-10-27T12:32:54+09:00",
-        "source_url": "https://x.com/torideminami/status/2114923266121028046",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "ハッキング事件について元社員説を指摘",
-        "summary_en": "Pointed out a former employee theory regarding the hacking incident."
-       }
       }
      ],
-     "prev_mention_count": 4
+     "prev_mention_count": 6
     }
    },
    "last_post_at": "2026-11-03T11:45:59+09:00"
@@ -11554,11 +10836,11 @@
      "investor_count": 3
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -12024,7 +11306,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -12448,17 +11730,13 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 2,
-     "post_count": 2,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 2,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
       {
        "topic": "業績",
        "investor_count": 1
@@ -12482,25 +11760,6 @@
         "stance": "中立",
         "summary": "ソニーはITバブル時と異なり、売上・利益構成が変わりディフェンシブ株化したとコメント。",
         "summary_en": "Commented that, unlike during the IT bubble, Sony's revenue and profit composition has changed, turning it into a defensive stock."
-       }
-      },
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-27T18:08:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115007650064937141",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "ソニー傘下のSo-net等で不正アクセスにより会員情報約258万件流出と発表を共有。",
-        "summary_en": "Shared an announcement that approximately 2,580,000 cases of member information were leaked due to unauthorized access at Sony's So-net and others."
        }
       }
      ],
@@ -12700,15 +11959,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 2
-    },
-    {
      "topic": "材料",
      "investor_count": 2
     },
     {
-     "topic": "その他",
+     "topic": "需給",
+     "investor_count": 2
+    },
+    {
+     "topic": "売買",
      "investor_count": 1
     },
     {
@@ -12716,7 +11975,7 @@
      "investor_count": 1
     },
     {
-     "topic": "売買",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -13622,11 +12881,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -15723,6 +14982,204 @@
    "last_post_at": "2026-10-30T17:56:01+09:00"
   },
   {
+   "ticker": "5016",
+   "company": "JX金属",
+   "company_en": "JX Advanced Metals Corporation",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 4,
+   "bullish_count": 0,
+   "bearish_count": 1,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "バリュエーション",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "stance": "弱気",
+     "post_count": 2,
+     "topics": [
+      "その他",
+      "バリュエーション"
+     ],
+     "latest_post": {
+      "handle": "tarouyuuki0322",
+      "display_name": "結喜たろう",
+      "post_created_at": "2026-11-19T22:20:00+09:00",
+      "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+      "topic": "バリュエーション",
+      "stance": "弱気",
+      "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+      "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 2,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-10-28T06:21:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2115192209788350467",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "JX金属がレアメタル再生能力を増強するニュース共有。",
+      "summary_en": "Sharing news that JX Metals will augment its rare metal recycling capacity."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "post_created_at": "2026-11-19T22:20:00+09:00",
+     "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+     "topic": "バリュエーション",
+     "stance": "弱気",
+     "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+     "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
+    },
+    {
+     "handle": "tarouyuuki0322",
+     "display_name": "結喜たろう",
+     "post_created_at": "2026-11-16T13:50:00+09:00",
+     "source_url": "https://x.com/tarouyuuki0322/status/2122190433640198146",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ラジオ出演でJX金属等を分析例として取り上げ",
+     "summary_en": "JX Advanced Metals and others were taken up as analysis examples during a radio appearance."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-28T06:21:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2115192209788350467",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "JX金属がレアメタル再生能力を増強するニュース共有。",
+     "summary_en": "Sharing news that JX Metals will augment its rare metal recycling capacity."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-10-26T07:14:42+09:00",
+     "source_url": "https://x.com/noatake1127/status/2114480799236215206",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "JX金属のチタン銅増産ニュース共有。",
+     "summary_en": "Sharing news about JX Advanced Metals increasing titanium copper production."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 2,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 1,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      },
+      {
+       "topic": "バリュエーション",
+       "investor_count": 1
+      },
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "tarouyuuki0322",
+       "display_name": "結喜たろう",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "その他",
+        "バリュエーション"
+       ],
+       "latest_post": {
+        "handle": "tarouyuuki0322",
+        "display_name": "結喜たろう",
+        "post_created_at": "2026-11-19T22:20:00+09:00",
+        "source_url": "https://x.com/tarouyuuki0322/status/2123406132916130204",
+        "topic": "バリュエーション",
+        "stance": "弱気",
+        "summary": "JX金属が昨年末水準まで下落、材料の織り込み直しを分析",
+        "summary_en": "JX Metals fell to the level of the end of last year, analyzing the repricing of catalysts"
+       }
+      },
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-10-28T06:21:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2115192209788350467",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "JX金属がレアメタル再生能力を増強するニュース共有。",
+        "summary_en": "Sharing news that JX Metals will augment its rare metal recycling capacity."
+       }
+      }
+     ],
+     "prev_mention_count": 1
+    }
+   },
+   "last_post_at": "2026-11-19T22:20:00+09:00"
+  },
+  {
    "ticker": "581A",
    "company": "GO",
    "company_en": "GO Inc.",
@@ -16198,15 +15655,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "材料",
      "investor_count": 1
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     },
     {
@@ -16771,6 +16228,151 @@
     }
    },
    "last_post_at": "2026-10-26T08:55:16+09:00"
+  },
+  {
+   "ticker": "7120",
+   "company": "株式会社ＳＨＩＮＫＯ",
+   "company_en": "SHINKO Co.,Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 2,
+   "post_count": 2,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    },
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-11-19T13:42:00+09:00",
+      "source_url": "https://x.com/19830128to/status/2123275685611622409",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
+      "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
+     }
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-09-26T07:55:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2103619306072523263",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "尾道で開催するSHINKOの会社説明会と自身の講演を知告した。投資判断の記載はない。",
+      "summary_en": "The poster gave notice of SHINKO's company briefing to be held in Onomichi and their own lecture, with no investment judgment stated."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-11-19T13:42:00+09:00",
+     "source_url": "https://x.com/19830128to/status/2123275685611622409",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
+     "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-09-26T07:55:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2103619306072523263",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "尾道で開催するSHINKOの会社説明会と自身の講演を知告した。投資判断の記載はない。",
+     "summary_en": "The poster gave notice of SHINKO's company briefing to be held in Onomichi and their own lecture, with no investment judgment stated."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-11-19T13:42:00+09:00",
+        "source_url": "https://x.com/19830128to/status/2123275685611622409",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "7120 SHINKOの2026年関連ブログ記事を共有。",
+        "summary_en": "Sharing a 2026-related blog post on 7120 SHINKO."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T13:42:00+09:00"
   },
   {
    "ticker": "7133",
@@ -19919,11 +19521,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -20003,11 +19605,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "需給",
+       "topic": "材料",
        "investor_count": 1
       },
       {
-       "topic": "材料",
+       "topic": "需給",
        "investor_count": 1
       }
      ],
@@ -21081,11 +20683,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -24536,11 +24138,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -26110,7 +25712,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-27T13:58:05+09:00"
@@ -28646,6 +28248,118 @@
    "last_post_at": "2026-10-30T11:08:46+09:00"
   },
   {
+   "ticker": "4260",
+   "company": "ハイブリッドテクノロジーズ",
+   "company_en": "Hybrid Technologies Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "材料",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "材料"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-19T16:13:00+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
+      "topic": "材料",
+      "stance": "中立",
+      "summary": "IR説明会開催の告知",
+      "summary_en": "Notice of an IR briefing session being held."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-19T16:13:00+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
+     "topic": "材料",
+     "stance": "中立",
+     "summary": "IR説明会開催の告知",
+     "summary_en": "Notice of an IR briefing session being held."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "材料",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "材料"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-19T16:13:00+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2123313680976887918",
+        "topic": "材料",
+        "stance": "中立",
+        "summary": "IR説明会開催の告知",
+        "summary_en": "Notice of an IR briefing session being held."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T16:13:00+09:00"
+  },
+  {
    "ticker": "4331",
    "company": "テイクアンドギヴ・ニーズ",
    "company_en": "TAKE AND GIVE. NEEDS Co., Ltd.",
@@ -28806,40 +28520,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
      "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEやっていません",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "その他"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEやっていません",
-        "post_created_at": "2026-10-27T15:02:03+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2114960801312497860",
-        "topic": "その他",
-        "stance": "判定不能",
-        "summary": "メディシス（4350）について言及。",
-        "summary_en": "Mentioned Medsys (4350)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-27T15:02:03+09:00"
@@ -32063,11 +31752,11 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -32792,40 +32481,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-10-27T17:38:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2115000228344705086",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "フルキャストの優待券が届いたことを報告。個人的な一日の様子も含む。",
-        "summary_en": "Reported that Fullcast's shareholder benefit coupons have arrived, including personal details about the day."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-27T17:38:00+09:00"
@@ -35491,6 +35155,260 @@
    "last_post_at": "2026-10-28T15:14:54+09:00"
   },
   {
+   "ticker": "5711",
+   "company": "三菱マテリアル",
+   "company_en": "Mitsubishi Materials Corporation",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "nagoya_tyouki",
+      "display_name": "名古屋の長期投資家（なごちょう）",
+      "post_created_at": "2026-11-19T16:52:00+09:00",
+      "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "非鉄金属保有状況と新規購入",
+      "summary_en": "Non-ferrous metal holding status and new purchases."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "post_created_at": "2026-11-19T16:52:00+09:00",
+     "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "非鉄金属保有状況と新規購入",
+     "summary_en": "Non-ferrous metal holding status and new purchases."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "nagoya_tyouki",
+       "display_name": "名古屋の長期投資家（なごちょう）",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "nagoya_tyouki",
+        "display_name": "名古屋の長期投資家（なごちょう）",
+        "post_created_at": "2026-11-19T16:52:00+09:00",
+        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "非鉄金属保有状況と新規購入",
+        "summary_en": "Non-ferrous metal holding status and new purchases."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T16:52:00+09:00"
+  },
+  {
+   "ticker": "5713",
+   "company": "住友金属鉱山",
+   "company_en": "Sumitomo Metal Mining Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "stance": "中立",
+     "post_count": 3,
+     "topics": [
+      "売買",
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "nagoya_tyouki",
+      "display_name": "名古屋の長期投資家（なごちょう）",
+      "post_created_at": "2026-11-19T16:52:00+09:00",
+      "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "非鉄金属保有状況と新規購入",
+      "summary_en": "Non-ferrous metal holding status and new purchases."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "post_created_at": "2026-11-19T16:52:00+09:00",
+     "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "非鉄金属保有状況と新規購入",
+     "summary_en": "Non-ferrous metal holding status and new purchases."
+    },
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "post_created_at": "2026-11-19T12:26:00+09:00",
+     "source_url": "https://x.com/Nagoya_Tyouki/status/2123256616808296671",
+     "topic": "売買",
+     "stance": "弱気",
+     "summary": "住友金属鉱山の保有状況と利確の後悔を述べ、含み益は少ないと説明",
+     "summary_en": "Describing their holdings of Sumitomo Metal Mining and expressing regret over taking profits, explaining that unrealized gains are small."
+    },
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "post_created_at": "2026-11-19T12:08:00+09:00",
+     "source_url": "https://x.com/Nagoya_Tyouki/status/2123252091548504461",
+     "topic": "売買",
+     "stance": "弱気",
+     "summary": "住友金属鉱山で損失を被っているとの投稿。",
+     "summary_en": "A post stating that they are suffering a loss on Sumitomo Metal Mining."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      },
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "nagoya_tyouki",
+       "display_name": "名古屋の長期投資家（なごちょう）",
+       "stance": "中立",
+       "post_count": 3,
+       "topics": [
+        "売買",
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "nagoya_tyouki",
+        "display_name": "名古屋の長期投資家（なごちょう）",
+        "post_created_at": "2026-11-19T16:52:00+09:00",
+        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "非鉄金属保有状況と新規購入",
+        "summary_en": "Non-ferrous metal holding status and new purchases."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T16:52:00+09:00"
+  },
+  {
    "ticker": "5727",
    "company": "東邦チタニウム",
    "company_en": "Toho Titanium Co., Ltd.",
@@ -35663,6 +35581,118 @@
     }
    },
    "last_post_at": "2026-09-25T11:08:35+09:00"
+  },
+  {
+   "ticker": "5816",
+   "company": "オーナンバ",
+   "company_en": "Onamba Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "需給",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "需給"
+     ],
+     "latest_post": {
+      "handle": "nagoya_tyouki",
+      "display_name": "名古屋の長期投資家（なごちょう）",
+      "post_created_at": "2026-11-19T16:52:00+09:00",
+      "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+      "topic": "需給",
+      "stance": "中立",
+      "summary": "非鉄金属保有状況と新規購入",
+      "summary_en": "Non-ferrous metal holding status and new purchases."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "nagoya_tyouki",
+     "display_name": "名古屋の長期投資家（なごちょう）",
+     "post_created_at": "2026-11-19T16:52:00+09:00",
+     "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+     "topic": "需給",
+     "stance": "中立",
+     "summary": "非鉄金属保有状況と新規購入",
+     "summary_en": "Non-ferrous metal holding status and new purchases."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "需給",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "nagoya_tyouki",
+       "display_name": "名古屋の長期投資家（なごちょう）",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "需給"
+       ],
+       "latest_post": {
+        "handle": "nagoya_tyouki",
+        "display_name": "名古屋の長期投資家（なごちょう）",
+        "post_created_at": "2026-11-19T16:52:00+09:00",
+        "source_url": "https://x.com/Nagoya_Tyouki/status/2123323442728669346",
+        "topic": "需給",
+        "stance": "中立",
+        "summary": "非鉄金属保有状況と新規購入",
+        "summary_en": "Non-ferrous metal holding status and new purchases."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T16:52:00+09:00"
   },
   {
    "ticker": "5868",
@@ -35971,11 +36001,11 @@
      "investor_count": 1
     },
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -36192,11 +36222,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -38262,11 +38292,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -38762,11 +38792,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -41907,11 +41937,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -43201,11 +43231,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -43761,11 +43791,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "売買",
+     "topic": "優待",
      "investor_count": 1
     },
     {
-     "topic": "優待",
+     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -45085,15 +45115,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "業績",
-     "investor_count": 1
-    },
-    {
      "topic": "材料",
      "investor_count": 1
     },
     {
      "topic": "その他",
+     "investor_count": 1
+    },
+    {
+     "topic": "業績",
      "investor_count": 1
     }
    ],
@@ -46213,6 +46243,118 @@
     }
    },
    "last_post_at": "2026-10-28T09:26:41+09:00"
+  },
+  {
+   "ticker": "8031",
+   "company": "三井物産",
+   "company_en": "Mitsui & Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-19T13:58:00+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
+      "topic": "その他",
+      "stance": "判定不能",
+      "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
+      "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-19T13:58:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
+     "topic": "その他",
+     "stance": "判定不能",
+     "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
+     "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-19T13:58:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2123279803222749523",
+        "topic": "その他",
+        "stance": "判定不能",
+        "summary": "三井物産の個人向け社債について検討中。目論見書を読んで決めるとのこと。",
+        "summary_en": "Considering retail bonds of Mitsui & Co.; will decide after reading the prospectus."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-19T13:58:00+09:00"
   },
   {
    "ticker": "8053",
@@ -49906,11 +50048,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -50948,14 +51090,14 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 371,
+   "post_count": 372,
    "ticker_count": 171
   },
   {
    "handle": "kabu_st0ck",
    "display_name": "ちょる子🐣LINEないよ",
-   "post_count": 126,
-   "ticker_count": 48
+   "post_count": 129,
+   "ticker_count": 49
   },
   {
    "handle": "jammy_bot",
@@ -50972,8 +51114,8 @@
   {
    "handle": "kenmokenmo",
    "display_name": "kenmo@湘南投資勉強会",
-   "post_count": 60,
-   "ticker_count": 32
+   "post_count": 61,
+   "ticker_count": 33
   },
   {
    "handle": "abc87791035",
@@ -50990,8 +51132,8 @@
   {
    "handle": "19830128to",
    "display_name": "某哲也",
-   "post_count": 45,
-   "ticker_count": 45
+   "post_count": 46,
+   "ticker_count": 46
   },
   {
    "handle": "daiboucho",
@@ -51014,8 +51156,8 @@
   {
    "handle": "kenichishimada2",
    "display_name": "Ken/1UP投資",
-   "post_count": 12,
-   "ticker_count": 9
+   "post_count": 13,
+   "ticker_count": 10
   },
   {
    "handle": "tarouyuuki0322",
@@ -51062,7 +51204,7 @@
     "company_en": "Japan Tobacco Inc.",
     "window": "7d",
     "mention_count": 4,
-    "prev_mention_count": 3,
+    "prev_mention_count": 5,
     "bullish_count": 1,
     "bearish_count": 2
    },
@@ -51074,7 +51216,7 @@
     "mention_count": 3,
     "prev_mention_count": 6,
     "bullish_count": 0,
-    "bearish_count": 1
+    "bearish_count": 0
    },
    {
     "ticker": "6072",
@@ -51109,16 +51251,6 @@
   ],
   "rising": [
    {
-    "ticker": "2914",
-    "company": "日本たばこ産業",
-    "company_en": "Japan Tobacco Inc.",
-    "window": "7d",
-    "mention_count": 4,
-    "prev_mention_count": 3,
-    "bullish_count": 1,
-    "bearish_count": 2
-   },
-   {
     "ticker": "6072",
     "company": "ERTH Group",
     "company_en": "Jibannet Holdings Co., Ltd.",
@@ -51127,16 +51259,6 @@
     "prev_mention_count": 1,
     "bullish_count": 0,
     "bearish_count": 0
-   },
-   {
-    "ticker": "285A",
-    "company": "キオクシアホールディングス",
-    "company_en": "Kioxia Holdings Corporation",
-    "window": "24h",
-    "mention_count": 2,
-    "prev_mention_count": 1,
-    "bullish_count": 0,
-    "bearish_count": 1
    },
    {
     "ticker": "4755",
@@ -51156,7 +51278,7 @@
     "company_en": "Japan Tobacco Inc.",
     "window": "7d",
     "mention_count": 4,
-    "prev_mention_count": 3,
+    "prev_mention_count": 5,
     "bullish_count": 1,
     "bearish_count": 2
    }
@@ -51177,24 +51299,21 @@
     ]
    },
    {
-    "topic": "需給",
-    "ticker_count": 5,
+    "topic": "その他",
+    "ticker_count": 4,
     "tickers": [
-     "285A",
-     "4062",
-     "5706",
-     "5801",
-     "5803"
+     "7057",
+     "7094",
+     "7191",
+     "9212"
     ]
    },
    {
     "topic": "材料",
-    "ticker_count": 4,
+    "ticker_count": 2,
     "tickers": [
      "285A",
-     "3395",
-     "4528",
-     "6072"
+     "4528"
     ]
    },
    {
@@ -51205,32 +51324,45 @@
     ]
    },
    {
-    "topic": "配当",
+    "topic": "需給",
     "ticker_count": 1,
     "tickers": [
      "285A"
-    ]
-   },
-   {
-    "topic": "その他",
-    "ticker_count": 1,
-    "tickers": [
-     "7187"
     ]
    }
   ],
   "7d": [
    {
-    "topic": "材料",
+    "topic": "その他",
     "ticker_count": 16,
     "tickers": [
+     "3496",
+     "4062",
+     "4755",
+     "6072",
+     "6238",
+     "7057",
+     "7094",
+     "7130",
+     "7134",
+     "7172",
+     "7187",
+     "7191",
+     "7199",
+     "7203",
+     "8628",
+     "9212"
+    ]
+   },
+   {
+    "topic": "材料",
+    "ticker_count": 14,
+    "tickers": [
      "285A",
-     "2914",
      "298A",
      "3395",
      "3905",
      "4062",
-     "4260",
      "4528",
      "4575",
      "4661",
@@ -51240,58 +51372,6 @@
      "9211",
      "9706",
      "9735"
-    ]
-   },
-   {
-    "topic": "その他",
-    "ticker_count": 15,
-    "tickers": [
-     "285A",
-     "3496",
-     "4062",
-     "4755",
-     "6072",
-     "6238",
-     "7120",
-     "7130",
-     "7134",
-     "7172",
-     "7187",
-     "7199",
-     "7203",
-     "8031",
-     "8628"
-    ]
-   },
-   {
-    "topic": "需給",
-    "ticker_count": 10,
-    "tickers": [
-     "285A",
-     "4062",
-     "5706",
-     "5711",
-     "5713",
-     "5801",
-     "5803",
-     "5816",
-     "7974",
-     "9984"
-    ]
-   },
-   {
-    "topic": "売買",
-    "ticker_count": 9,
-    "tickers": [
-     "138A",
-     "285A",
-     "2914",
-     "3496",
-     "3672",
-     "6324",
-     "6670",
-     "7199",
-     "9467"
     ]
    },
    {
@@ -51309,13 +51389,28 @@
     ]
    },
    {
-    "topic": "バリュエーション",
-    "ticker_count": 5,
+    "topic": "売買",
+    "ticker_count": 7,
     "tickers": [
+     "138A",
      "285A",
      "2914",
-     "5016",
+     "3672",
+     "6324",
+     "6670",
+     "9467"
+    ]
+   },
+   {
+    "topic": "需給",
+    "ticker_count": 7,
+    "tickers": [
+     "285A",
+     "4062",
+     "5706",
+     "5801",
      "5803",
+     "7974",
      "9984"
     ]
    },
@@ -51330,6 +51425,16 @@
     ]
    },
    {
+    "topic": "バリュエーション",
+    "ticker_count": 4,
+    "tickers": [
+     "285A",
+     "2914",
+     "5803",
+     "9984"
+    ]
+   },
+   {
     "topic": "配当",
     "ticker_count": 2,
     "tickers": [
@@ -51341,7 +51446,7 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 83,
+    "ticker_count": 86,
     "tickers": [
      "1429",
      "1433",
@@ -51362,7 +51467,6 @@
      "4012",
      "4062",
      "4258",
-     "4350",
      "4374",
      "4377",
      "4412",
@@ -51405,12 +51509,15 @@
      "6745",
      "6857",
      "7047",
+     "7057",
      "7068",
+     "7094",
      "7120",
      "7130",
      "7134",
      "7172",
      "7187",
+     "7191",
      "7199",
      "7203",
      "7376",
@@ -51420,6 +51527,7 @@
      "8698",
      "8987",
      "9211",
+     "9212",
      "9436",
      "9449",
      "9560",
@@ -51430,7 +51538,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 46,
+    "ticker_count": 45,
     "tickers": [
      "1419",
      "1878",
@@ -51460,7 +51568,6 @@
      "6574",
      "6623",
      "6752",
-     "6758",
      "6777",
      "6857",
      "7182",
@@ -51590,7 +51697,7 @@
    },
    {
     "topic": "優待",
-    "ticker_count": 26,
+    "ticker_count": 25,
     "tickers": [
      "220A",
      "2269",
@@ -51606,7 +51713,6 @@
      "3548",
      "3772",
      "4755",
-     "4848",
      "5343",
      "7630",
      "7743",
