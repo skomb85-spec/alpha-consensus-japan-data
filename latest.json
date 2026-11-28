@@ -1,11 +1,11 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-28T06:04:59+09:00",
+ "generated_at": "2026-11-28T16:28:05+09:00",
  "translation": {
-  "summary_en_count": 997,
-  "summary_total": 1018,
-  "company_en_count": 416,
-  "company_total": 416,
+  "summary_en_count": 1006,
+  "summary_total": 1027,
+  "company_en_count": 423,
+  "company_total": 423,
   "engine": "gemini-flash-latest",
   "machine_translated": true
  },
@@ -22,8 +22,8 @@
   "判定不能"
  ],
  "data_quality": {
-  "rows_input": 1160,
-  "rows_used": 1018,
+  "rows_input": 1169,
+  "rows_used": 1027,
   "rows_rejected": 142,
   "rejected_reasons": {
    "tickerが日本株コード形式でない/空": 142
@@ -420,72 +420,14 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 2,
-     "post_count": 5,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      },
-      {
-       "topic": "配当",
-       "investor_count": 1
-      },
-      {
-       "topic": "需給",
-       "investor_count": 1
-      },
-      {
-       "topic": "バリュエーション",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 4,
-       "topics": [
-        "材料",
-        "配当",
-        "需給"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-27T15:31:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2126202164230119604",
-        "topic": "需給",
-        "stance": "中立",
-        "summary": "キオクシアの売買代金1兆7966億とTOPIXリバランスに言及。",
-        "summary_en": "Mentioned Kioxia's trading value of ¥1,796,600,000,000 and the TOPIX rebalance."
-       }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "バリュエーション"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-11-27T11:36:00+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2126143129950834924",
-        "topic": "バリュエーション",
-        "stance": "判定不能",
-        "summary": "キオクシアの底打ち可能性と大規模自社株買いの是非を問う記事を共有。明確な強気・弱気断定はなし。",
-        "summary_en": "Shared an article questioning the possibility of Kioxia bottoming out and the pros and cons of a large-scale share buyback; no clear bullish or bearish conclusion."
-       }
-      }
-     ],
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 2
     },
     "7d": {
@@ -497,15 +439,15 @@
      "unknown_count": 1,
      "topics": [
       {
+       "topic": "売買",
+       "investor_count": 2
+      },
+      {
        "topic": "材料",
        "investor_count": 2
       },
       {
        "topic": "需給",
-       "investor_count": 2
-      },
-      {
-       "topic": "売買",
        "investor_count": 2
       },
       {
@@ -604,7 +546,7 @@
     },
     "30d": {
      "mention_count": 14,
-     "post_count": 62,
+     "post_count": 59,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 11,
@@ -644,7 +586,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 27,
+       "post_count": 24,
        "topics": [
         "その他",
         "バリュエーション",
@@ -936,7 +878,7 @@
    "company_en": "Japan Tobacco Inc.",
    "company_en_source": "machine",
    "mention_count": 8,
-   "post_count": 35,
+   "post_count": 36,
    "bullish_count": 1,
    "bearish_count": 2,
    "neutral_count": 5,
@@ -947,11 +889,11 @@
      "investor_count": 5
     },
     {
-     "topic": "業績",
+     "topic": "売買",
      "investor_count": 3
     },
     {
-     "topic": "売買",
+     "topic": "業績",
      "investor_count": 3
     },
     {
@@ -976,6 +918,30 @@
     }
    ],
    "investors": [
+    {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "stance": "弱気",
+     "post_count": 12,
+     "topics": [
+      "その他",
+      "売買",
+      "材料",
+      "業績",
+      "決算",
+      "配当"
+     ],
+     "latest_post": {
+      "handle": "kabu_st0ck",
+      "display_name": "ちょる子🐣LINEないよ",
+      "post_created_at": "2026-11-28T13:28:00+09:00",
+      "source_url": "https://x.com/kabu_st0ck/status/2126533609419132957",
+      "topic": "売買",
+      "stance": "弱気",
+      "summary": "JTで損失を被った様子。",
+      "summary_en": "It appears they suffered a loss on JT."
+     }
+    },
     {
      "handle": "abc87791035",
      "display_name": "ABCトレーダー",
@@ -1038,30 +1004,6 @@
       "stance": "中立",
       "summary": "JT（2914）の急落と減配について、買った理由の一貫性と今後の判断基準を考察。記事で詳細解説。",
       "summary_en": "Reflecting on the consistency of the reasons for buying and criteria for future judgment regarding the sharp drop and dividend cut of JT (2914), with detailed explanations in an article."
-     }
-    },
-    {
-     "handle": "kabu_st0ck",
-     "display_name": "ちょる子🐣LINEないよ",
-     "stance": "弱気",
-     "post_count": 11,
-     "topics": [
-      "その他",
-      "売買",
-      "材料",
-      "業績",
-      "決算",
-      "配当"
-     ],
-     "latest_post": {
-      "handle": "kabu_st0ck",
-      "display_name": "ちょる子🐣LINEないよ",
-      "post_created_at": "2026-11-23T10:02:34+09:00",
-      "source_url": "https://x.com/kabu_st0ck/status/2124669906503545134",
-      "topic": "売買",
-      "stance": "弱気",
-      "summary": "JTをすでに売却したと述べた。",
-      "summary_en": "Stated that they have already sold JT."
      }
     },
     {
@@ -1143,6 +1085,16 @@
    ],
    "latest_posts": [
     {
+     "handle": "kabu_st0ck",
+     "display_name": "ちょる子🐣LINEないよ",
+     "post_created_at": "2026-11-28T13:28:00+09:00",
+     "source_url": "https://x.com/kabu_st0ck/status/2126533609419132957",
+     "topic": "売買",
+     "stance": "弱気",
+     "summary": "JTで損失を被った様子。",
+     "summary_en": "It appears they suffered a loss on JT."
+    },
+    {
      "handle": "abc87791035",
      "display_name": "ABCトレーダー",
      "post_created_at": "2026-11-25T11:17:13+09:00",
@@ -1181,33 +1133,48 @@
      "stance": "弱気",
      "summary": "JTをすでに売却したと述べた。",
      "summary_en": "Stated that they have already sold JT."
-    },
-    {
-     "handle": "abc87791035",
-     "display_name": "ABCトレーダー",
-     "post_created_at": "2026-11-19T17:44:00+09:00",
-     "source_url": "https://x.com/ABC87791035/status/2123336583374135583",
-     "topic": "材料",
-     "stance": "中立",
-     "summary": "JT減損は出尽くしの可能性、経営権回復や売却でプラス材料か",
-     "summary_en": "JT impairments may have run their course, and regaining management control or a sale could be positive catalysts."
     }
    ],
    "windows": {
     "24h": {
-     "mention_count": 0,
-     "post_count": 0,
+     "mention_count": 1,
+     "post_count": 1,
      "bullish_count": 0,
-     "bearish_count": 0,
+     "bearish_count": 1,
      "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [],
-     "investors": [],
+     "topics": [
+      {
+       "topic": "売買",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "弱気",
+       "post_count": 1,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-28T13:28:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2126533609419132957",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "JTで損失を被った様子。",
+        "summary_en": "It appears they suffered a loss on JT."
+       }
+      }
+     ],
      "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 4,
-     "post_count": 4,
+     "post_count": 5,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 1,
@@ -1231,6 +1198,25 @@
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "弱気",
+       "post_count": 2,
+       "topics": [
+        "売買"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-28T13:28:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2126533609419132957",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "JTで損失を被った様子。",
+        "summary_en": "It appears they suffered a loss on JT."
+       }
+      },
       {
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
@@ -1287,32 +1273,13 @@
         "summary": "JT（2914）の急落と減配について、買った理由の一貫性と今後の判断基準を考察。記事で詳細解説。",
         "summary_en": "Reflecting on the consistency of the reasons for buying and criteria for future judgment regarding the sharp drop and dividend cut of JT (2914), with detailed explanations in an article."
        }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "弱気",
-       "post_count": 1,
-       "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-23T10:02:34+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2124669906503545134",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "JTをすでに売却したと述べた。",
-        "summary_en": "Stated that they have already sold JT."
-       }
       }
      ],
-     "prev_mention_count": 5
+     "prev_mention_count": 4
     },
     "30d": {
      "mention_count": 8,
-     "post_count": 33,
+     "post_count": 34,
      "bullish_count": 1,
      "bearish_count": 2,
      "neutral_count": 5,
@@ -1323,11 +1290,11 @@
        "investor_count": 5
       },
       {
-       "topic": "業績",
+       "topic": "売買",
        "investor_count": 3
       },
       {
-       "topic": "売買",
+       "topic": "業績",
        "investor_count": 3
       },
       {
@@ -1352,6 +1319,30 @@
       }
      ],
      "investors": [
+      {
+       "handle": "kabu_st0ck",
+       "display_name": "ちょる子🐣LINEないよ",
+       "stance": "弱気",
+       "post_count": 10,
+       "topics": [
+        "その他",
+        "売買",
+        "材料",
+        "業績",
+        "決算",
+        "配当"
+       ],
+       "latest_post": {
+        "handle": "kabu_st0ck",
+        "display_name": "ちょる子🐣LINEないよ",
+        "post_created_at": "2026-11-28T13:28:00+09:00",
+        "source_url": "https://x.com/kabu_st0ck/status/2126533609419132957",
+        "topic": "売買",
+        "stance": "弱気",
+        "summary": "JTで損失を被った様子。",
+        "summary_en": "It appears they suffered a loss on JT."
+       }
+      },
       {
        "handle": "abc87791035",
        "display_name": "ABCトレーダー",
@@ -1414,30 +1405,6 @@
         "stance": "中立",
         "summary": "JT（2914）の急落と減配について、買った理由の一貫性と今後の判断基準を考察。記事で詳細解説。",
         "summary_en": "Reflecting on the consistency of the reasons for buying and criteria for future judgment regarding the sharp drop and dividend cut of JT (2914), with detailed explanations in an article."
-       }
-      },
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "弱気",
-       "post_count": 9,
-       "topics": [
-        "その他",
-        "売買",
-        "材料",
-        "業績",
-        "決算",
-        "配当"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-23T10:02:34+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2124669906503545134",
-        "topic": "売買",
-        "stance": "弱気",
-        "summary": "JTをすでに売却したと述べた。",
-        "summary_en": "Stated that they have already sold JT."
        }
       },
       {
@@ -1520,7 +1487,7 @@
      "prev_mention_count": 1
     }
    },
-   "last_post_at": "2026-11-25T11:17:13+09:00"
+   "last_post_at": "2026-11-28T13:28:00+09:00"
   },
   {
    "ticker": "6072",
@@ -1743,40 +1710,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kabu_st0ck",
-       "display_name": "ちょる子🐣LINEないよ",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "kabu_st0ck",
-        "display_name": "ちょる子🐣LINEないよ",
-        "post_created_at": "2026-11-27T16:11:00+09:00",
-        "source_url": "https://x.com/kabu_st0ck/status/2126212409178349743",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "ERTH Group（6072）の株主優待制度新設を共有。",
-        "summary_en": "Shared the establishment of a new shareholder benefit program by EARTH Group (6072)."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 4,
@@ -1877,7 +1819,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 7,
@@ -2250,11 +2192,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       },
       {
@@ -2289,7 +2231,7 @@
     },
     "30d": {
      "mention_count": 3,
-     "post_count": 9,
+     "post_count": 8,
      "bullish_count": 0,
      "bearish_count": 1,
      "neutral_count": 2,
@@ -2317,7 +2259,7 @@
        "handle": "noatake1127",
        "display_name": "たけぞう",
        "stance": "中立",
-       "post_count": 6,
+       "post_count": 5,
        "topics": [
         "その他",
         "売買",
@@ -2374,7 +2316,7 @@
        }
       }
      ],
-     "prev_mention_count": 2
+     "prev_mention_count": 3
     }
    },
    "last_post_at": "2026-11-25T18:16:00+09:00"
@@ -3278,40 +3220,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "kenmokenmo",
-       "display_name": "kenmo@湘南投資勉強会",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "kenmokenmo",
-        "display_name": "kenmo@湘南投資勉強会",
-        "post_created_at": "2026-11-27T12:04:00+09:00",
-        "source_url": "https://x.com/kenmokenmo/status/2126150118009364757",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "IRセミナー登壇を告知。ぐるなび社長の登壇イベント。個人の見通しはなし。",
-        "summary_en": "Announced an appearance at an IR seminar; an event featuring the president of Gurunavi; no personal outlook."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -3394,10 +3311,10 @@
    "company_en": "Renet Japan Group, Inc.",
    "company_en_source": "machine",
    "mention_count": 2,
-   "post_count": 2,
-   "bullish_count": 1,
+   "post_count": 3,
+   "bullish_count": 0,
    "bearish_count": 0,
-   "neutral_count": 1,
+   "neutral_count": 2,
    "unknown_count": 0,
    "topics": [
     {
@@ -3413,20 +3330,20 @@
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
-     "stance": "強気",
-     "post_count": 1,
+     "stance": "中立",
+     "post_count": 2,
      "topics": [
       "業績"
      ],
      "latest_post": {
       "handle": "noatake1127",
       "display_name": "たけぞう",
-      "post_created_at": "2026-11-27T11:53:00+09:00",
-      "source_url": "https://x.com/noatake1127/status/2126147346010685614",
+      "post_created_at": "2026-11-28T06:23:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2126426744299405740",
       "topic": "業績",
-      "stance": "強気",
-      "summary": "リネットジャパングループの過去最高業績（営業利益約5倍）と都市鉱山ビジネスを紹介するYouTubeを共有。肯定的トーン。",
-      "summary_en": "Shared a YouTube video introducing RenetJapan Group's record-high business performance (operating profit up about 5-fold) and urban mining business; positive tone."
+      "stance": "中立",
+      "summary": "リネットジャパングループ（3556）の成長戦略、配当開始、資本業務提携・60億円調達についてのYouTube動画を共有。",
+      "summary_en": "Shared a YouTube video about RenetJapan Group (3556)'s growth strategy, initiation of dividends, and capital and business alliance/¥6,000,000,000 fundraising."
      }
     },
     {
@@ -3453,6 +3370,16 @@
     {
      "handle": "noatake1127",
      "display_name": "たけぞう",
+     "post_created_at": "2026-11-28T06:23:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2126426744299405740",
+     "topic": "業績",
+     "stance": "中立",
+     "summary": "リネットジャパングループ（3556）の成長戦略、配当開始、資本業務提携・60億円調達についてのYouTube動画を共有。",
+     "summary_en": "Shared a YouTube video about RenetJapan Group (3556)'s growth strategy, initiation of dividends, and capital and business alliance/¥6,000,000,000 fundraising."
+    },
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
      "post_created_at": "2026-11-27T11:53:00+09:00",
      "source_url": "https://x.com/noatake1127/status/2126147346010685614",
      "topic": "業績",
@@ -3475,9 +3402,9 @@
     "24h": {
      "mention_count": 1,
      "post_count": 1,
-     "bullish_count": 1,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
@@ -3489,7 +3416,7 @@
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "強気",
+       "stance": "中立",
        "post_count": 1,
        "topics": [
         "業績"
@@ -3497,23 +3424,23 @@
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-11-27T11:53:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2126147346010685614",
+        "post_created_at": "2026-11-28T06:23:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2126426744299405740",
         "topic": "業績",
-        "stance": "強気",
-        "summary": "リネットジャパングループの過去最高業績（営業利益約5倍）と都市鉱山ビジネスを紹介するYouTubeを共有。肯定的トーン。",
-        "summary_en": "Shared a YouTube video introducing RenetJapan Group's record-high business performance (operating profit up about 5-fold) and urban mining business; positive tone."
+        "stance": "中立",
+        "summary": "リネットジャパングループ（3556）の成長戦略、配当開始、資本業務提携・60億円調達についてのYouTube動画を共有。",
+        "summary_en": "Shared a YouTube video about RenetJapan Group (3556)'s growth strategy, initiation of dividends, and capital and business alliance/¥6,000,000,000 fundraising."
        }
       }
      ],
-     "prev_mention_count": 0
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 1,
+     "post_count": 2,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 0,
+     "neutral_count": 1,
      "unknown_count": 0,
      "topics": [
       {
@@ -3525,20 +3452,20 @@
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "強気",
-       "post_count": 1,
+       "stance": "中立",
+       "post_count": 2,
        "topics": [
         "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-11-27T11:53:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2126147346010685614",
+        "post_created_at": "2026-11-28T06:23:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2126426744299405740",
         "topic": "業績",
-        "stance": "強気",
-        "summary": "リネットジャパングループの過去最高業績（営業利益約5倍）と都市鉱山ビジネスを紹介するYouTubeを共有。肯定的トーン。",
-        "summary_en": "Shared a YouTube video introducing RenetJapan Group's record-high business performance (operating profit up about 5-fold) and urban mining business; positive tone."
+        "stance": "中立",
+        "summary": "リネットジャパングループ（3556）の成長戦略、配当開始、資本業務提携・60億円調達についてのYouTube動画を共有。",
+        "summary_en": "Shared a YouTube video about RenetJapan Group (3556)'s growth strategy, initiation of dividends, and capital and business alliance/¥6,000,000,000 fundraising."
        }
       }
      ],
@@ -3546,10 +3473,10 @@
     },
     "30d": {
      "mention_count": 2,
-     "post_count": 2,
-     "bullish_count": 1,
+     "post_count": 3,
+     "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
       {
@@ -3565,20 +3492,20 @@
       {
        "handle": "noatake1127",
        "display_name": "たけぞう",
-       "stance": "強気",
-       "post_count": 1,
+       "stance": "中立",
+       "post_count": 2,
        "topics": [
         "業績"
        ],
        "latest_post": {
         "handle": "noatake1127",
         "display_name": "たけぞう",
-        "post_created_at": "2026-11-27T11:53:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2126147346010685614",
+        "post_created_at": "2026-11-28T06:23:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2126426744299405740",
         "topic": "業績",
-        "stance": "強気",
-        "summary": "リネットジャパングループの過去最高業績（営業利益約5倍）と都市鉱山ビジネスを紹介するYouTubeを共有。肯定的トーン。",
-        "summary_en": "Shared a YouTube video introducing RenetJapan Group's record-high business performance (operating profit up about 5-fold) and urban mining business; positive tone."
+        "stance": "中立",
+        "summary": "リネットジャパングループ（3556）の成長戦略、配当開始、資本業務提携・60億円調達についてのYouTube動画を共有。",
+        "summary_en": "Shared a YouTube video about RenetJapan Group (3556)'s growth strategy, initiation of dividends, and capital and business alliance/¥6,000,000,000 fundraising."
        }
       },
       {
@@ -3604,7 +3531,7 @@
      "prev_mention_count": 0
     }
    },
-   "last_post_at": "2026-11-27T11:53:00+09:00"
+   "last_post_at": "2026-11-28T06:23:00+09:00"
   },
   {
    "ticker": "7134",
@@ -3771,7 +3698,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 2,
@@ -4210,6 +4137,168 @@
    "last_post_at": "2026-11-23T08:25:00+09:00"
   },
   {
+   "ticker": "1663",
+   "company": "K&Oエナジーグループ",
+   "company_en": "K&O Energy Group Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-28T10:37:03+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+      "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-28T10:37:03+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+     "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T10:37:03+09:00"
+  },
+  {
    "ticker": "2267",
    "company": "ヤクルト本社",
    "company_en": "Yakult Honsha Co., Ltd.",
@@ -4261,40 +4350,15 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-11-27T12:09:00+09:00",
-        "source_url": "https://x.com/noatake1127/status/2126151375029719382",
-        "topic": "業績",
-        "stance": "中立",
-        "summary": "前日市況まとめ。ヤクルト本社が10月販売不振で下落とニュース共有。本人の見通しは明示なし。",
-        "summary_en": "Previous day's market summary; shared news that Yakult Honsha fell due to poor October sales; no explicit outlook from the user."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     },
     "7d": {
      "mention_count": 1,
@@ -4370,6 +4434,168 @@
     }
    },
    "last_post_at": "2026-11-27T12:09:00+09:00"
+  },
+  {
+   "ticker": "2282",
+   "company": "日本ハム",
+   "company_en": "NH Foods Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "noatake1127",
+      "display_name": "たけぞう",
+      "post_created_at": "2026-11-28T11:45:00+09:00",
+      "source_url": "https://x.com/noatake1127/status/2126507773311783251",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "日本ハムの野球選手移籍ニュース。株式への直接言及なし。",
+      "summary_en": "News regarding a baseball player transfer for Nippon-Ham; no direct mention of stocks."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "noatake1127",
+     "display_name": "たけぞう",
+     "post_created_at": "2026-11-28T11:45:00+09:00",
+     "source_url": "https://x.com/noatake1127/status/2126507773311783251",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "日本ハムの野球選手移籍ニュース。株式への直接言及なし。",
+     "summary_en": "News regarding a baseball player transfer for Nippon-Ham; no direct mention of stocks."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-28T11:45:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2126507773311783251",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "日本ハムの野球選手移籍ニュース。株式への直接言及なし。",
+        "summary_en": "News regarding a baseball player transfer for Nippon-Ham; no direct mention of stocks."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-28T11:45:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2126507773311783251",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "日本ハムの野球選手移籍ニュース。株式への直接言及なし。",
+        "summary_en": "News regarding a baseball player transfer for Nippon-Ham; no direct mention of stocks."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "noatake1127",
+       "display_name": "たけぞう",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "noatake1127",
+        "display_name": "たけぞう",
+        "post_created_at": "2026-11-28T11:45:00+09:00",
+        "source_url": "https://x.com/noatake1127/status/2126507773311783251",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "日本ハムの野球選手移籍ニュース。株式への直接言及なし。",
+        "summary_en": "News regarding a baseball player transfer for Nippon-Ham; no direct mention of stocks."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T11:45:00+09:00"
   },
   {
    "ticker": "2340",
@@ -4507,6 +4733,168 @@
     }
    },
    "last_post_at": "2026-11-23T08:25:12+09:00"
+  },
+  {
+   "ticker": "2497",
+   "company": "ユナイテッド",
+   "company_en": "UNITED, Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-28T10:37:03+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+      "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-28T10:37:03+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+     "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T10:37:03+09:00"
   },
   {
    "ticker": "298A",
@@ -4707,39 +5095,14 @@
    ],
    "windows": {
     "24h": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "優待",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "yuutaihiroto",
-       "display_name": "桐谷広人・桐谷さん【公式】",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "優待"
-       ],
-       "latest_post": {
-        "handle": "yuutaihiroto",
-        "display_name": "桐谷広人・桐谷さん【公式】",
-        "post_created_at": "2026-11-27T15:31:00+09:00",
-        "source_url": "https://x.com/yuutaihiroto/status/2126202233826218271",
-        "topic": "優待",
-        "stance": "中立",
-        "summary": "クロスプラスの優待内容（男性パンツが尿漏れ用のみ）に言及。",
-        "summary_en": "Mentioned Cross Plus's shareholder benefit details (men's underwear is only for urinary leakage)."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     },
     "7d": {
@@ -4877,7 +5240,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5151,7 +5514,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5330,6 +5693,17 @@
    ],
    "windows": {
     "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
@@ -5349,47 +5723,6 @@
        "stance": "中立",
        "post_count": 1,
        "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-27T06:35:00+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2126067442707497091",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "アズームとプレミアGの回復を期待する言及。",
-        "summary_en": "A mention expecting the recovery of Azoom and Premier G."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "その他",
         "売買"
        ],
        "latest_post": {
@@ -5555,7 +5888,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -5631,6 +5964,168 @@
     }
    },
    "last_post_at": "2026-11-26T09:30:02+09:00"
+  },
+  {
+   "ticker": "3562",
+   "company": "No.1",
+   "company_en": "No.1 Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-28T10:37:03+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+      "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-28T10:37:03+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+     "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T10:37:03+09:00"
   },
   {
    "ticker": "3672",
@@ -5800,6 +6295,168 @@
    "last_post_at": "2026-11-25T10:54:00+09:00"
   },
   {
+   "ticker": "4476",
+   "company": "AI CROSS",
+   "company_en": "AI CROSS Inc.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-28T10:37:03+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+      "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-28T10:37:03+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+     "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T10:37:03+09:00"
+  },
+  {
    "ticker": "4528",
    "company": "小野薬品工業",
    "company_en": "ONO PHARMACEUTICAL CO., LTD.",
@@ -5859,7 +6516,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6223,15 +6880,15 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
-     "investor_count": 1
-    },
-    {
      "topic": "業績",
      "investor_count": 1
     },
     {
      "topic": "売買",
+     "investor_count": 1
+    },
+    {
+     "topic": "需給",
      "investor_count": 1
     }
    ],
@@ -6410,11 +7067,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -6550,6 +7207,330 @@
    "last_post_at": "2026-11-23T12:37:00+09:00"
   },
   {
+   "ticker": "6599",
+   "company": "エブレン",
+   "company_en": "EBLEN CO., LTD.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-28T10:37:03+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+      "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-28T10:37:03+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+     "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T10:37:03+09:00"
+  },
+  {
+   "ticker": "6652",
+   "company": "IDEC",
+   "company_en": "IDEC CORPORATION",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 1,
+   "unknown_count": 0,
+   "topics": [
+    {
+     "topic": "その他",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "stance": "中立",
+     "post_count": 1,
+     "topics": [
+      "その他"
+     ],
+     "latest_post": {
+      "handle": "kenmokenmo",
+      "display_name": "kenmo@湘南投資勉強会",
+      "post_created_at": "2026-11-28T10:37:03+09:00",
+      "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+      "topic": "その他",
+      "stance": "中立",
+      "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+      "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "kenmokenmo",
+     "display_name": "kenmo@湘南投資勉強会",
+     "post_created_at": "2026-11-28T10:37:03+09:00",
+     "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+     "topic": "その他",
+     "stance": "中立",
+     "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+     "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 1,
+     "unknown_count": 0,
+     "topics": [
+      {
+       "topic": "その他",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "kenmokenmo",
+       "display_name": "kenmo@湘南投資勉強会",
+       "stance": "中立",
+       "post_count": 1,
+       "topics": [
+        "その他"
+       ],
+       "latest_post": {
+        "handle": "kenmokenmo",
+        "display_name": "kenmo@湘南投資勉強会",
+        "post_created_at": "2026-11-28T10:37:03+09:00",
+        "source_url": "https://x.com/kenmokenmo/status/2126490521485160698",
+        "topic": "その他",
+        "stance": "中立",
+        "summary": "ログミーIRセミナー後半登壇のお知らせ。個別企業のIRイベント言及。",
+        "summary_en": "Notice regarding speaking in the second half of the Logmi IR seminar; mentions an individual company's IR event."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-28T10:37:03+09:00"
+  },
+  {
    "ticker": "7057",
    "company": "エヌ・シー・エヌ",
    "company_en": "N.C.N. Co., Ltd.",
@@ -6609,7 +7590,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6746,7 +7727,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -6822,143 +7803,6 @@
     }
    },
    "last_post_at": "2026-11-26T12:47:24+09:00"
-  },
-  {
-   "ticker": "7131",
-   "company": "のむら産業",
-   "company_en": "Nomura Sangyo Co., Ltd.",
-   "company_en_source": "machine",
-   "mention_count": 1,
-   "post_count": 1,
-   "bullish_count": 0,
-   "bearish_count": 0,
-   "neutral_count": 0,
-   "unknown_count": 1,
-   "topics": [
-    {
-     "topic": "業績",
-     "investor_count": 1
-    }
-   ],
-   "investors": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "stance": "判定不能",
-     "post_count": 1,
-     "topics": [
-      "業績"
-     ],
-     "latest_post": {
-      "handle": "19830128to",
-      "display_name": "某哲也",
-      "post_created_at": "2026-11-21T14:39:00+09:00",
-      "source_url": "https://x.com/19830128to/status/2124014841992208414",
-      "topic": "業績",
-      "stance": "判定不能",
-      "summary": "7131のむら産業の2025関連情報をブログで共有",
-      "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
-     }
-    }
-   ],
-   "latest_posts": [
-    {
-     "handle": "19830128to",
-     "display_name": "某哲也",
-     "post_created_at": "2026-11-21T14:39:00+09:00",
-     "source_url": "https://x.com/19830128to/status/2124014841992208414",
-     "topic": "業績",
-     "stance": "判定不能",
-     "summary": "7131のむら産業の2025関連情報をブログで共有",
-     "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
-    }
-   ],
-   "windows": {
-    "24h": {
-     "mention_count": 0,
-     "post_count": 0,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 0,
-     "topics": [],
-     "investors": [],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-21T14:39:00+09:00",
-        "source_url": "https://x.com/19830128to/status/2124014841992208414",
-        "topic": "業績",
-        "stance": "判定不能",
-        "summary": "7131のむら産業の2025関連情報をブログで共有",
-        "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "30d": {
-     "mention_count": 1,
-     "post_count": 1,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 0,
-     "unknown_count": 1,
-     "topics": [
-      {
-       "topic": "業績",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "19830128to",
-       "display_name": "某哲也",
-       "stance": "判定不能",
-       "post_count": 1,
-       "topics": [
-        "業績"
-       ],
-       "latest_post": {
-        "handle": "19830128to",
-        "display_name": "某哲也",
-        "post_created_at": "2026-11-21T14:39:00+09:00",
-        "source_url": "https://x.com/19830128to/status/2124014841992208414",
-        "topic": "業績",
-        "stance": "判定不能",
-        "summary": "7131のむら産業の2025関連情報をブログで共有",
-        "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    }
-   },
-   "last_post_at": "2026-11-21T14:39:00+09:00"
   },
   {
    "ticker": "7172",
@@ -7294,7 +8138,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -7473,6 +8317,17 @@
    ],
    "windows": {
     "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "7d": {
      "mention_count": 1,
      "post_count": 1,
      "bullish_count": 0,
@@ -7492,47 +8347,6 @@
        "stance": "中立",
        "post_count": 1,
        "topics": [
-        "売買"
-       ],
-       "latest_post": {
-        "handle": "jammy_bot",
-        "display_name": "JAMMY",
-        "post_created_at": "2026-11-27T06:35:00+09:00",
-        "source_url": "https://x.com/jammy_bot/status/2126067442707497091",
-        "topic": "売買",
-        "stance": "中立",
-        "summary": "アズームとプレミアGの回復を期待する言及。",
-        "summary_en": "A mention expecting the recovery of Azoom and Premier G."
-       }
-      }
-     ],
-     "prev_mention_count": 0
-    },
-    "7d": {
-     "mention_count": 1,
-     "post_count": 2,
-     "bullish_count": 0,
-     "bearish_count": 0,
-     "neutral_count": 1,
-     "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "その他",
-       "investor_count": 1
-      },
-      {
-       "topic": "売買",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "jammy_bot",
-       "display_name": "JAMMY",
-       "stance": "中立",
-       "post_count": 2,
-       "topics": [
-        "その他",
         "売買"
        ],
        "latest_post": {
@@ -7611,11 +8425,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -7734,7 +8548,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -7745,11 +8559,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -7955,11 +8769,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -8064,11 +8878,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -8159,7 +8973,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8296,7 +9110,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -8386,11 +9200,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -8505,11 +9319,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "その他",
        "investor_count": 1
       },
       {
-       "topic": "その他",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -8600,7 +9414,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "7d": {
      "mention_count": 1,
@@ -9462,11 +10276,11 @@
      "investor_count": 1
     },
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     }
    ],
@@ -9682,11 +10496,11 @@
      "investor_count": 3
     },
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -9879,19 +10693,19 @@
      "prev_mention_count": 2
     },
     "30d": {
-     "mention_count": 5,
-     "post_count": 12,
+     "mention_count": 4,
+     "post_count": 10,
      "bullish_count": 0,
      "bearish_count": 2,
-     "neutral_count": 3,
+     "neutral_count": 2,
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "決算",
-       "investor_count": 4
+       "topic": "売買",
+       "investor_count": 2
       },
       {
-       "topic": "売買",
+       "topic": "決算",
        "investor_count": 2
       },
       {
@@ -9937,11 +10751,10 @@
        "handle": "kabu_st0ck",
        "display_name": "ちょる子🐣LINEないよ",
        "stance": "弱気",
-       "post_count": 6,
+       "post_count": 5,
        "topics": [
         "売買",
         "材料",
-        "決算",
         "需給"
        ],
        "latest_post": {
@@ -9992,28 +10805,9 @@
         "summary": "キオクシア等半導体株の記事を引用共有。",
         "summary_en": "Quoted and shared an article on semiconductor stocks such as Kioxia."
        }
-      },
-      {
-       "handle": "abc87791035",
-       "display_name": "ABCトレーダー",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "abc87791035",
-        "display_name": "ABCトレーダー",
-        "post_created_at": "2026-10-29T07:23:20+09:00",
-        "source_url": "https://x.com/ABC87791035/status/2115570137701253547",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "アドバンテスト決算からAI半導体メガサイクルと半導体株の反転を論じるnoteを共有",
-        "summary_en": "Shared a note article discussing the AI semiconductor megacycle and a rebound in semiconductor stocks based on Advantest's financial results."
-       }
       }
      ],
-     "prev_mention_count": 2
+     "prev_mention_count": 3
     }
    },
    "last_post_at": "2026-11-17T09:05:11+09:00"
@@ -10613,7 +11407,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 2,
@@ -11060,15 +11854,15 @@
      "investor_count": 2
     },
     {
+     "topic": "売買",
+     "investor_count": 1
+    },
+    {
      "topic": "その他",
      "investor_count": 1
     },
     {
      "topic": "業績",
-     "investor_count": 1
-    },
-    {
-     "topic": "売買",
      "investor_count": 1
     }
    ],
@@ -11415,11 +12209,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "需給",
+     "topic": "売買",
      "investor_count": 2
     },
     {
-     "topic": "売買",
+     "topic": "需給",
      "investor_count": 2
     },
     {
@@ -11746,7 +12540,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 2
+     "prev_mention_count": 1
     },
     "30d": {
      "mention_count": 2,
@@ -12390,7 +13184,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -13205,7 +13999,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -13546,7 +14340,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -13867,7 +14661,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -14338,7 +15132,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -14700,11 +15494,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -14867,7 +15661,7 @@
        }
       }
      ],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-11-07T08:40:31+09:00"
@@ -15102,7 +15896,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -15530,7 +16324,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T10:21:46+09:00"
@@ -16952,11 +17746,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "決算",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "決算",
      "investor_count": 1
     },
     {
@@ -20043,11 +20837,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -20127,7 +20921,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T12:14:50+09:00"
@@ -22250,7 +23044,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -23694,7 +24488,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T12:13:19+09:00"
@@ -25074,40 +25868,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T10:11:15+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115612395385356463",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "さくらインターネットの通期上方修正を好感したストップ高を報告",
-        "summary_en": "Reported Sakura Internet reaching the daily upper price limit, welcomed after an upward revision to its full-year earnings forecast."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-29T10:11:15+09:00"
@@ -25368,7 +26137,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T10:56:28+09:00"
@@ -25668,7 +26437,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -25722,11 +26491,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -25841,11 +26610,11 @@
      "unknown_count": 0,
      "topics": [
       {
-       "topic": "材料",
+       "topic": "業績",
        "investor_count": 1
       },
       {
-       "topic": "業績",
+       "topic": "材料",
        "investor_count": 1
       }
      ],
@@ -28044,7 +28813,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -28181,7 +28950,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -28778,7 +29547,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -29124,7 +29893,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -29542,7 +30311,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -31138,11 +31907,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     },
     {
@@ -31280,11 +32049,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -31680,7 +32449,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T12:14:50+09:00"
@@ -32781,7 +33550,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -33789,40 +34558,15 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "決算",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "決算"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T10:11:15+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115612395385356463",
-        "topic": "決算",
-        "stance": "中立",
-        "summary": "MARUWAの好決算によるストップ高を報告",
-        "summary_en": "Reported MARUWA reaching the daily upper price limit due to strong financial results."
-       }
-      }
-     ],
-     "prev_mention_count": 0
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
     }
    },
    "last_post_at": "2026-10-29T10:11:15+09:00"
@@ -33898,7 +34642,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -34010,7 +34754,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -34279,7 +35023,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -34391,7 +35135,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -35362,11 +36106,11 @@
      "investor_count": 1
     },
     {
-     "topic": "材料",
+     "topic": "その他",
      "investor_count": 1
     },
     {
-     "topic": "その他",
+     "topic": "材料",
      "investor_count": 1
     },
     {
@@ -35587,11 +36331,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "その他",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "その他",
      "investor_count": 1
     }
    ],
@@ -37744,11 +38488,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -37828,7 +38572,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T12:14:50+09:00"
@@ -38244,11 +38988,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -38328,7 +39072,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     }
    },
    "last_post_at": "2026-09-29T12:14:50+09:00"
@@ -42795,11 +43539,11 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -42980,7 +43724,7 @@
      "unknown_count": 0,
      "topics": [],
      "investors": [],
-     "prev_mention_count": 1
+     "prev_mention_count": 0
     },
     "30d": {
      "mention_count": 1,
@@ -43652,6 +44396,118 @@
     }
    },
    "last_post_at": "2026-11-20T14:42:24+09:00"
+  },
+  {
+   "ticker": "7131",
+   "company": "のむら産業",
+   "company_en": "Nomura Sangyo Co., Ltd.",
+   "company_en_source": "machine",
+   "mention_count": 1,
+   "post_count": 1,
+   "bullish_count": 0,
+   "bearish_count": 0,
+   "neutral_count": 0,
+   "unknown_count": 1,
+   "topics": [
+    {
+     "topic": "業績",
+     "investor_count": 1
+    }
+   ],
+   "investors": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "stance": "判定不能",
+     "post_count": 1,
+     "topics": [
+      "業績"
+     ],
+     "latest_post": {
+      "handle": "19830128to",
+      "display_name": "某哲也",
+      "post_created_at": "2026-11-21T14:39:00+09:00",
+      "source_url": "https://x.com/19830128to/status/2124014841992208414",
+      "topic": "業績",
+      "stance": "判定不能",
+      "summary": "7131のむら産業の2025関連情報をブログで共有",
+      "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
+     }
+    }
+   ],
+   "latest_posts": [
+    {
+     "handle": "19830128to",
+     "display_name": "某哲也",
+     "post_created_at": "2026-11-21T14:39:00+09:00",
+     "source_url": "https://x.com/19830128to/status/2124014841992208414",
+     "topic": "業績",
+     "stance": "判定不能",
+     "summary": "7131のむら産業の2025関連情報をブログで共有",
+     "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
+    }
+   ],
+   "windows": {
+    "24h": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 0
+    },
+    "7d": {
+     "mention_count": 0,
+     "post_count": 0,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 0,
+     "topics": [],
+     "investors": [],
+     "prev_mention_count": 1
+    },
+    "30d": {
+     "mention_count": 1,
+     "post_count": 1,
+     "bullish_count": 0,
+     "bearish_count": 0,
+     "neutral_count": 0,
+     "unknown_count": 1,
+     "topics": [
+      {
+       "topic": "業績",
+       "investor_count": 1
+      }
+     ],
+     "investors": [
+      {
+       "handle": "19830128to",
+       "display_name": "某哲也",
+       "stance": "判定不能",
+       "post_count": 1,
+       "topics": [
+        "業績"
+       ],
+       "latest_post": {
+        "handle": "19830128to",
+        "display_name": "某哲也",
+        "post_created_at": "2026-11-21T14:39:00+09:00",
+        "source_url": "https://x.com/19830128to/status/2124014841992208414",
+        "topic": "業績",
+        "stance": "判定不能",
+        "summary": "7131のむら産業の2025関連情報をブログで共有",
+        "summary_en": "Shared 2025-related information on 7131 Nomura Sangyo on the blog."
+       }
+      }
+     ],
+     "prev_mention_count": 0
+    }
+   },
+   "last_post_at": "2026-11-21T14:39:00+09:00"
   },
   {
    "ticker": "7164",
@@ -44791,7 +45647,7 @@
    "unknown_count": 0,
    "topics": [
     {
-     "topic": "材料",
+     "topic": "業績",
      "investor_count": 1
     },
     {
@@ -44799,7 +45655,7 @@
      "investor_count": 1
     },
     {
-     "topic": "業績",
+     "topic": "材料",
      "investor_count": 1
     }
    ],
@@ -47265,39 +48121,14 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T15:39:13+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     }
    },
@@ -47919,39 +48750,14 @@
      "prev_mention_count": 0
     },
     "30d": {
-     "mention_count": 1,
-     "post_count": 1,
+     "mention_count": 0,
+     "post_count": 0,
      "bullish_count": 0,
      "bearish_count": 0,
-     "neutral_count": 1,
+     "neutral_count": 0,
      "unknown_count": 0,
-     "topics": [
-      {
-       "topic": "材料",
-       "investor_count": 1
-      }
-     ],
-     "investors": [
-      {
-       "handle": "noatake1127",
-       "display_name": "たけぞう",
-       "stance": "中立",
-       "post_count": 1,
-       "topics": [
-        "材料"
-       ],
-       "latest_post": {
-        "handle": "noatake1127",
-        "display_name": "たけぞう",
-        "post_created_at": "2026-10-29T15:39:13+09:00",
-        "source_url": "https://x.com/noatake1127/status/2115694928147918951",
-        "topic": "材料",
-        "stance": "中立",
-        "summary": "滋賀銀行と池田泉州HDが2028年4月に経営統合することで合意とのニュース共有",
-        "summary_en": "Shared news that The Shiga Bank and Senshu Ikeda Holdings agreed to a business integration in April 2028."
-       }
-      }
-     ],
+     "topics": [],
+     "investors": [],
      "prev_mention_count": 1
     }
    },
@@ -50965,13 +51771,13 @@
   {
    "handle": "noatake1127",
    "display_name": "たけぞう",
-   "post_count": 379,
-   "ticker_count": 174
+   "post_count": 381,
+   "ticker_count": 175
   },
   {
    "handle": "kabu_st0ck",
    "display_name": "ちょる子🐣LINEないよ",
-   "post_count": 130,
+   "post_count": 131,
    "ticker_count": 49
   },
   {
@@ -50989,8 +51795,8 @@
   {
    "handle": "kenmokenmo",
    "display_name": "kenmo@湘南投資勉強会",
-   "post_count": 62,
-   "ticker_count": 34
+   "post_count": 68,
+   "ticker_count": 40
   },
   {
    "handle": "abc87791035",
@@ -51089,7 +51895,7 @@
     "company_en": "Japan Tobacco Inc.",
     "window": "7d",
     "mention_count": 4,
-    "prev_mention_count": 5,
+    "prev_mention_count": 4,
     "bullish_count": 1,
     "bearish_count": 2
    },
@@ -51099,7 +51905,7 @@
     "company_en": "Jibannet Holdings Co., Ltd.",
     "window": "7d",
     "mention_count": 4,
-    "prev_mention_count": 1,
+    "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
    }
@@ -51111,7 +51917,7 @@
     "company_en": "Jibannet Holdings Co., Ltd.",
     "window": "7d",
     "mention_count": 4,
-    "prev_mention_count": 1,
+    "prev_mention_count": 0,
     "bullish_count": 0,
     "bearish_count": 0
    }
@@ -51123,7 +51929,7 @@
     "company_en": "Japan Tobacco Inc.",
     "window": "7d",
     "mention_count": 4,
-    "prev_mention_count": 5,
+    "prev_mention_count": 4,
     "bullish_count": 1,
     "bearish_count": 2
    }
@@ -51132,75 +51938,60 @@
  "topics_by_window": {
   "24h": [
    {
-    "topic": "材料",
-    "ticker_count": 3,
+    "topic": "その他",
+    "ticker_count": 7,
     "tickers": [
-     "2440",
-     "285A",
-     "7741"
-    ]
-   },
-   {
-    "topic": "優待",
-    "ticker_count": 2,
-    "tickers": [
-     "3320",
-     "6072"
-    ]
-   },
-   {
-    "topic": "業績",
-    "ticker_count": 2,
-    "tickers": [
-     "2267",
-     "3556"
+     "1663",
+     "2282",
+     "2497",
+     "3562",
+     "4476",
+     "6599",
+     "6652"
     ]
    },
    {
     "topic": "売買",
-    "ticker_count": 2,
+    "ticker_count": 1,
     "tickers": [
-     "3496",
-     "7199"
+     "2914"
     ]
    },
    {
-    "topic": "配当",
+    "topic": "業績",
     "ticker_count": 1,
     "tickers": [
-     "285A"
+     "3556"
     ]
    },
    {
-    "topic": "需給",
+    "topic": "材料",
     "ticker_count": 1,
     "tickers": [
-     "285A"
-    ]
-   },
-   {
-    "topic": "バリュエーション",
-    "ticker_count": 1,
-    "tickers": [
-     "285A"
+     "7741"
     ]
    }
   ],
   "7d": [
    {
     "topic": "その他",
-    "ticker_count": 13,
+    "ticker_count": 18,
     "tickers": [
-     "3496",
+     "1663",
+     "2282",
+     "2497",
+     "3562",
      "4062",
+     "4476",
      "6072",
+     "6599",
+     "6652",
      "7057",
      "7094",
      "7134",
      "7172",
      "7187",
      "7191",
-     "7199",
      "7203",
      "8628",
      "9212"
@@ -51252,18 +52043,6 @@
     ]
    },
    {
-    "topic": "業績",
-    "ticker_count": 6,
-    "tickers": [
-     "2267",
-     "2914",
-     "3556",
-     "6324",
-     "6506",
-     "7131"
-    ]
-   },
-   {
     "topic": "需給",
     "ticker_count": 5,
     "tickers": [
@@ -51272,6 +52051,17 @@
      "5706",
      "5801",
      "5803"
+    ]
+   },
+   {
+    "topic": "業績",
+    "ticker_count": 5,
+    "tickers": [
+     "2267",
+     "2914",
+     "3556",
+     "6324",
+     "6506"
     ]
    },
    {
@@ -51295,14 +52085,17 @@
   "30d": [
    {
     "topic": "その他",
-    "ticker_count": 84,
+    "ticker_count": 91,
     "tickers": [
      "1429",
      "1433",
      "147A",
+     "1663",
      "215A",
+     "2282",
      "2331",
      "2334",
+     "2497",
      "2702",
      "276A",
      "285A",
@@ -51310,6 +52103,7 @@
      "2914",
      "3252",
      "3496",
+     "3562",
      "3683",
      "3697",
      "3901",
@@ -51320,6 +52114,7 @@
      "4377",
      "4412",
      "4443",
+     "4476",
      "4486",
      "4495",
      "4661",
@@ -51353,6 +52148,8 @@
      "652A",
      "6554",
      "6578",
+     "6599",
+     "6652",
      "6745",
      "6857",
      "7047",
@@ -51385,7 +52182,7 @@
    },
    {
     "topic": "材料",
-    "ticker_count": 45,
+    "ticker_count": 43,
     "tickers": [
      "1419",
      "1878",
@@ -51423,9 +52220,7 @@
      "7630",
      "7741",
      "8306",
-     "8366",
      "8628",
-     "8714",
      "9211",
      "9432",
      "9449",
@@ -51509,38 +52304,6 @@
     ]
    },
    {
-    "topic": "決算",
-    "ticker_count": 26,
-    "tickers": [
-     "285A",
-     "2914",
-     "3103",
-     "341A",
-     "3496",
-     "3660",
-     "3778",
-     "4064",
-     "4169",
-     "4228",
-     "4502",
-     "5142",
-     "5233",
-     "5344",
-     "6268",
-     "627A",
-     "6502",
-     "6857",
-     "6920",
-     "7059",
-     "7134",
-     "7199",
-     "7936",
-     "8035",
-     "8058",
-     "8253"
-    ]
-   },
-   {
     "topic": "優待",
     "ticker_count": 26,
     "tickers": [
@@ -51570,6 +52333,36 @@
      "9861",
      "9979",
      "9990"
+    ]
+   },
+   {
+    "topic": "決算",
+    "ticker_count": 24,
+    "tickers": [
+     "285A",
+     "2914",
+     "3103",
+     "341A",
+     "3496",
+     "3660",
+     "4064",
+     "4169",
+     "4228",
+     "4502",
+     "5142",
+     "5233",
+     "6268",
+     "627A",
+     "6502",
+     "6857",
+     "6920",
+     "7059",
+     "7134",
+     "7199",
+     "7936",
+     "8035",
+     "8058",
+     "8253"
     ]
    },
    {
